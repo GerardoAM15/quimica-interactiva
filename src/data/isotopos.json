@@ -1,0 +1,2844 @@
+{
+ "fuente": {
+  "nombre": "NIST — Atomic Weights and Isotopic Compositions for All Elements",
+  "url": "https://www.nist.gov/pml/atomic-weights-and-isotopic-compositions-relative-atomic-masses",
+  "archivo": "https://physics.nist.gov/cgi-bin/Compositions/stand_alone.pl?ele=&all=all&ascii=ascii2&isotype=some",
+  "licencia": "Datos del NIST, uso libre con cita",
+  "descargado": "2026-11-02",
+  "notas": "masa en u (masa atómica relativa). abundancia como fracción (0–1); null = sin abundancia natural. pesoAtomicoEstandar tal como lo publica el NIST (puede ser un intervalo [a,b])."
+ },
+ "elementos": [
+  {
+   "z": 1,
+   "pesoAtomicoEstandar": "[1.00784,1.00811]",
+   "isotopos": [
+    {
+     "a": 1,
+     "simboloEspecial": null,
+     "masa": 1.00782503223,
+     "abundancia": 0.999885
+    },
+    {
+     "a": 2,
+     "simboloEspecial": "D",
+     "masa": 2.01410177812,
+     "abundancia": 0.000115
+    },
+    {
+     "a": 3,
+     "simboloEspecial": "T",
+     "masa": 3.0160492779,
+     "abundancia": null
+    }
+   ]
+  },
+  {
+   "z": 2,
+   "pesoAtomicoEstandar": "4.002602(2)",
+   "isotopos": [
+    {
+     "a": 3,
+     "simboloEspecial": null,
+     "masa": 3.0160293201,
+     "abundancia": 0.00000134
+    },
+    {
+     "a": 4,
+     "simboloEspecial": null,
+     "masa": 4.00260325413,
+     "abundancia": 0.99999866
+    }
+   ]
+  },
+  {
+   "z": 3,
+   "pesoAtomicoEstandar": "[6.938,6.997]",
+   "isotopos": [
+    {
+     "a": 6,
+     "simboloEspecial": null,
+     "masa": 6.0151228874,
+     "abundancia": 0.0759
+    },
+    {
+     "a": 7,
+     "simboloEspecial": null,
+     "masa": 7.0160034366,
+     "abundancia": 0.9241
+    }
+   ]
+  },
+  {
+   "z": 4,
+   "pesoAtomicoEstandar": "9.0121831(5)",
+   "isotopos": [
+    {
+     "a": 9,
+     "simboloEspecial": null,
+     "masa": 9.012183065,
+     "abundancia": 1
+    }
+   ]
+  },
+  {
+   "z": 5,
+   "pesoAtomicoEstandar": "[10.806,10.821]",
+   "isotopos": [
+    {
+     "a": 10,
+     "simboloEspecial": null,
+     "masa": 10.01293695,
+     "abundancia": 0.199
+    },
+    {
+     "a": 11,
+     "simboloEspecial": null,
+     "masa": 11.00930536,
+     "abundancia": 0.801
+    }
+   ]
+  },
+  {
+   "z": 6,
+   "pesoAtomicoEstandar": "[12.0096,12.0116]",
+   "isotopos": [
+    {
+     "a": 12,
+     "simboloEspecial": null,
+     "masa": 12,
+     "abundancia": 0.9893
+    },
+    {
+     "a": 13,
+     "simboloEspecial": null,
+     "masa": 13.00335483507,
+     "abundancia": 0.0107
+    },
+    {
+     "a": 14,
+     "simboloEspecial": null,
+     "masa": 14.0032419884,
+     "abundancia": null
+    }
+   ]
+  },
+  {
+   "z": 7,
+   "pesoAtomicoEstandar": "[14.00643,14.00728]",
+   "isotopos": [
+    {
+     "a": 14,
+     "simboloEspecial": null,
+     "masa": 14.00307400443,
+     "abundancia": 0.99636
+    },
+    {
+     "a": 15,
+     "simboloEspecial": null,
+     "masa": 15.00010889888,
+     "abundancia": 0.00364
+    }
+   ]
+  },
+  {
+   "z": 8,
+   "pesoAtomicoEstandar": "[15.99903,15.99977]",
+   "isotopos": [
+    {
+     "a": 16,
+     "simboloEspecial": null,
+     "masa": 15.99491461957,
+     "abundancia": 0.99757
+    },
+    {
+     "a": 17,
+     "simboloEspecial": null,
+     "masa": 16.9991317565,
+     "abundancia": 0.00038
+    },
+    {
+     "a": 18,
+     "simboloEspecial": null,
+     "masa": 17.99915961286,
+     "abundancia": 0.00205
+    }
+   ]
+  },
+  {
+   "z": 9,
+   "pesoAtomicoEstandar": "18.998403163(6)",
+   "isotopos": [
+    {
+     "a": 19,
+     "simboloEspecial": null,
+     "masa": 18.99840316273,
+     "abundancia": 1
+    }
+   ]
+  },
+  {
+   "z": 10,
+   "pesoAtomicoEstandar": "20.1797(6)",
+   "isotopos": [
+    {
+     "a": 20,
+     "simboloEspecial": null,
+     "masa": 19.9924401762,
+     "abundancia": 0.9048
+    },
+    {
+     "a": 21,
+     "simboloEspecial": null,
+     "masa": 20.993846685,
+     "abundancia": 0.0027
+    },
+    {
+     "a": 22,
+     "simboloEspecial": null,
+     "masa": 21.991385114,
+     "abundancia": 0.0925
+    }
+   ]
+  },
+  {
+   "z": 11,
+   "pesoAtomicoEstandar": "22.98976928(2)",
+   "isotopos": [
+    {
+     "a": 23,
+     "simboloEspecial": null,
+     "masa": 22.989769282,
+     "abundancia": 1
+    }
+   ]
+  },
+  {
+   "z": 12,
+   "pesoAtomicoEstandar": "[24.304,24.307]",
+   "isotopos": [
+    {
+     "a": 24,
+     "simboloEspecial": null,
+     "masa": 23.985041697,
+     "abundancia": 0.7899
+    },
+    {
+     "a": 25,
+     "simboloEspecial": null,
+     "masa": 24.985836976,
+     "abundancia": 0.1
+    },
+    {
+     "a": 26,
+     "simboloEspecial": null,
+     "masa": 25.982592968,
+     "abundancia": 0.1101
+    }
+   ]
+  },
+  {
+   "z": 13,
+   "pesoAtomicoEstandar": "26.9815385(7)",
+   "isotopos": [
+    {
+     "a": 27,
+     "simboloEspecial": null,
+     "masa": 26.98153853,
+     "abundancia": 1
+    }
+   ]
+  },
+  {
+   "z": 14,
+   "pesoAtomicoEstandar": "[28.084,28.086]",
+   "isotopos": [
+    {
+     "a": 28,
+     "simboloEspecial": null,
+     "masa": 27.97692653465,
+     "abundancia": 0.92223
+    },
+    {
+     "a": 29,
+     "simboloEspecial": null,
+     "masa": 28.9764946649,
+     "abundancia": 0.04685
+    },
+    {
+     "a": 30,
+     "simboloEspecial": null,
+     "masa": 29.973770136,
+     "abundancia": 0.03092
+    }
+   ]
+  },
+  {
+   "z": 15,
+   "pesoAtomicoEstandar": "30.973761998(5)",
+   "isotopos": [
+    {
+     "a": 31,
+     "simboloEspecial": null,
+     "masa": 30.97376199842,
+     "abundancia": 1
+    }
+   ]
+  },
+  {
+   "z": 16,
+   "pesoAtomicoEstandar": "[32.059,32.076]",
+   "isotopos": [
+    {
+     "a": 32,
+     "simboloEspecial": null,
+     "masa": 31.9720711744,
+     "abundancia": 0.9499
+    },
+    {
+     "a": 33,
+     "simboloEspecial": null,
+     "masa": 32.9714589098,
+     "abundancia": 0.0075
+    },
+    {
+     "a": 34,
+     "simboloEspecial": null,
+     "masa": 33.967867004,
+     "abundancia": 0.0425
+    },
+    {
+     "a": 36,
+     "simboloEspecial": null,
+     "masa": 35.96708071,
+     "abundancia": 0.0001
+    }
+   ]
+  },
+  {
+   "z": 17,
+   "pesoAtomicoEstandar": "[35.446,35.457]",
+   "isotopos": [
+    {
+     "a": 35,
+     "simboloEspecial": null,
+     "masa": 34.968852682,
+     "abundancia": 0.7576
+    },
+    {
+     "a": 37,
+     "simboloEspecial": null,
+     "masa": 36.965902602,
+     "abundancia": 0.2424
+    }
+   ]
+  },
+  {
+   "z": 18,
+   "pesoAtomicoEstandar": "39.948(1)",
+   "isotopos": [
+    {
+     "a": 36,
+     "simboloEspecial": null,
+     "masa": 35.967545105,
+     "abundancia": 0.003336
+    },
+    {
+     "a": 38,
+     "simboloEspecial": null,
+     "masa": 37.96273211,
+     "abundancia": 0.000629
+    },
+    {
+     "a": 40,
+     "simboloEspecial": null,
+     "masa": 39.9623831237,
+     "abundancia": 0.996035
+    }
+   ]
+  },
+  {
+   "z": 19,
+   "pesoAtomicoEstandar": "39.0983(1)",
+   "isotopos": [
+    {
+     "a": 39,
+     "simboloEspecial": null,
+     "masa": 38.9637064864,
+     "abundancia": 0.932581
+    },
+    {
+     "a": 40,
+     "simboloEspecial": null,
+     "masa": 39.963998166,
+     "abundancia": 0.000117
+    },
+    {
+     "a": 41,
+     "simboloEspecial": null,
+     "masa": 40.9618252579,
+     "abundancia": 0.067302
+    }
+   ]
+  },
+  {
+   "z": 20,
+   "pesoAtomicoEstandar": "40.078(4)",
+   "isotopos": [
+    {
+     "a": 40,
+     "simboloEspecial": null,
+     "masa": 39.962590863,
+     "abundancia": 0.96941
+    },
+    {
+     "a": 42,
+     "simboloEspecial": null,
+     "masa": 41.95861783,
+     "abundancia": 0.00647
+    },
+    {
+     "a": 43,
+     "simboloEspecial": null,
+     "masa": 42.95876644,
+     "abundancia": 0.00135
+    },
+    {
+     "a": 44,
+     "simboloEspecial": null,
+     "masa": 43.95548156,
+     "abundancia": 0.02086
+    },
+    {
+     "a": 46,
+     "simboloEspecial": null,
+     "masa": 45.953689,
+     "abundancia": 0.00004
+    },
+    {
+     "a": 48,
+     "simboloEspecial": null,
+     "masa": 47.95252276,
+     "abundancia": 0.00187
+    }
+   ]
+  },
+  {
+   "z": 21,
+   "pesoAtomicoEstandar": "44.955908(5)",
+   "isotopos": [
+    {
+     "a": 45,
+     "simboloEspecial": null,
+     "masa": 44.95590828,
+     "abundancia": 1
+    }
+   ]
+  },
+  {
+   "z": 22,
+   "pesoAtomicoEstandar": "47.867(1)",
+   "isotopos": [
+    {
+     "a": 46,
+     "simboloEspecial": null,
+     "masa": 45.95262772,
+     "abundancia": 0.0825
+    },
+    {
+     "a": 47,
+     "simboloEspecial": null,
+     "masa": 46.95175879,
+     "abundancia": 0.0744
+    },
+    {
+     "a": 48,
+     "simboloEspecial": null,
+     "masa": 47.94794198,
+     "abundancia": 0.7372
+    },
+    {
+     "a": 49,
+     "simboloEspecial": null,
+     "masa": 48.94786568,
+     "abundancia": 0.0541
+    },
+    {
+     "a": 50,
+     "simboloEspecial": null,
+     "masa": 49.94478689,
+     "abundancia": 0.0518
+    }
+   ]
+  },
+  {
+   "z": 23,
+   "pesoAtomicoEstandar": "50.9415(1)",
+   "isotopos": [
+    {
+     "a": 50,
+     "simboloEspecial": null,
+     "masa": 49.94715601,
+     "abundancia": 0.0025
+    },
+    {
+     "a": 51,
+     "simboloEspecial": null,
+     "masa": 50.94395704,
+     "abundancia": 0.9975
+    }
+   ]
+  },
+  {
+   "z": 24,
+   "pesoAtomicoEstandar": "51.9961(6)",
+   "isotopos": [
+    {
+     "a": 50,
+     "simboloEspecial": null,
+     "masa": 49.94604183,
+     "abundancia": 0.04345
+    },
+    {
+     "a": 52,
+     "simboloEspecial": null,
+     "masa": 51.94050623,
+     "abundancia": 0.83789
+    },
+    {
+     "a": 53,
+     "simboloEspecial": null,
+     "masa": 52.94064815,
+     "abundancia": 0.09501
+    },
+    {
+     "a": 54,
+     "simboloEspecial": null,
+     "masa": 53.93887916,
+     "abundancia": 0.02365
+    }
+   ]
+  },
+  {
+   "z": 25,
+   "pesoAtomicoEstandar": "54.938044(3)",
+   "isotopos": [
+    {
+     "a": 55,
+     "simboloEspecial": null,
+     "masa": 54.93804391,
+     "abundancia": 1
+    }
+   ]
+  },
+  {
+   "z": 26,
+   "pesoAtomicoEstandar": "55.845(2)",
+   "isotopos": [
+    {
+     "a": 54,
+     "simboloEspecial": null,
+     "masa": 53.93960899,
+     "abundancia": 0.05845
+    },
+    {
+     "a": 56,
+     "simboloEspecial": null,
+     "masa": 55.93493633,
+     "abundancia": 0.91754
+    },
+    {
+     "a": 57,
+     "simboloEspecial": null,
+     "masa": 56.93539284,
+     "abundancia": 0.02119
+    },
+    {
+     "a": 58,
+     "simboloEspecial": null,
+     "masa": 57.93327443,
+     "abundancia": 0.00282
+    }
+   ]
+  },
+  {
+   "z": 27,
+   "pesoAtomicoEstandar": "58.933194(4)",
+   "isotopos": [
+    {
+     "a": 59,
+     "simboloEspecial": null,
+     "masa": 58.93319429,
+     "abundancia": 1
+    }
+   ]
+  },
+  {
+   "z": 28,
+   "pesoAtomicoEstandar": "58.6934(4)",
+   "isotopos": [
+    {
+     "a": 58,
+     "simboloEspecial": null,
+     "masa": 57.93534241,
+     "abundancia": 0.68077
+    },
+    {
+     "a": 60,
+     "simboloEspecial": null,
+     "masa": 59.93078588,
+     "abundancia": 0.26223
+    },
+    {
+     "a": 61,
+     "simboloEspecial": null,
+     "masa": 60.93105557,
+     "abundancia": 0.011399
+    },
+    {
+     "a": 62,
+     "simboloEspecial": null,
+     "masa": 61.92834537,
+     "abundancia": 0.036346
+    },
+    {
+     "a": 64,
+     "simboloEspecial": null,
+     "masa": 63.92796682,
+     "abundancia": 0.009255
+    }
+   ]
+  },
+  {
+   "z": 29,
+   "pesoAtomicoEstandar": "63.546(3)",
+   "isotopos": [
+    {
+     "a": 63,
+     "simboloEspecial": null,
+     "masa": 62.92959772,
+     "abundancia": 0.6915
+    },
+    {
+     "a": 65,
+     "simboloEspecial": null,
+     "masa": 64.9277897,
+     "abundancia": 0.3085
+    }
+   ]
+  },
+  {
+   "z": 30,
+   "pesoAtomicoEstandar": "65.38(2)",
+   "isotopos": [
+    {
+     "a": 64,
+     "simboloEspecial": null,
+     "masa": 63.92914201,
+     "abundancia": 0.4917
+    },
+    {
+     "a": 66,
+     "simboloEspecial": null,
+     "masa": 65.92603381,
+     "abundancia": 0.2773
+    },
+    {
+     "a": 67,
+     "simboloEspecial": null,
+     "masa": 66.92712775,
+     "abundancia": 0.0404
+    },
+    {
+     "a": 68,
+     "simboloEspecial": null,
+     "masa": 67.92484455,
+     "abundancia": 0.1845
+    },
+    {
+     "a": 70,
+     "simboloEspecial": null,
+     "masa": 69.9253192,
+     "abundancia": 0.0061
+    }
+   ]
+  },
+  {
+   "z": 31,
+   "pesoAtomicoEstandar": "69.723(1)",
+   "isotopos": [
+    {
+     "a": 69,
+     "simboloEspecial": null,
+     "masa": 68.9255735,
+     "abundancia": 0.60108
+    },
+    {
+     "a": 71,
+     "simboloEspecial": null,
+     "masa": 70.92470258,
+     "abundancia": 0.39892
+    }
+   ]
+  },
+  {
+   "z": 32,
+   "pesoAtomicoEstandar": "72.630(8)",
+   "isotopos": [
+    {
+     "a": 70,
+     "simboloEspecial": null,
+     "masa": 69.92424875,
+     "abundancia": 0.2057
+    },
+    {
+     "a": 72,
+     "simboloEspecial": null,
+     "masa": 71.922075826,
+     "abundancia": 0.2745
+    },
+    {
+     "a": 73,
+     "simboloEspecial": null,
+     "masa": 72.923458956,
+     "abundancia": 0.0775
+    },
+    {
+     "a": 74,
+     "simboloEspecial": null,
+     "masa": 73.921177761,
+     "abundancia": 0.365
+    },
+    {
+     "a": 76,
+     "simboloEspecial": null,
+     "masa": 75.921402726,
+     "abundancia": 0.0773
+    }
+   ]
+  },
+  {
+   "z": 33,
+   "pesoAtomicoEstandar": "74.921595(6)",
+   "isotopos": [
+    {
+     "a": 75,
+     "simboloEspecial": null,
+     "masa": 74.92159457,
+     "abundancia": 1
+    }
+   ]
+  },
+  {
+   "z": 34,
+   "pesoAtomicoEstandar": "78.971(8)",
+   "isotopos": [
+    {
+     "a": 74,
+     "simboloEspecial": null,
+     "masa": 73.922475934,
+     "abundancia": 0.0089
+    },
+    {
+     "a": 76,
+     "simboloEspecial": null,
+     "masa": 75.919213704,
+     "abundancia": 0.0937
+    },
+    {
+     "a": 77,
+     "simboloEspecial": null,
+     "masa": 76.919914154,
+     "abundancia": 0.0763
+    },
+    {
+     "a": 78,
+     "simboloEspecial": null,
+     "masa": 77.91730928,
+     "abundancia": 0.2377
+    },
+    {
+     "a": 80,
+     "simboloEspecial": null,
+     "masa": 79.9165218,
+     "abundancia": 0.4961
+    },
+    {
+     "a": 82,
+     "simboloEspecial": null,
+     "masa": 81.9166995,
+     "abundancia": 0.0873
+    }
+   ]
+  },
+  {
+   "z": 35,
+   "pesoAtomicoEstandar": "[79.901,79.907]",
+   "isotopos": [
+    {
+     "a": 79,
+     "simboloEspecial": null,
+     "masa": 78.9183376,
+     "abundancia": 0.5069
+    },
+    {
+     "a": 81,
+     "simboloEspecial": null,
+     "masa": 80.9162897,
+     "abundancia": 0.4931
+    }
+   ]
+  },
+  {
+   "z": 36,
+   "pesoAtomicoEstandar": "83.798(2)",
+   "isotopos": [
+    {
+     "a": 78,
+     "simboloEspecial": null,
+     "masa": 77.92036494,
+     "abundancia": 0.00355
+    },
+    {
+     "a": 80,
+     "simboloEspecial": null,
+     "masa": 79.91637808,
+     "abundancia": 0.02286
+    },
+    {
+     "a": 82,
+     "simboloEspecial": null,
+     "masa": 81.91348273,
+     "abundancia": 0.11593
+    },
+    {
+     "a": 83,
+     "simboloEspecial": null,
+     "masa": 82.91412716,
+     "abundancia": 0.115
+    },
+    {
+     "a": 84,
+     "simboloEspecial": null,
+     "masa": 83.9114977282,
+     "abundancia": 0.56987
+    },
+    {
+     "a": 86,
+     "simboloEspecial": null,
+     "masa": 85.9106106269,
+     "abundancia": 0.17279
+    }
+   ]
+  },
+  {
+   "z": 37,
+   "pesoAtomicoEstandar": "85.4678(3)",
+   "isotopos": [
+    {
+     "a": 85,
+     "simboloEspecial": null,
+     "masa": 84.9117897379,
+     "abundancia": 0.7217
+    },
+    {
+     "a": 87,
+     "simboloEspecial": null,
+     "masa": 86.909180531,
+     "abundancia": 0.2783
+    }
+   ]
+  },
+  {
+   "z": 38,
+   "pesoAtomicoEstandar": "87.62(1)",
+   "isotopos": [
+    {
+     "a": 84,
+     "simboloEspecial": null,
+     "masa": 83.9134191,
+     "abundancia": 0.0056
+    },
+    {
+     "a": 86,
+     "simboloEspecial": null,
+     "masa": 85.9092606,
+     "abundancia": 0.0986
+    },
+    {
+     "a": 87,
+     "simboloEspecial": null,
+     "masa": 86.9088775,
+     "abundancia": 0.07
+    },
+    {
+     "a": 88,
+     "simboloEspecial": null,
+     "masa": 87.9056125,
+     "abundancia": 0.8258
+    }
+   ]
+  },
+  {
+   "z": 39,
+   "pesoAtomicoEstandar": "88.90584(2)",
+   "isotopos": [
+    {
+     "a": 89,
+     "simboloEspecial": null,
+     "masa": 88.9058403,
+     "abundancia": 1
+    }
+   ]
+  },
+  {
+   "z": 40,
+   "pesoAtomicoEstandar": "91.224(2)",
+   "isotopos": [
+    {
+     "a": 90,
+     "simboloEspecial": null,
+     "masa": 89.9046977,
+     "abundancia": 0.5145
+    },
+    {
+     "a": 91,
+     "simboloEspecial": null,
+     "masa": 90.9056396,
+     "abundancia": 0.1122
+    },
+    {
+     "a": 92,
+     "simboloEspecial": null,
+     "masa": 91.9050347,
+     "abundancia": 0.1715
+    },
+    {
+     "a": 94,
+     "simboloEspecial": null,
+     "masa": 93.9063108,
+     "abundancia": 0.1738
+    },
+    {
+     "a": 96,
+     "simboloEspecial": null,
+     "masa": 95.9082714,
+     "abundancia": 0.028
+    }
+   ]
+  },
+  {
+   "z": 41,
+   "pesoAtomicoEstandar": "92.90637(2)",
+   "isotopos": [
+    {
+     "a": 93,
+     "simboloEspecial": null,
+     "masa": 92.906373,
+     "abundancia": 1
+    }
+   ]
+  },
+  {
+   "z": 42,
+   "pesoAtomicoEstandar": "95.95(1)",
+   "isotopos": [
+    {
+     "a": 92,
+     "simboloEspecial": null,
+     "masa": 91.90680796,
+     "abundancia": 0.1453
+    },
+    {
+     "a": 94,
+     "simboloEspecial": null,
+     "masa": 93.9050849,
+     "abundancia": 0.0915
+    },
+    {
+     "a": 95,
+     "simboloEspecial": null,
+     "masa": 94.90583877,
+     "abundancia": 0.1584
+    },
+    {
+     "a": 96,
+     "simboloEspecial": null,
+     "masa": 95.90467612,
+     "abundancia": 0.1667
+    },
+    {
+     "a": 97,
+     "simboloEspecial": null,
+     "masa": 96.90601812,
+     "abundancia": 0.096
+    },
+    {
+     "a": 98,
+     "simboloEspecial": null,
+     "masa": 97.90540482,
+     "abundancia": 0.2439
+    },
+    {
+     "a": 100,
+     "simboloEspecial": null,
+     "masa": 99.9074718,
+     "abundancia": 0.0982
+    }
+   ]
+  },
+  {
+   "z": 43,
+   "pesoAtomicoEstandar": "[98]",
+   "isotopos": [
+    {
+     "a": 97,
+     "simboloEspecial": null,
+     "masa": 96.9063667,
+     "abundancia": null
+    },
+    {
+     "a": 98,
+     "simboloEspecial": null,
+     "masa": 97.9072124,
+     "abundancia": null
+    },
+    {
+     "a": 99,
+     "simboloEspecial": null,
+     "masa": 98.9062508,
+     "abundancia": null
+    }
+   ]
+  },
+  {
+   "z": 44,
+   "pesoAtomicoEstandar": "101.07(2)",
+   "isotopos": [
+    {
+     "a": 96,
+     "simboloEspecial": null,
+     "masa": 95.90759025,
+     "abundancia": 0.0554
+    },
+    {
+     "a": 98,
+     "simboloEspecial": null,
+     "masa": 97.9052868,
+     "abundancia": 0.0187
+    },
+    {
+     "a": 99,
+     "simboloEspecial": null,
+     "masa": 98.9059341,
+     "abundancia": 0.1276
+    },
+    {
+     "a": 100,
+     "simboloEspecial": null,
+     "masa": 99.9042143,
+     "abundancia": 0.126
+    },
+    {
+     "a": 101,
+     "simboloEspecial": null,
+     "masa": 100.9055769,
+     "abundancia": 0.1706
+    },
+    {
+     "a": 102,
+     "simboloEspecial": null,
+     "masa": 101.9043441,
+     "abundancia": 0.3155
+    },
+    {
+     "a": 104,
+     "simboloEspecial": null,
+     "masa": 103.9054275,
+     "abundancia": 0.1862
+    }
+   ]
+  },
+  {
+   "z": 45,
+   "pesoAtomicoEstandar": "102.90550(2)",
+   "isotopos": [
+    {
+     "a": 103,
+     "simboloEspecial": null,
+     "masa": 102.905498,
+     "abundancia": 1
+    }
+   ]
+  },
+  {
+   "z": 46,
+   "pesoAtomicoEstandar": "106.42(1)",
+   "isotopos": [
+    {
+     "a": 102,
+     "simboloEspecial": null,
+     "masa": 101.9056022,
+     "abundancia": 0.0102
+    },
+    {
+     "a": 104,
+     "simboloEspecial": null,
+     "masa": 103.9040305,
+     "abundancia": 0.1114
+    },
+    {
+     "a": 105,
+     "simboloEspecial": null,
+     "masa": 104.9050796,
+     "abundancia": 0.2233
+    },
+    {
+     "a": 106,
+     "simboloEspecial": null,
+     "masa": 105.9034804,
+     "abundancia": 0.2733
+    },
+    {
+     "a": 108,
+     "simboloEspecial": null,
+     "masa": 107.9038916,
+     "abundancia": 0.2646
+    },
+    {
+     "a": 110,
+     "simboloEspecial": null,
+     "masa": 109.9051722,
+     "abundancia": 0.1172
+    }
+   ]
+  },
+  {
+   "z": 47,
+   "pesoAtomicoEstandar": "107.8682(2)",
+   "isotopos": [
+    {
+     "a": 107,
+     "simboloEspecial": null,
+     "masa": 106.9050916,
+     "abundancia": 0.51839
+    },
+    {
+     "a": 109,
+     "simboloEspecial": null,
+     "masa": 108.9047553,
+     "abundancia": 0.48161
+    }
+   ]
+  },
+  {
+   "z": 48,
+   "pesoAtomicoEstandar": "112.414(4)",
+   "isotopos": [
+    {
+     "a": 106,
+     "simboloEspecial": null,
+     "masa": 105.9064599,
+     "abundancia": 0.0125
+    },
+    {
+     "a": 108,
+     "simboloEspecial": null,
+     "masa": 107.9041834,
+     "abundancia": 0.0089
+    },
+    {
+     "a": 110,
+     "simboloEspecial": null,
+     "masa": 109.90300661,
+     "abundancia": 0.1249
+    },
+    {
+     "a": 111,
+     "simboloEspecial": null,
+     "masa": 110.90418287,
+     "abundancia": 0.128
+    },
+    {
+     "a": 112,
+     "simboloEspecial": null,
+     "masa": 111.90276287,
+     "abundancia": 0.2413
+    },
+    {
+     "a": 113,
+     "simboloEspecial": null,
+     "masa": 112.90440813,
+     "abundancia": 0.1222
+    },
+    {
+     "a": 114,
+     "simboloEspecial": null,
+     "masa": 113.90336509,
+     "abundancia": 0.2873
+    },
+    {
+     "a": 116,
+     "simboloEspecial": null,
+     "masa": 115.90476315,
+     "abundancia": 0.0749
+    }
+   ]
+  },
+  {
+   "z": 49,
+   "pesoAtomicoEstandar": "114.818(1)",
+   "isotopos": [
+    {
+     "a": 113,
+     "simboloEspecial": null,
+     "masa": 112.90406184,
+     "abundancia": 0.0429
+    },
+    {
+     "a": 115,
+     "simboloEspecial": null,
+     "masa": 114.903878776,
+     "abundancia": 0.9571
+    }
+   ]
+  },
+  {
+   "z": 50,
+   "pesoAtomicoEstandar": "118.710(7)",
+   "isotopos": [
+    {
+     "a": 112,
+     "simboloEspecial": null,
+     "masa": 111.90482387,
+     "abundancia": 0.0097
+    },
+    {
+     "a": 114,
+     "simboloEspecial": null,
+     "masa": 113.9027827,
+     "abundancia": 0.0066
+    },
+    {
+     "a": 115,
+     "simboloEspecial": null,
+     "masa": 114.903344699,
+     "abundancia": 0.0034
+    },
+    {
+     "a": 116,
+     "simboloEspecial": null,
+     "masa": 115.9017428,
+     "abundancia": 0.1454
+    },
+    {
+     "a": 117,
+     "simboloEspecial": null,
+     "masa": 116.90295398,
+     "abundancia": 0.0768
+    },
+    {
+     "a": 118,
+     "simboloEspecial": null,
+     "masa": 117.90160657,
+     "abundancia": 0.2422
+    },
+    {
+     "a": 119,
+     "simboloEspecial": null,
+     "masa": 118.90331117,
+     "abundancia": 0.0859
+    },
+    {
+     "a": 120,
+     "simboloEspecial": null,
+     "masa": 119.90220163,
+     "abundancia": 0.3258
+    },
+    {
+     "a": 122,
+     "simboloEspecial": null,
+     "masa": 121.9034438,
+     "abundancia": 0.0463
+    },
+    {
+     "a": 124,
+     "simboloEspecial": null,
+     "masa": 123.9052766,
+     "abundancia": 0.0579
+    }
+   ]
+  },
+  {
+   "z": 51,
+   "pesoAtomicoEstandar": "121.760(1)",
+   "isotopos": [
+    {
+     "a": 121,
+     "simboloEspecial": null,
+     "masa": 120.903812,
+     "abundancia": 0.5721
+    },
+    {
+     "a": 123,
+     "simboloEspecial": null,
+     "masa": 122.9042132,
+     "abundancia": 0.4279
+    }
+   ]
+  },
+  {
+   "z": 52,
+   "pesoAtomicoEstandar": "127.60(3)",
+   "isotopos": [
+    {
+     "a": 120,
+     "simboloEspecial": null,
+     "masa": 119.9040593,
+     "abundancia": 0.0009
+    },
+    {
+     "a": 122,
+     "simboloEspecial": null,
+     "masa": 121.9030435,
+     "abundancia": 0.0255
+    },
+    {
+     "a": 123,
+     "simboloEspecial": null,
+     "masa": 122.9042698,
+     "abundancia": 0.0089
+    },
+    {
+     "a": 124,
+     "simboloEspecial": null,
+     "masa": 123.9028171,
+     "abundancia": 0.0474
+    },
+    {
+     "a": 125,
+     "simboloEspecial": null,
+     "masa": 124.9044299,
+     "abundancia": 0.0707
+    },
+    {
+     "a": 126,
+     "simboloEspecial": null,
+     "masa": 125.9033109,
+     "abundancia": 0.1884
+    },
+    {
+     "a": 128,
+     "simboloEspecial": null,
+     "masa": 127.90446128,
+     "abundancia": 0.3174
+    },
+    {
+     "a": 130,
+     "simboloEspecial": null,
+     "masa": 129.906222748,
+     "abundancia": 0.3408
+    }
+   ]
+  },
+  {
+   "z": 53,
+   "pesoAtomicoEstandar": "126.90447(3)",
+   "isotopos": [
+    {
+     "a": 127,
+     "simboloEspecial": null,
+     "masa": 126.9044719,
+     "abundancia": 1
+    }
+   ]
+  },
+  {
+   "z": 54,
+   "pesoAtomicoEstandar": "131.293(6)",
+   "isotopos": [
+    {
+     "a": 124,
+     "simboloEspecial": null,
+     "masa": 123.905892,
+     "abundancia": 0.000952
+    },
+    {
+     "a": 126,
+     "simboloEspecial": null,
+     "masa": 125.9042983,
+     "abundancia": 0.00089
+    },
+    {
+     "a": 128,
+     "simboloEspecial": null,
+     "masa": 127.903531,
+     "abundancia": 0.019102
+    },
+    {
+     "a": 129,
+     "simboloEspecial": null,
+     "masa": 128.9047808611,
+     "abundancia": 0.264006
+    },
+    {
+     "a": 130,
+     "simboloEspecial": null,
+     "masa": 129.903509349,
+     "abundancia": 0.04071
+    },
+    {
+     "a": 131,
+     "simboloEspecial": null,
+     "masa": 130.90508406,
+     "abundancia": 0.212324
+    },
+    {
+     "a": 132,
+     "simboloEspecial": null,
+     "masa": 131.9041550856,
+     "abundancia": 0.269086
+    },
+    {
+     "a": 134,
+     "simboloEspecial": null,
+     "masa": 133.90539466,
+     "abundancia": 0.104357
+    },
+    {
+     "a": 136,
+     "simboloEspecial": null,
+     "masa": 135.907214484,
+     "abundancia": 0.088573
+    }
+   ]
+  },
+  {
+   "z": 55,
+   "pesoAtomicoEstandar": "132.90545196(6)",
+   "isotopos": [
+    {
+     "a": 133,
+     "simboloEspecial": null,
+     "masa": 132.905451961,
+     "abundancia": 1
+    }
+   ]
+  },
+  {
+   "z": 56,
+   "pesoAtomicoEstandar": "137.327(7)",
+   "isotopos": [
+    {
+     "a": 130,
+     "simboloEspecial": null,
+     "masa": 129.9063207,
+     "abundancia": 0.00106
+    },
+    {
+     "a": 132,
+     "simboloEspecial": null,
+     "masa": 131.9050611,
+     "abundancia": 0.00101
+    },
+    {
+     "a": 134,
+     "simboloEspecial": null,
+     "masa": 133.90450818,
+     "abundancia": 0.02417
+    },
+    {
+     "a": 135,
+     "simboloEspecial": null,
+     "masa": 134.90568838,
+     "abundancia": 0.06592
+    },
+    {
+     "a": 136,
+     "simboloEspecial": null,
+     "masa": 135.90457573,
+     "abundancia": 0.07854
+    },
+    {
+     "a": 137,
+     "simboloEspecial": null,
+     "masa": 136.90582714,
+     "abundancia": 0.11232
+    },
+    {
+     "a": 138,
+     "simboloEspecial": null,
+     "masa": 137.905247,
+     "abundancia": 0.71698
+    }
+   ]
+  },
+  {
+   "z": 57,
+   "pesoAtomicoEstandar": "138.90547(7)",
+   "isotopos": [
+    {
+     "a": 138,
+     "simboloEspecial": null,
+     "masa": 137.9071149,
+     "abundancia": 0.0008881
+    },
+    {
+     "a": 139,
+     "simboloEspecial": null,
+     "masa": 138.9063563,
+     "abundancia": 0.9991119
+    }
+   ]
+  },
+  {
+   "z": 58,
+   "pesoAtomicoEstandar": "140.116(1)",
+   "isotopos": [
+    {
+     "a": 136,
+     "simboloEspecial": null,
+     "masa": 135.90712921,
+     "abundancia": 0.00185
+    },
+    {
+     "a": 138,
+     "simboloEspecial": null,
+     "masa": 137.905991,
+     "abundancia": 0.00251
+    },
+    {
+     "a": 140,
+     "simboloEspecial": null,
+     "masa": 139.9054431,
+     "abundancia": 0.8845
+    },
+    {
+     "a": 142,
+     "simboloEspecial": null,
+     "masa": 141.9092504,
+     "abundancia": 0.11114
+    }
+   ]
+  },
+  {
+   "z": 59,
+   "pesoAtomicoEstandar": "140.90766(2)",
+   "isotopos": [
+    {
+     "a": 141,
+     "simboloEspecial": null,
+     "masa": 140.9076576,
+     "abundancia": 1
+    }
+   ]
+  },
+  {
+   "z": 60,
+   "pesoAtomicoEstandar": "144.242(3)",
+   "isotopos": [
+    {
+     "a": 142,
+     "simboloEspecial": null,
+     "masa": 141.907729,
+     "abundancia": 0.27152
+    },
+    {
+     "a": 143,
+     "simboloEspecial": null,
+     "masa": 142.90982,
+     "abundancia": 0.12174
+    },
+    {
+     "a": 144,
+     "simboloEspecial": null,
+     "masa": 143.910093,
+     "abundancia": 0.23798
+    },
+    {
+     "a": 145,
+     "simboloEspecial": null,
+     "masa": 144.9125793,
+     "abundancia": 0.08293
+    },
+    {
+     "a": 146,
+     "simboloEspecial": null,
+     "masa": 145.9131226,
+     "abundancia": 0.17189
+    },
+    {
+     "a": 148,
+     "simboloEspecial": null,
+     "masa": 147.9168993,
+     "abundancia": 0.05756
+    },
+    {
+     "a": 150,
+     "simboloEspecial": null,
+     "masa": 149.9209022,
+     "abundancia": 0.05638
+    }
+   ]
+  },
+  {
+   "z": 61,
+   "pesoAtomicoEstandar": "[145]",
+   "isotopos": [
+    {
+     "a": 145,
+     "simboloEspecial": null,
+     "masa": 144.9127559,
+     "abundancia": null
+    },
+    {
+     "a": 147,
+     "simboloEspecial": null,
+     "masa": 146.915145,
+     "abundancia": null
+    }
+   ]
+  },
+  {
+   "z": 62,
+   "pesoAtomicoEstandar": "150.36(2)",
+   "isotopos": [
+    {
+     "a": 144,
+     "simboloEspecial": null,
+     "masa": 143.9120065,
+     "abundancia": 0.0307
+    },
+    {
+     "a": 147,
+     "simboloEspecial": null,
+     "masa": 146.9149044,
+     "abundancia": 0.1499
+    },
+    {
+     "a": 148,
+     "simboloEspecial": null,
+     "masa": 147.9148292,
+     "abundancia": 0.1124
+    },
+    {
+     "a": 149,
+     "simboloEspecial": null,
+     "masa": 148.9171921,
+     "abundancia": 0.1382
+    },
+    {
+     "a": 150,
+     "simboloEspecial": null,
+     "masa": 149.9172829,
+     "abundancia": 0.0738
+    },
+    {
+     "a": 152,
+     "simboloEspecial": null,
+     "masa": 151.9197397,
+     "abundancia": 0.2675
+    },
+    {
+     "a": 154,
+     "simboloEspecial": null,
+     "masa": 153.9222169,
+     "abundancia": 0.2275
+    }
+   ]
+  },
+  {
+   "z": 63,
+   "pesoAtomicoEstandar": "151.964(1)",
+   "isotopos": [
+    {
+     "a": 151,
+     "simboloEspecial": null,
+     "masa": 150.9198578,
+     "abundancia": 0.4781
+    },
+    {
+     "a": 153,
+     "simboloEspecial": null,
+     "masa": 152.921238,
+     "abundancia": 0.5219
+    }
+   ]
+  },
+  {
+   "z": 64,
+   "pesoAtomicoEstandar": "157.25(3)",
+   "isotopos": [
+    {
+     "a": 152,
+     "simboloEspecial": null,
+     "masa": 151.9197995,
+     "abundancia": 0.002
+    },
+    {
+     "a": 154,
+     "simboloEspecial": null,
+     "masa": 153.9208741,
+     "abundancia": 0.0218
+    },
+    {
+     "a": 155,
+     "simboloEspecial": null,
+     "masa": 154.9226305,
+     "abundancia": 0.148
+    },
+    {
+     "a": 156,
+     "simboloEspecial": null,
+     "masa": 155.9221312,
+     "abundancia": 0.2047
+    },
+    {
+     "a": 157,
+     "simboloEspecial": null,
+     "masa": 156.9239686,
+     "abundancia": 0.1565
+    },
+    {
+     "a": 158,
+     "simboloEspecial": null,
+     "masa": 157.9241123,
+     "abundancia": 0.2484
+    },
+    {
+     "a": 160,
+     "simboloEspecial": null,
+     "masa": 159.9270624,
+     "abundancia": 0.2186
+    }
+   ]
+  },
+  {
+   "z": 65,
+   "pesoAtomicoEstandar": "158.92535(2)",
+   "isotopos": [
+    {
+     "a": 159,
+     "simboloEspecial": null,
+     "masa": 158.9253547,
+     "abundancia": 1
+    }
+   ]
+  },
+  {
+   "z": 66,
+   "pesoAtomicoEstandar": "162.500(1)",
+   "isotopos": [
+    {
+     "a": 156,
+     "simboloEspecial": null,
+     "masa": 155.9242847,
+     "abundancia": 0.00056
+    },
+    {
+     "a": 158,
+     "simboloEspecial": null,
+     "masa": 157.9244159,
+     "abundancia": 0.00095
+    },
+    {
+     "a": 160,
+     "simboloEspecial": null,
+     "masa": 159.9252046,
+     "abundancia": 0.02329
+    },
+    {
+     "a": 161,
+     "simboloEspecial": null,
+     "masa": 160.9269405,
+     "abundancia": 0.18889
+    },
+    {
+     "a": 162,
+     "simboloEspecial": null,
+     "masa": 161.9268056,
+     "abundancia": 0.25475
+    },
+    {
+     "a": 163,
+     "simboloEspecial": null,
+     "masa": 162.9287383,
+     "abundancia": 0.24896
+    },
+    {
+     "a": 164,
+     "simboloEspecial": null,
+     "masa": 163.9291819,
+     "abundancia": 0.2826
+    }
+   ]
+  },
+  {
+   "z": 67,
+   "pesoAtomicoEstandar": "164.93033(2)",
+   "isotopos": [
+    {
+     "a": 165,
+     "simboloEspecial": null,
+     "masa": 164.9303288,
+     "abundancia": 1
+    }
+   ]
+  },
+  {
+   "z": 68,
+   "pesoAtomicoEstandar": "167.259(3)",
+   "isotopos": [
+    {
+     "a": 162,
+     "simboloEspecial": null,
+     "masa": 161.9287884,
+     "abundancia": 0.00139
+    },
+    {
+     "a": 164,
+     "simboloEspecial": null,
+     "masa": 163.9292088,
+     "abundancia": 0.01601
+    },
+    {
+     "a": 166,
+     "simboloEspecial": null,
+     "masa": 165.9302995,
+     "abundancia": 0.33503
+    },
+    {
+     "a": 167,
+     "simboloEspecial": null,
+     "masa": 166.9320546,
+     "abundancia": 0.22869
+    },
+    {
+     "a": 168,
+     "simboloEspecial": null,
+     "masa": 167.9323767,
+     "abundancia": 0.26978
+    },
+    {
+     "a": 170,
+     "simboloEspecial": null,
+     "masa": 169.9354702,
+     "abundancia": 0.1491
+    }
+   ]
+  },
+  {
+   "z": 69,
+   "pesoAtomicoEstandar": "168.93422(2)",
+   "isotopos": [
+    {
+     "a": 169,
+     "simboloEspecial": null,
+     "masa": 168.9342179,
+     "abundancia": 1
+    }
+   ]
+  },
+  {
+   "z": 70,
+   "pesoAtomicoEstandar": "173.054(5)",
+   "isotopos": [
+    {
+     "a": 168,
+     "simboloEspecial": null,
+     "masa": 167.9338896,
+     "abundancia": 0.00123
+    },
+    {
+     "a": 170,
+     "simboloEspecial": null,
+     "masa": 169.9347664,
+     "abundancia": 0.02982
+    },
+    {
+     "a": 171,
+     "simboloEspecial": null,
+     "masa": 170.9363302,
+     "abundancia": 0.1409
+    },
+    {
+     "a": 172,
+     "simboloEspecial": null,
+     "masa": 171.9363859,
+     "abundancia": 0.2168
+    },
+    {
+     "a": 173,
+     "simboloEspecial": null,
+     "masa": 172.9382151,
+     "abundancia": 0.16103
+    },
+    {
+     "a": 174,
+     "simboloEspecial": null,
+     "masa": 173.9388664,
+     "abundancia": 0.32026
+    },
+    {
+     "a": 176,
+     "simboloEspecial": null,
+     "masa": 175.9425764,
+     "abundancia": 0.12996
+    }
+   ]
+  },
+  {
+   "z": 71,
+   "pesoAtomicoEstandar": "174.9668(1)",
+   "isotopos": [
+    {
+     "a": 175,
+     "simboloEspecial": null,
+     "masa": 174.9407752,
+     "abundancia": 0.97401
+    },
+    {
+     "a": 176,
+     "simboloEspecial": null,
+     "masa": 175.9426897,
+     "abundancia": 0.02599
+    }
+   ]
+  },
+  {
+   "z": 72,
+   "pesoAtomicoEstandar": "178.49(2)",
+   "isotopos": [
+    {
+     "a": 174,
+     "simboloEspecial": null,
+     "masa": 173.9400461,
+     "abundancia": 0.0016
+    },
+    {
+     "a": 176,
+     "simboloEspecial": null,
+     "masa": 175.9414076,
+     "abundancia": 0.0526
+    },
+    {
+     "a": 177,
+     "simboloEspecial": null,
+     "masa": 176.9432277,
+     "abundancia": 0.186
+    },
+    {
+     "a": 178,
+     "simboloEspecial": null,
+     "masa": 177.9437058,
+     "abundancia": 0.2728
+    },
+    {
+     "a": 179,
+     "simboloEspecial": null,
+     "masa": 178.9458232,
+     "abundancia": 0.1362
+    },
+    {
+     "a": 180,
+     "simboloEspecial": null,
+     "masa": 179.946557,
+     "abundancia": 0.3508
+    }
+   ]
+  },
+  {
+   "z": 73,
+   "pesoAtomicoEstandar": "180.94788(2)",
+   "isotopos": [
+    {
+     "a": 180,
+     "simboloEspecial": null,
+     "masa": 179.9474648,
+     "abundancia": 0.0001201
+    },
+    {
+     "a": 181,
+     "simboloEspecial": null,
+     "masa": 180.9479958,
+     "abundancia": 0.9998799
+    }
+   ]
+  },
+  {
+   "z": 74,
+   "pesoAtomicoEstandar": "183.84(1)",
+   "isotopos": [
+    {
+     "a": 180,
+     "simboloEspecial": null,
+     "masa": 179.9467108,
+     "abundancia": 0.0012
+    },
+    {
+     "a": 182,
+     "simboloEspecial": null,
+     "masa": 181.94820394,
+     "abundancia": 0.265
+    },
+    {
+     "a": 183,
+     "simboloEspecial": null,
+     "masa": 182.95022275,
+     "abundancia": 0.1431
+    },
+    {
+     "a": 184,
+     "simboloEspecial": null,
+     "masa": 183.95093092,
+     "abundancia": 0.3064
+    },
+    {
+     "a": 186,
+     "simboloEspecial": null,
+     "masa": 185.9543628,
+     "abundancia": 0.2843
+    }
+   ]
+  },
+  {
+   "z": 75,
+   "pesoAtomicoEstandar": "186.207(1)",
+   "isotopos": [
+    {
+     "a": 185,
+     "simboloEspecial": null,
+     "masa": 184.9529545,
+     "abundancia": 0.374
+    },
+    {
+     "a": 187,
+     "simboloEspecial": null,
+     "masa": 186.9557501,
+     "abundancia": 0.626
+    }
+   ]
+  },
+  {
+   "z": 76,
+   "pesoAtomicoEstandar": "190.23(3)",
+   "isotopos": [
+    {
+     "a": 184,
+     "simboloEspecial": null,
+     "masa": 183.9524885,
+     "abundancia": 0.0002
+    },
+    {
+     "a": 186,
+     "simboloEspecial": null,
+     "masa": 185.953835,
+     "abundancia": 0.0159
+    },
+    {
+     "a": 187,
+     "simboloEspecial": null,
+     "masa": 186.9557474,
+     "abundancia": 0.0196
+    },
+    {
+     "a": 188,
+     "simboloEspecial": null,
+     "masa": 187.9558352,
+     "abundancia": 0.1324
+    },
+    {
+     "a": 189,
+     "simboloEspecial": null,
+     "masa": 188.9581442,
+     "abundancia": 0.1615
+    },
+    {
+     "a": 190,
+     "simboloEspecial": null,
+     "masa": 189.9584437,
+     "abundancia": 0.2626
+    },
+    {
+     "a": 192,
+     "simboloEspecial": null,
+     "masa": 191.961477,
+     "abundancia": 0.4078
+    }
+   ]
+  },
+  {
+   "z": 77,
+   "pesoAtomicoEstandar": "192.217(3)",
+   "isotopos": [
+    {
+     "a": 191,
+     "simboloEspecial": null,
+     "masa": 190.9605893,
+     "abundancia": 0.373
+    },
+    {
+     "a": 193,
+     "simboloEspecial": null,
+     "masa": 192.9629216,
+     "abundancia": 0.627
+    }
+   ]
+  },
+  {
+   "z": 78,
+   "pesoAtomicoEstandar": "195.084(9)",
+   "isotopos": [
+    {
+     "a": 190,
+     "simboloEspecial": null,
+     "masa": 189.9599297,
+     "abundancia": 0.00012
+    },
+    {
+     "a": 192,
+     "simboloEspecial": null,
+     "masa": 191.9610387,
+     "abundancia": 0.00782
+    },
+    {
+     "a": 194,
+     "simboloEspecial": null,
+     "masa": 193.9626809,
+     "abundancia": 0.3286
+    },
+    {
+     "a": 195,
+     "simboloEspecial": null,
+     "masa": 194.9647917,
+     "abundancia": 0.3378
+    },
+    {
+     "a": 196,
+     "simboloEspecial": null,
+     "masa": 195.96495209,
+     "abundancia": 0.2521
+    },
+    {
+     "a": 198,
+     "simboloEspecial": null,
+     "masa": 197.9678949,
+     "abundancia": 0.07356
+    }
+   ]
+  },
+  {
+   "z": 79,
+   "pesoAtomicoEstandar": "196.966569(5)",
+   "isotopos": [
+    {
+     "a": 197,
+     "simboloEspecial": null,
+     "masa": 196.96656879,
+     "abundancia": 1
+    }
+   ]
+  },
+  {
+   "z": 80,
+   "pesoAtomicoEstandar": "200.592(3)",
+   "isotopos": [
+    {
+     "a": 196,
+     "simboloEspecial": null,
+     "masa": 195.9658326,
+     "abundancia": 0.0015
+    },
+    {
+     "a": 198,
+     "simboloEspecial": null,
+     "masa": 197.9667686,
+     "abundancia": 0.0997
+    },
+    {
+     "a": 199,
+     "simboloEspecial": null,
+     "masa": 198.96828064,
+     "abundancia": 0.1687
+    },
+    {
+     "a": 200,
+     "simboloEspecial": null,
+     "masa": 199.96832659,
+     "abundancia": 0.231
+    },
+    {
+     "a": 201,
+     "simboloEspecial": null,
+     "masa": 200.97030284,
+     "abundancia": 0.1318
+    },
+    {
+     "a": 202,
+     "simboloEspecial": null,
+     "masa": 201.9706434,
+     "abundancia": 0.2986
+    },
+    {
+     "a": 204,
+     "simboloEspecial": null,
+     "masa": 203.97349398,
+     "abundancia": 0.0687
+    }
+   ]
+  },
+  {
+   "z": 81,
+   "pesoAtomicoEstandar": "[204.382,204.385]",
+   "isotopos": [
+    {
+     "a": 203,
+     "simboloEspecial": null,
+     "masa": 202.9723446,
+     "abundancia": 0.2952
+    },
+    {
+     "a": 205,
+     "simboloEspecial": null,
+     "masa": 204.9744278,
+     "abundancia": 0.7048
+    }
+   ]
+  },
+  {
+   "z": 82,
+   "pesoAtomicoEstandar": "207.2(1)",
+   "isotopos": [
+    {
+     "a": 204,
+     "simboloEspecial": null,
+     "masa": 203.973044,
+     "abundancia": 0.014
+    },
+    {
+     "a": 206,
+     "simboloEspecial": null,
+     "masa": 205.9744657,
+     "abundancia": 0.241
+    },
+    {
+     "a": 207,
+     "simboloEspecial": null,
+     "masa": 206.9758973,
+     "abundancia": 0.221
+    },
+    {
+     "a": 208,
+     "simboloEspecial": null,
+     "masa": 207.9766525,
+     "abundancia": 0.524
+    }
+   ]
+  },
+  {
+   "z": 83,
+   "pesoAtomicoEstandar": "208.98040(1)",
+   "isotopos": [
+    {
+     "a": 209,
+     "simboloEspecial": null,
+     "masa": 208.9803991,
+     "abundancia": 1
+    }
+   ]
+  },
+  {
+   "z": 84,
+   "pesoAtomicoEstandar": "[209]",
+   "isotopos": [
+    {
+     "a": 209,
+     "simboloEspecial": null,
+     "masa": 208.9824308,
+     "abundancia": null
+    },
+    {
+     "a": 210,
+     "simboloEspecial": null,
+     "masa": 209.9828741,
+     "abundancia": null
+    }
+   ]
+  },
+  {
+   "z": 85,
+   "pesoAtomicoEstandar": "[210]",
+   "isotopos": [
+    {
+     "a": 210,
+     "simboloEspecial": null,
+     "masa": 209.9871479,
+     "abundancia": null
+    },
+    {
+     "a": 211,
+     "simboloEspecial": null,
+     "masa": 210.9874966,
+     "abundancia": null
+    }
+   ]
+  },
+  {
+   "z": 86,
+   "pesoAtomicoEstandar": "[222]",
+   "isotopos": [
+    {
+     "a": 211,
+     "simboloEspecial": null,
+     "masa": 210.9906011,
+     "abundancia": null
+    },
+    {
+     "a": 220,
+     "simboloEspecial": null,
+     "masa": 220.0113941,
+     "abundancia": null
+    },
+    {
+     "a": 222,
+     "simboloEspecial": null,
+     "masa": 222.0175782,
+     "abundancia": null
+    }
+   ]
+  },
+  {
+   "z": 87,
+   "pesoAtomicoEstandar": "[223]",
+   "isotopos": [
+    {
+     "a": 223,
+     "simboloEspecial": null,
+     "masa": 223.019736,
+     "abundancia": null
+    }
+   ]
+  },
+  {
+   "z": 88,
+   "pesoAtomicoEstandar": "[226]",
+   "isotopos": [
+    {
+     "a": 223,
+     "simboloEspecial": null,
+     "masa": 223.0185023,
+     "abundancia": null
+    },
+    {
+     "a": 224,
+     "simboloEspecial": null,
+     "masa": 224.020212,
+     "abundancia": null
+    },
+    {
+     "a": 226,
+     "simboloEspecial": null,
+     "masa": 226.0254103,
+     "abundancia": null
+    },
+    {
+     "a": 228,
+     "simboloEspecial": null,
+     "masa": 228.0310707,
+     "abundancia": null
+    }
+   ]
+  },
+  {
+   "z": 89,
+   "pesoAtomicoEstandar": "[227]",
+   "isotopos": [
+    {
+     "a": 227,
+     "simboloEspecial": null,
+     "masa": 227.0277523,
+     "abundancia": null
+    }
+   ]
+  },
+  {
+   "z": 90,
+   "pesoAtomicoEstandar": "232.0377(4)",
+   "isotopos": [
+    {
+     "a": 230,
+     "simboloEspecial": null,
+     "masa": 230.0331341,
+     "abundancia": null
+    },
+    {
+     "a": 232,
+     "simboloEspecial": null,
+     "masa": 232.0380558,
+     "abundancia": 1
+    }
+   ]
+  },
+  {
+   "z": 91,
+   "pesoAtomicoEstandar": "231.03588(2)",
+   "isotopos": [
+    {
+     "a": 231,
+     "simboloEspecial": null,
+     "masa": 231.0358842,
+     "abundancia": 1
+    }
+   ]
+  },
+  {
+   "z": 92,
+   "pesoAtomicoEstandar": "238.02891(3)",
+   "isotopos": [
+    {
+     "a": 233,
+     "simboloEspecial": null,
+     "masa": 233.0396355,
+     "abundancia": null
+    },
+    {
+     "a": 234,
+     "simboloEspecial": null,
+     "masa": 234.0409523,
+     "abundancia": 0.000054
+    },
+    {
+     "a": 235,
+     "simboloEspecial": null,
+     "masa": 235.0439301,
+     "abundancia": 0.007204
+    },
+    {
+     "a": 236,
+     "simboloEspecial": null,
+     "masa": 236.0455682,
+     "abundancia": null
+    },
+    {
+     "a": 238,
+     "simboloEspecial": null,
+     "masa": 238.0507884,
+     "abundancia": 0.992742
+    }
+   ]
+  },
+  {
+   "z": 93,
+   "pesoAtomicoEstandar": "[237]",
+   "isotopos": [
+    {
+     "a": 236,
+     "simboloEspecial": null,
+     "masa": 236.04657,
+     "abundancia": null
+    },
+    {
+     "a": 237,
+     "simboloEspecial": null,
+     "masa": 237.0481736,
+     "abundancia": null
+    }
+   ]
+  },
+  {
+   "z": 94,
+   "pesoAtomicoEstandar": "[244]",
+   "isotopos": [
+    {
+     "a": 238,
+     "simboloEspecial": null,
+     "masa": 238.0495601,
+     "abundancia": null
+    },
+    {
+     "a": 239,
+     "simboloEspecial": null,
+     "masa": 239.0521636,
+     "abundancia": null
+    },
+    {
+     "a": 240,
+     "simboloEspecial": null,
+     "masa": 240.0538138,
+     "abundancia": null
+    },
+    {
+     "a": 241,
+     "simboloEspecial": null,
+     "masa": 241.0568517,
+     "abundancia": null
+    },
+    {
+     "a": 242,
+     "simboloEspecial": null,
+     "masa": 242.0587428,
+     "abundancia": null
+    },
+    {
+     "a": 244,
+     "simboloEspecial": null,
+     "masa": 244.0642053,
+     "abundancia": null
+    }
+   ]
+  },
+  {
+   "z": 95,
+   "pesoAtomicoEstandar": "&nbsp;",
+   "isotopos": [
+    {
+     "a": 241,
+     "simboloEspecial": null,
+     "masa": 241.0568293,
+     "abundancia": null
+    },
+    {
+     "a": 243,
+     "simboloEspecial": null,
+     "masa": 243.0613813,
+     "abundancia": null
+    }
+   ]
+  },
+  {
+   "z": 96,
+   "pesoAtomicoEstandar": "&nbsp;",
+   "isotopos": [
+    {
+     "a": 243,
+     "simboloEspecial": null,
+     "masa": 243.0613893,
+     "abundancia": null
+    },
+    {
+     "a": 244,
+     "simboloEspecial": null,
+     "masa": 244.0627528,
+     "abundancia": null
+    },
+    {
+     "a": 245,
+     "simboloEspecial": null,
+     "masa": 245.0654915,
+     "abundancia": null
+    },
+    {
+     "a": 246,
+     "simboloEspecial": null,
+     "masa": 246.0672238,
+     "abundancia": null
+    },
+    {
+     "a": 247,
+     "simboloEspecial": null,
+     "masa": 247.0703541,
+     "abundancia": null
+    },
+    {
+     "a": 248,
+     "simboloEspecial": null,
+     "masa": 248.0723499,
+     "abundancia": null
+    }
+   ]
+  },
+  {
+   "z": 97,
+   "pesoAtomicoEstandar": "&nbsp;",
+   "isotopos": [
+    {
+     "a": 247,
+     "simboloEspecial": null,
+     "masa": 247.0703073,
+     "abundancia": null
+    },
+    {
+     "a": 249,
+     "simboloEspecial": null,
+     "masa": 249.0749877,
+     "abundancia": null
+    }
+   ]
+  },
+  {
+   "z": 98,
+   "pesoAtomicoEstandar": "&nbsp;",
+   "isotopos": [
+    {
+     "a": 249,
+     "simboloEspecial": null,
+     "masa": 249.0748539,
+     "abundancia": null
+    },
+    {
+     "a": 250,
+     "simboloEspecial": null,
+     "masa": 250.0764062,
+     "abundancia": null
+    },
+    {
+     "a": 251,
+     "simboloEspecial": null,
+     "masa": 251.0795886,
+     "abundancia": null
+    },
+    {
+     "a": 252,
+     "simboloEspecial": null,
+     "masa": 252.0816272,
+     "abundancia": null
+    }
+   ]
+  },
+  {
+   "z": 99,
+   "pesoAtomicoEstandar": "&nbsp;",
+   "isotopos": [
+    {
+     "a": 252,
+     "simboloEspecial": null,
+     "masa": 252.08298,
+     "abundancia": null
+    }
+   ]
+  },
+  {
+   "z": 100,
+   "pesoAtomicoEstandar": "&nbsp;",
+   "isotopos": [
+    {
+     "a": 257,
+     "simboloEspecial": null,
+     "masa": 257.0951061,
+     "abundancia": null
+    }
+   ]
+  },
+  {
+   "z": 101,
+   "pesoAtomicoEstandar": "&nbsp;",
+   "isotopos": [
+    {
+     "a": 258,
+     "simboloEspecial": null,
+     "masa": 258.0984315,
+     "abundancia": null
+    },
+    {
+     "a": 260,
+     "simboloEspecial": null,
+     "masa": 260.10365,
+     "abundancia": null
+    }
+   ]
+  },
+  {
+   "z": 102,
+   "pesoAtomicoEstandar": "&nbsp;",
+   "isotopos": [
+    {
+     "a": 259,
+     "simboloEspecial": null,
+     "masa": 259.10103,
+     "abundancia": null
+    }
+   ]
+  },
+  {
+   "z": 103,
+   "pesoAtomicoEstandar": "&nbsp;",
+   "isotopos": [
+    {
+     "a": 262,
+     "simboloEspecial": null,
+     "masa": 262.10961,
+     "abundancia": null
+    }
+   ]
+  },
+  {
+   "z": 104,
+   "pesoAtomicoEstandar": "&nbsp;",
+   "isotopos": [
+    {
+     "a": 267,
+     "simboloEspecial": null,
+     "masa": 267.12179,
+     "abundancia": null
+    }
+   ]
+  },
+  {
+   "z": 105,
+   "pesoAtomicoEstandar": "&nbsp;",
+   "isotopos": [
+    {
+     "a": 268,
+     "simboloEspecial": null,
+     "masa": 268.12567,
+     "abundancia": null
+    }
+   ]
+  },
+  {
+   "z": 106,
+   "pesoAtomicoEstandar": "&nbsp;",
+   "isotopos": [
+    {
+     "a": 271,
+     "simboloEspecial": null,
+     "masa": 271.13393,
+     "abundancia": null
+    }
+   ]
+  },
+  {
+   "z": 107,
+   "pesoAtomicoEstandar": "&nbsp;",
+   "isotopos": [
+    {
+     "a": 272,
+     "simboloEspecial": null,
+     "masa": 272.13826,
+     "abundancia": null
+    }
+   ]
+  },
+  {
+   "z": 108,
+   "pesoAtomicoEstandar": "&nbsp;",
+   "isotopos": [
+    {
+     "a": 270,
+     "simboloEspecial": null,
+     "masa": 270.13429,
+     "abundancia": null
+    }
+   ]
+  },
+  {
+   "z": 109,
+   "pesoAtomicoEstandar": "&nbsp;",
+   "isotopos": [
+    {
+     "a": 276,
+     "simboloEspecial": null,
+     "masa": 276.15159,
+     "abundancia": null
+    }
+   ]
+  },
+  {
+   "z": 110,
+   "pesoAtomicoEstandar": "&nbsp;",
+   "isotopos": [
+    {
+     "a": 281,
+     "simboloEspecial": null,
+     "masa": 281.16451,
+     "abundancia": null
+    }
+   ]
+  },
+  {
+   "z": 111,
+   "pesoAtomicoEstandar": "&nbsp;",
+   "isotopos": [
+    {
+     "a": 280,
+     "simboloEspecial": null,
+     "masa": 280.16514,
+     "abundancia": null
+    }
+   ]
+  },
+  {
+   "z": 112,
+   "pesoAtomicoEstandar": "&nbsp;",
+   "isotopos": [
+    {
+     "a": 285,
+     "simboloEspecial": null,
+     "masa": 285.17712,
+     "abundancia": null
+    }
+   ]
+  },
+  {
+   "z": 113,
+   "pesoAtomicoEstandar": "&nbsp;",
+   "isotopos": [
+    {
+     "a": 284,
+     "simboloEspecial": null,
+     "masa": 284.17873,
+     "abundancia": null
+    }
+   ]
+  },
+  {
+   "z": 114,
+   "pesoAtomicoEstandar": "&nbsp;",
+   "isotopos": [
+    {
+     "a": 289,
+     "simboloEspecial": null,
+     "masa": 289.19042,
+     "abundancia": null
+    }
+   ]
+  },
+  {
+   "z": 115,
+   "pesoAtomicoEstandar": "&nbsp;",
+   "isotopos": [
+    {
+     "a": 288,
+     "simboloEspecial": null,
+     "masa": 288.19274,
+     "abundancia": null
+    }
+   ]
+  },
+  {
+   "z": 116,
+   "pesoAtomicoEstandar": "&nbsp;",
+   "isotopos": [
+    {
+     "a": 293,
+     "simboloEspecial": null,
+     "masa": 293.20449,
+     "abundancia": null
+    }
+   ]
+  },
+  {
+   "z": 117,
+   "pesoAtomicoEstandar": "&nbsp;",
+   "isotopos": [
+    {
+     "a": 292,
+     "simboloEspecial": null,
+     "masa": 292.20746,
+     "abundancia": null
+    }
+   ]
+  },
+  {
+   "z": 118,
+   "pesoAtomicoEstandar": "&nbsp;",
+   "isotopos": [
+    {
+     "a": 294,
+     "simboloEspecial": null,
+     "masa": 294.21392,
+     "abundancia": null
+    }
+   ]
+  }
+ ]
+}

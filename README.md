@@ -17,7 +17,11 @@ npm run dev       # http://localhost:5173
 npm test          # pruebas
 npm run build     # compilación de producción en dist/
 npm run preview   # sirve dist/ para probar la versión instalable
+npm run datos     # vuelve a descargar los datos de PubChem, NIST y CODATA
 ```
+
+Las fuentes de datos y las decisiones sobre ellas están en [docs/datos.md](docs/datos.md); la comparación
+de los cálculos con valores de referencia, en [docs/tabla_validacion.md](docs/tabla_validacion.md).
 
 ## Despliegue
 

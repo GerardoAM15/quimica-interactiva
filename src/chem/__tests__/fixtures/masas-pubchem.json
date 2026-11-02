@@ -1,0 +1,387 @@
+{
+ "fuente": {
+  "nombre": "PubChem PUG REST (propiedades calculadas)",
+  "licencia": "Dominio público",
+  "descargado": "2026-11-02"
+ },
+ "compuestos": [
+  {
+   "formula": "H2O",
+   "nombre": "agua",
+   "cid": 962,
+   "formulaPubChem": "H2O",
+   "masaMolar": 18.015,
+   "masaMolarTexto": "18.015",
+   "nombreIUPAC": "oxidane"
+  },
+  {
+   "formula": "CO2",
+   "nombre": "dióxido de carbono",
+   "cid": 280,
+   "formulaPubChem": "CO2",
+   "masaMolar": 44.009,
+   "masaMolarTexto": "44.009",
+   "nombreIUPAC": "carbon dioxide"
+  },
+  {
+   "formula": "NaCl",
+   "nombre": "cloruro de sodio",
+   "cid": 5234,
+   "formulaPubChem": "ClNa",
+   "masaMolar": 58.44,
+   "masaMolarTexto": "58.44",
+   "nombreIUPAC": "sodium chloride"
+  },
+  {
+   "formula": "H2SO4",
+   "nombre": "ácido sulfúrico",
+   "cid": 1118,
+   "formulaPubChem": "H2O4S",
+   "masaMolar": 98.08,
+   "masaMolarTexto": "98.08",
+   "nombreIUPAC": "sulfuric acid"
+  },
+  {
+   "formula": "HNO3",
+   "nombre": "ácido nítrico",
+   "cid": 944,
+   "formulaPubChem": "HNO3",
+   "masaMolar": 63.013,
+   "masaMolarTexto": "63.013",
+   "nombreIUPAC": "nitric acid"
+  },
+  {
+   "formula": "HCl",
+   "nombre": "cloruro de hidrógeno",
+   "cid": 313,
+   "formulaPubChem": "ClH",
+   "masaMolar": 36.46,
+   "masaMolarTexto": "36.46",
+   "nombreIUPAC": "chlorane"
+  },
+  {
+   "formula": "NH3",
+   "nombre": "amoníaco",
+   "cid": 222,
+   "formulaPubChem": "H3N",
+   "masaMolar": 17.031,
+   "masaMolarTexto": "17.031",
+   "nombreIUPAC": "azane"
+  },
+  {
+   "formula": "CH4",
+   "nombre": "metano",
+   "cid": 297,
+   "formulaPubChem": "CH4",
+   "masaMolar": 16.043,
+   "masaMolarTexto": "16.043",
+   "nombreIUPAC": "methane"
+  },
+  {
+   "formula": "C2H5OH",
+   "nombre": "etanol",
+   "cid": 702,
+   "formulaPubChem": "C2H6O",
+   "masaMolar": 46.07,
+   "masaMolarTexto": "46.07",
+   "nombreIUPAC": "ethanol"
+  },
+  {
+   "formula": "C6H12O6",
+   "nombre": "glucosa",
+   "cid": 5793,
+   "formulaPubChem": "C6H12O6",
+   "masaMolar": 180.16,
+   "masaMolarTexto": "180.16",
+   "nombreIUPAC": "(3R,4S,5S,6R)-6-(hydroxymethyl)oxane-2,3,4,5-tetrol"
+  },
+  {
+   "formula": "C12H22O11",
+   "nombre": "sacarosa",
+   "cid": 5988,
+   "formulaPubChem": "C12H22O11",
+   "masaMolar": 342.3,
+   "masaMolarTexto": "342.30",
+   "nombreIUPAC": "(2R,3R,4S,5S,6R)-2-[(2S,3S,4S,5R)-3,4-dihydroxy-2,5-bis(hydroxymethyl)oxolan-2-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol"
+  },
+  {
+   "formula": "CaCO3",
+   "nombre": "carbonato de calcio",
+   "cid": 10112,
+   "formulaPubChem": "CCaO3",
+   "masaMolar": 100.09,
+   "masaMolarTexto": "100.09",
+   "nombreIUPAC": "calcium carbonate"
+  },
+  {
+   "formula": "Ca(OH)2",
+   "nombre": "hidróxido de calcio",
+   "cid": 6093208,
+   "formulaPubChem": "CaH2O2",
+   "masaMolar": 74.09,
+   "masaMolarTexto": "74.09",
+   "nombreIUPAC": "calcium dihydroxide"
+  },
+  {
+   "formula": "NaOH",
+   "nombre": "hidróxido de sodio",
+   "cid": 14798,
+   "formulaPubChem": "HNaO",
+   "masaMolar": 39.997,
+   "masaMolarTexto": "39.997",
+   "nombreIUPAC": "sodium hydroxide"
+  },
+  {
+   "formula": "KMnO4",
+   "nombre": "permanganato de potasio",
+   "cid": 516875,
+   "formulaPubChem": "KMnO4",
+   "masaMolar": 158.034,
+   "masaMolarTexto": "158.034",
+   "nombreIUPAC": "potassium permanganate"
+  },
+  {
+   "formula": "K2Cr2O7",
+   "nombre": "dicromato de potasio",
+   "cid": 24502,
+   "formulaPubChem": "Cr2K2O7",
+   "masaMolar": 294.18,
+   "masaMolarTexto": "294.18",
+   "nombreIUPAC": "dipotassium;oxido-(oxido(dioxo)chromio)oxy-dioxochromium"
+  },
+  {
+   "formula": "CuSO4",
+   "nombre": "sulfato de cobre(II)",
+   "cid": 24462,
+   "formulaPubChem": "CuO4S",
+   "masaMolar": 159.61,
+   "masaMolarTexto": "159.61",
+   "nombreIUPAC": "copper sulfate"
+  },
+  {
+   "formula": "CuSO4·5H2O",
+   "nombre": "sulfato de cobre(II) pentahidratado",
+   "cid": 24463,
+   "formulaPubChem": "CuH10O9S",
+   "masaMolar": 249.69,
+   "masaMolarTexto": "249.69",
+   "nombreIUPAC": "copper;sulfate;pentahydrate"
+  },
+  {
+   "formula": "Al2(SO4)3",
+   "nombre": "sulfato de aluminio",
+   "cid": 24850,
+   "formulaPubChem": "Al2O12S3",
+   "masaMolar": 342.2,
+   "masaMolarTexto": "342.2",
+   "nombreIUPAC": "dialuminum;trisulfate"
+  },
+  {
+   "formula": "Fe2O3",
+   "nombre": "óxido de hierro(III)",
+   "cid": 518696,
+   "formulaPubChem": "Fe2O3",
+   "masaMolar": 159.69,
+   "masaMolarTexto": "159.69",
+   "nombreIUPAC": "oxo(oxoferriooxy)iron"
+  },
+  {
+   "formula": "(NH4)2SO4",
+   "nombre": "sulfato de amonio",
+   "cid": 6097028,
+   "formulaPubChem": "H8N2O4S",
+   "masaMolar": 132.14,
+   "masaMolarTexto": "132.14",
+   "nombreIUPAC": "diazanium;sulfate"
+  },
+  {
+   "formula": "Mg3(PO4)2",
+   "nombre": "fosfato de magnesio",
+   "cid": 24439,
+   "formulaPubChem": "Mg3O8P2",
+   "masaMolar": 262.86,
+   "masaMolarTexto": "262.86",
+   "nombreIUPAC": "trimagnesium diphosphate"
+  },
+  {
+   "formula": "Ca3(PO4)2",
+   "nombre": "fosfato de calcio",
+   "cid": 24456,
+   "formulaPubChem": "Ca3O8P2",
+   "masaMolar": 310.18,
+   "masaMolarTexto": "310.18",
+   "nombreIUPAC": "tricalcium diphosphate"
+  },
+  {
+   "formula": "NaHCO3",
+   "nombre": "bicarbonato de sodio",
+   "cid": 516892,
+   "formulaPubChem": "CHNaO3",
+   "masaMolar": 84.007,
+   "masaMolarTexto": "84.007",
+   "nombreIUPAC": "sodium hydrogen carbonate"
+  },
+  {
+   "formula": "C6H6",
+   "nombre": "benceno",
+   "cid": 241,
+   "formulaPubChem": "C6H6",
+   "masaMolar": 78.11,
+   "masaMolarTexto": "78.11",
+   "nombreIUPAC": "benzene"
+  },
+  {
+   "formula": "CH3COOH",
+   "nombre": "ácido acético",
+   "cid": 176,
+   "formulaPubChem": "C2H4O2",
+   "masaMolar": 60.05,
+   "masaMolarTexto": "60.05",
+   "nombreIUPAC": "acetic acid"
+  },
+  {
+   "formula": "C3H8",
+   "nombre": "propano",
+   "cid": 6334,
+   "formulaPubChem": "C3H8",
+   "masaMolar": 44.1,
+   "masaMolarTexto": "44.10",
+   "nombreIUPAC": "propane"
+  },
+  {
+   "formula": "C8H18",
+   "nombre": "octano",
+   "cid": 356,
+   "formulaPubChem": "C8H18",
+   "masaMolar": 114.23,
+   "masaMolarTexto": "114.23",
+   "nombreIUPAC": "octane"
+  },
+  {
+   "formula": "H3PO4",
+   "nombre": "ácido fosfórico",
+   "cid": 1004,
+   "formulaPubChem": "H3O4P",
+   "masaMolar": 97.995,
+   "masaMolarTexto": "97.995",
+   "nombreIUPAC": "phosphoric acid"
+  },
+  {
+   "formula": "KClO3",
+   "nombre": "clorato de potasio",
+   "cid": 6426889,
+   "formulaPubChem": "ClKO3",
+   "masaMolar": 122.55,
+   "masaMolarTexto": "122.55",
+   "nombreIUPAC": "potassium chlorate"
+  },
+  {
+   "formula": "Na2CO3",
+   "nombre": "carbonato de sodio",
+   "cid": 10340,
+   "formulaPubChem": "CNa2O3",
+   "masaMolar": 105.988,
+   "masaMolarTexto": "105.988",
+   "nombreIUPAC": "disodium;carbonate"
+  },
+  {
+   "formula": "Na2SO4·10H2O",
+   "nombre": "sulfato de sodio decahidratado",
+   "cid": 62649,
+   "formulaPubChem": "H20Na2O14S",
+   "masaMolar": 322.2,
+   "masaMolarTexto": "322.20",
+   "nombreIUPAC": "disodium;sulfate;decahydrate"
+  },
+  {
+   "formula": "BaCl2·2H2O",
+   "nombre": "cloruro de bario dihidratado",
+   "cid": 5284346,
+   "formulaPubChem": "BaCl2H4O2",
+   "masaMolar": 244.26,
+   "masaMolarTexto": "244.26",
+   "nombreIUPAC": "barium(2+);dichloride;dihydrate"
+  },
+  {
+   "formula": "Pb(NO3)2",
+   "nombre": "nitrato de plomo(II)",
+   "cid": 24924,
+   "formulaPubChem": "N2O6Pb",
+   "masaMolar": 331,
+   "masaMolarTexto": "331",
+   "nombreIUPAC": "lead(2+) dinitrate"
+  },
+  {
+   "formula": "AgNO3",
+   "nombre": "nitrato de plata",
+   "cid": 24470,
+   "formulaPubChem": "AgNO3",
+   "masaMolar": 169.873,
+   "masaMolarTexto": "169.873",
+   "nombreIUPAC": "silver nitrate"
+  },
+  {
+   "formula": "K4[Fe(CN)6]",
+   "nombre": "ferrocianuro de potasio",
+   "cid": 9605257,
+   "formulaPubChem": "C6FeK4N6",
+   "masaMolar": 368.34,
+   "masaMolarTexto": "368.34",
+   "nombreIUPAC": "tetrapotassium;iron(2+);hexacyanide"
+  },
+  {
+   "formula": "C6H8O7",
+   "nombre": "ácido cítrico",
+   "cid": 311,
+   "formulaPubChem": "C6H8O7",
+   "masaMolar": 192.12,
+   "masaMolarTexto": "192.12",
+   "nombreIUPAC": "2-hydroxypropane-1,2,3-tricarboxylic acid"
+  },
+  {
+   "formula": "C2H2",
+   "nombre": "acetileno",
+   "cid": 6326,
+   "formulaPubChem": "C2H2",
+   "masaMolar": 26.04,
+   "masaMolarTexto": "26.04",
+   "nombreIUPAC": "acetylene"
+  },
+  {
+   "formula": "SO2",
+   "nombre": "dióxido de azufre",
+   "cid": 1119,
+   "formulaPubChem": "O2S",
+   "masaMolar": 64.07,
+   "masaMolarTexto": "64.07",
+   "nombreIUPAC": "sulfur dioxide"
+  },
+  {
+   "formula": "N2O5",
+   "nombre": "pentóxido de dinitrógeno",
+   "cid": 66242,
+   "formulaPubChem": "N2O5",
+   "masaMolar": 108.01,
+   "masaMolarTexto": "108.01",
+   "nombreIUPAC": "nitro nitrate"
+  },
+  {
+   "formula": "O3",
+   "nombre": "ozono",
+   "cid": 24823,
+   "formulaPubChem": "O3",
+   "masaMolar": 47.998,
+   "masaMolarTexto": "47.998",
+   "nombreIUPAC": "ozone"
+  },
+  {
+   "formula": "P4O10",
+   "nombre": "decaóxido de tetrafósforo",
+   "cid": 14812,
+   "formulaPubChem": "O10P4",
+   "masaMolar": 283.89,
+   "masaMolarTexto": "283.89",
+   "nombreIUPAC": "2,4,6,8,9,10-hexaoxa-1lambda5,3lambda5,5lambda5,7lambda5-tetraphosphatricyclo[3.3.1.13,7]decane 1,3,5,7-tetraoxide"
+  }
+ ]
+}

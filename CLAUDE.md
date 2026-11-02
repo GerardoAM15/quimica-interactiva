@@ -13,8 +13,12 @@ npm run dev        # servidor de desarrollo
 npm test           # Vitest (una pasada)
 npm run build      # tsc -b + vite build (debe pasar sin errores)
 npm run preview    # sirve dist/ (para probar la PWA)
-node scripts/generar-iconos.mjs   # regenera los íconos PNG de la PWA
+npm run datos      # descarga/regenera los datos (PubChem, NIST, CODATA); ver docs/datos.md
+npm run iconos     # regenera los íconos PNG de la PWA
 ```
+
+`npm test` también regenera `docs/tabla_validacion.md`: cada prueba de validación llama a
+`registrarValidacion()` (`src/chem/__tests__/validacion.ts`) y `setup-global.ts` une las secciones.
 
 ## Stack (obligatorio, no cambiar sin consultar)
 
@@ -49,6 +53,15 @@ docs/            documentación, referencias de tablas, tabla_validacion.md
 - Toda la química (balanceo, pH, nomenclatura, gases, termo…) se implementa en `src/chem/`.
   **No usar librerías que resuelvan la química**, salvo RDKit para estructura molecular.
 - Código tipado y **comentado en español explicando la química, con la fórmula** (p. ej. `// PV = nRT`).
+
+### Componentes compartidos
+
+- `Formula` / `Ce` (KaTeX + mhchem, cargado bajo demanda), `Teoria`, `PasoAPaso`, `Pestanas`, `Slider`,
+  `SelectorElemento`, `InsigniaRevision` (marca «pendiente de revisión»).
+- `escena3d/Escena3D` (Canvas R3F con controles, luces, entorno local sin HDR externo y botón FPS) y
+  `escena3d/Cristal3D` (redes cristalinas a partir de `chem/cristales`).
+- `atomo/DiagramaOrbitales` y `atomo/ModeloBohr`.
+- Cálculos pesados (p. ej. isosuperficies de orbitales) en un Web Worker (`modules/orbitales-3d/orbitales.worker.ts`).
 
 ### Agregar un módulo
 

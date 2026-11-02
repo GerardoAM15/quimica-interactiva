@@ -1,0 +1,51 @@
+{
+  "fuente": {
+    "nombre": "Descripciones de apariencia de los elementos",
+    "referencias": [
+      "CRC Handbook of Chemistry and Physics, sección 4: «The Elements» (descripción física de cada elemento)",
+      "N. N. Greenwood y A. Earnshaw, Chemistry of the Elements, 2.ª ed."
+    ],
+    "pendienteRevision": true,
+    "notas": "Los colores son una aproximación visual (sRGB) de la descripción de cada fuente, no una medición colorimétrica. Los colores de emisión de los tubos de descarga son aproximados. Los elementos sin entrada usan el aspecto por defecto de su estado y familia (metal plateado, etc.)."
+  },
+  "noObservables": {
+    "descripcion": "Nunca se ha obtenido una cantidad visible del elemento puro (vida media muy corta o producción de pocos átomos).",
+    "z": [85, 87, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118]
+  },
+  "elementos": {
+    "H": { "tipo": "gas", "color": "#e48ad6", "descripcion": "Gas incoloro. En un tubo de descarga emite luz rosada-violácea (línea roja Hα de la serie de Balmer)." },
+    "He": { "tipo": "gas", "color": "#ffb08e", "descripcion": "Gas incoloro. En un tubo de descarga brilla con un tono rosado-anaranjado." },
+    "N": { "tipo": "gas", "color": "#c89cff", "descripcion": "Gas incoloro. En un tubo de descarga emite una luz violeta-rosada." },
+    "O": { "tipo": "gas", "color": "#c8b8ff", "descripcion": "Gas incoloro (O₂). En un tubo de descarga emite una luz violeta pálida." },
+    "F": { "tipo": "gas-coloreado", "color": "#efe9a2", "descripcion": "Gas amarillo pálido (F₂), extremadamente reactivo y tóxico." },
+    "Ne": { "tipo": "gas", "color": "#ff5a1f", "descripcion": "Gas incoloro. En un tubo de descarga brilla con el característico rojo-anaranjado de los letreros de neón." },
+    "Cl": { "tipo": "gas-coloreado", "color": "#c6dd56", "descripcion": "Gas amarillo verdoso (Cl₂), tóxico, de olor irritante." },
+    "Ar": { "tipo": "gas", "color": "#b48cff", "descripcion": "Gas incoloro. En un tubo de descarga emite luz lila-violeta." },
+    "Kr": { "tipo": "gas", "color": "#ece6ff", "descripcion": "Gas incoloro. En un tubo de descarga emite luz blanca ligeramente lila." },
+    "Xe": { "tipo": "gas", "color": "#8eb0ff", "descripcion": "Gas incoloro. En un tubo de descarga brilla con un tono azul-lavanda." },
+    "Rn": { "tipo": "gas", "color": null, "descripcion": "Gas incoloro y radiactivo. No se usa en tubos de descarga; color de emisión no representado." },
+    "Br": { "tipo": "liquido", "color": "#7a1a08", "transparente": true, "descripcion": "Líquido rojo pardo oscuro que desprende vapores anaranjados (Br₂)." },
+    "Hg": { "tipo": "liquido", "color": "#d4d7de", "metalico": true, "descripcion": "Metal líquido plateado y brillante a temperatura ambiente." },
+    "C": { "tipo": "no-metal", "color": "#2c2c2e", "rugosidad": 0.55, "metalicidad": 0.35, "descripcion": "Forma estable a 25 °C: grafito, gris negruzco con brillo metálico. Otro alótropo: diamante, transparente." },
+    "P": { "tipo": "no-metal", "color": "#f1ecd8", "rugosidad": 0.6, "descripcion": "Fósforo blanco: sólido céreo blanco-amarillento. Otros alótropos: fósforo rojo y fósforo negro." },
+    "S": { "tipo": "no-metal", "color": "#f2d02c", "rugosidad": 0.75, "descripcion": "Sólido amarillo (azufre rómbico, moléculas S₈)." },
+    "Se": { "tipo": "no-metal", "color": "#5d5e63", "rugosidad": 0.35, "metalicidad": 0.6, "descripcion": "Selenio gris: sólido con brillo metálico (también existe una forma roja)." },
+    "I": { "tipo": "no-metal", "color": "#3a2747", "rugosidad": 0.25, "metalicidad": 0.55, "descripcion": "Cristales negro violáceos con brillo metálico; sublima en vapor violeta." },
+    "B": { "tipo": "no-metal", "color": "#3b3632", "rugosidad": 0.45, "metalicidad": 0.4, "descripcion": "Metaloide: sólido negro pardusco, muy duro." },
+    "Si": { "tipo": "metal", "color": "#6e7684", "rugosidad": 0.25, "metalicidad": 0.7, "descripcion": "Metaloide: sólido gris azulado con brillo metálico, quebradizo." },
+    "Ge": { "tipo": "metal", "color": "#9aa0a9", "rugosidad": 0.25, "descripcion": "Metaloide: sólido blanco grisáceo con brillo metálico, quebradizo." },
+    "As": { "tipo": "metal", "color": "#7b7d82", "rugosidad": 0.4, "descripcion": "Metaloide: arsénico gris, sólido con brillo metálico y quebradizo." },
+    "Sb": { "tipo": "metal", "color": "#b6babf", "rugosidad": 0.3, "descripcion": "Metaloide: sólido blanco plateado, brillante y quebradizo." },
+    "Te": { "tipo": "metal", "color": "#b8bbbf", "rugosidad": 0.3, "descripcion": "Metaloide: sólido blanco plateado, brillante y quebradizo." },
+    "Cu": { "tipo": "metal", "color": "#c47a4b", "rugosidad": 0.28, "descripcion": "Metal de color rojizo (cobrizo) y brillante." },
+    "Au": { "tipo": "metal", "color": "#f1c457", "rugosidad": 0.2, "descripcion": "Metal amarillo brillante, muy maleable." },
+    "Cs": { "tipo": "metal", "color": "#e5d29c", "rugosidad": 0.3, "descripcion": "Metal alcalino blando de color dorado pálido; funde a 28,5 °C." },
+    "Os": { "tipo": "metal", "color": "#b2bfd2", "rugosidad": 0.25, "descripcion": "Metal muy denso, gris azulado brillante." },
+    "Bi": { "tipo": "metal", "color": "#c8b9c2", "rugosidad": 0.3, "descripcion": "Metal quebradizo blanco plateado con tinte rosado." },
+    "Pb": { "tipo": "metal", "color": "#8e939b", "rugosidad": 0.55, "descripcion": "Metal gris azulado, blando y opaco al oxidarse en la superficie." },
+    "Zn": { "tipo": "metal", "color": "#b8c1cb", "rugosidad": 0.4, "descripcion": "Metal blanco azulado." },
+    "Ga": { "tipo": "metal", "color": "#c9ccd1", "rugosidad": 0.2, "descripcion": "Metal plateado blando; funde a 29,8 °C (se derrite en la mano)." },
+    "Na": { "tipo": "metal", "color": "#cfd2d6", "rugosidad": 0.35, "descripcion": "Metal alcalino blando y plateado; se oxida rápidamente al aire (se guarda en aceite)." },
+    "K": { "tipo": "metal", "color": "#cdd0d5", "rugosidad": 0.35, "descripcion": "Metal alcalino blando y plateado; reacciona violentamente con el agua." }
+  }
+}

@@ -1,0 +1,163 @@
+{
+ "fuente": {
+  "nombre": "CODATA 2022 — Valores recomendados de las constantes físicas fundamentales (NIST)",
+  "url": "https://physics.nist.gov/cuu/Constants/",
+  "archivo": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+  "edicion": "2022",
+  "descargado": "2026-11-02"
+ },
+ "constantes": {
+  "c": {
+   "nombre": "Velocidad de la luz en el vacío",
+   "nombreNIST": "speed of light in vacuum",
+   "valor": 299792458,
+   "incertidumbre": 0,
+   "unidad": "m s^-1",
+   "exacta": true
+  },
+  "h": {
+   "nombre": "Constante de Planck",
+   "nombreNIST": "Planck constant",
+   "valor": 6.62607015e-34,
+   "incertidumbre": 0,
+   "unidad": "J Hz^-1",
+   "exacta": true
+  },
+  "e": {
+   "nombre": "Carga elemental",
+   "nombreNIST": "elementary charge",
+   "valor": 1.602176634e-19,
+   "incertidumbre": 0,
+   "unidad": "C",
+   "exacta": true
+  },
+  "NA": {
+   "nombre": "Constante de Avogadro",
+   "nombreNIST": "Avogadro constant",
+   "valor": 6.02214076e+23,
+   "incertidumbre": 0,
+   "unidad": "mol^-1",
+   "exacta": true
+  },
+  "kB": {
+   "nombre": "Constante de Boltzmann",
+   "nombreNIST": "Boltzmann constant",
+   "valor": 1.380649e-23,
+   "incertidumbre": 0,
+   "unidad": "J K^-1",
+   "exacta": true
+  },
+  "R": {
+   "nombre": "Constante de los gases",
+   "nombreNIST": "molar gas constant",
+   "valor": 8.314462618,
+   "incertidumbre": 0,
+   "unidad": "J mol^-1 K^-1",
+   "exacta": true
+  },
+  "F": {
+   "nombre": "Constante de Faraday",
+   "nombreNIST": "Faraday constant",
+   "valor": 96485.33212,
+   "incertidumbre": 0,
+   "unidad": "C mol^-1",
+   "exacta": true
+  },
+  "me": {
+   "nombre": "Masa del electrón",
+   "nombreNIST": "electron mass",
+   "valor": 9.1093837139e-31,
+   "incertidumbre": 2.8e-40,
+   "unidad": "kg",
+   "exacta": false
+  },
+  "mp": {
+   "nombre": "Masa del protón",
+   "nombreNIST": "proton mass",
+   "valor": 1.67262192595e-27,
+   "incertidumbre": 5.2e-37,
+   "unidad": "kg",
+   "exacta": false
+  },
+  "mn": {
+   "nombre": "Masa del neutrón",
+   "nombreNIST": "neutron mass",
+   "valor": 1.67492750056e-27,
+   "incertidumbre": 8.5e-37,
+   "unidad": "kg",
+   "exacta": false
+  },
+  "u": {
+   "nombre": "Unidad de masa atómica",
+   "nombreNIST": "atomic mass constant",
+   "valor": 1.66053906892e-27,
+   "incertidumbre": 5.2e-37,
+   "unidad": "kg",
+   "exacta": false
+  },
+  "a0": {
+   "nombre": "Radio de Bohr",
+   "nombreNIST": "Bohr radius",
+   "valor": 5.29177210544e-11,
+   "incertidumbre": 8.2e-21,
+   "unidad": "m",
+   "exacta": false
+  },
+  "Rinf": {
+   "nombre": "Constante de Rydberg",
+   "nombreNIST": "Rydberg constant",
+   "valor": 10973731.568157,
+   "incertidumbre": 0.000012,
+   "unidad": "m^-1",
+   "exacta": false
+  },
+  "RinfHcEV": {
+   "nombre": "Energía de Rydberg (R∞hc)",
+   "nombreNIST": "Rydberg constant times hc in eV",
+   "valor": 13.60569312299,
+   "incertidumbre": 1.5e-11,
+   "unidad": "eV",
+   "exacta": false
+  },
+  "eps0": {
+   "nombre": "Permitividad eléctrica del vacío",
+   "nombreNIST": "vacuum electric permittivity",
+   "valor": 8.8541878188e-12,
+   "incertidumbre": 1.4e-21,
+   "unidad": "F m^-1",
+   "exacta": false
+  },
+  "eV": {
+   "nombre": "Electronvoltio",
+   "nombreNIST": "electron volt",
+   "valor": 1.602176634e-19,
+   "incertidumbre": 0,
+   "unidad": "J",
+   "exacta": true
+  },
+  "Vm": {
+   "nombre": "Volumen molar del gas ideal a 0 °C y 1 atm",
+   "nombreNIST": "molar volume of ideal gas (273.15 K, 101.325 kPa)",
+   "valor": 0.02241396954,
+   "incertidumbre": 0,
+   "unidad": "m^3 mol^-1",
+   "exacta": true
+  },
+  "atm": {
+   "nombre": "Atmósfera estándar",
+   "nombreNIST": "standard atmosphere",
+   "valor": 101325,
+   "incertidumbre": 0,
+   "unidad": "Pa",
+   "exacta": true
+  },
+  "alpha_mass": {
+   "nombre": "Masa de la partícula alfa",
+   "nombreNIST": "alpha particle mass",
+   "valor": 6.644657345e-27,
+   "incertidumbre": 2.1e-36,
+   "unidad": "kg",
+   "exacta": false
+  }
+ }
+}

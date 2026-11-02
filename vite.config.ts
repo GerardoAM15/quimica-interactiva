@@ -58,6 +58,7 @@ export default defineConfig({
   test: {
     environment: 'node',
     include: ['src/**/*.test.{ts,tsx}'],
+    globalSetup: ['src/chem/__tests__/setup-global.ts'],
     globals: false,
   },
 });
