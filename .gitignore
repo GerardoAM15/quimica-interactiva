@@ -1,0 +1,13 @@
+node_modules
+dist
+dev-dist
+coverage
+*.local
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea
+# Caché temporal de los scripts de descarga de datos
+scripts/.cache

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es-PE" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Química Interactiva</title>
+    <meta
+      name="description"
+      content="Química general, inorgánica y orgánica en 2D/3D: tabla periódica, moléculas, balanceo, estequiometría, gases, equilibrio, ácidos y bases, y modo examen de admisión."
+    />
+    <meta name="theme-color" content="#0b1020" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+    <script>
+      // Aplica el tema guardado antes del primer pintado (evita el destello claro/oscuro).
+      try {
+        var t = JSON.parse(localStorage.getItem('qi-preferencias') || '{}').state;
+        if (t && t.tema === 'claro') document.documentElement.classList.remove('dark');
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>Esta aplicación necesita JavaScript para funcionar.</noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

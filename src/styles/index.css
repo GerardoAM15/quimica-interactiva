@@ -1,0 +1,100 @@
+@import 'tailwindcss';
+
+/* El modo oscuro se activa con la clase .dark en <html> (oscuro por defecto). */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ── Tokens de color ────────────────────────────────────────────────────────
+   Tema claro en :root y oscuro en .dark. Todos los pares texto/fondo cumplen
+   contraste WCAG AA (≥ 4.5:1 en texto normal). */
+:root {
+  --fondo: #f6f7fb;
+  --superficie: #ffffff;
+  --superficie-2: #eef1f7;
+  --borde: #d5dae5;
+  --texto: #111827;
+  --texto-suave: #4b5563;
+  --acento: #0369a1;
+  --acento-texto: #ffffff;
+  --foco: #0369a1;
+  --exito: #15803d;
+  --aviso: #a16207;
+  --error: #b91c1c;
+  color-scheme: light;
+}
+
+.dark {
+  --fondo: #0b1020;
+  --superficie: #121a2e;
+  --superficie-2: #1a2440;
+  --borde: #2a3658;
+  --texto: #e6eaf2;
+  --texto-suave: #a3adc2;
+  --acento: #38bdf8;
+  --acento-texto: #04111c;
+  --foco: #7dd3fc;
+  --exito: #4ade80;
+  --aviso: #facc15;
+  --error: #f87171;
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-fondo: var(--fondo);
+  --color-superficie: var(--superficie);
+  --color-superficie-2: var(--superficie-2);
+  --color-borde: var(--borde);
+  --color-texto: var(--texto);
+  --color-texto-suave: var(--texto-suave);
+  --color-acento: var(--acento);
+  --color-acento-texto: var(--acento-texto);
+  --color-exito: var(--exito);
+  --color-aviso: var(--aviso);
+  --color-error: var(--error);
+
+  --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: ui-monospace, 'Cascadia Code', 'Segoe UI Mono', Consolas, monospace;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background: var(--fondo);
+    color: var(--texto);
+    font-family: var(--font-sans);
+    min-height: 100dvh;
+    -webkit-font-smoothing: antialiased;
+  }
+  /* Foco visible y consistente para navegación con teclado */
+  :focus-visible {
+    outline: 2px solid var(--foco);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+  ::selection {
+    background: color-mix(in srgb, var(--acento) 35%, transparent);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Animación del átomo de la portada (CSS puro, sin Three.js para que la portada sea ligera) */
+@keyframes orbitar {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.orbita-giro {
+  animation: orbitar var(--duracion, 6s) linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}

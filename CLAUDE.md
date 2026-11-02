@@ -1,0 +1,122 @@
+# Química Interactiva — reglas del proyecto
+
+Aplicación web para estudiar química desde nivel preuniversitario (admisión en Perú: San Marcos, UNI…) hasta
+química general universitaria, con un bloque de química orgánica (básico → curso completo en fases extra).
+
+**Todo en español**: interfaz, comentarios, documentación, mensajes de commit.
+Nomenclatura con las convenciones usadas en Perú: **tradicional, Stock e IUPAC sistemática**.
+
+## Comandos
+
+```bash
+npm run dev        # servidor de desarrollo
+npm test           # Vitest (una pasada)
+npm run build      # tsc -b + vite build (debe pasar sin errores)
+npm run preview    # sirve dist/ (para probar la PWA)
+node scripts/generar-iconos.mjs   # regenera los íconos PNG de la PWA
+```
+
+## Stack (obligatorio, no cambiar sin consultar)
+
+- Vite 6 + React **18** + TypeScript strict (`noUncheckedIndexedAccess` activo).
+- Three.js con `@react-three/fiber@8` y `@react-three/drei@9` (las versiones compatibles con React 18).
+- RDKit.js (WASM, BSD) — **solo** para estructura molecular (SMILES/MOL, valencias, 2D, coordenadas 3D).
+- Canvas 2D para simulaciones (gases, titulación, cinética). Recharts para gráficas.
+- KaTeX + mhchem (`\ce{...}`) para fórmulas y ecuaciones químicas.
+- Tailwind CSS v4; tema oscuro por defecto (clase `.dark` en `<html>`), modo claro disponible.
+- Zustand para estado global. React Router con **HashRouter**; `base: './'` en Vite (GitHub Pages).
+- Fuse.js para búsqueda difusa. Vitest para pruebas. vite-plugin-pwa (instalable y offline).
+
+## Arquitectura
+
+Separación estricta **química ↔ interfaz**:
+
+```
+src/
+  chem/          funciones puras, SIN React, 100 % testeadas (__tests__/)
+  modules/       un componente por módulo (registro.ts = metadatos; componentes.ts = carga diferida)
+  components/    UI reutilizable (layout/, EcuacionQuimica, Molecula3D, Estructura2D, Slider, PanelResultados, PasoAPaso…)
+  study/         quizzes, repetición espaciada (SM-2), modo examen, progreso
+  store/         stores de Zustand
+  pages/         páginas de ruta
+  lib/           utilidades no químicas (almacenamiento seguro, PWA)
+  data/          JSON/TS de datos con fuente (fuentes.ts alimenta la página de Créditos)
+scripts/         descarga y preparación de datos (PubChem, constantes)
+docs/            documentación, referencias de tablas, tabla_validacion.md
+```
+
+- `src/chem/` nunca importa React ni nada de `components/`, `modules/`, `pages/`.
+- Toda la química (balanceo, pH, nomenclatura, gases, termo…) se implementa en `src/chem/`.
+  **No usar librerías que resuelvan la química**, salvo RDKit para estructura molecular.
+- Código tipado y **comentado en español explicando la química, con la fórmula** (p. ej. `// PV = nRT`).
+
+### Agregar un módulo
+
+1. Metadatos ya están en `src/modules/registro.ts` (número, slug, bloque, temas).
+2. Crear `src/modules/<slug>/<Componente>.tsx` (export default).
+3. Registrar en `src/modules/componentes.ts`: `'<slug>': lazy(() => import('./<slug>/<Componente>'))`.
+4. Cada módulo tiene botón **«Teoría»** (fórmulas en KaTeX) y resultados con **«Ver paso a paso»**.
+
+## Datos — no inventar
+
+- Elementos: PubChem (dominio público), descargados por script en `/scripts` → JSON en `src/data`.
+- Moléculas: SDF 3D de PubChem PUG REST; catálogo curado (~300) precargado para uso offline. Búsqueda
+  en vivo en PubChem con aviso si no hay conexión.
+- Constantes físicas: CODATA (NIST).
+- Termodinámica (ΔHf°, S°, ΔGf°) y potenciales estándar: tablas citadas en `/docs` (CRC, NIST, apéndices
+  de Chang/Brown).
+- **Si no hay certeza de un valor, nombre o mecanismo: marcarlo `pendienteRevision: true` /
+  «pendiente de revisión»; nunca inventarlo.**
+- Toda fuente nueva se registra en `src/data/fuentes.ts` (la página de Créditos se genera desde ahí).
+- Fotos de Wikimedia Commons solo con licencia CC BY, CC BY-SA o dominio público, con atribución.
+- Mecanismos orgánicos (fase 10): JSON curado con referencia (Wade, McMurry, Clayden), marcados
+  «pendiente de revisión» hasta validación del autor.
+- Espectros (fase 11): reales solo con licencia que lo permita; si no, simulados y rotulados como tales.
+- Preguntas de examen: **originales** (no copiar preguntas reales de exámenes de admisión).
+
+## Validación (Vitest)
+
+Mínimos exigidos en `src/chem/__tests__/`:
+- Fórmulas/masas molares vs PubChem: ≥ 30 compuestos, error < 0.01 g/mol.
+- Balanceo: ≥ 40 ecuaciones (incluidas redox en medio ácido y básico), coeficientes enteros mínimos.
+- Nomenclatura inorgánica: ≥ 100 pares nombre ↔ fórmula en las 3 nomenclaturas.
+- Nomenclatura orgánica: ≥ 80 pares IUPAC ↔ SMILES verificados contra PubChem.
+- VSEPR: ≥ 25 moléculas de libro (geometría y ángulos).
+- pH: fuertes/débiles, buffers, puntos de titulación vs analítico (error < 0.01 unidades).
+- Gases, termo, cinética, equilibrio, Nernst vs ejercicios resueltos (Chang, Brown).
+- Orbitales: normalización de ψ y número de nodos radiales/angulares.
+- Integridad de datos: todos los elementos/moléculas del catálogo cargan con sus campos obligatorios.
+- Generar `docs/tabla_validacion.md` (analítico vs calculado, % de error).
+
+## Rendimiento y UX
+
+- Carga diferida por módulo; RDKit, Fuse.js, Three.js, KaTeX y Recharts **solo** en los chunks que los usan.
+  **Portada < 100 kB comprimidos** (revisar la salida de `npm run build`).
+- 60 FPS en laptop con gráficos integrados; botón FPS en las escenas 3D (`usePreferencias().mostrarFPS`).
+- Responsive de 360 px a escritorio (probar 1366×768). Accesible: contraste WCAG AA, foco visible, teclado.
+- Colores siempre con los tokens de `src/styles/index.css` (`bg-superficie`, `text-texto-suave`…).
+- localStorage **siempre** vía `src/lib/almacenamiento.ts` (envuelto en try/catch).
+- **Nada de etiquetas de desarrollo en la interfaz** («Fase X», «TODO», lorem…). Un módulo sin implementar
+  muestra «Módulo en preparación».
+
+## Flujo de trabajo por fases
+
+- Una fase a la vez; esperar confirmación del autor antes de pasar a la siguiente.
+- Al terminar cada fase: `npm run build` y `npm test` sin errores, resumen corto de qué se hizo y cómo probarlo.
+- Commit descriptivo al final de cada fase. **No hacer push a `main` hasta que el autor lo confirme.**
+- No incluir AGENTS.md.
+
+### Fases
+
+0. Proyecto, dependencias, estructura, layout, router, portada, CLAUDE.md, git, GitHub Actions, PWA básica.
+1. Scripts de datos (PubChem, constantes) + chem/elements, formula, orbitals + tests. Módulos 1–3.
+2. RDKit, vsepr + tests. Módulos 4–7.
+3. Nomenclatura inorgánica, balanceo (fracciones exactas, redox), estequiometría + tests. Módulos 8–11.
+4. Gases, soluciones, termoquímica + tests. Módulos 12–14.
+5. Cinética, equilibrio, ácidos-bases, electroquímica + tests. Módulos 15–19.
+6. Orgánica básica (nomenclatura IUPAC + tests). Módulos 20–24.
+7. Modo estudio (quizzes, flashcards SM-2) y modo examen de admisión (A–E, cronometrado, solución paso a paso).
+8. Pulido, rendimiento, accesibilidad, PWA offline completa («Descargar todo»), créditos, docs, README, deploy.
+
+Extra (solo cuando el autor lo indique): 9 estereoquímica · 10 mecanismos animados · 11 espectroscopía ·
+12 síntesis y biomoléculas.
