@@ -1,0 +1,2 @@
+# Los molfile/SDF tienen columnas fijas: siempre con fin de línea LF
+*.sdf text eol=lf
