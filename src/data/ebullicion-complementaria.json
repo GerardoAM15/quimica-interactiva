@@ -1,0 +1,11 @@
+{
+  "fuente": {
+    "nombre": "Puntos de ebullición que no figuran en PubChem",
+    "referencias": ["CRC Handbook of Chemistry and Physics, sección 4: «Physical Constants of Inorganic Compounds»"],
+    "pendienteRevision": true
+  },
+  "valores": {
+    "telururo de hidrógeno": -2.2,
+    "estannano": -51.8
+  }
+}

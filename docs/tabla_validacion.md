@@ -215,3 +215,62 @@ Valida los parámetros de red de src/data/cristales.json: ρ = Z·M/(N_A·V_celd
 | CsCl: ρ = Z·M/(N_A·a³) | 3.99 | 3.988745 | g/cm³ | 3.15e-2 | CRC Handbook (pendiente de revisión) |
 | CaF2: ρ = Z·M/(N_A·a³) | 3.18 | 3.1807271 | g/cm³ | 2.29e-2 | CRC Handbook (pendiente de revisión) |
 | ZnS: ρ = Z·M/(N_A·a³) | 4.09 | 4.0878894 | g/cm³ | 5.16e-2 | CRC Handbook (pendiente de revisión) |
+
+## VSEPR: ángulo ideal vs experimental
+
+43 moléculas e iones verificados en notación, geometría, hibridación y polaridad. Los pares libres reducen el ángulo real respecto del ideal (p. ej. H₂O 104,5° frente a 109,5°).
+
+| Caso | Referencia | Calculado | Unidad | Error (%) | Fuente |
+|---|---|---|---|---|---|
+| BeCl2: lineal | 180 | 180 | ° (ideal VSEPR) | 0.00e+0 | Chang / Brown (ángulo experimental) |
+| CO2: lineal | 180 | 180 | ° (ideal VSEPR) | 0.00e+0 | Chang / Brown (ángulo experimental) |
+| HCN: lineal | 180 | 180 | ° (ideal VSEPR) | 0.00e+0 | Chang / Brown (ángulo experimental) |
+| BF3: trigonal plana | 120 | 120 | ° (ideal VSEPR) | 0.00e+0 | Chang / Brown (ángulo experimental) |
+| SO3: trigonal plana | 120 | 120 | ° (ideal VSEPR) | 0.00e+0 | Chang / Brown (ángulo experimental) |
+| CO3^2-: trigonal plana | 120 | 120 | ° (ideal VSEPR) | 0.00e+0 | Chang / Brown (ángulo experimental) |
+| NO3-: trigonal plana | 120 | 120 | ° (ideal VSEPR) | 0.00e+0 | Chang / Brown (ángulo experimental) |
+| SO2: angular | 119 | 120 | ° (ideal VSEPR) | 8.40e-1 | Chang / Brown (ángulo experimental) |
+| O3: angular | 117 | 120 | ° (ideal VSEPR) | 2.56e+0 | Chang / Brown (ángulo experimental) |
+| NO2-: angular | 115 | 120 | ° (ideal VSEPR) | 4.35e+0 | Chang / Brown (ángulo experimental) |
+| CH4: tetraédrica | 109.5 | 109.5 | ° (ideal VSEPR) | 0.00e+0 | Chang / Brown (ángulo experimental) |
+| CCl4: tetraédrica | 109.5 | 109.5 | ° (ideal VSEPR) | 0.00e+0 | Chang / Brown (ángulo experimental) |
+| NH4+: tetraédrica | 109.5 | 109.5 | ° (ideal VSEPR) | 0.00e+0 | Chang / Brown (ángulo experimental) |
+| SO4^2-: tetraédrica | 109.5 | 109.5 | ° (ideal VSEPR) | 0.00e+0 | Chang / Brown (ángulo experimental) |
+| NH3: piramidal trigonal | 107 | 109.5 | ° (ideal VSEPR) | 2.34e+0 | Chang / Brown (ángulo experimental) |
+| PCl3: piramidal trigonal | 100 | 109.5 | ° (ideal VSEPR) | 9.50e+0 | Chang / Brown (ángulo experimental) |
+| NF3: piramidal trigonal | 102 | 109.5 | ° (ideal VSEPR) | 7.35e+0 | Chang / Brown (ángulo experimental) |
+| H2O: angular | 104.5 | 109.5 | ° (ideal VSEPR) | 4.78e+0 | Chang / Brown (ángulo experimental) |
+| H2S: angular | 92 | 109.5 | ° (ideal VSEPR) | 1.90e+1 | Chang / Brown (ángulo experimental) |
+| OF2: angular | 103 | 109.5 | ° (ideal VSEPR) | 6.31e+0 | Chang / Brown (ángulo experimental) |
+| XeF2: lineal | 180 | 180 | ° (ideal VSEPR) | 0.00e+0 | Chang / Brown (ángulo experimental) |
+| I3-: lineal | 180 | 180 | ° (ideal VSEPR) | 0.00e+0 | Chang / Brown (ángulo experimental) |
+| SF6: octaédrica | 90 | 90 | ° (ideal VSEPR) | 0.00e+0 | Chang / Brown (ángulo experimental) |
+| XeF4: cuadrada plana | 90 | 90 | ° (ideal VSEPR) | 0.00e+0 | Chang / Brown (ángulo experimental) |
+| ICl4-: cuadrada plana | 90 | 90 | ° (ideal VSEPR) | 0.00e+0 | Chang / Brown (ángulo experimental) |
+| N3-: lineal | 180 | 180 | ° (ideal VSEPR) | 0.00e+0 | Chang / Brown (ángulo experimental) |
+
+## Ángulos de enlace en los conformeros 3D
+
+| Caso | Referencia | Calculado | Unidad | Error (%) | Fuente |
+|---|---|---|---|---|---|
+| agua: ángulo H–O–H | 104.5 | 103.98 | ° | 4.98e-1 | Experimental (Chang/Brown) vs conformero de PubChem |
+| amoníaco: ángulo H–N–H | 107 | 106 | ° | 9.35e-1 | Experimental (Chang/Brown) vs conformero de PubChem |
+| metano: ángulo H–C–H | 109.5 | 109.47 | ° | 2.74e-2 | Experimental (Chang/Brown) vs conformero de PubChem |
+| eteno (etileno): ángulo H–C–H | 117 | 118.52 | ° | 1.30e+0 | Experimental (Chang/Brown) vs conformero de PubChem |
+| dióxido de carbono: ángulo O–C–O | 180 | 180 | ° | 0.00e+0 | Experimental (Chang/Brown) vs conformero de PubChem |
+| metanal (formaldehído): ángulo H–C–H | 116 | 115.53 | ° | 4.05e-1 | Experimental (Chang/Brown) vs conformero de PubChem |
+
+## Puntos de ebullición del catálogo (PubChem)
+
+| Caso | Referencia | Calculado | Unidad | Error (%) | Fuente |
+|---|---|---|---|---|---|
+| agua | 100 | 99.97 | °C | 3.00e-2 | Valor de libro vs PubChem |
+| etanol | 78.3 | 78.24 | °C | 7.66e-2 | Valor de libro vs PubChem |
+| metanol | 64.7 | 64.7 | °C | 0.00e+0 | Valor de libro vs PubChem |
+| benceno | 80.1 | 80.08 | °C | 2.50e-2 | Valor de libro vs PubChem |
+| etoxietano (éter dietílico) | 34.6 | 35 | °C | 1.16e+0 | Valor de libro vs PubChem |
+| hexano | 68.7 | 68.73 | °C | 4.37e-2 | Valor de libro vs PubChem |
+| tetraclorometano | 76.7 | 76.7 | °C | 0.00e+0 | Valor de libro vs PubChem |
+| propanona (acetona) | 56.1 | 56.08 | °C | 3.57e-2 | Valor de libro vs PubChem |
+| amoníaco | -33.3 | -33.35 | °C | 1.50e-1 | Valor de libro vs PubChem |
+| metano | -161.5 | -161.5 | °C | 0.00e+0 | Valor de libro vs PubChem |

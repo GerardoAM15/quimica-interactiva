@@ -1,0 +1,4893 @@
+{
+ "fuente": {
+  "nombre": "PubChem (NCBI/NIH): propiedades, conformeros 3D y puntos de ebullición (PUG View)",
+  "url": "https://pubchem.ncbi.nlm.nih.gov/",
+  "licencia": "Dominio público; cada punto de ebullición conserva su referencia original",
+  "descargado": "2026-11-03",
+  "notas": "tiene3D = false: PubChem no publica conformero 3D (iones, sales o moléculas muy flexibles); la app genera una geometría aproximada."
+ },
+ "moleculas": [
+  {
+   "cid": 962,
+   "nombre": "agua",
+   "nombreIngles": "Water",
+   "formula": "H2O",
+   "carga": 0,
+   "masaMolar": 18.015,
+   "iupac": "oxidane",
+   "smiles": "O",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 99.97,
+    "texto": "99.974 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 94th Edition. CRC Press LLC, Boca Raton: FL 2013-2014, p. 4-98",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 784,
+   "nombre": "peróxido de hidrógeno",
+   "nombreIngles": "Hydrogen Peroxide",
+   "formula": "H2O2",
+   "carga": 0,
+   "masaMolar": 34.015,
+   "iupac": "hydrogen peroxide",
+   "smiles": "OO",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 150.2,
+    "texto": "150.2 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 4-67",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 222,
+   "nombre": "amoníaco",
+   "nombreIngles": "Ammonia",
+   "formula": "H3N",
+   "carga": 0,
+   "masaMolar": 17.031,
+   "iupac": "azane",
+   "smiles": "N",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -33.35,
+    "texto": "-33.35 °C at 760 mm Hg",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals. Cambridge, UK:  Royal Society of Chemistry, 2013., p. 88",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 280,
+   "nombre": "dióxido de carbono",
+   "nombreIngles": "Carbon Dioxide",
+   "formula": "CO2",
+   "carga": 0,
+   "masaMolar": 44.009,
+   "iupac": "carbon dioxide",
+   "smiles": "C(=O)=O",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -78.46,
+    "texto": "-78.464 °C (sublimes)",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 4-56",
+    "sublima": true
+   }
+  },
+  {
+   "cid": 281,
+   "nombre": "monóxido de carbono",
+   "nombreIngles": "Carbon Monoxide",
+   "formula": "CO",
+   "carga": 0,
+   "masaMolar": 28.01,
+   "iupac": "carbon monoxide",
+   "smiles": "[C-]#[O+]",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -191.5,
+    "texto": "-191.5 °C",
+    "fuente": "Lide, D.R. CRC Handbook of Chemistry and Physics 88TH    Edition 2007-2008. CRC Press, Taylor & Francis, Boca Raton,    FL 2007, p. 3-88",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 977,
+   "nombre": "oxígeno (O2)",
+   "nombreIngles": "Oxygen",
+   "formula": "O2",
+   "carga": 0,
+   "masaMolar": 31.999,
+   "iupac": "molecular oxygen",
+   "smiles": "O=O",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -182.96,
+    "texto": "-182.96 °C",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of  Chemicals, Drugs, and Biologicals. 13th Edition, Whitehouse  Station, NJ:  Merck and Co., Inc., 2001., p. 1246",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 24823,
+   "nombre": "ozono",
+   "nombreIngles": "Ozone",
+   "formula": "O3",
+   "carga": 0,
+   "masaMolar": 47.998,
+   "iupac": "ozone",
+   "smiles": "[O-][O+]=O",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -111.9,
+    "texto": "-111.9 °C",
+    "fuente": "Lide, D.R. (ed.). CRC Handbook of Chemistry and Physics. 73rd ed. Boca Raton, FL: CRC Press Inc., 1992-1993., p. 4-80",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 947,
+   "nombre": "nitrógeno (N2)",
+   "nombreIngles": "Nitrogen",
+   "formula": "N2",
+   "carga": 0,
+   "masaMolar": 28.014,
+   "iupac": "molecular nitrogen",
+   "smiles": "N#N",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -195.79,
+    "texto": "-195.79 °C (77.36 K)",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals. Cambridge, UK:  Royal Society of Chemistry, 2013., p. 1228",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 783,
+   "nombre": "hidrógeno (H2)",
+   "nombreIngles": "Hydrogen",
+   "formula": "H2",
+   "carga": 0,
+   "masaMolar": 2.016,
+   "iupac": "molecular hydrogen",
+   "smiles": "[HH]",
+   "categoria": "inorganica",
+   "tiene3D": false,
+   "puntoEbullicion": {
+    "valor": -252.87,
+    "texto": "20.28 K",
+    "fuente": "PubChem Periodic Table (punto de ebullición del elemento)",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 24524,
+   "nombre": "flúor (F2)",
+   "nombreIngles": "Fluorine",
+   "formula": "F2",
+   "carga": 0,
+   "masaMolar": 37.99680632,
+   "iupac": "molecular fluorine",
+   "smiles": "FF",
+   "categoria": "inorganica",
+   "tiene3D": false,
+   "puntoEbullicion": {
+    "valor": -188.13,
+    "texto": "-188.13 °C",
+    "fuente": "Haynes, W.M. (ed.) CRC Handbook of Chemistry and Physics.   91st ed. Boca Raton, FL: CRC Press Inc., 2010-2011, p. 4-64",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 24526,
+   "nombre": "cloro (Cl2)",
+   "nombreIngles": "Chlorine",
+   "formula": "Cl2",
+   "carga": 0,
+   "masaMolar": 70.9,
+   "iupac": "molecular chlorine",
+   "smiles": "ClCl",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -34.04,
+    "texto": "-34.04 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 4-58",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 24408,
+   "nombre": "bromo (Br2)",
+   "nombreIngles": "Bromine",
+   "formula": "Br2",
+   "carga": 0,
+   "masaMolar": 159.81,
+   "iupac": "molecular bromine",
+   "smiles": "BrBr",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 58.8,
+    "texto": "58.8 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 94th Edition. CRC Press LLC, Boca Raton: FL 2013-2014, p. 4-53",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 807,
+   "nombre": "yodo (I2)",
+   "nombreIngles": "Iodine",
+   "formula": "I2",
+   "carga": 0,
+   "masaMolar": 253.8089,
+   "iupac": "molecular iodine",
+   "smiles": "II",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 184.4,
+    "texto": "184.4 °C",
+    "fuente": "Lide, D.R. CRC Handbook of Chemistry and Physics 86TH  Edition 2005-2006. CRC Press, Taylor & Francis, Boca Raton,  FL 2005, p. 4-19",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 14917,
+   "nombre": "fluoruro de hidrógeno",
+   "nombreIngles": "Hydrofluoric Acid",
+   "formula": "FH",
+   "carga": 0,
+   "masaMolar": 20.0064,
+   "iupac": "fluorane",
+   "smiles": "F",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 20,
+    "texto": "20 °C",
+    "fuente": "PubChem",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 313,
+   "nombre": "cloruro de hidrógeno",
+   "nombreIngles": "Hydrochloric Acid",
+   "formula": "ClH",
+   "carga": 0,
+   "masaMolar": 36.46,
+   "iupac": "chlorane",
+   "smiles": "Cl",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -85.05,
+    "texto": "-85.05 °C at 760 mm Hg",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals. Cambridge, UK:  Royal Society of Chemistry, 2013., p. 888",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 260,
+   "nombre": "bromuro de hidrógeno",
+   "nombreIngles": "Hydrogen Bromide",
+   "formula": "BrH",
+   "carga": 0,
+   "masaMolar": 80.91,
+   "iupac": "bromane",
+   "smiles": "Br",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -66.38,
+    "texto": "-66.38 °C",
+    "fuente": "Rumble J. (ed.). CRC Handbook of Chemistry and Physics. 99th ed. Cleveland: CRC Press Inc., 2018., p. 4-44",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 24841,
+   "nombre": "yoduro de hidrógeno",
+   "nombreIngles": "Hydrogen iodide",
+   "formula": "HI",
+   "carga": 0,
+   "masaMolar": 127.9124,
+   "iupac": "iodane",
+   "smiles": "I",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -35.1,
+    "texto": "-35.1 °C at 760 mm Hg",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of  Chemicals, Drugs, and Biologicals. 13th Edition, Whitehouse  Station, NJ:  Merck and Co., Inc., 2001., p. 858",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 402,
+   "nombre": "sulfuro de hidrógeno",
+   "nombreIngles": "Hydrogen Sulfide",
+   "formula": "H2S",
+   "carga": 0,
+   "masaMolar": 34.08,
+   "iupac": "sulfane",
+   "smiles": "S",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -60.33,
+    "texto": "-60.33 °C",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals. Whitehouse Station, NJ:  Merck and Co., Inc., 2006., p. 831",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 533,
+   "nombre": "seleniuro de hidrógeno",
+   "nombreIngles": "Hydrogen selenide",
+   "formula": "H2Se",
+   "carga": 0,
+   "masaMolar": 80.99,
+   "iupac": "selane",
+   "smiles": "[SeH2]",
+   "categoria": "inorganica",
+   "tiene3D": false,
+   "puntoEbullicion": {
+    "valor": -41.3,
+    "texto": "-41.3 °C",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals. Whitehouse Station, NJ:  Merck and Co., Inc., 2006., p. 831",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 21765,
+   "nombre": "telururo de hidrógeno",
+   "nombreIngles": "Hydrogen telluride",
+   "formula": "H2Te",
+   "carga": 0,
+   "masaMolar": 129.6,
+   "iupac": "tellane",
+   "smiles": "[TeH2]",
+   "categoria": "inorganica",
+   "tiene3D": false,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 1119,
+   "nombre": "dióxido de azufre",
+   "nombreIngles": "Sulfur Dioxide",
+   "formula": "O2S",
+   "carga": 0,
+   "masaMolar": 64.07,
+   "iupac": "sulfur dioxide",
+   "smiles": "O=S=O",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -10.05,
+    "texto": "-10.05 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 4-92",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 24682,
+   "nombre": "trióxido de azufre",
+   "nombreIngles": "Sulfur trioxide",
+   "formula": "O3S",
+   "carga": 0,
+   "masaMolar": 80.07,
+   "iupac": "sulfur trioxide",
+   "smiles": "O=S(=O)=O",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 44.8,
+    "texto": "44.8 °C",
+    "fuente": "PubChem",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 145068,
+   "nombre": "monóxido de nitrógeno",
+   "nombreIngles": "Nitric Oxide",
+   "formula": "NO",
+   "carga": 0,
+   "masaMolar": 30.006,
+   "iupac": "nitric oxide",
+   "smiles": "[N]=O",
+   "categoria": "inorganica",
+   "tiene3D": false,
+   "puntoEbullicion": {
+    "valor": -151.74,
+    "texto": "-151.74 °C",
+    "fuente": "Lide, D.R. (ed.). CRC Handbook of Chemistry and Physics. 76th ed. Boca Raton, FL: CRC Press Inc., 1995-1996., p. 4-74",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 3032552,
+   "nombre": "dióxido de nitrógeno",
+   "nombreIngles": "Nitrogen Dioxide",
+   "formula": "NO2",
+   "carga": 0,
+   "masaMolar": 46.006,
+   "iupac": null,
+   "smiles": "N(=O)[O]",
+   "categoria": "inorganica",
+   "tiene3D": false,
+   "puntoEbullicion": {
+    "valor": 21.15,
+    "texto": "21.15 °C",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals. Whitehouse Station, NJ:  Merck and Co., Inc., 2006., p. 1142",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 948,
+   "nombre": "óxido nitroso",
+   "nombreIngles": "Nitrous Oxide",
+   "formula": "N2O",
+   "carga": 0,
+   "masaMolar": 44.013,
+   "iupac": "nitrous oxide",
+   "smiles": "[N-]=[N+]=O",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -88.48,
+    "texto": "-88.48 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 4-78",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 25352,
+   "nombre": "tetróxido de dinitrógeno",
+   "nombreIngles": "Nitrogen oxide (N2O4)",
+   "formula": "N2O4",
+   "carga": 0,
+   "masaMolar": 92.011,
+   "iupac": null,
+   "smiles": "[N+](=O)([N+](=O)[O-])[O-]",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 21.15,
+    "texto": "21.15 °C",
+    "fuente": "Lide, D.R. CRC Handbook of Chemistry and Physics 88TH    Edition 2007-2008. CRC Press, Taylor & Francis, Boca Raton,    FL 2007, p. 4-79",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 768,
+   "nombre": "cianuro de hidrógeno",
+   "nombreIngles": "Hydrogen Cyanide",
+   "formula": "CHN",
+   "carga": 0,
+   "masaMolar": 27.025,
+   "iupac": "formonitrile",
+   "smiles": "C#N",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 25.63,
+    "texto": "25.63 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-302",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 24404,
+   "nombre": "fosfina",
+   "nombreIngles": "Phosphine",
+   "formula": "H3P",
+   "carga": 0,
+   "masaMolar": 33.998,
+   "iupac": "phosphane",
+   "smiles": "P",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -87.75,
+    "texto": "-87.75 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 4-80",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 23969,
+   "nombre": "arsina",
+   "nombreIngles": "Arsine",
+   "formula": "AsH3",
+   "carga": 0,
+   "masaMolar": 77.946,
+   "iupac": "arsane",
+   "smiles": "[AsH3]",
+   "categoria": "inorganica",
+   "tiene3D": false,
+   "puntoEbullicion": {
+    "valor": -62.5,
+    "texto": "-62.5 °C",
+    "fuente": "Haynes, W.M. (ed.) CRC Handbook of Chemistry and Physics.   91st ed. Boca Raton, FL: CRC Press Inc., 2010-2011, p. 4-49",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 9359,
+   "nombre": "estibina",
+   "nombreIngles": "Stibine",
+   "formula": "H3Sb",
+   "carga": 0,
+   "masaMolar": 124.784,
+   "iupac": "stibane",
+   "smiles": "[SbH3]",
+   "categoria": "inorganica",
+   "tiene3D": false,
+   "puntoEbullicion": {
+    "valor": -17,
+    "texto": "-17 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 4-48",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 23953,
+   "nombre": "silano",
+   "nombreIngles": "Silane",
+   "formula": "H4Si",
+   "carga": 0,
+   "masaMolar": 32.117,
+   "iupac": "silane",
+   "smiles": "[SiH4]",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -112,
+    "texto": "-112 °C",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of  Chemicals, Drugs, and Biologicals. 13th Edition, Whitehouse  Station, NJ:  Merck and Co., Inc., 2001., p. 1523",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 23984,
+   "nombre": "germano",
+   "nombreIngles": "Germanium tetrahydride",
+   "formula": "GeH4",
+   "carga": 0,
+   "masaMolar": 76.66,
+   "iupac": "germane",
+   "smiles": "[GeH4]",
+   "categoria": "inorganica",
+   "tiene3D": false,
+   "puntoEbullicion": {
+    "valor": -88.1,
+    "texto": "-88.1 °C",
+    "fuente": "Lide, D.R. CRC Handbook of Chemistry and Physics 88TH    Edition 2007-2008. CRC Press, Taylor & Francis, Boca Raton,    FL 2007, p. 4-65",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 123161,
+   "nombre": "estannano",
+   "nombreIngles": "Stannane",
+   "formula": "H4Sn",
+   "carga": 0,
+   "masaMolar": 122.74,
+   "iupac": "stannane",
+   "smiles": "[SnH4]",
+   "categoria": "inorganica",
+   "tiene3D": false,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 24387,
+   "nombre": "tricloruro de fósforo",
+   "nombreIngles": "Phosphorus trichloride",
+   "formula": "Cl3P",
+   "carga": 0,
+   "masaMolar": 137.33,
+   "iupac": "trichlorophosphane",
+   "smiles": "P(Cl)(Cl)Cl",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 76.1,
+    "texto": "76.1 °C",
+    "fuente": "Lide, D.R. CRC Handbook of Chemistry and Physics 86TH  Edition 2005-2006. CRC Press, Taylor & Francis, Boca Raton,  FL 2005, p. 4-77",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 24819,
+   "nombre": "pentacloruro de fósforo",
+   "nombreIngles": "Phosphorus pentachloride",
+   "formula": "Cl5P",
+   "carga": 0,
+   "masaMolar": 208.2,
+   "iupac": "pentachloro-lambda5-phosphane",
+   "smiles": "P(Cl)(Cl)(Cl)(Cl)Cl",
+   "categoria": "inorganica",
+   "tiene3D": false,
+   "puntoEbullicion": {
+    "valor": 159,
+    "texto": "159 °C (sublimes)",
+    "fuente": "Gerhartz, W. (exec ed.). Ullmann's Encyclopedia of Industrial Chemistry. 5th ed.Vol A1: Deerfield Beach, FL: VCH Publishers, 1985 to Present., p. 532",
+    "sublima": true
+   }
+  },
+  {
+   "cid": 17358,
+   "nombre": "hexafluoruro de azufre",
+   "nombreIngles": "Sulfur Hexafluoride",
+   "formula": "F6S",
+   "carga": 0,
+   "masaMolar": 146.06,
+   "iupac": "hexafluoro-lambda6-sulfane",
+   "smiles": "FS(F)(F)(F)(F)F",
+   "categoria": "inorganica",
+   "tiene3D": false,
+   "puntoEbullicion": {
+    "valor": -63.8,
+    "texto": "-63.8 °C (sublimes)",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals. Cambridge, UK:  Royal Society of Chemistry, 2013., p. 1659",
+    "sublima": true
+   }
+  },
+  {
+   "cid": 24555,
+   "nombre": "tetrafluoruro de azufre",
+   "nombreIngles": "Sulfur tetrafluoride",
+   "formula": "F4S",
+   "carga": 0,
+   "masaMolar": 108.06,
+   "iupac": "tetrafluoro-lambda4-sulfane",
+   "smiles": "FS(F)(F)F",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -38,
+    "texto": "-38 °C",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals. Cambridge, UK:  Royal Society of Chemistry, 2013., p. 1660",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 6356,
+   "nombre": "trifluoruro de boro",
+   "nombreIngles": "Boron trifluoride",
+   "formula": "BF3",
+   "carga": 0,
+   "masaMolar": 67.81,
+   "iupac": "trifluoroborane",
+   "smiles": "B(F)(F)F",
+   "categoria": "inorganica",
+   "tiene3D": false,
+   "puntoEbullicion": {
+    "valor": -99.9,
+    "texto": "-99.9 °C",
+    "fuente": "Haynes, W.M. (ed.) CRC Handbook of Chemistry and Physics.   91st ed. Boca Raton, FL: CRC Press Inc., 2010-2011, p. 4-53",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 25135,
+   "nombre": "tricloruro de boro",
+   "nombreIngles": "Boron Trichloride",
+   "formula": "BCl3",
+   "carga": 0,
+   "masaMolar": 117.2,
+   "iupac": "trichloroborane",
+   "smiles": "B(Cl)(Cl)Cl",
+   "categoria": "inorganica",
+   "tiene3D": false,
+   "puntoEbullicion": {
+    "valor": 12.5,
+    "texto": "12.5 °C",
+    "fuente": "Haynes, W.M. (ed.) CRC Handbook of Chemistry and Physics.   91st ed. Boca Raton, FL: CRC Press Inc., 2010-2011, p. 4-53",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 24588,
+   "nombre": "cloruro de berilio",
+   "nombreIngles": "Beryllium Chloride",
+   "formula": "BeCl2",
+   "carga": 0,
+   "masaMolar": 79.92,
+   "iupac": "beryllium dichloride",
+   "smiles": "[Be+2].[Cl-].[Cl-]",
+   "categoria": "inorganica",
+   "tiene3D": false,
+   "puntoEbullicion": {
+    "valor": 482,
+    "texto": "482 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 94th Edition. CRC Press LLC, Boca Raton: FL 2013-2014, p. 4-51",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 83674,
+   "nombre": "difluoruro de xenón",
+   "nombreIngles": "Xenon difluoride",
+   "formula": "F2Xe",
+   "carga": 0,
+   "masaMolar": 169.29,
+   "iupac": "difluoroxenon",
+   "smiles": "F[Xe]F",
+   "categoria": "inorganica",
+   "tiene3D": false,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 123324,
+   "nombre": "tetrafluoruro de xenón",
+   "nombreIngles": "Xenon tetrafluoride",
+   "formula": "F4Xe",
+   "carga": 0,
+   "masaMolar": 207.29,
+   "iupac": "tetrafluoroxenon",
+   "smiles": "F[Xe](F)(F)F",
+   "categoria": "inorganica",
+   "tiene3D": false,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 24637,
+   "nombre": "trifluoruro de cloro",
+   "nombreIngles": "Chlorine trifluoride",
+   "formula": "ClF3",
+   "carga": 0,
+   "masaMolar": 92.45,
+   "iupac": "trifluoro-lambda3-chlorane",
+   "smiles": "FCl(F)F",
+   "categoria": "inorganica",
+   "tiene3D": false,
+   "puntoEbullicion": {
+    "valor": 11.75,
+    "texto": "11.75 °C",
+    "fuente": "Budavari, S. (ed.). The Merck Index - Encyclopedia of Chemicals, Drugs and Biologicals. Rahway, NJ: Merck and Co., Inc., 1989., p. 324",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 24606,
+   "nombre": "pentafluoruro de bromo",
+   "nombreIngles": "Bromine pentafluoride",
+   "formula": "BrF5",
+   "carga": 0,
+   "masaMolar": 174.9,
+   "iupac": "pentafluoro-lambda5-bromane",
+   "smiles": "FBr(F)(F)(F)F",
+   "categoria": "inorganica",
+   "tiene3D": false,
+   "puntoEbullicion": {
+    "valor": 40.76,
+    "texto": "40.76 °C",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals. Cambridge, UK:  Royal Society of Chemistry, 2013., p. 246",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 522683,
+   "nombre": "pentafluoruro de yodo",
+   "nombreIngles": "Iodine pentafluoride",
+   "formula": "F5I",
+   "carga": 0,
+   "masaMolar": 221.8965,
+   "iupac": "pentafluoro-lambda5-iodane",
+   "smiles": "FI(F)(F)(F)F",
+   "categoria": "inorganica",
+   "tiene3D": false,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 24816,
+   "nombre": "tetracloruro de silicio",
+   "nombreIngles": "Silicon tetrachloride",
+   "formula": "Cl4Si",
+   "carga": 0,
+   "masaMolar": 169.9,
+   "iupac": "tetrachlorosilane",
+   "smiles": "[Si](Cl)(Cl)(Cl)Cl",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 59,
+    "texto": "59 °C",
+    "fuente": "Budavari, S. (ed.). The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals. Whitehouse Station, NJ: Merck and Co., Inc., 1996., p. 1461",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 24553,
+   "nombre": "trifluoruro de nitrógeno",
+   "nombreIngles": "Nitrogen trifluoride",
+   "formula": "F3N",
+   "carga": 0,
+   "masaMolar": 71.002,
+   "iupac": null,
+   "smiles": "N(F)(F)F",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -128.75,
+    "texto": "-128.75 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 4-79",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 1118,
+   "nombre": "ácido sulfúrico",
+   "nombreIngles": "Sulfuric Acid",
+   "formula": "H2O4S",
+   "carga": 0,
+   "masaMolar": 98.08,
+   "iupac": "sulfuric acid",
+   "smiles": "OS(=O)(=O)O",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 337,
+    "texto": "337 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 4-92",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 944,
+   "nombre": "ácido nítrico",
+   "nombreIngles": "Nitric Acid",
+   "formula": "HNO3",
+   "carga": 0,
+   "masaMolar": 63.013,
+   "iupac": "nitric acid",
+   "smiles": "[N+](=O)(O)[O-]",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 83,
+    "texto": "83 °C",
+    "fuente": "Lide, D.R. CRC Handbook of Chemistry and Physics 88TH    Edition 2007-2008. CRC Press, Taylor & Francis, Boca Raton,    FL 2007, p. 4-78",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 24529,
+   "nombre": "ácido nitroso",
+   "nombreIngles": "Nitrous Acid",
+   "formula": "HNO2",
+   "carga": 0,
+   "masaMolar": 47.014,
+   "iupac": "nitrous acid",
+   "smiles": "N(=O)O",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 1004,
+   "nombre": "ácido fosfórico",
+   "nombreIngles": "Phosphoric Acid",
+   "formula": "H3O4P",
+   "carga": 0,
+   "masaMolar": 97.995,
+   "iupac": "phosphoric acid",
+   "smiles": "OP(=O)(O)O",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 407,
+    "texto": "407 °C",
+    "fuente": "Lide, D.R. CRC Handbook of Chemistry and Physics 88TH    Edition 2007-2008. CRC Press, Taylor & Francis, Boca Raton,    FL 2007, p. 4-80",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 24247,
+   "nombre": "ácido perclórico",
+   "nombreIngles": "Perchloric Acid",
+   "formula": "ClHO4",
+   "carga": 0,
+   "masaMolar": 100.46,
+   "iupac": "perchloric acid",
+   "smiles": "OCl(=O)(=O)=O",
+   "categoria": "inorganica",
+   "tiene3D": false,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 24341,
+   "nombre": "ácido hipocloroso",
+   "nombreIngles": "Hypochlorous Acid",
+   "formula": "ClHO",
+   "carga": 0,
+   "masaMolar": 52.46,
+   "iupac": "hypochlorous acid",
+   "smiles": "OCl",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 767,
+   "nombre": "ácido carbónico",
+   "nombreIngles": "Carbonic Acid",
+   "formula": "CH2O3",
+   "carga": 0,
+   "masaMolar": 62.025,
+   "iupac": "carbonic acid",
+   "smiles": "C(=O)(O)O",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 9321,
+   "nombre": "hidrazina",
+   "nombreIngles": "Hydrazine",
+   "formula": "H4N2",
+   "carga": 0,
+   "masaMolar": 32.046,
+   "iupac": "hydrazine",
+   "smiles": "NN",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 113.55,
+    "texto": "113.55 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 4-66",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 24813,
+   "nombre": "oxicloruro de fósforo",
+   "nombreIngles": "Phosphorus oxychloride",
+   "formula": "Cl3OP",
+   "carga": 0,
+   "masaMolar": 153.33,
+   "iupac": "phosphoryl trichloride",
+   "smiles": "O=P(Cl)(Cl)Cl",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 105.8,
+    "texto": "105.8 °C",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals. Whitehouse Station, NJ:  Merck and Co., Inc., 2006., p. 1267",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 6371,
+   "nombre": "fosgeno",
+   "nombreIngles": "Phosgene",
+   "formula": "CCl2O",
+   "carga": 0,
+   "masaMolar": 98.91,
+   "iupac": "carbonyl dichloride",
+   "smiles": "C(=O)(Cl)Cl",
+   "categoria": "inorganica",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 8.2,
+    "texto": "8.2 °C at 760 mm Hg",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of  Chemicals, Drugs, and Biologicals. 13th Edition, Whitehouse  Station, NJ:  Merck and Co., Inc., 2001., p. 1315",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 223,
+   "nombre": "ion amonio",
+   "nombreIngles": "Ammonium",
+   "formula": "H4N+",
+   "carga": 1,
+   "masaMolar": 18.039,
+   "iupac": "azanium",
+   "smiles": "[NH4+]",
+   "categoria": "ion",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 123332,
+   "nombre": "ion hidronio",
+   "nombreIngles": "Oxonium",
+   "formula": "H3O+",
+   "carga": 1,
+   "masaMolar": 19.023,
+   "iupac": "oxidanium",
+   "smiles": "[OH3+]",
+   "categoria": "ion",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 943,
+   "nombre": "ion nitrato",
+   "nombreIngles": "Nitrate",
+   "formula": "NO3-",
+   "carga": -1,
+   "masaMolar": 62.005,
+   "iupac": "nitrate",
+   "smiles": "[N+](=O)([O-])[O-]",
+   "categoria": "ion",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 946,
+   "nombre": "ion nitrito",
+   "nombreIngles": "Nitrite",
+   "formula": "NO2-",
+   "carga": -1,
+   "masaMolar": 46.006,
+   "iupac": "nitrite",
+   "smiles": "N(=O)[O-]",
+   "categoria": "ion",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 19660,
+   "nombre": "ion carbonato",
+   "nombreIngles": "Carbonate Ion",
+   "formula": "CO3-2",
+   "carga": -2,
+   "masaMolar": 60.009,
+   "iupac": "carbonate",
+   "smiles": "C(=O)([O-])[O-]",
+   "categoria": "ion",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 769,
+   "nombre": "ion bicarbonato",
+   "nombreIngles": "Bicarbonate Ion",
+   "formula": "CHO3-",
+   "carga": -1,
+   "masaMolar": 61.017,
+   "iupac": "hydrogen carbonate",
+   "smiles": "C(=O)(O)[O-]",
+   "categoria": "ion",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 1117,
+   "nombre": "ion sulfato",
+   "nombreIngles": "Sulfate Ion",
+   "formula": "O4S-2",
+   "carga": -2,
+   "masaMolar": 96.07,
+   "iupac": "sulfate",
+   "smiles": "[O-]S(=O)(=O)[O-]",
+   "categoria": "ion",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 1099,
+   "nombre": "ion sulfito",
+   "nombreIngles": "Sulfite",
+   "formula": "O3S-2",
+   "carga": -2,
+   "masaMolar": 80.07,
+   "iupac": "sulfite",
+   "smiles": "[O-]S(=O)[O-]",
+   "categoria": "ion",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 1061,
+   "nombre": "ion fosfato",
+   "nombreIngles": "Phosphate",
+   "formula": "O4P-3",
+   "carga": -3,
+   "masaMolar": 94.971,
+   "iupac": "phosphate",
+   "smiles": "[O-]P(=O)([O-])[O-]",
+   "categoria": "ion",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 123351,
+   "nombre": "ion perclorato",
+   "nombreIngles": "Perchlorate",
+   "formula": "ClO4-",
+   "carga": -1,
+   "masaMolar": 99.45,
+   "iupac": "perchlorate",
+   "smiles": "[O-]Cl(=O)(=O)=O",
+   "categoria": "ion",
+   "tiene3D": false,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 104770,
+   "nombre": "ion clorato",
+   "nombreIngles": "Chlorate ion",
+   "formula": "ClO3-",
+   "carga": -1,
+   "masaMolar": 83.45,
+   "iupac": "chlorate",
+   "smiles": "[O-]Cl(=O)=O",
+   "categoria": "ion",
+   "tiene3D": false,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 24401,
+   "nombre": "ion permanganato",
+   "nombreIngles": "Permanganate",
+   "formula": "MnO4-",
+   "carga": -1,
+   "masaMolar": 118.936,
+   "iupac": "permanganate",
+   "smiles": "[O-][Mn](=O)(=O)=O",
+   "categoria": "ion",
+   "tiene3D": false,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 5975,
+   "nombre": "ion cianuro",
+   "nombreIngles": "Cyanide",
+   "formula": "CN-",
+   "carga": -1,
+   "masaMolar": 26.017,
+   "iupac": "cyanide",
+   "smiles": "[C-]#N",
+   "categoria": "ion",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 175,
+   "nombre": "ion acetato",
+   "nombreIngles": "Acetate",
+   "formula": "C2H3O2-",
+   "carga": -1,
+   "masaMolar": 59.04,
+   "iupac": "acetate",
+   "smiles": "CC(=O)[O-]",
+   "categoria": "ion",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 297,
+   "nombre": "metano",
+   "nombreIngles": "Methane",
+   "formula": "CH4",
+   "carga": 0,
+   "masaMolar": 16.043,
+   "iupac": "methane",
+   "smiles": "C",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -161.5,
+    "texto": "-161.50 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 94th Edition. CRC Press LLC, Boca Raton: FL 2013-2014, p. 3-344",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 6324,
+   "nombre": "etano",
+   "nombreIngles": "Ethane",
+   "formula": "C2H6",
+   "carga": 0,
+   "masaMolar": 30.07,
+   "iupac": "ethane",
+   "smiles": "CC",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -88.6,
+    "texto": "-88.6 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 94th Edition. CRC Press LLC, Boca Raton: FL 2013-2014, p. 3-244",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 6334,
+   "nombre": "propano",
+   "nombreIngles": "Propane",
+   "formula": "C3H8",
+   "carga": 0,
+   "masaMolar": 44.1,
+   "iupac": "propane",
+   "smiles": "CCC",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -42.1,
+    "texto": "-42.1 °C at 1 atm",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of  Chemicals, Drugs, and Biologicals. 13th Edition, Whitehouse  Station, NJ:  Merck and Co., Inc., 2001., p. 1397",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 7843,
+   "nombre": "butano",
+   "nombreIngles": "Butane",
+   "formula": "C4H10",
+   "carga": 0,
+   "masaMolar": 58.12,
+   "iupac": "butane",
+   "smiles": "CCCC",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -0.5,
+    "texto": "-0.50 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 94th Edition. CRC Press LLC, Boca Raton: FL 2013-2014, p. 3-76",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 8003,
+   "nombre": "pentano",
+   "nombreIngles": "Pentane",
+   "formula": "C5H12",
+   "carga": 0,
+   "masaMolar": 72.15,
+   "iupac": "pentane",
+   "smiles": "CCCCC",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 36.06,
+    "texto": "36.06 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 94th Edition. CRC Press LLC, Boca Raton: FL 2013-2014, p. 3-438",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 8058,
+   "nombre": "hexano",
+   "nombreIngles": "Hexane",
+   "formula": "C6H14",
+   "carga": 0,
+   "masaMolar": 86.18,
+   "iupac": "hexane",
+   "smiles": "CCCCCC",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 68.73,
+    "texto": "68.73 °C",
+    "fuente": "Haynes, W.M. (ed.) CRC Handbook of Chemistry and Physics.   91st ed. Boca Raton, FL: CRC Press Inc., 2010-2011, p. 3-282",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 8900,
+   "nombre": "heptano",
+   "nombreIngles": "Heptane",
+   "formula": "C7H16",
+   "carga": 0,
+   "masaMolar": 100.2,
+   "iupac": "heptane",
+   "smiles": "CCCCCCC",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 98.38,
+    "texto": "98.38 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 94th Edition. CRC Press LLC, Boca Raton: FL 2013-2014, p. 3-290",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 356,
+   "nombre": "octano",
+   "nombreIngles": "Octane",
+   "formula": "C8H18",
+   "carga": 0,
+   "masaMolar": 114.23,
+   "iupac": "octane",
+   "smiles": "CCCCCCCC",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 125.62,
+    "texto": "125.62 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 94th Edition. CRC Press LLC, Boca Raton: FL 2013-2014, p. 3-426",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 8141,
+   "nombre": "nonano",
+   "nombreIngles": "Nonane",
+   "formula": "C9H20",
+   "carga": 0,
+   "masaMolar": 128.25,
+   "iupac": "nonane",
+   "smiles": "CCCCCCCCC",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 150.47,
+    "texto": "150.47 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 94th Edition. CRC Press LLC, Boca Raton: FL 2013-2014, p. 3-420",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 15600,
+   "nombre": "decano",
+   "nombreIngles": "Decane",
+   "formula": "C10H22",
+   "carga": 0,
+   "masaMolar": 142.28,
+   "iupac": "decane",
+   "smiles": "CCCCCCCCCC",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 174.1,
+    "texto": "174.1 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-142",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 6360,
+   "nombre": "isobutano (2-metilpropano)",
+   "nombreIngles": "Isobutane",
+   "formula": "C4H10",
+   "carga": 0,
+   "masaMolar": 58.12,
+   "iupac": "2-methylpropane",
+   "smiles": "CC(C)C",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -11.7,
+    "texto": "-11.7 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-326",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 6556,
+   "nombre": "isopentano (2-metilbutano)",
+   "nombreIngles": "Isopentane",
+   "formula": "C5H12",
+   "carga": 0,
+   "masaMolar": 72.15,
+   "iupac": "2-methylbutane",
+   "smiles": "CCC(C)C",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 27.83,
+    "texto": "27.83 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-330",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 10041,
+   "nombre": "neopentano (2,2-dimetilpropano)",
+   "nombreIngles": "Neopentane",
+   "formula": "C5H12",
+   "carga": 0,
+   "masaMolar": 72.15,
+   "iupac": "2,2-dimethylpropane",
+   "smiles": "CC(C)(C)C",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 9.5,
+    "texto": "9.5 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 94th Edition. CRC Press LLC, Boca Raton: FL 2013-2014, p. 3-408",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 7892,
+   "nombre": "2-metilpentano",
+   "nombreIngles": "2-Methylpentane",
+   "formula": "C6H14",
+   "carga": 0,
+   "masaMolar": 86.18,
+   "iupac": "2-methylpentane",
+   "smiles": "CCCC(C)C",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 60.21,
+    "texto": "60.21 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 94th Edition. CRC Press LLC, Boca Raton: FL 2013-2014, p. 3-384",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 7282,
+   "nombre": "3-metilpentano",
+   "nombreIngles": "3-Methylpentane",
+   "formula": "C6H14",
+   "carga": 0,
+   "masaMolar": 86.18,
+   "iupac": "3-methylpentane",
+   "smiles": "CCC(C)CC",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 63.27,
+    "texto": "63.271 °C",
+    "fuente": "Lide, D.R. CRC Handbook of Chemistry and Physics 86TH  Edition 2005-2006. CRC Press, Taylor & Francis, Boca Raton,  FL 2005, p. 3-364",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 6403,
+   "nombre": "2,2-dimetilbutano",
+   "nombreIngles": "2,2-Dimethylbutane",
+   "formula": "C6H14",
+   "carga": 0,
+   "masaMolar": 86.18,
+   "iupac": "2,2-dimethylbutane",
+   "smiles": "CCC(C)(C)C",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 49.7,
+    "texto": "49.7 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 94th Edition. CRC Press LLC, Boca Raton: FL 2013-2014, p. 3-206",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 6589,
+   "nombre": "2,3-dimetilbutano",
+   "nombreIngles": "2,3-Dimethylbutane",
+   "formula": "C6H14",
+   "carga": 0,
+   "masaMolar": 86.18,
+   "iupac": "2,3-dimethylbutane",
+   "smiles": "CC(C)C(C)C",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 57.9,
+    "texto": "57.9 °C @ 760 MM HG",
+    "fuente": "Lide, D.R. (ed.). CRC Handbook of Chemistry and Physics. 75th ed. Boca Raton, Fl: CRC Press Inc., 1994-1995., p. 3-92",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 10907,
+   "nombre": "isooctano (2,2,4-trimetilpentano)",
+   "nombreIngles": "2,2,4-Trimethylpentane",
+   "formula": "C8H18",
+   "carga": 0,
+   "masaMolar": 114.23,
+   "iupac": "2,2,4-trimethylpentane",
+   "smiles": "CC(C)CC(C)(C)C",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 99.24,
+    "texto": "99.238 °C",
+    "fuente": "Lide, D.R. (ed). CRC Handbook of Chemistry and Physics. 72nd ed. Boca Raton, FL: CRC Press, 1991-1992., p. 3-365",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 6325,
+   "nombre": "eteno (etileno)",
+   "nombreIngles": "Ethylene",
+   "formula": "C2H4",
+   "carga": 0,
+   "masaMolar": 28.05,
+   "iupac": "ethene",
+   "smiles": "C=C",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -103.8,
+    "texto": "-103.8 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-256",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 8252,
+   "nombre": "propeno",
+   "nombreIngles": "Propylene",
+   "formula": "C3H6",
+   "carga": 0,
+   "masaMolar": 42.08,
+   "iupac": "prop-1-ene",
+   "smiles": "CC=C",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -47.68,
+    "texto": "-47.68 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-466",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 7844,
+   "nombre": "but-1-eno",
+   "nombreIngles": "1-Butene",
+   "formula": "C4H8",
+   "carga": 0,
+   "masaMolar": 56.11,
+   "iupac": "but-1-ene",
+   "smiles": "CCC=C",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -6.47,
+    "texto": "-6.47 °C at 760 mm Hg",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals. Cambridge, UK:  Royal Society of Chemistry, 2013., p. 269",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 5287573,
+   "nombre": "cis-but-2-eno",
+   "nombreIngles": "cis-2-BUTENE",
+   "formula": "C4H8",
+   "carga": 0,
+   "masaMolar": 56.11,
+   "iupac": "(Z)-but-2-ene",
+   "smiles": "C/C=C\\C",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 3.72,
+    "texto": "3.72 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-78",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 62695,
+   "nombre": "trans-but-2-eno",
+   "nombreIngles": "trans-2-BUTENE",
+   "formula": "C4H8",
+   "carga": 0,
+   "masaMolar": 56.11,
+   "iupac": "(E)-but-2-ene",
+   "smiles": "C/C=C/C",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 0.88,
+    "texto": "0.88 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-78",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 8255,
+   "nombre": "2-metilpropeno",
+   "nombreIngles": "Isobutylene",
+   "formula": "C4H8",
+   "carga": 0,
+   "masaMolar": 56.11,
+   "iupac": "2-methylprop-1-ene",
+   "smiles": "CC(=C)C",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -7,
+    "texto": "-7.0 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-326",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 7845,
+   "nombre": "buta-1,3-dieno",
+   "nombreIngles": "1,3-Butadiene",
+   "formula": "C4H6",
+   "carga": 0,
+   "masaMolar": 54.09,
+   "iupac": "buta-1,3-diene",
+   "smiles": "C=CC=C",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -4.5,
+    "texto": "-4.5 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-76",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 6557,
+   "nombre": "isopreno (2-metilbuta-1,3-dieno)",
+   "nombreIngles": "Isoprene",
+   "formula": "C5H8",
+   "carga": 0,
+   "masaMolar": 68.12,
+   "iupac": "2-methylbuta-1,3-diene",
+   "smiles": "CC(=C)C=C",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 34.07,
+    "texto": "34.067 °C",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals. Cambridge, UK:  Royal Society of Chemistry, 2013., p. 964",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 6326,
+   "nombre": "etino (acetileno)",
+   "nombreIngles": "Acetylene",
+   "formula": "C2H2",
+   "carga": 0,
+   "masaMolar": 26.04,
+   "iupac": "acetylene",
+   "smiles": "C#C",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -84.7,
+    "texto": "-84.7 °C (sublimation point)",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 94th Edition. CRC Press LLC, Boca Raton: FL 2013-2014, p. 3-6",
+    "sublima": true
+   }
+  },
+  {
+   "cid": 6335,
+   "nombre": "propino",
+   "nombreIngles": "Propyne",
+   "formula": "C3H4",
+   "carga": 0,
+   "masaMolar": 40.06,
+   "iupac": "prop-1-yne",
+   "smiles": "CC#C",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -23.2,
+    "texto": "-23.2 °C",
+    "fuente": "Lide, D.R., G.W.A. Milne (eds.). Handbook of Data on Organic Compounds. Volume I. 3rd ed. CRC Press, Inc. Boca Raton ,FL. 1994., p. V5: 4591",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 7846,
+   "nombre": "but-1-ino",
+   "nombreIngles": "1-Butyne",
+   "formula": "C4H6",
+   "carga": 0,
+   "masaMolar": 54.09,
+   "iupac": "but-1-yne",
+   "smiles": "CCC#C",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 10419,
+   "nombre": "but-2-ino",
+   "nombreIngles": "Dimethylacetylene",
+   "formula": "C4H6",
+   "carga": 0,
+   "masaMolar": 54.09,
+   "iupac": "but-2-yne",
+   "smiles": "CC#CC",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 6351,
+   "nombre": "ciclopropano",
+   "nombreIngles": "Cyclopropane",
+   "formula": "C3H6",
+   "carga": 0,
+   "masaMolar": 42.08,
+   "iupac": "cyclopropane",
+   "smiles": "C1CC1",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -32.8,
+    "texto": "-32.8 °C @ 760 MM HG",
+    "fuente": "Lide, D.R. (ed.). CRC Handbook of Chemistry and Physics. 76th ed. Boca Raton, FL: CRC Press Inc., 1995-1996., p. 3-137",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 9250,
+   "nombre": "ciclobutano",
+   "nombreIngles": "Cyclobutane",
+   "formula": "C4H8",
+   "carga": 0,
+   "masaMolar": 56.11,
+   "iupac": "cyclobutane",
+   "smiles": "C1CCC1",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 9253,
+   "nombre": "ciclopentano",
+   "nombreIngles": "Cyclopentane",
+   "formula": "C5H10",
+   "carga": 0,
+   "masaMolar": 70.13,
+   "iupac": "cyclopentane",
+   "smiles": "C1CCCC1",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 49.2,
+    "texto": "49.2 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 94th Edition. CRC Press LLC, Boca Raton: FL 2013-2014, p. 3-138",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 8078,
+   "nombre": "ciclohexano",
+   "nombreIngles": "Cyclohexane",
+   "formula": "C6H12",
+   "carga": 0,
+   "masaMolar": 84.16,
+   "iupac": "cyclohexane",
+   "smiles": "C1CCCCC1",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 80.7,
+    "texto": "80.7 °C at 760 mm Hg",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals. Cambridge, UK:  Royal Society of Chemistry, 2013., p. 485",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 8079,
+   "nombre": "ciclohexeno",
+   "nombreIngles": "Cyclohexene",
+   "formula": "C6H10",
+   "carga": 0,
+   "masaMolar": 82.14,
+   "iupac": "cyclohexene",
+   "smiles": "C1CCC=CC1",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 83,
+    "texto": "83 °C at 760 mm Hg",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of  Chemicals, Drugs, and Biologicals. 13th Edition, Whitehouse  Station, NJ:  Merck and Co., Inc., 2001., p. 475",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 7962,
+   "nombre": "metilciclohexano",
+   "nombreIngles": "Methylcyclohexane",
+   "formula": "C7H14",
+   "carga": 0,
+   "masaMolar": 98.19,
+   "iupac": "methylcyclohexane",
+   "smiles": "CC1CCCCC1",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 100.9,
+    "texto": "100.9 °C @ 760 MM HG",
+    "fuente": "Lide, D.R. (ed.). CRC Handbook of Chemistry and Physics. 73rd ed. Boca Raton, FL: CRC Press Inc., 1992-1993., p. 3-196",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 241,
+   "nombre": "benceno",
+   "nombreIngles": "Benzene",
+   "formula": "C6H6",
+   "carga": 0,
+   "masaMolar": 78.11,
+   "iupac": "benzene",
+   "smiles": "C1=CC=CC=C1",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 80.08,
+    "texto": "80.08 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 94th Edition. CRC Press LLC, Boca Raton: FL 2013-2014, p. 3-34",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 1140,
+   "nombre": "tolueno (metilbenceno)",
+   "nombreIngles": "Toluene",
+   "formula": "C7H8",
+   "carga": 0,
+   "masaMolar": 92.14,
+   "iupac": "toluene",
+   "smiles": "CC1=CC=CC=C1",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 110.6,
+    "texto": "110.6 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-514",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 7237,
+   "nombre": "o-xileno",
+   "nombreIngles": "O-Xylene",
+   "formula": "C8H10",
+   "carga": 0,
+   "masaMolar": 106.16,
+   "iupac": "1,2-xylene",
+   "smiles": "CC1=CC=CC=C1C",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 144.5,
+    "texto": "144.5 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-550",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 7929,
+   "nombre": "m-xileno",
+   "nombreIngles": "M-Xylene",
+   "formula": "C8H10",
+   "carga": 0,
+   "masaMolar": 106.16,
+   "iupac": "1,3-xylene",
+   "smiles": "CC1=CC(=CC=C1)C",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 139.1,
+    "texto": "139.1 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-550",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 7809,
+   "nombre": "p-xileno",
+   "nombreIngles": "P-Xylene",
+   "formula": "C8H10",
+   "carga": 0,
+   "masaMolar": 106.16,
+   "iupac": "1,4-xylene",
+   "smiles": "CC1=CC=C(C=C1)C",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 138.3,
+    "texto": "138.3 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-550",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 7500,
+   "nombre": "etilbenceno",
+   "nombreIngles": "Ethylbenzene",
+   "formula": "C8H10",
+   "carga": 0,
+   "masaMolar": 106.16,
+   "iupac": "ethylbenzene",
+   "smiles": "CCC1=CC=CC=C1",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 136.2,
+    "texto": "136.2 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-250",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 7501,
+   "nombre": "estireno (vinilbenceno)",
+   "nombreIngles": "Styrene",
+   "formula": "C8H8",
+   "carga": 0,
+   "masaMolar": 104.15,
+   "iupac": "styrene",
+   "smiles": "C=CC1=CC=CC=C1",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 145.3,
+    "texto": "145.3 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-488",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 7406,
+   "nombre": "cumeno (isopropilbenceno)",
+   "nombreIngles": "Cumene",
+   "formula": "C9H12",
+   "carga": 0,
+   "masaMolar": 120.19,
+   "iupac": "cumene",
+   "smiles": "CC(C)C1=CC=CC=C1",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 152.4,
+    "texto": "152.4 °C",
+    "fuente": "Haynes, W.M. (ed.) CRC Handbook of Chemistry and Physics.   91st ed. Boca Raton, FL: CRC Press Inc., 2010-2011, p. 3-314",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 931,
+   "nombre": "naftaleno",
+   "nombreIngles": "Naphthalene",
+   "formula": "C10H8",
+   "carga": 0,
+   "masaMolar": 128.17,
+   "iupac": "naphthalene",
+   "smiles": "C1=CC=C2C=CC=CC2=C1",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 218,
+    "texto": "218 °C",
+    "fuente": "PubChem",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 8418,
+   "nombre": "antraceno",
+   "nombreIngles": "Anthracene",
+   "formula": "C14H10",
+   "carga": 0,
+   "masaMolar": 178.23,
+   "iupac": "anthracene",
+   "smiles": "C1=CC=C2C=C3C=CC=CC3=CC2=C1",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 341.3,
+    "texto": "341.3 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-28",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 995,
+   "nombre": "fenantreno",
+   "nombreIngles": "Phenanthrene",
+   "formula": "C14H10",
+   "carga": 0,
+   "masaMolar": 178.23,
+   "iupac": "phenanthrene",
+   "smiles": "C1=CC=C2C(=C1)C=CC3=CC=CC=C32",
+   "categoria": "hidrocarburo",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 338.4,
+    "texto": "338.4 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-444",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 887,
+   "nombre": "metanol",
+   "nombreIngles": "Methanol",
+   "formula": "CH4O",
+   "carga": 0,
+   "masaMolar": 32.042,
+   "iupac": "methanol",
+   "smiles": "CO",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 64.7,
+    "texto": "64.7 °C at 760 mm Hg",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals. Cambridge, UK:  Royal Society of Chemistry, 2013., p. 1106",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 702,
+   "nombre": "etanol",
+   "nombreIngles": "Ethanol",
+   "formula": "C2H6O",
+   "carga": 0,
+   "masaMolar": 46.07,
+   "iupac": "ethanol",
+   "smiles": "CCO",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 78.24,
+    "texto": "78.24 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-246",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 1031,
+   "nombre": "propan-1-ol",
+   "nombreIngles": "1-Propanol",
+   "formula": "C3H8O",
+   "carga": 0,
+   "masaMolar": 60.1,
+   "iupac": "propan-1-ol",
+   "smiles": "CCCO",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 97.2,
+    "texto": "97.2 °C",
+    "fuente": "PhysProp",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 3776,
+   "nombre": "propan-2-ol (isopropanol)",
+   "nombreIngles": "Isopropanol",
+   "formula": "C3H8O",
+   "carga": 0,
+   "masaMolar": 60.1,
+   "iupac": "propan-2-ol",
+   "smiles": "CC(C)O",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 82.3,
+    "texto": "82.3 °C at 760 mm Hg",
+    "fuente": "Haynes, W.M. (ed.) CRC Handbook of Chemistry and Physics.   91st ed. Boca Raton, FL: CRC Press Inc., 2010-2011, p. 3-442",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 263,
+   "nombre": "butan-1-ol",
+   "nombreIngles": "1-Butanol",
+   "formula": "C4H10O",
+   "carga": 0,
+   "masaMolar": 74.12,
+   "iupac": "butan-1-ol",
+   "smiles": "CCCCO",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 117.6,
+    "texto": "117.6 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 94th Edition. CRC Press LLC, Boca Raton: FL 2013-2014, p. 3-78",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 6568,
+   "nombre": "butan-2-ol",
+   "nombreIngles": "(+-)-2-Butanol",
+   "formula": "C4H10O",
+   "carga": 0,
+   "masaMolar": 74.12,
+   "iupac": "butan-2-ol",
+   "smiles": "CCC(C)O",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 99.5,
+    "texto": "99.5 °C",
+    "fuente": "PhysProp",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 6386,
+   "nombre": "2-metilpropan-2-ol (terc-butanol)",
+   "nombreIngles": "tert-Butanol",
+   "formula": "C4H10O",
+   "carga": 0,
+   "masaMolar": 74.12,
+   "iupac": "2-methylpropan-2-ol",
+   "smiles": "CC(C)(C)O",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 82.3,
+    "texto": "82.3 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 94th Edition. CRC Press LLC, Boca Raton: FL 2013-2014, p. 3-392",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 6560,
+   "nombre": "2-metilpropan-1-ol (isobutanol)",
+   "nombreIngles": "Isobutanol",
+   "formula": "C4H10O",
+   "carga": 0,
+   "masaMolar": 74.12,
+   "iupac": "2-methylpropan-1-ol",
+   "smiles": "CC(C)CO",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 108,
+    "texto": "108 °C",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals. Cambridge, UK:  Royal Society of Chemistry, 2013., p. 953",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 6276,
+   "nombre": "pentan-1-ol",
+   "nombreIngles": "1-Pentanol",
+   "formula": "C5H12O",
+   "carga": 0,
+   "masaMolar": 88.15,
+   "iupac": "pentan-1-ol",
+   "smiles": "CCCCCO",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 137.5,
+    "texto": "137.5 °C",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of  Chemicals, Drugs, and Biologicals. 13th Edition, Whitehouse  Station, NJ:  Merck and Co., Inc., 2001., p. 1277",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 174,
+   "nombre": "etano-1,2-diol (etilenglicol)",
+   "nombreIngles": "Ethylene Glycol",
+   "formula": "C2H6O2",
+   "carga": 0,
+   "masaMolar": 62.07,
+   "iupac": "ethane-1,2-diol",
+   "smiles": "C(CO)O",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 197.3,
+    "texto": "197.3 °C",
+    "fuente": "Haynes, W.M. (ed.) CRC Handbook of Chemistry and Physics.   91st ed. Boca Raton, FL: CRC Press Inc., 2010-2011, p. 3-232",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 753,
+   "nombre": "propano-1,2,3-triol (glicerol)",
+   "nombreIngles": "Glycerol",
+   "formula": "C3H8O3",
+   "carga": 0,
+   "masaMolar": 92.09,
+   "iupac": "propane-1,2,3-triol",
+   "smiles": "C(C(CO)O)O",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 290,
+    "texto": "290 °C",
+    "fuente": "PubChem",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 996,
+   "nombre": "fenol",
+   "nombreIngles": "Phenol",
+   "formula": "C6H6O",
+   "carga": 0,
+   "masaMolar": 94.11,
+   "iupac": "phenol",
+   "smiles": "C1=CC=C(C=C1)O",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 181.8,
+    "texto": "181.8 °C",
+    "fuente": "PhysProp",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 7966,
+   "nombre": "ciclohexanol",
+   "nombreIngles": "Cyclohexanol",
+   "formula": "C6H12O",
+   "carga": 0,
+   "masaMolar": 100.16,
+   "iupac": "cyclohexanol",
+   "smiles": "C1CCC(CC1)O",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 161.84,
+    "texto": "161.84 °C",
+    "fuente": "Lide, D.R. CRC Handbook of Chemistry and Physics 88TH    Edition 2007-2008. CRC Press, Taylor & Francis, Boca Raton,    FL 2007, p. 3-128",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 244,
+   "nombre": "alcohol bencílico",
+   "nombreIngles": "Benzyl Alcohol",
+   "formula": "C7H8O",
+   "carga": 0,
+   "masaMolar": 108.14,
+   "iupac": "phenylmethanol",
+   "smiles": "C1=CC=C(C=C1)CO",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 205.3,
+    "texto": "205.3 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 94th Edition. CRC Press LLC, Boca Raton: FL 2013-2014, p. 3-44",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 8254,
+   "nombre": "metoximetano (éter dimetílico)",
+   "nombreIngles": "Dimethyl Ether",
+   "formula": "C2H6O",
+   "carga": 0,
+   "masaMolar": 46.07,
+   "iupac": "methoxymethane",
+   "smiles": "COC",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -24.82,
+    "texto": "-24.82 °C",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of  Chemicals, Drugs, and Biologicals. 13th Edition, Whitehouse  Station, NJ:  Merck and Co., Inc., 2001., p. 1084",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 3283,
+   "nombre": "etoxietano (éter dietílico)",
+   "nombreIngles": "Diethyl Ether",
+   "formula": "C4H10O",
+   "carga": 0,
+   "masaMolar": 74.12,
+   "iupac": "ethoxyethane",
+   "smiles": "CCOCC",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 35,
+    "texto": "35 °C",
+    "fuente": "PubChem",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 10903,
+   "nombre": "metoxietano",
+   "nombreIngles": "Methoxyethane",
+   "formula": "C3H8O",
+   "carga": 0,
+   "masaMolar": 60.1,
+   "iupac": "methoxyethane",
+   "smiles": "CCOC",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 7.4,
+    "texto": "7.4 °C",
+    "fuente": "Lide, D.R. (ed.). CRC Handbook of Chemistry and Physics. 76th ed. Boca Raton, FL: CRC Press Inc., 1995-1996., p. 3-156",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 15413,
+   "nombre": "metil terc-butil éter",
+   "nombreIngles": "tert-Butyl methyl ether",
+   "formula": "C5H12O",
+   "carga": 0,
+   "masaMolar": 88.15,
+   "iupac": "2-methoxy-2-methylpropane",
+   "smiles": "CC(C)(C)OC",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 55.1,
+    "texto": "55.1 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-364",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 8028,
+   "nombre": "tetrahidrofurano",
+   "nombreIngles": "Tetrahydrofuran",
+   "formula": "C4H8O",
+   "carga": 0,
+   "masaMolar": 72.11,
+   "iupac": "oxolane",
+   "smiles": "C1CCOC1",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 65,
+    "texto": "65 °C",
+    "fuente": "Lide, D.R. CRC Handbook of Chemistry and Physics 88TH    Edition 2007-2008. CRC Press, Taylor & Francis, Boca Raton,    FL 2007, p. 3-474",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 7519,
+   "nombre": "anisol (metoxibenceno)",
+   "nombreIngles": "Anisole",
+   "formula": "C7H8O",
+   "carga": 0,
+   "masaMolar": 108.14,
+   "iupac": "anisole",
+   "smiles": "COC1=CC=CC=C1",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 155.5,
+    "texto": "155.5 °C AT 760 MM HG",
+    "fuente": "Budavari, S. (ed.). The Merck Index - Encyclopedia of Chemicals, Drugs and Biologicals. Rahway, NJ: Merck and Co., Inc., 1989., p. 106",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 6354,
+   "nombre": "óxido de etileno (oxirano)",
+   "nombreIngles": "Ethylene Oxide",
+   "formula": "C2H4O",
+   "carga": 0,
+   "masaMolar": 44.05,
+   "iupac": "oxirane",
+   "smiles": "C1CO1",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 10.6,
+    "texto": "10.6 °C",
+    "fuente": "Lide, D.R. CRC Handbook of Chemistry and Physics 86TH  Edition 2005-2006. CRC Press, Taylor & Francis, Boca Raton,  FL 2005, p. 3-408",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 712,
+   "nombre": "metanal (formaldehído)",
+   "nombreIngles": "Formaldehyde",
+   "formula": "CH2O",
+   "carga": 0,
+   "masaMolar": 30.026,
+   "iupac": "formaldehyde",
+   "smiles": "C=O",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -19.5,
+    "texto": "-19.5 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-278",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 177,
+   "nombre": "etanal (acetaldehído)",
+   "nombreIngles": "Acetaldehyde",
+   "formula": "C2H4O",
+   "carga": 0,
+   "masaMolar": 44.05,
+   "iupac": "acetaldehyde",
+   "smiles": "CC=O",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 20.8,
+    "texto": "20.8 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-4",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 527,
+   "nombre": "propanal",
+   "nombreIngles": "Propanal",
+   "formula": "C3H6O",
+   "carga": 0,
+   "masaMolar": 58.08,
+   "iupac": "propanal",
+   "smiles": "CCC=O",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 48,
+    "texto": "48 °C",
+    "fuente": "Lide, D.R. CRC Handbook of Chemistry and Physics 88TH    Edition 2007-2008. CRC Press, Taylor & Francis, Boca Raton,    FL 2007, p. 3-440",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 261,
+   "nombre": "butanal",
+   "nombreIngles": "Butanal",
+   "formula": "C4H8O",
+   "carga": 0,
+   "masaMolar": 72.11,
+   "iupac": "butanal",
+   "smiles": "CCCC=O",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 74.8,
+    "texto": "74.8 °C",
+    "fuente": "Lide, D.R. CRC Handbook of Chemistry and Physics 88TH    Edition 2007-2008. CRC Press, Taylor & Francis, Boca Raton,    FL 2007, p. 3-72",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 240,
+   "nombre": "benzaldehído",
+   "nombreIngles": "Benzaldehyde",
+   "formula": "C7H6O",
+   "carga": 0,
+   "masaMolar": 106.12,
+   "iupac": "benzaldehyde",
+   "smiles": "C1=CC=C(C=C1)C=O",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 178.7,
+    "texto": "178.7 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-24",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 180,
+   "nombre": "propanona (acetona)",
+   "nombreIngles": "Acetone",
+   "formula": "C3H6O",
+   "carga": 0,
+   "masaMolar": 58.08,
+   "iupac": "propan-2-one",
+   "smiles": "CC(=O)C",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 56.08,
+    "texto": "56.08 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-4",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 6569,
+   "nombre": "butanona",
+   "nombreIngles": "Methyl Ethyl Ketone",
+   "formula": "C4H8O",
+   "carga": 0,
+   "masaMolar": 72.11,
+   "iupac": "butan-2-one",
+   "smiles": "CCC(=O)C",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 79.59,
+    "texto": "79.59 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-78",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 7895,
+   "nombre": "pentan-2-ona",
+   "nombreIngles": "2-Pentanone",
+   "formula": "C5H10O",
+   "carga": 0,
+   "masaMolar": 86.13,
+   "iupac": "pentan-2-one",
+   "smiles": "CCCC(=O)C",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 102.26,
+    "texto": "102.26 °C",
+    "fuente": "Lide, D.R. CRC Handbook of Chemistry and Physics 86TH  Edition 2005-2006. CRC Press, Taylor & Francis, Boca Raton,  FL 2005, p. 3-416",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 7288,
+   "nombre": "pentan-3-ona",
+   "nombreIngles": "Ethyl ketone",
+   "formula": "C5H10O",
+   "carga": 0,
+   "masaMolar": 86.13,
+   "iupac": "pentan-3-one",
+   "smiles": "CCC(=O)CC",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 101.7,
+    "texto": "101.7 °C",
+    "fuente": "Lide, D.R. CRC Handbook of Chemistry and Physics 86TH  Edition 2005-2006. CRC Press, Taylor & Francis, Boca Raton,  FL 2005, p. 3-416",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 7967,
+   "nombre": "ciclohexanona",
+   "nombreIngles": "Cyclohexanone",
+   "formula": "C6H10O",
+   "carga": 0,
+   "masaMolar": 98.14,
+   "iupac": "cyclohexanone",
+   "smiles": "C1CCC(=O)CC1",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 155.4,
+    "texto": "155.4 °C",
+    "fuente": "PhysProp",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 7410,
+   "nombre": "acetofenona",
+   "nombreIngles": "Acetophenone",
+   "formula": "C8H8O",
+   "carga": 0,
+   "masaMolar": 120.15,
+   "iupac": "1-phenylethanone",
+   "smiles": "CC(=O)C1=CC=CC=C1",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 202.1,
+    "texto": "202.1 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-6",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 284,
+   "nombre": "ácido metanoico (fórmico)",
+   "nombreIngles": "Formic Acid",
+   "formula": "CH2O2",
+   "carga": 0,
+   "masaMolar": 46.025,
+   "iupac": "formic acid",
+   "smiles": "C(=O)O",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 101,
+    "texto": "101 °C",
+    "fuente": "Haynes, W.M. (ed.) CRC Handbook of Chemistry and Physics.   91st ed. Boca Raton, FL: CRC Press Inc., 2010-2011, p. 3-262",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 176,
+   "nombre": "ácido etanoico (acético)",
+   "nombreIngles": "Acetic Acid",
+   "formula": "C2H4O2",
+   "carga": 0,
+   "masaMolar": 60.05,
+   "iupac": "acetic acid",
+   "smiles": "CC(=O)O",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 117.9,
+    "texto": "117.9 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 94th Edition. CRC Press LLC, Boca Raton: FL 2013-2014, p. 3-4",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 1032,
+   "nombre": "ácido propanoico",
+   "nombreIngles": "Propionic Acid",
+   "formula": "C3H6O2",
+   "carga": 0,
+   "masaMolar": 74.08,
+   "iupac": "propanoic acid",
+   "smiles": "CCC(=O)O",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 141.1,
+    "texto": "141.1 °C",
+    "fuente": "PhysProp",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 264,
+   "nombre": "ácido butanoico",
+   "nombreIngles": "Butyric Acid",
+   "formula": "C4H8O2",
+   "carga": 0,
+   "masaMolar": 88.11,
+   "iupac": "butanoic acid",
+   "smiles": "CCCC(=O)O",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 163.7,
+    "texto": "163.7 °C",
+    "fuente": "PhysProp",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 243,
+   "nombre": "ácido benzoico",
+   "nombreIngles": "Benzoic Acid",
+   "formula": "C7H6O2",
+   "carga": 0,
+   "masaMolar": 122.12,
+   "iupac": "benzoic acid",
+   "smiles": "C1=CC=C(C=C1)C(=O)O",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 249.2,
+    "texto": "249.2 °C at 760 mm Hg",
+    "fuente": "Haynes, W.M. (ed.) CRC Handbook of Chemistry and Physics.   91st ed. Boca Raton, FL: CRC Press Inc., 2010-2011, p. 3-38",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 971,
+   "nombre": "ácido oxálico",
+   "nombreIngles": "Oxalic Acid",
+   "formula": "C2H2O4",
+   "carga": 0,
+   "masaMolar": 90.03,
+   "iupac": "oxalic acid",
+   "smiles": "C(=O)(C(=O)O)O",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 612,
+   "nombre": "ácido láctico",
+   "nombreIngles": "Lactic Acid",
+   "formula": "C3H6O3",
+   "carga": 0,
+   "masaMolar": 90.08,
+   "iupac": "2-hydroxypropanoic acid",
+   "smiles": "CC(C(=O)O)O",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 311,
+   "nombre": "ácido cítrico",
+   "nombreIngles": "Citric Acid",
+   "formula": "C6H8O7",
+   "carga": 0,
+   "masaMolar": 192.12,
+   "iupac": "2-hydroxypropane-1,2,3-tricarboxylic acid",
+   "smiles": "C(C(=O)O)C(CC(=O)O)(C(=O)O)O",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 338,
+   "nombre": "ácido salicílico",
+   "nombreIngles": "Salicylic Acid",
+   "formula": "C7H6O3",
+   "carga": 0,
+   "masaMolar": 138.12,
+   "iupac": "2-hydroxybenzoic acid",
+   "smiles": "C1=CC=C(C(=C1)C(=O)O)O",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 256,
+    "texto": "256 °C (sublimes)",
+    "fuente": "PubChem",
+    "sublima": true
+   }
+  },
+  {
+   "cid": 6581,
+   "nombre": "ácido acrílico",
+   "nombreIngles": "Acrylic Acid",
+   "formula": "C3H4O2",
+   "carga": 0,
+   "masaMolar": 72.06,
+   "iupac": "prop-2-enoic acid",
+   "smiles": "C=CC(=O)O",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 142,
+    "texto": "142 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-8",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 7918,
+   "nombre": "anhídrido acético",
+   "nombreIngles": "Acetic Anhydride",
+   "formula": "C4H6O3",
+   "carga": 0,
+   "masaMolar": 102.09,
+   "iupac": "acetyl acetate",
+   "smiles": "CC(=O)OC(=O)C",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 139.5,
+    "texto": "139.5 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-4",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 7865,
+   "nombre": "metanoato de metilo",
+   "nombreIngles": "Methyl formate",
+   "formula": "C2H4O2",
+   "carga": 0,
+   "masaMolar": 60.05,
+   "iupac": "methyl formate",
+   "smiles": "COC=O",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 31.5,
+    "texto": "31.5 °C",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of  Chemicals, Drugs, and Biologicals. 13th Edition, Whitehouse  Station, NJ:  Merck and Co., Inc., 2001., p. 1084",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 6584,
+   "nombre": "etanoato de metilo",
+   "nombreIngles": "Methyl Acetate",
+   "formula": "C3H6O2",
+   "carga": 0,
+   "masaMolar": 74.08,
+   "iupac": "methyl acetate",
+   "smiles": "CC(=O)OC",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 56.7,
+    "texto": "56.7 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 94th Edition. CRC Press LLC, Boca Raton: FL 2013-2014, p. 3-354",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 8857,
+   "nombre": "etanoato de etilo (acetato de etilo)",
+   "nombreIngles": "Ethyl Acetate",
+   "formula": "C4H8O2",
+   "carga": 0,
+   "masaMolar": 88.11,
+   "iupac": "ethyl acetate",
+   "smiles": "CCOC(=O)C",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 77.1,
+    "texto": "77.1 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 94th Edition. CRC Press LLC, Boca Raton: FL 2013-2014, p. 3-250",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 8025,
+   "nombre": "metanoato de etilo",
+   "nombreIngles": "Ethyl formate",
+   "formula": "C3H6O2",
+   "carga": 0,
+   "masaMolar": 74.08,
+   "iupac": "ethyl formate",
+   "smiles": "CCOC=O",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 54.5,
+    "texto": "54.5 °C @ 760 MM HG",
+    "fuente": "Lide, DR (ed.). CRC Handbook of Chemistry and Physics. 71st ed. Boca Raton, FL: CRC Press Inc., 1990-1991., p. 3-249",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 31272,
+   "nombre": "etanoato de butilo",
+   "nombreIngles": "Butyl Acetate",
+   "formula": "C6H12O2",
+   "carga": 0,
+   "masaMolar": 116.16,
+   "iupac": "butyl acetate",
+   "smiles": "CCCCOC(=O)C",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 126,
+    "texto": "126.0 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-80",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 31276,
+   "nombre": "acetato de isoamilo (aroma de plátano)",
+   "nombreIngles": "Isoamyl Acetate",
+   "formula": "C7H14O2",
+   "carga": 0,
+   "masaMolar": 130.18,
+   "iupac": "3-methylbutyl acetate",
+   "smiles": "CC(C)CCOC(=O)C",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 142,
+    "texto": "142 °C",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals. Cambridge, UK:  Royal Society of Chemistry, 2013., p. 951",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 7762,
+   "nombre": "butanoato de etilo (aroma de piña)",
+   "nombreIngles": "Ethyl butyrate",
+   "formula": "C6H12O2",
+   "carga": 0,
+   "masaMolar": 116.16,
+   "iupac": "ethyl butanoate",
+   "smiles": "CCCC(=O)OCC",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 120,
+    "texto": "120-121 °C",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals. Cambridge, UK:  Royal Society of Chemistry, 2013., p. 699",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 4133,
+   "nombre": "salicilato de metilo",
+   "nombreIngles": "Methyl Salicylate",
+   "formula": "C8H8O3",
+   "carga": 0,
+   "masaMolar": 152.15,
+   "iupac": "methyl 2-hydroxybenzoate",
+   "smiles": "COC(=O)C1=CC=CC=C1O",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 220,
+    "texto": "220-224 °C",
+    "fuente": "Budavari, S. (ed.). The Merck Index - Encyclopedia of Chemicals, Drugs and Biologicals. Rahway, NJ: Merck and Co., Inc., 1989., p. 961",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 8029,
+   "nombre": "furano",
+   "nombreIngles": "Furan",
+   "formula": "C4H4O",
+   "carga": 0,
+   "masaMolar": 68.07,
+   "iupac": "furan",
+   "smiles": "C1=COC=C1",
+   "categoria": "oxigenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 31.5,
+    "texto": "31.5 °C",
+    "fuente": "Lide, D.R. CRC Handbook of Chemistry and Physics 88TH    Edition 2007-2008. CRC Press, Taylor & Francis, Boca Raton,    FL 2007, p. 3-264",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 6329,
+   "nombre": "metilamina",
+   "nombreIngles": "Methylamine",
+   "formula": "CH5N",
+   "carga": 0,
+   "masaMolar": 31.057,
+   "iupac": "methanamine",
+   "smiles": "CN",
+   "categoria": "nitrogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -6.4,
+    "texto": "-6.4 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-354",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 6341,
+   "nombre": "etilamina",
+   "nombreIngles": "Ethylamine",
+   "formula": "C2H7N",
+   "carga": 0,
+   "masaMolar": 45.08,
+   "iupac": "ethanamine",
+   "smiles": "CCN",
+   "categoria": "nitrogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 16.6,
+    "texto": "16.6 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-250",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 674,
+   "nombre": "dimetilamina",
+   "nombreIngles": "Dimethylamine",
+   "formula": "C2H7N",
+   "carga": 0,
+   "masaMolar": 45.08,
+   "iupac": "N-methylmethanamine",
+   "smiles": "CNC",
+   "categoria": "nitrogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 7.3,
+    "texto": "7.3 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-200",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 1146,
+   "nombre": "trimetilamina",
+   "nombreIngles": "Trimethylamine",
+   "formula": "C3H9N",
+   "carga": 0,
+   "masaMolar": 59.11,
+   "iupac": "N,N-dimethylmethanamine",
+   "smiles": "CN(C)C",
+   "categoria": "nitrogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 2.87,
+    "texto": "2.87 °C at 760 mm Hg",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals. Cambridge, UK:  Royal Society of Chemistry, 2013., p. 1799",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 7852,
+   "nombre": "propan-1-amina",
+   "nombreIngles": "Propylamine",
+   "formula": "C3H9N",
+   "carga": 0,
+   "masaMolar": 59.11,
+   "iupac": "propan-1-amine",
+   "smiles": "CCCN",
+   "categoria": "nitrogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 48,
+    "texto": "48-49 °C",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of  Chemicals, Drugs, and Biologicals. 13th Edition, Whitehouse  Station, NJ:  Merck and Co., Inc., 2001., p. 1404",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 6115,
+   "nombre": "anilina (fenilamina)",
+   "nombreIngles": "Aniline",
+   "formula": "C6H7N",
+   "carga": 0,
+   "masaMolar": 93.13,
+   "iupac": "aniline",
+   "smiles": "C1=CC=C(C=C1)N",
+   "categoria": "nitrogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 184.1,
+    "texto": "184.1 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-28",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 1049,
+   "nombre": "piridina",
+   "nombreIngles": "Pyridine",
+   "formula": "C5H5N",
+   "carga": 0,
+   "masaMolar": 79.1,
+   "iupac": "pyridine",
+   "smiles": "C1=CC=NC=C1",
+   "categoria": "nitrogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 115.2,
+    "texto": "115.2-115.3 °C",
+    "fuente": "Budavari, S. (ed.). The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals. Whitehouse Station, NJ: Merck and Co., Inc., 1996., p. 1370",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 8027,
+   "nombre": "pirrol",
+   "nombreIngles": "Pyrrole",
+   "formula": "C4H5N",
+   "carga": 0,
+   "masaMolar": 67.09,
+   "iupac": "1H-pyrrole",
+   "smiles": "C1=CNC=C1",
+   "categoria": "nitrogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 129.7,
+    "texto": "129.7 °C",
+    "fuente": "Lide, D.R. (ed.). CRC Handbook of Chemistry and Physics. 76th ed. Boca Raton, FL: CRC Press Inc., 1995-1996., p. 3-304",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 8082,
+   "nombre": "piperidina",
+   "nombreIngles": "Piperidine",
+   "formula": "C5H11N",
+   "carga": 0,
+   "masaMolar": 85.15,
+   "iupac": "piperidine",
+   "smiles": "C1CCNCC1",
+   "categoria": "nitrogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 106,
+    "texto": "106 °C at 760 mm Hg",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of  Chemicals, Drugs, and Biologicals. 13th Edition, Whitehouse  Station, NJ:  Merck and Co., Inc., 2001., p. 1338",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 795,
+   "nombre": "imidazol",
+   "nombreIngles": "Imidazole",
+   "formula": "C3H4N2",
+   "carga": 0,
+   "masaMolar": 68.08,
+   "iupac": "1H-imidazole",
+   "smiles": "C1=CN=CN1",
+   "categoria": "nitrogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 257,
+    "texto": "257 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-318",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 9260,
+   "nombre": "pirimidina",
+   "nombreIngles": "Pyrimidine",
+   "formula": "C4H4N2",
+   "carga": 0,
+   "masaMolar": 80.09,
+   "iupac": "pyrimidine",
+   "smiles": "C1=CN=CN=C1",
+   "categoria": "nitrogenado",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 1044,
+   "nombre": "purina",
+   "nombreIngles": "Purine",
+   "formula": "C5H4N4",
+   "carga": 0,
+   "masaMolar": 120.11,
+   "iupac": "7H-purine",
+   "smiles": "C1=C2C(=NC=N1)N=CN2",
+   "categoria": "nitrogenado",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 713,
+   "nombre": "metanamida (formamida)",
+   "nombreIngles": "Formamide",
+   "formula": "CH3NO",
+   "carga": 0,
+   "masaMolar": 45.041,
+   "iupac": "formamide",
+   "smiles": "C(=O)N",
+   "categoria": "nitrogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 210.5,
+    "texto": "210.5 °C @ 760 mm Hg",
+    "fuente": "Budavari, S. (ed.). The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals. Whitehouse Station, NJ: Merck and Co., Inc., 1996., p. 718",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 178,
+   "nombre": "etanamida (acetamida)",
+   "nombreIngles": "Acetamide",
+   "formula": "C2H5NO",
+   "carga": 0,
+   "masaMolar": 59.07,
+   "iupac": "acetamide",
+   "smiles": "CC(=O)N",
+   "categoria": "nitrogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 222,
+    "texto": "222 °C",
+    "fuente": "PhysProp",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 6228,
+   "nombre": "N,N-dimetilformamida",
+   "nombreIngles": "Dimethylformamide",
+   "formula": "C3H7NO",
+   "carga": 0,
+   "masaMolar": 73.09,
+   "iupac": "N,N-dimethylformamide",
+   "smiles": "CN(C)C=O",
+   "categoria": "nitrogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 152.8,
+    "texto": "152.8 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 94th Edition. CRC Press LLC, Boca Raton: FL 2013-2014, p. 3-210",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 2331,
+   "nombre": "benzamida",
+   "nombreIngles": "Benzamide",
+   "formula": "C7H7NO",
+   "carga": 0,
+   "masaMolar": 121.14,
+   "iupac": "benzamide",
+   "smiles": "C1=CC=C(C=C1)C(=O)N",
+   "categoria": "nitrogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 288,
+    "texto": "288 °C",
+    "fuente": "Budavari, S. (ed.). The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals. Whitehouse Station, NJ: Merck and Co., Inc., 1996., p. 177",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 1176,
+   "nombre": "urea",
+   "nombreIngles": "Urea",
+   "formula": "CH4N2O",
+   "carga": 0,
+   "masaMolar": 60.056,
+   "iupac": "urea",
+   "smiles": "C(=O)(N)N",
+   "categoria": "nitrogenado",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 6342,
+   "nombre": "etanonitrilo (acetonitrilo)",
+   "nombreIngles": "Acetonitrile",
+   "formula": "C2H3N",
+   "carga": 0,
+   "masaMolar": 41.05,
+   "iupac": "acetonitrile",
+   "smiles": "CC#N",
+   "categoria": "nitrogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 81.6,
+    "texto": "81.6 °C at 760 mm Hg",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals. Cambridge, UK:  Royal Society of Chemistry, 2013., p. 14",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 7854,
+   "nombre": "propanonitrilo",
+   "nombreIngles": "Propionitrile",
+   "formula": "C3H5N",
+   "carga": 0,
+   "masaMolar": 55.08,
+   "iupac": "propanenitrile",
+   "smiles": "CCC#N",
+   "categoria": "nitrogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 97.2,
+    "texto": "97.2 °C @ 760 mm Hg",
+    "fuente": "Budavari, S. (ed.). The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals. Whitehouse Station, NJ: Merck and Co., Inc., 1996., p. 1345",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 7505,
+   "nombre": "benzonitrilo",
+   "nombreIngles": "Benzonitrile",
+   "formula": "C7H5N",
+   "carga": 0,
+   "masaMolar": 103.12,
+   "iupac": "benzonitrile",
+   "smiles": "C1=CC=C(C=C1)C#N",
+   "categoria": "nitrogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 190.7,
+    "texto": "190.7 °C at 760 mm Hg",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals. Cambridge, UK:  Royal Society of Chemistry, 2013., p. 193",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 7855,
+   "nombre": "acrilonitrilo",
+   "nombreIngles": "Acrylonitrile",
+   "formula": "C3H3N",
+   "carga": 0,
+   "masaMolar": 53.06,
+   "iupac": "prop-2-enenitrile",
+   "smiles": "C=CC#N",
+   "categoria": "nitrogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 77.2,
+    "texto": "77.2 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-8",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 6375,
+   "nombre": "nitrometano",
+   "nombreIngles": "Nitromethane",
+   "formula": "CH3NO2",
+   "carga": 0,
+   "masaMolar": 61.04,
+   "iupac": "nitromethane",
+   "smiles": "C[N+](=O)[O-]",
+   "categoria": "nitrogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 101.1,
+    "texto": "101.1 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 94th Edition. CRC Press LLC, Boca Raton: FL 2013-2014, p. 3-414",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 7416,
+   "nombre": "nitrobenceno",
+   "nombreIngles": "Nitrobenzene",
+   "formula": "C6H5NO2",
+   "carga": 0,
+   "masaMolar": 123.11,
+   "iupac": "nitrobenzene",
+   "smiles": "C1=CC=C(C=C1)[N+](=O)[O-]",
+   "categoria": "nitrogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 210.8,
+    "texto": "210.8 °C",
+    "fuente": "Lide, D.R. CRC Handbook of Chemistry and Physics 88TH    Edition 2007-2008. CRC Press, Taylor & Francis, Boca Raton,    FL 2007, p. 3-388",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 8376,
+   "nombre": "2,4,6-trinitrotolueno (TNT)",
+   "nombreIngles": "2,4,6-Trinitrotoluene",
+   "formula": "C7H5N3O6",
+   "carga": 0,
+   "masaMolar": 227.13,
+   "iupac": "2-methyl-1,3,5-trinitrobenzene",
+   "smiles": "CC1=C(C=C(C=C1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]",
+   "categoria": "nitrogenado",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 4510,
+   "nombre": "nitroglicerina",
+   "nombreIngles": "Nitroglycerin",
+   "formula": "C3H5N3O9",
+   "carga": 0,
+   "masaMolar": 227.09,
+   "iupac": "1,3-dinitrooxypropan-2-yl nitrate",
+   "smiles": "C(C(CO[N+](=O)[O-])O[N+](=O)[O-])O[N+](=O)[O-]",
+   "categoria": "nitrogenado",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 700,
+   "nombre": "etanolamina",
+   "nombreIngles": "Ethanolamine",
+   "formula": "C2H7NO",
+   "carga": 0,
+   "masaMolar": 61.08,
+   "iupac": "2-aminoethanol",
+   "smiles": "C(CO)N",
+   "categoria": "nitrogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 170.3,
+    "texto": "170.3 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-246",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 6327,
+   "nombre": "clorometano",
+   "nombreIngles": "Methyl Chloride",
+   "formula": "CH3Cl",
+   "carga": 0,
+   "masaMolar": 50.49,
+   "iupac": "chloromethane",
+   "smiles": "CCl",
+   "categoria": "halogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -23.7,
+    "texto": "-23.7 °C",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals. Cambridge, UK:  Royal Society of Chemistry, 2013., p. 1120",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 6344,
+   "nombre": "diclorometano",
+   "nombreIngles": "Dichloromethane",
+   "formula": "CH2Cl2",
+   "carga": 0,
+   "masaMolar": 84.93,
+   "iupac": "dichloromethane",
+   "smiles": "C(Cl)Cl",
+   "categoria": "halogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 39.75,
+    "texto": "39.75 °C at 760 mm Hg",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals. Cambridge, UK:  Royal Society of Chemistry, 2013., p. 1124",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 6212,
+   "nombre": "triclorometano (cloroformo)",
+   "nombreIngles": "Chloroform",
+   "formula": "CHCl3",
+   "carga": 0,
+   "masaMolar": 119.37,
+   "iupac": "chloroform",
+   "smiles": "C(Cl)(Cl)Cl",
+   "categoria": "halogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 61.12,
+    "texto": "61.12 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-520",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 5943,
+   "nombre": "tetraclorometano",
+   "nombreIngles": "Carbon Tetrachloride",
+   "formula": "CCl4",
+   "carga": 0,
+   "masaMolar": 153.8,
+   "iupac": "tetrachloromethane",
+   "smiles": "C(Cl)(Cl)(Cl)Cl",
+   "categoria": "halogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 76.7,
+    "texto": "76.7 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-496",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 11638,
+   "nombre": "fluorometano",
+   "nombreIngles": "Fluoromethane",
+   "formula": "CH3F",
+   "carga": 0,
+   "masaMolar": 34.033,
+   "iupac": "fluoromethane",
+   "smiles": "CF",
+   "categoria": "halogenado",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 6323,
+   "nombre": "bromometano",
+   "nombreIngles": "Methyl Bromide",
+   "formula": "CH3Br",
+   "carga": 0,
+   "masaMolar": 94.94,
+   "iupac": "bromomethane",
+   "smiles": "CBr",
+   "categoria": "halogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 3.4,
+    "texto": "3.4 °C",
+    "fuente": "Rumble J. (ed.). CRC Handbook of Chemistry and Physics. 99th ed. Cleveland: CRC Press Inc., 2018., p. 3-8",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 6328,
+   "nombre": "yodometano",
+   "nombreIngles": "Methyl iodide",
+   "formula": "CH3I",
+   "carga": 0,
+   "masaMolar": 141.939,
+   "iupac": "iodomethane",
+   "smiles": "CI",
+   "categoria": "halogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 42.5,
+    "texto": "42.5 °C",
+    "fuente": "Budavari, S. (ed.). The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals. Whitehouse Station, NJ: Merck and Co., Inc., 1996., p. 1039",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 6337,
+   "nombre": "cloroetano",
+   "nombreIngles": "Chloroethane",
+   "formula": "C2H5Cl",
+   "carga": 0,
+   "masaMolar": 64.51,
+   "iupac": "chloroethane",
+   "smiles": "CCCl",
+   "categoria": "halogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 12.3,
+    "texto": "12.3 °C @ 760 mm Hg",
+    "fuente": "Budavari, S. (ed.). The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals. Whitehouse Station, NJ: Merck and Co., Inc., 1996., p. 645",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 6332,
+   "nombre": "bromoetano",
+   "nombreIngles": "Ethyl Bromide",
+   "formula": "C2H5Br",
+   "carga": 0,
+   "masaMolar": 108.97,
+   "iupac": "bromoethane",
+   "smiles": "CCBr",
+   "categoria": "halogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 38.2,
+    "texto": "38.2 °C",
+    "fuente": "Rumble J. (ed.). CRC Handbook of Chemistry and Physics. 99th ed. Cleveland: CRC Press Inc., 2018., p. 3-8",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 11,
+   "nombre": "1,2-dicloroetano",
+   "nombreIngles": "1,2-Dichloroethane",
+   "formula": "C2H4Cl2",
+   "carga": 0,
+   "masaMolar": 98.96,
+   "iupac": "1,2-dichloroethane",
+   "smiles": "C(CCl)Cl",
+   "categoria": "halogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 83.4,
+    "texto": "83.4 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-162",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 6361,
+   "nombre": "2-cloropropano",
+   "nombreIngles": "2-Chloropropane",
+   "formula": "C3H7Cl",
+   "carga": 0,
+   "masaMolar": 78.54,
+   "iupac": "2-chloropropane",
+   "smiles": "CC(C)Cl",
+   "categoria": "halogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 35.7,
+    "texto": "35.7 °C",
+    "fuente": "Lide, D.R. (ed.). CRC Handbook of Chemistry and Physics. 76th ed. Boca Raton, FL: CRC Press Inc., 1995-1996., p. 3-269",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 8002,
+   "nombre": "1-bromobutano",
+   "nombreIngles": "Butyl bromide",
+   "formula": "C4H9Br",
+   "carga": 0,
+   "masaMolar": 137.02,
+   "iupac": "1-bromobutane",
+   "smiles": "CCCCBr",
+   "categoria": "halogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 101.3,
+    "texto": "101.3 °C at 760 mm Hg",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of  Chemicals, Drugs, and Biologicals. 13th Edition, Whitehouse  Station, NJ:  Merck and Co., Inc., 2001., p. 263",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 10485,
+   "nombre": "2-bromo-2-metilpropano",
+   "nombreIngles": "t-Butyl bromide",
+   "formula": "C4H9Br",
+   "carga": 0,
+   "masaMolar": 137.02,
+   "iupac": "2-bromo-2-methylpropane",
+   "smiles": "CC(C)(C)Br",
+   "categoria": "halogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 73.3,
+    "texto": "73.3 °C",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of  Chemicals, Drugs, and Biologicals. 13th Edition, Whitehouse  Station, NJ:  Merck and Co., Inc., 2001., p. 263",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 6338,
+   "nombre": "cloroeteno (cloruro de vinilo)",
+   "nombreIngles": "Vinyl Chloride",
+   "formula": "C2H3Cl",
+   "carga": 0,
+   "masaMolar": 62.5,
+   "iupac": "chloroethene",
+   "smiles": "C=CCl",
+   "categoria": "halogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -13.8,
+    "texto": "-13.8 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-106",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 6575,
+   "nombre": "tricloroeteno",
+   "nombreIngles": "Trichloroethylene",
+   "formula": "C2HCl3",
+   "carga": 0,
+   "masaMolar": 131.38,
+   "iupac": "1,1,2-trichloroethene",
+   "smiles": "C(=C(Cl)Cl)Cl",
+   "categoria": "halogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 87.2,
+    "texto": "87.2 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-520",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 8301,
+   "nombre": "tetrafluoroeteno",
+   "nombreIngles": "Tetrafluoroethylene",
+   "formula": "C2F4",
+   "carga": 0,
+   "masaMolar": 100.01,
+   "iupac": "1,1,2,2-tetrafluoroethene",
+   "smiles": "C(=C(F)F)(F)F",
+   "categoria": "halogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -75.9,
+    "texto": "-75.9 °C",
+    "fuente": "Lide, D.R. CRC Handbook of Chemistry and Physics 88TH    Edition 2007-2008. CRC Press, Taylor & Francis, Boca Raton,    FL 2007, p. 3-474",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 6391,
+   "nombre": "diclorodifluorometano (freón-12)",
+   "nombreIngles": "Dichlorodifluoromethane",
+   "formula": "CCl2F2",
+   "carga": 0,
+   "masaMolar": 120.91,
+   "iupac": "dichloro(difluoro)methane",
+   "smiles": "C(F)(F)(Cl)Cl",
+   "categoria": "halogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": -29.8,
+    "texto": "-29.8 °C",
+    "fuente": "Haynes, W.M. (ed.) CRC Handbook of Chemistry and Physics.   91st ed. Boca Raton, FL: CRC Press Inc., 2010-2011, p. 3-154",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 7964,
+   "nombre": "clorobenceno",
+   "nombreIngles": "Chlorobenzene",
+   "formula": "C6H5Cl",
+   "carga": 0,
+   "masaMolar": 112.55,
+   "iupac": "chlorobenzene",
+   "smiles": "C1=CC=C(C=C1)Cl",
+   "categoria": "halogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 131.6,
+    "texto": "131.6 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 94th Edition. CRC Press LLC, Boca Raton: FL 2013-2014, p. 3-98",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 7961,
+   "nombre": "bromobenceno",
+   "nombreIngles": "Bromobenzene",
+   "formula": "C6H5Br",
+   "carga": 0,
+   "masaMolar": 157.01,
+   "iupac": "bromobenzene",
+   "smiles": "C1=CC=C(C=C1)Br",
+   "categoria": "halogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 156.2,
+    "texto": "156.2 °C @ 760 MM HG",
+    "fuente": "Budavari, S. (ed.). The Merck Index - Encyclopedia of Chemicals, Drugs and Biologicals. Rahway, NJ: Merck and Co., Inc., 1989., p. 213",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 6367,
+   "nombre": "cloruro de acetilo",
+   "nombreIngles": "Acetyl chloride",
+   "formula": "C2H3ClO",
+   "carga": 0,
+   "masaMolar": 78.5,
+   "iupac": "acetyl chloride",
+   "smiles": "CC(=O)Cl",
+   "categoria": "halogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 51,
+    "texto": "51 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-6",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 7412,
+   "nombre": "cloruro de benzoílo",
+   "nombreIngles": "Benzoyl chloride",
+   "formula": "C7H5ClO",
+   "carga": 0,
+   "masaMolar": 140.56,
+   "iupac": "benzoyl chloride",
+   "smiles": "C1=CC=C(C=C1)C(=O)Cl",
+   "categoria": "halogenado",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 201,
+    "texto": "201 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-42",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 5793,
+   "nombre": "glucosa",
+   "nombreIngles": "D-Glucose",
+   "formula": "C6H12O6",
+   "carga": 0,
+   "masaMolar": 180.16,
+   "iupac": "(3R,4S,5S,6R)-6-(hydroxymethyl)oxane-2,3,4,5-tetrol",
+   "smiles": "C([C@@H]1[C@H]([C@@H]([C@H](C(O1)O)O)O)O)O",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 2723872,
+   "nombre": "fructosa",
+   "nombreIngles": "D-Fructose",
+   "formula": "C6H12O6",
+   "carga": 0,
+   "masaMolar": 180.16,
+   "iupac": "(3S,4R,5R)-2-(hydroxymethyl)oxane-2,3,4,5-tetrol",
+   "smiles": "C1[C@H]([C@H]([C@@H](C(O1)(CO)O)O)O)O",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 6036,
+   "nombre": "galactosa",
+   "nombreIngles": "D-Galactose",
+   "formula": "C6H12O6",
+   "carga": 0,
+   "masaMolar": 180.16,
+   "iupac": "(3R,4S,5R,6R)-6-(hydroxymethyl)oxane-2,3,4,5-tetrol",
+   "smiles": "C([C@@H]1[C@@H]([C@@H]([C@H](C(O1)O)O)O)O)O",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 10975657,
+   "nombre": "ribosa",
+   "nombreIngles": "D-Ribose",
+   "formula": "C5H10O5",
+   "carga": 0,
+   "masaMolar": 150.13,
+   "iupac": "(3R,4R,5R)-oxane-2,3,4,5-tetrol",
+   "smiles": "C1[C@H]([C@H]([C@H](C(O1)O)O)O)O",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 9828112,
+   "nombre": "desoxirribosa",
+   "nombreIngles": "Deoxyribose",
+   "formula": "C5H10O4",
+   "carga": 0,
+   "masaMolar": 134.13,
+   "iupac": "(4S,5R)-5-(hydroxymethyl)oxolane-2,4-diol",
+   "smiles": "C1[C@@H]([C@H](OC1O)CO)O",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 5988,
+   "nombre": "sacarosa",
+   "nombreIngles": "Sucrose",
+   "formula": "C12H22O11",
+   "carga": 0,
+   "masaMolar": 342.3,
+   "iupac": "(2R,3R,4S,5S,6R)-2-[(2S,3S,4S,5R)-3,4-dihydroxy-2,5-bis(hydroxymethyl)oxolan-2-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol",
+   "smiles": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@]2([C@H]([C@@H]([C@H](O2)CO)O)O)CO)O)O)O)O",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 6134,
+   "nombre": "lactosa",
+   "nombreIngles": "beta-Lactose",
+   "formula": "C12H22O11",
+   "carga": 0,
+   "masaMolar": 342.3,
+   "iupac": "(2R,3R,4S,5R,6S)-2-(hydroxymethyl)-6-[(2R,3S,4R,5R,6R)-4,5,6-trihydroxy-2-(hydroxymethyl)oxan-3-yl]oxyoxane-3,4,5-triol",
+   "smiles": "C([C@@H]1[C@@H]([C@@H]([C@H]([C@@H](O1)O[C@@H]2[C@H](O[C@H]([C@@H]([C@H]2O)O)O)CO)O)O)O)O",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 439186,
+   "nombre": "maltosa",
+   "nombreIngles": "Maltose",
+   "formula": "C12H22O11",
+   "carga": 0,
+   "masaMolar": 342.3,
+   "iupac": "(2R,3S,4S,5R,6R)-2-(hydroxymethyl)-6-[(2R,3S,4R,5R)-4,5,6-trihydroxy-2-(hydroxymethyl)oxan-3-yl]oxyoxane-3,4,5-triol",
+   "smiles": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@@H]2[C@H](OC([C@@H]([C@H]2O)O)O)CO)O)O)O)O",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 750,
+   "nombre": "glicina",
+   "nombreIngles": "Glycine",
+   "formula": "C2H5NO2",
+   "carga": 0,
+   "masaMolar": 75.07,
+   "iupac": "2-aminoacetic acid",
+   "smiles": "C(C(=O)O)N",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 5950,
+   "nombre": "alanina",
+   "nombreIngles": "L-Alanine",
+   "formula": "C3H7NO2",
+   "carga": 0,
+   "masaMolar": 89.09,
+   "iupac": "(2S)-2-aminopropanoic acid",
+   "smiles": "C[C@@H](C(=O)O)N",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 250,
+    "texto": "250 °C (sublimes)",
+    "fuente": "Lide, D.R. CRC Handbook of Chemistry and Physics 86TH  Edition 2005-2006. CRC Press, Taylor & Francis, Boca Raton,  FL 2005, p. 3-10",
+    "sublima": true
+   }
+  },
+  {
+   "cid": 6287,
+   "nombre": "valina",
+   "nombreIngles": "L-Valine",
+   "formula": "C5H11NO2",
+   "carga": 0,
+   "masaMolar": 117.15,
+   "iupac": "(2S)-2-amino-3-methylbutanoic acid",
+   "smiles": "CC(C)[C@@H](C(=O)O)N",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 6106,
+   "nombre": "leucina",
+   "nombreIngles": "L-Leucine",
+   "formula": "C6H13NO2",
+   "carga": 0,
+   "masaMolar": 131.17,
+   "iupac": "(2S)-2-amino-4-methylpentanoic acid",
+   "smiles": "CC(C)C[C@@H](C(=O)O)N",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 6306,
+   "nombre": "isoleucina",
+   "nombreIngles": "L-Isoleucine",
+   "formula": "C6H13NO2",
+   "carga": 0,
+   "masaMolar": 131.17,
+   "iupac": "(2S,3S)-2-amino-3-methylpentanoic acid",
+   "smiles": "CC[C@H](C)[C@@H](C(=O)O)N",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 168,
+    "texto": "Sublimes at 168-170 °C",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals. Whitehouse Station, NJ:  Merck and Co., Inc., 2006., p. 896",
+    "sublima": true
+   }
+  },
+  {
+   "cid": 5951,
+   "nombre": "serina",
+   "nombreIngles": "L-Serine",
+   "formula": "C3H7NO3",
+   "carga": 0,
+   "masaMolar": 105.09,
+   "iupac": "(2S)-2-amino-3-hydroxypropanoic acid",
+   "smiles": "C([C@@H](C(=O)O)N)O",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 6288,
+   "nombre": "treonina",
+   "nombreIngles": "L-Threonine",
+   "formula": "C4H9NO3",
+   "carga": 0,
+   "masaMolar": 119.12,
+   "iupac": "(2S,3R)-2-amino-3-hydroxybutanoic acid",
+   "smiles": "C[C@H]([C@@H](C(=O)O)N)O",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 5862,
+   "nombre": "cisteína",
+   "nombreIngles": "L-(+)-Cysteine",
+   "formula": "C3H7NO2S",
+   "carga": 0,
+   "masaMolar": 121.16,
+   "iupac": "(2R)-2-amino-3-sulfanylpropanoic acid",
+   "smiles": "C([C@@H](C(=O)O)N)S",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 6137,
+   "nombre": "metionina",
+   "nombreIngles": "L-Methionine",
+   "formula": "C5H11NO2S",
+   "carga": 0,
+   "masaMolar": 149.21,
+   "iupac": "(2S)-2-amino-4-methylsulfanylbutanoic acid",
+   "smiles": "CSCC[C@@H](C(=O)O)N",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 186.11,
+    "texto": "sublimes at 367 °F (NTP, 1992)",
+    "fuente": "National Toxicology Program, Institute of Environmental Health Sciences, National Institutes of Health (NTP). 1992. National Toxicology Program Chemical Repository Database. Research Triangle Park, North Carolina.",
+    "sublima": true
+   }
+  },
+  {
+   "cid": 5960,
+   "nombre": "ácido aspártico",
+   "nombreIngles": "L-Aspartic Acid",
+   "formula": "C4H7NO4",
+   "carga": 0,
+   "masaMolar": 133.1,
+   "iupac": "(2S)-2-aminobutanedioic acid",
+   "smiles": "C([C@@H](C(=O)O)N)C(=O)O",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 33032,
+   "nombre": "ácido glutámico",
+   "nombreIngles": "L-Glutamic Acid",
+   "formula": "C5H9NO4",
+   "carga": 0,
+   "masaMolar": 147.13,
+   "iupac": "(2S)-2-aminopentanedioic acid",
+   "smiles": "C(CC(=O)O)[C@@H](C(=O)O)N",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 175,
+    "texto": "Sublimes at 175 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-284",
+    "sublima": true
+   }
+  },
+  {
+   "cid": 6267,
+   "nombre": "asparagina",
+   "nombreIngles": "(-)-Asparagine",
+   "formula": "C4H8N2O3",
+   "carga": 0,
+   "masaMolar": 132.12,
+   "iupac": "(2S)-2,4-diamino-4-oxobutanoic acid",
+   "smiles": "C([C@@H](C(=O)O)N)C(=O)N",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 5961,
+   "nombre": "glutamina",
+   "nombreIngles": "L-Glutamine",
+   "formula": "C5H10N2O3",
+   "carga": 0,
+   "masaMolar": 146.14,
+   "iupac": "(2S)-2,5-diamino-5-oxopentanoic acid",
+   "smiles": "C(CC(=O)N)[C@@H](C(=O)O)N",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 5962,
+   "nombre": "lisina",
+   "nombreIngles": "L-Lysine",
+   "formula": "C6H14N2O2",
+   "carga": 0,
+   "masaMolar": 146.19,
+   "iupac": "(2S)-2,6-diaminohexanoic acid",
+   "smiles": "C(CCN)C[C@@H](C(=O)O)N",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 6322,
+   "nombre": "arginina",
+   "nombreIngles": "L-Arginine",
+   "formula": "C6H14N4O2",
+   "carga": 0,
+   "masaMolar": 174.2,
+   "iupac": "(2S)-2-amino-5-(diaminomethylideneamino)pentanoic acid",
+   "smiles": "C(C[C@@H](C(=O)O)N)CN=C(N)N",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 6274,
+   "nombre": "histidina",
+   "nombreIngles": "L-Histidine",
+   "formula": "C6H9N3O2",
+   "carga": 0,
+   "masaMolar": 155.15,
+   "iupac": "(2S)-2-amino-3-(1H-imidazol-5-yl)propanoic acid",
+   "smiles": "C1=C(NC=N1)C[C@@H](C(=O)O)N",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 6140,
+   "nombre": "fenilalanina",
+   "nombreIngles": "L-Phenylalanine",
+   "formula": "C9H11NO2",
+   "carga": 0,
+   "masaMolar": 165.19,
+   "iupac": "(2S)-2-amino-3-phenylpropanoic acid",
+   "smiles": "C1=CC=C(C=C1)C[C@@H](C(=O)O)N",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 295,
+    "texto": "563 °F at 760 mmHg (sublimes) (NTP, 1992)",
+    "fuente": "National Toxicology Program, Institute of Environmental Health Sciences, National Institutes of Health (NTP). 1992. National Toxicology Program Chemical Repository Database. Research Triangle Park, North Carolina.",
+    "sublima": true
+   }
+  },
+  {
+   "cid": 6057,
+   "nombre": "tirosina",
+   "nombreIngles": "L-Tyrosine",
+   "formula": "C9H11NO3",
+   "carga": 0,
+   "masaMolar": 181.19,
+   "iupac": "(2S)-2-amino-3-(4-hydroxyphenyl)propanoic acid",
+   "smiles": "C1=CC(=CC=C1C[C@@H](C(=O)O)N)O",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 6305,
+   "nombre": "triptófano",
+   "nombreIngles": "L-Tryptophan",
+   "formula": "C11H12N2O2",
+   "carga": 0,
+   "masaMolar": 204.22,
+   "iupac": "(2S)-2-amino-3-(1H-indol-3-yl)propanoic acid",
+   "smiles": "C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 145742,
+   "nombre": "prolina",
+   "nombreIngles": "L-Proline",
+   "formula": "C5H9NO2",
+   "carga": 0,
+   "masaMolar": 115.13,
+   "iupac": "(2S)-pyrrolidine-2-carboxylic acid",
+   "smiles": "C1C[C@H](NC1)C(=O)O",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 190,
+   "nombre": "adenina",
+   "nombreIngles": "Adenine",
+   "formula": "C5H5N5",
+   "carga": 0,
+   "masaMolar": 135.13,
+   "iupac": "7H-purin-6-amine",
+   "smiles": "C1=NC2=NC=NC(=C2N1)N",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 135398634,
+   "nombre": "guanina",
+   "nombreIngles": "Guanine",
+   "formula": "C5H5N5O",
+   "carga": 0,
+   "masaMolar": 151.13,
+   "iupac": "2-amino-1,7-dihydropurin-6-one",
+   "smiles": "C1=NC2=C(N1)C(=O)NC(=N2)N",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 597,
+   "nombre": "citosina",
+   "nombreIngles": "Cytosine",
+   "formula": "C4H5N3O",
+   "carga": 0,
+   "masaMolar": 111.1,
+   "iupac": "6-amino-1H-pyrimidin-2-one",
+   "smiles": "C1=C(NC(=O)N=C1)N",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 1135,
+   "nombre": "timina",
+   "nombreIngles": "Thymine",
+   "formula": "C5H6N2O2",
+   "carga": 0,
+   "masaMolar": 126.11,
+   "iupac": "5-methyl-1H-pyrimidine-2,4-dione",
+   "smiles": "CC1=CNC(=O)NC1=O",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 1174,
+   "nombre": "uracilo",
+   "nombreIngles": "Uracil",
+   "formula": "C4H4N2O2",
+   "carga": 0,
+   "masaMolar": 112.09,
+   "iupac": "1H-pyrimidine-2,4-dione",
+   "smiles": "C1=CNC(=O)NC1=O",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 60961,
+   "nombre": "adenosina",
+   "nombreIngles": "Adenosine",
+   "formula": "C10H13N5O4",
+   "carga": 0,
+   "masaMolar": 267.24,
+   "iupac": "(2R,3R,4S,5R)-2-(6-aminopurin-9-yl)-5-(hydroxymethyl)oxolane-3,4-diol",
+   "smiles": "C1=NC(=C2C(=N1)N(C=N2)[C@H]3[C@@H]([C@@H]([C@H](O3)CO)O)O)N",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 5997,
+   "nombre": "colesterol",
+   "nombreIngles": "Cholesterol",
+   "formula": "C27H46O",
+   "carga": 0,
+   "masaMolar": 386.7,
+   "iupac": "(3S,8S,9S,10R,13R,14S,17R)-10,13-dimethyl-17-[(2R)-6-methylheptan-2-yl]-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-ol",
+   "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 360,
+    "texto": "360 °C",
+    "fuente": "PhysProp",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 985,
+   "nombre": "ácido palmítico",
+   "nombreIngles": "Palmitic Acid",
+   "formula": "C16H32O2",
+   "carga": 0,
+   "masaMolar": 256.42,
+   "iupac": "hexadecanoic acid",
+   "smiles": "CCCCCCCCCCCCCCCC(=O)O",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 351.5,
+    "texto": "351.5 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-294",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 5281,
+   "nombre": "ácido esteárico",
+   "nombreIngles": "Stearic Acid",
+   "formula": "C18H36O2",
+   "carga": 0,
+   "masaMolar": 284.5,
+   "iupac": "octadecanoic acid",
+   "smiles": "CCCCCCCCCCCCCCCCCC(=O)O",
+   "categoria": "biomolecula",
+   "tiene3D": false,
+   "puntoEbullicion": {
+    "valor": 371,
+    "texto": "371 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 95th Edition. CRC Press LLC, Boca Raton: FL 2014-2015, p. 3-488",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 445639,
+   "nombre": "ácido oleico",
+   "nombreIngles": "Oleic Acid",
+   "formula": "C18H34O2",
+   "carga": 0,
+   "masaMolar": 282.5,
+   "iupac": "(Z)-octadec-9-enoic acid",
+   "smiles": "CCCCCCCC/C=C\\CCCCCCCC(=O)O",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 360,
+    "texto": "360 °C",
+    "fuente": "PhysProp",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 5280450,
+   "nombre": "ácido linoleico",
+   "nombreIngles": "Linoleic Acid",
+   "formula": "C18H32O2",
+   "carga": 0,
+   "masaMolar": 280.4,
+   "iupac": "(9Z,12Z)-octadeca-9,12-dienoic acid",
+   "smiles": "CCCCC/C=C\\C/C=C\\CCCCCCCC(=O)O",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 54670067,
+   "nombre": "ácido ascórbico (vitamina C)",
+   "nombreIngles": "L-Ascorbic Acid",
+   "formula": "C6H8O6",
+   "carga": 0,
+   "masaMolar": 176.12,
+   "iupac": "(2R)-2-[(1S)-1,2-dihydroxyethyl]-3,4-dihydroxy-2H-furan-5-one",
+   "smiles": "C([C@@H]([C@@H]1C(=C(C(=O)O1)O)O)O)O",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 681,
+   "nombre": "dopamina",
+   "nombreIngles": "Dopamine",
+   "formula": "C8H11NO2",
+   "carga": 0,
+   "masaMolar": 153.18,
+   "iupac": "4-(2-aminoethyl)benzene-1,2-diol",
+   "smiles": "C1=CC(=C(C=C1CCN)O)O",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 5816,
+   "nombre": "adrenalina",
+   "nombreIngles": "Epinephrine",
+   "formula": "C9H13NO3",
+   "carga": 0,
+   "masaMolar": 183.2,
+   "iupac": "4-[(1R)-1-hydroxy-2-(methylamino)ethyl]benzene-1,2-diol",
+   "smiles": "CNC[C@@H](C1=CC(=C(C=C1)O)O)O",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 5202,
+   "nombre": "serotonina",
+   "nombreIngles": "Serotonin",
+   "formula": "C10H12N2O",
+   "carga": 0,
+   "masaMolar": 176.21,
+   "iupac": "3-(2-aminoethyl)-1H-indol-5-ol",
+   "smiles": "C1=CC2=C(C=C1O)C(=CN2)CCN",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 774,
+   "nombre": "histamina",
+   "nombreIngles": "Histamine",
+   "formula": "C5H9N3",
+   "carga": 0,
+   "masaMolar": 111.15,
+   "iupac": "2-(1H-imidazol-5-yl)ethanamine",
+   "smiles": "C1=C(NC=N1)CCN",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 305,
+   "nombre": "colina",
+   "nombreIngles": "Choline",
+   "formula": "C5H14NO+",
+   "carga": 1,
+   "masaMolar": 104.17,
+   "iupac": "2-hydroxyethyl(trimethyl)azanium",
+   "smiles": "C[N+](C)(C)CCO",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 113,
+    "texto": "113 °C",
+    "fuente": "PubChem",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 936,
+   "nombre": "nicotinamida",
+   "nombreIngles": "Nicotinamide",
+   "formula": "C6H6N2O",
+   "carga": 0,
+   "masaMolar": 122.12,
+   "iupac": "pyridine-3-carboxamide",
+   "smiles": "C1=CC(=CN=C1)C(=O)N",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 150,
+    "texto": "302 to 320 °F at 760 mmHg (NTP, 1992)",
+    "fuente": "National Toxicology Program, Institute of Environmental Health Sciences, National Institutes of Health (NTP). 1992. National Toxicology Program Chemical Repository Database. Research Triangle Park, North Carolina.",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 1060,
+   "nombre": "ácido pirúvico",
+   "nombreIngles": "Pyruvic Acid",
+   "formula": "C3H4O3",
+   "carga": 0,
+   "masaMolar": 88.06,
+   "iupac": "2-oxopropanoic acid",
+   "smiles": "CC(=O)C(=O)O",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 164,
+    "texto": "164 °C",
+    "fuente": "PubChem",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 6013,
+   "nombre": "testosterona",
+   "nombreIngles": "Testosterone",
+   "formula": "C19H28O2",
+   "carga": 0,
+   "masaMolar": 288.4,
+   "iupac": "(8R,9S,10R,13S,14S,17S)-17-hydroxy-10,13-dimethyl-1,2,6,7,8,9,11,12,14,15,16,17-dodecahydrocyclopenta[a]phenanthren-3-one",
+   "smiles": "C[C@]12CC[C@H]3[C@H]([C@@H]1CC[C@@H]2O)CCC4=CC(=O)CC[C@]34C",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 5757,
+   "nombre": "estradiol",
+   "nombreIngles": "Estradiol",
+   "formula": "C18H24O2",
+   "carga": 0,
+   "masaMolar": 272.4,
+   "iupac": "(8R,9S,13S,14S,17S)-13-methyl-6,7,8,9,11,12,14,15,16,17-decahydrocyclopenta[a]phenanthrene-3,17-diol",
+   "smiles": "C[C@]12CC[C@H]3[C@H]([C@@H]1CC[C@@H]2O)CCC4=C3C=CC(=C4)O",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 445354,
+   "nombre": "retinol (vitamina A)",
+   "nombreIngles": "Retinol",
+   "formula": "C20H30O",
+   "carga": 0,
+   "masaMolar": 286.5,
+   "iupac": "(2E,4E,6E,8E)-3,7-dimethyl-9-(2,6,6-trimethylcyclohexen-1-yl)nona-2,4,6,8-tetraen-1-ol",
+   "smiles": "CC1=C(C(CCC1)(C)C)/C=C/C(=C/C=C/C(=C/CO)/C)/C",
+   "categoria": "biomolecula",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 2244,
+   "nombre": "ácido acetilsalicílico (aspirina)",
+   "nombreIngles": "Aspirin",
+   "formula": "C9H8O4",
+   "carga": 0,
+   "masaMolar": 180.16,
+   "iupac": "2-acetyloxybenzoic acid",
+   "smiles": "CC(=O)OC1=CC=CC=C1C(=O)O",
+   "categoria": "cotidiana",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 140,
+    "texto": "140 °C",
+    "fuente": "PubChem",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 1983,
+   "nombre": "paracetamol",
+   "nombreIngles": "Acetaminophen",
+   "formula": "C8H9NO2",
+   "carga": 0,
+   "masaMolar": 151.16,
+   "iupac": "N-(4-hydroxyphenyl)acetamide",
+   "smiles": "CC(=O)NC1=CC=C(C=C1)O",
+   "categoria": "cotidiana",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 3672,
+   "nombre": "ibuprofeno",
+   "nombreIngles": "Ibuprofen, (+-)-",
+   "formula": "C13H18O2",
+   "carga": 0,
+   "masaMolar": 206.28,
+   "iupac": "2-[4-(2-methylpropyl)phenyl]propanoic acid",
+   "smiles": "CC(C)CC1=CC=C(C=C1)C(C)C(=O)O",
+   "categoria": "cotidiana",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 2519,
+   "nombre": "cafeína",
+   "nombreIngles": "Caffeine",
+   "formula": "C8H10N4O2",
+   "carga": 0,
+   "masaMolar": 194.19,
+   "iupac": "1,3,7-trimethylpurine-2,6-dione",
+   "smiles": "CN1C=NC2=C1C(=O)N(C(=O)N2C)C",
+   "categoria": "cotidiana",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 178,
+    "texto": "178 °C (sublimes)",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals. Cambridge, UK:  Royal Society of Chemistry, 2013., p. 289",
+    "sublima": true
+   }
+  },
+  {
+   "cid": 89594,
+   "nombre": "nicotina",
+   "nombreIngles": "Nicotine",
+   "formula": "C10H14N2",
+   "carga": 0,
+   "masaMolar": 162.23,
+   "iupac": "3-[(2S)-1-methylpyrrolidin-2-yl]pyridine",
+   "smiles": "CN1CCC[C@H]1C2=CN=CC=C2",
+   "categoria": "cotidiana",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 247,
+    "texto": "247 °C",
+    "fuente": "PhysProp",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 5429,
+   "nombre": "teobromina (cacao)",
+   "nombreIngles": "Theobromine",
+   "formula": "C7H8N4O2",
+   "carga": 0,
+   "masaMolar": 180.16,
+   "iupac": "3,7-dimethylpurine-2,6-dione",
+   "smiles": "CN1C=NC2=C1C(=O)NC(=O)N2C",
+   "categoria": "cotidiana",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 290,
+    "texto": "Sublimes 290-295 °C",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals. Cambridge, UK:  Royal Society of Chemistry, 2013., p. 1719",
+    "sublima": true
+   }
+  },
+  {
+   "cid": 1548943,
+   "nombre": "capsaicina (ají)",
+   "nombreIngles": "Capsaicin",
+   "formula": "C18H27NO3",
+   "carga": 0,
+   "masaMolar": 305.4,
+   "iupac": "(E)-N-[(4-hydroxy-3-methoxyphenyl)methyl]-8-methylnon-6-enamide",
+   "smiles": "CC(C)/C=C/CCCCC(=O)NCC1=CC(=C(C=C1)O)OC",
+   "categoria": "cotidiana",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 210,
+    "texto": "410-428 °F",
+    "fuente": "PubChem",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 1254,
+   "nombre": "mentol",
+   "nombreIngles": "Menthol",
+   "formula": "C10H20O",
+   "carga": 0,
+   "masaMolar": 156.26,
+   "iupac": "5-methyl-2-propan-2-ylcyclohexan-1-ol",
+   "smiles": "CC1CCC(C(C1)O)C(C)C",
+   "categoria": "cotidiana",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 214.6,
+    "texto": "214.6 °C",
+    "fuente": "American Conference of Governmental Industrial Hygienists;  2013 Guide to Occupational Exposure Values Cincinnati, OH 2013, p. V3: 2267",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 1183,
+   "nombre": "vainillina",
+   "nombreIngles": "Vanillin",
+   "formula": "C8H8O3",
+   "carga": 0,
+   "masaMolar": 152.15,
+   "iupac": "4-hydroxy-3-methoxybenzaldehyde",
+   "smiles": "COC1=C(C=CC(=C1)C=O)O",
+   "categoria": "cotidiana",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 285,
+    "texto": "285 °C",
+    "fuente": "O'Neil, M.J. (ed.). The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals. Cambridge, UK:  Royal Society of Chemistry, 2013., p. 1843",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 22311,
+   "nombre": "limoneno",
+   "nombreIngles": "1-Methyl-4-Prop-1-En-2-Ylcyclohexene",
+   "formula": "C10H16",
+   "carga": 0,
+   "masaMolar": 136.23,
+   "iupac": "1-methyl-4-prop-1-en-2-ylcyclohexene",
+   "smiles": "CC1=CCC(CC1)C(=C)C",
+   "categoria": "cotidiana",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 15.5,
+    "texto": "Colorless liquid; lemon-like odor. Specific gravity: 0.857 at 15.5 °C/15.5 °C; BP: 175-176 °C; Refractive index: 1.473 at 20 °C. Miscible with alcohol; insoluble in water /Limonene, inactive/",
+    "fuente": "Lewis, R.J. Sr.; Hawley's Condensed Chemical Dictionary 15th  Edition. John Wiley & Sons, Inc. New York, NY 2007., p. 462",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 2537,
+   "nombre": "alcanfor",
+   "nombreIngles": "Camphor",
+   "formula": "C10H16O",
+   "carga": 0,
+   "masaMolar": 152.23,
+   "iupac": "1,7,7-trimethylbicyclo[2.2.1]heptan-2-one",
+   "smiles": "CC1(C2CCC1(C(=O)C2)C)C",
+   "categoria": "cotidiana",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 204,
+    "texto": "204 °C",
+    "fuente": "PhysProp",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 637511,
+   "nombre": "cinamaldehído (canela)",
+   "nombreIngles": "Cinnamaldehyde",
+   "formula": "C9H8O",
+   "carga": 0,
+   "masaMolar": 132.16,
+   "iupac": "(E)-3-phenylprop-2-enal",
+   "smiles": "C1=CC=C(C=C1)/C=C/C=O",
+   "categoria": "cotidiana",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 253,
+    "texto": "253 °C @ 760 MM HG (SLIGHT DECOMP)",
+    "fuente": "Lide, DR (ed.). CRC Handbook of Chemistry and Physics. 71st ed. Boca Raton, FL: CRC Press Inc., 1990-1991., p. 3-180",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 3314,
+   "nombre": "eugenol (clavo de olor)",
+   "nombreIngles": "Eugenol",
+   "formula": "C10H12O2",
+   "carga": 0,
+   "masaMolar": 164.2,
+   "iupac": "2-methoxy-4-prop-2-enylphenol",
+   "smiles": "COC1=C(C=CC(=C1)CC=C)O",
+   "categoria": "cotidiana",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 256,
+    "texto": "256 °C",
+    "fuente": "PubChem",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 637566,
+   "nombre": "geraniol",
+   "nombreIngles": "Geraniol",
+   "formula": "C10H18O",
+   "carga": 0,
+   "masaMolar": 154.25,
+   "iupac": "(2E)-3,7-dimethylocta-2,6-dien-1-ol",
+   "smiles": "CC(=CCC/C(=C/CO)/C)C",
+   "categoria": "cotidiana",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 230,
+    "texto": "230 °C",
+    "fuente": "Larranaga, M.D., Lewis, R.J. Sr., Lewis, R.A.; Hawley's Condensed Chemical Dictionary 16th  Edition. John Wiley & Sons, Inc. Hoboken, NJ 2016., p. 665",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 5143,
+   "nombre": "sacarina",
+   "nombreIngles": "Saccharin",
+   "formula": "C7H5NO3S",
+   "carga": 0,
+   "masaMolar": 183.19,
+   "iupac": "1,1-dioxo-1,2-benzothiazol-3-one",
+   "smiles": "C1=CC=C2C(=C1)C(=O)NS2(=O)=O",
+   "categoria": "cotidiana",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 134601,
+   "nombre": "aspartamo",
+   "nombreIngles": "Aspartame",
+   "formula": "C14H18N2O5",
+   "carga": 0,
+   "masaMolar": 294.3,
+   "iupac": "(3S)-3-amino-4-[[(2S)-1-methoxy-1-oxo-3-phenylpropan-2-yl]amino]-4-oxobutanoic acid",
+   "smiles": "COC(=O)[C@H](CC1=CC=CC=C1)NC(=O)[C@H](CC(=O)O)N",
+   "categoria": "cotidiana",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 2337,
+   "nombre": "benzocaína",
+   "nombreIngles": "Benzocaine",
+   "formula": "C9H11NO2",
+   "carga": 0,
+   "masaMolar": 165.19,
+   "iupac": "ethyl 4-aminobenzoate",
+   "smiles": "CCOC(=O)C1=CC=C(C=C1)N",
+   "categoria": "cotidiana",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 310,
+    "texto": "310 °C",
+    "fuente": "Lide, DR (ed.). CRC Handbook of Chemistry and Physics. 81st Edition. CRC Press LLC, Boca Raton: FL 2000, p. 3-69",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 3676,
+   "nombre": "lidocaína",
+   "nombreIngles": "Lidocaine",
+   "formula": "C14H22N2O",
+   "carga": 0,
+   "masaMolar": 234.34,
+   "iupac": "2-(diethylamino)-N-(2,6-dimethylphenyl)acetamide",
+   "smiles": "CCN(CC)CC(=O)NC1=C(C=CC=C1C)C",
+   "categoria": "cotidiana",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 181,
+    "texto": "181 °C",
+    "fuente": "PubChem",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 23689119,
+   "nombre": "glutamato monosódico (monohidrato)",
+   "nombreIngles": "Monosodium Glutamate",
+   "formula": "C5H10NNaO5",
+   "carga": 0,
+   "masaMolar": 187.13,
+   "iupac": "sodium;(4S)-4-amino-5-hydroxy-5-oxopentanoate;hydrate",
+   "smiles": "C(CC(=O)[O-])[C@@H](C(=O)O)N.O.[Na+]",
+   "categoria": "cotidiana",
+   "tiene3D": false,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 1030,
+   "nombre": "propilenglicol",
+   "nombreIngles": "Propylene Glycol",
+   "formula": "C3H8O2",
+   "carga": 0,
+   "masaMolar": 76.09,
+   "iupac": "propane-1,2-diol",
+   "smiles": "CC(CO)O",
+   "categoria": "cotidiana",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 187.6,
+    "texto": "187.6 °C",
+    "fuente": "Lide, D.R. CRC Handbook of Chemistry and Physics 88TH    Edition 2007-2008. CRC Press, Taylor & Francis, Boca Raton,    FL 2007, p. 3-444",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 4284,
+   "nombre": "DEET (repelente)",
+   "nombreIngles": "N,N-diethyl-m-toluamide",
+   "formula": "C12H17NO",
+   "carga": 0,
+   "masaMolar": 191.27,
+   "iupac": "N,N-diethyl-3-methylbenzamide",
+   "smiles": "CCN(CC)C(=O)C1=CC=CC(=C1)C",
+   "categoria": "cotidiana",
+   "tiene3D": true,
+   "puntoEbullicion": {
+    "valor": 285,
+    "texto": "545 °F at 760 mmHg (NTP, 1992)",
+    "fuente": "National Toxicology Program, Institute of Environmental Health Sciences, National Institutes of Health (NTP). 1992. National Toxicology Program Chemical Repository Database. Research Triangle Park, North Carolina.",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 643460,
+   "nombre": "ácido sórbico",
+   "nombreIngles": "Sorbic Acid",
+   "formula": "C6H8O2",
+   "carga": 0,
+   "masaMolar": 112.13,
+   "iupac": "(2E,4E)-hexa-2,4-dienoic acid",
+   "smiles": "C/C=C/C=C/C(=O)O",
+   "categoria": "cotidiana",
+   "tiene3D": true,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 517055,
+   "nombre": "benzoato de sodio",
+   "nombreIngles": "Sodium Benzoate",
+   "formula": "C7H5NaO2",
+   "carga": 0,
+   "masaMolar": 144.1,
+   "iupac": "sodium benzoate",
+   "smiles": "C1=CC=C(C=C1)C(=O)[O-].[Na+]",
+   "categoria": "cotidiana",
+   "tiene3D": false,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 5234,
+   "nombre": "cloruro de sodio",
+   "nombreIngles": "Sodium Chloride",
+   "formula": "ClNa",
+   "carga": 0,
+   "masaMolar": 58.44,
+   "iupac": "sodium chloride",
+   "smiles": "[Na+].[Cl-]",
+   "categoria": "ionico",
+   "tiene3D": false,
+   "puntoEbullicion": {
+    "valor": 1465,
+    "texto": "1465 °C",
+    "fuente": "Haynes, W.M. (ed.). CRC Handbook of Chemistry and Physics. 94th Edition. CRC Press LLC, Boca Raton: FL 2013-2014, p. 4-89",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 14798,
+   "nombre": "hidróxido de sodio",
+   "nombreIngles": "Sodium Hydroxide",
+   "formula": "HNaO",
+   "carga": 0,
+   "masaMolar": 39.997,
+   "iupac": "sodium hydroxide",
+   "smiles": "[OH-].[Na+]",
+   "categoria": "ionico",
+   "tiene3D": false,
+   "puntoEbullicion": {
+    "valor": 1388,
+    "texto": "1388 °C",
+    "fuente": "Haynes, W.M. (ed.) CRC Handbook of Chemistry and Physics.   91st ed. Boca Raton, FL: CRC Press Inc., 2010-2011, p. 4-90",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 10112,
+   "nombre": "carbonato de calcio",
+   "nombreIngles": "Calcium Carbonate",
+   "formula": "CCaO3",
+   "carga": 0,
+   "masaMolar": 100.09,
+   "iupac": "calcium carbonate",
+   "smiles": "C(=O)([O-])[O-].[Ca+2]",
+   "categoria": "ionico",
+   "tiene3D": false,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 516892,
+   "nombre": "bicarbonato de sodio",
+   "nombreIngles": "Sodium Bicarbonate",
+   "formula": "CHNaO3",
+   "carga": 0,
+   "masaMolar": 84.007,
+   "iupac": "sodium hydrogen carbonate",
+   "smiles": "C(=O)(O)[O-].[Na+]",
+   "categoria": "ionico",
+   "tiene3D": false,
+   "puntoEbullicion": null
+  }
+ ]
+}

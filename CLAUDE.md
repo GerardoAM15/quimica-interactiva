@@ -62,6 +62,10 @@ docs/            documentación, referencias de tablas, tabla_validacion.md
   `escena3d/Cristal3D` (redes cristalinas a partir de `chem/cristales`).
 - `atomo/DiagramaOrbitales` y `atomo/ModeloBohr`.
 - Cálculos pesados (p. ej. isosuperficies de orbitales) en un Web Worker (`modules/orbitales-3d/orbitales.worker.ts`).
+- `molecula/`: `Molecula3D` (bolas y barras / espacio lleno / alambre), `Estructura2D` (dibujo de RDKit),
+  `LewisSVG`, `BuscadorMoleculas` (Fuse sobre el catálogo) y `cargarMolecula` (catálogo offline, PubChem en vivo
+  y elección de geometría: conformero de PubChem salvo hipervalentes → VSEPR; sin 3D → `chem/coordenadas3d`).
+- RDKit solo a través de `src/lib/rdkit.ts` (carga diferida del WASM; traduce los errores de valencia).
 
 ### Agregar un módulo
 

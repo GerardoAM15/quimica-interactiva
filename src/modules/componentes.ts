@@ -8,4 +8,8 @@ export const COMPONENTES_MODULO: Partial<Record<string, LazyExoticComponent<Comp
   'tabla-periodica': lazy(() => import('./tabla-periodica/TablaPeriodica')),
   'estructura-atomica': lazy(() => import('./estructura-atomica/EstructuraAtomica')),
   'orbitales-3d': lazy(() => import('./orbitales-3d/Orbitales3D')),
+  'enlace-quimico': lazy(() => import('./enlace-quimico/EnlaceQuimico')),
+  'visor-moleculas': lazy(() => import('./visor-moleculas/VisorMoleculas')),
+  'constructor-moleculas': lazy(() => import('./constructor-moleculas/ConstructorMoleculas')),
+  'fuerzas-intermoleculares': lazy(() => import('./fuerzas-intermoleculares/FuerzasIntermoleculares')),
 };

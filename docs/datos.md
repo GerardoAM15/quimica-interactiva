@@ -9,6 +9,9 @@ usar `--sin-cache` para forzar la descarga).
 | `src/data/isotopos.json` | NIST, *Atomic Weights and Isotopic Compositions* | `scripts/descargar-isotopos.mjs` |
 | `src/data/constantes.json` | CODATA 2022 (NIST) | `scripts/descargar-constantes.mjs` |
 | `src/chem/__tests__/fixtures/masas-pubchem.json` | PubChem PUG REST (42 compuestos) | `scripts/descargar-masas-referencia.mjs` |
+| `src/data/moleculas.json` + `public/moleculas/*.sdf` | PubChem: propiedades, conformeros 3D (294 moléculas) y puntos de ebullición (PUG View) | `scripts/descargar-moleculas.mjs` |
+| `src/data/dipolos.json` | Transcrito: CRC Handbook §9 (momentos dipolares) | manual — **pendiente de revisión** |
+| `src/data/ebullicion-complementaria.json` | Transcrito: CRC Handbook §4 (H₂Te, SnH₄) | manual — **pendiente de revisión** |
 | `src/data/apariencia.json` | Transcrito: CRC Handbook §4, Greenwood-Earnshaw | manual — **pendiente de revisión** |
 | `src/data/cristales.json` | Transcrito: CRC Handbook §12 | manual — **pendiente de revisión** |
 
@@ -46,3 +49,17 @@ ya corregidos: **Rb** (558,5 → 570,5 pm; el valor anterior era a baja temperat
 - `cristales.json`: parámetros de red. Todos reproducen la densidad de PubChem con error < 3 %.
 - Parámetros de red de NaCl, CsCl, CaF₂ y ZnS (`src/chem/cristales.ts`): reproducen la densidad del CRC
   con error < 1,5 %.
+
+## Catálogo de moléculas
+
+- Cada entrada se busca por nombre en PubChem y se comprueba contra la fórmula esperada (así se detectó, por
+  ejemplo, que «monosodium glutamate» devuelve el monohidrato).
+- **Conformeros hipervalentes:** el conformero de PubChem del SF₄ es tetraédrico (los campos de fuerzas no modelan
+  bien los pares libres). Para especies con 5 o 6 dominios la aplicación usa la geometría VSEPR ideal.
+- **Puntos de ebullición:** se prefiere el valor del CRC Handbook; se descartan disoluciones, descomposición,
+  desigualdades y presiones distintas de 1 atm; las sublimaciones se marcan como tales. Para las moléculas
+  diatómicas de elementos se contrasta con la tabla periódica de PubChem: el registro del H₂ en PUG View trae el
+  punto de fusión (−259,16 °C) en lugar del de ebullición (−252,87 °C), y se corrigió.
+- PubChem **trunca** las masas molares al último decimal que muestra (C₁₈H₃₂O₂: 280,452 → «280,4»).
+- Radios iónicos de Shannon (redes iónicas) y radios covalentes de Cordero (geometría aproximada) están en el código
+  con su cita; los iónicos están pendientes de revisión.
