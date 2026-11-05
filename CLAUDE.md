@@ -131,11 +131,17 @@ Mínimos exigidos en `src/chem/__tests__/`:
 1. Scripts de datos (PubChem, constantes) + chem/elements, formula, orbitals + tests. Módulos 1–3.
 2. RDKit, vsepr + tests. Módulos 4–7.
 3. Nomenclatura inorgánica, balanceo (fracciones exactas, redox), estequiometría + tests. Módulos 8–11.
+   Incluye la tabla de solubilidad (cationes × aniones, precipitados, ecuación iónica neta; ≥ 30 casos de prueba).
 4. Gases, soluciones, termoquímica + tests. Módulos 12–14.
 5. Cinética, equilibrio, ácidos-bases, electroquímica + tests. Módulos 15–19.
 6. Orgánica básica (nomenclatura IUPAC + tests). Módulos 20–24.
 7. Modo estudio (quizzes, flashcards SM-2) y modo examen de admisión (A–E, cronometrado, solución paso a paso).
-8. Pulido, rendimiento, accesibilidad, PWA offline completa («Descargar todo»), créditos, docs, README, deploy.
+   Incluye el generador de hojas de trabajo imprimibles (temas, 5–50 preguntas, dificultad, semilla visible,
+   «Nueva versión», hoja de respuestas, @media print A4, encabezado opcional).
+8. Pulido, rendimiento, accesibilidad, PWA offline completa («Descargar todo»), créditos, docs, README, deploy;
+   revisión de los datos «pendiente de revisión».
+
+La especificación completa y el estado de cada mejora están en `prompt_quimica_interactiva.md`.
 
 Extra (solo cuando el autor lo indique): 9 estereoquímica · 10 mecanismos animados · 11 espectroscopía ·
 12 síntesis y biomoléculas.

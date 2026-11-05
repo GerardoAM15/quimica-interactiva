@@ -683,3 +683,46 @@ Para cada compuesto: nombre generado desde la estructura, estructura reconstruid
 | CCC#N | propanenitrile | propanonitrilo → propanenitrile |  | — | PubChem CID 7854 |
 | CCCC#N | butanenitrile | butanonitrilo → butanenitrile |  | — | PubChem CID 8008 |
 | C=CC#N | prop-2-enenitrile | prop-2-enonitrilo → prop-2-enenitrile |  | — | PubChem CID 7855 |
+
+## Tabla de solubilidad
+
+| Caso | Referencia | Calculado | Unidad | Error (%) | Fuente |
+|---|---|---|---|---|---|
+| AgCl | insoluble | insoluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| AgBr | insoluble | insoluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| AgI | insoluble | insoluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| NaNO3 | soluble | soluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| KNO3 | soluble | soluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| AgNO3 | soluble | soluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| Pb(NO3)2 | soluble | soluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| BaSO4 | insoluble | insoluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| PbSO4 | insoluble | insoluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| SrSO4 | insoluble | insoluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| CaSO4 | poco | poco |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| Na2SO4 | soluble | soluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| CuSO4 | soluble | soluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| NaCl | soluble | soluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| KI | soluble | soluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| PbI2 | insoluble | insoluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| PbCl2 | poco | poco |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| CaCO3 | insoluble | insoluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| Na2CO3 | soluble | soluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| (NH4)2CO3 | soluble | soluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| Ca3(PO4)2 | insoluble | insoluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| K3PO4 | soluble | soluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| Mg(OH)2 | insoluble | insoluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| Fe(OH)3 | insoluble | insoluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| Cu(OH)2 | insoluble | insoluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| NaOH | soluble | soluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| Ba(OH)2 | soluble | soluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| Ca(OH)2 | poco | poco |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| CuS | insoluble | insoluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| PbS | insoluble | insoluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| Na2S | soluble | soluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| ZnS | insoluble | insoluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| PbCrO4 | insoluble | insoluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| K2CrO4 | soluble | soluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| Ca(CH3COO)2 | soluble | soluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| Al2S3 | reacciona | reacciona |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| FeCl3 | soluble | soluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+| ZnCl2 | soluble | soluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
