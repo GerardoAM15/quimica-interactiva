@@ -1,6 +1,7 @@
 # Pruebas + compilación en cada push y pull request.
 # Publicación en GitHub Pages solo con push a main.
 # Requisito único en GitHub: Settings → Pages → Source: "GitHub Actions".
+# Sitio: https://gerardoam15.github.io/quimica-interactiva/
 name: Pruebas y despliegue
 
 on:
