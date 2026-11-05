@@ -305,6 +305,9 @@ cloruro de sodio|sodium chloride|ClNa|ionico
 hidróxido de sodio|sodium hydroxide|HNaO|ionico
 carbonato de calcio|calcium carbonate|CCaO3|ionico
 bicarbonato de sodio|sodium bicarbonate|CHNaO3|ionico
+cloruro de cesio|cesium chloride|ClCs|ionico
+fluoruro de calcio|calcium fluoride|CaF2|ionico
+sulfuro de zinc|zinc sulfide|SZn|ionico
 `
   .trim()
   .split('\n')

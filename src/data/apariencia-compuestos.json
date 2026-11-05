@@ -1,0 +1,2238 @@
+{
+ "fuente": {
+  "nombre": "PubChem PUG View: «Physical Description» y «Color/Form» (CAMEO Chemicals, HSDB, ICSC…)",
+  "licencia": "Dominio público / según la fuente citada en cada entrada",
+  "descargado": "2026-11-05",
+  "pendienteRevision": true,
+  "notas": "Estado, forma y color se clasifican automáticamente a partir de la frase original (en inglés), que se conserva."
+ },
+ "sinDato": [
+  "telururo de hidrógeno",
+  "estannano",
+  "but-1-ino",
+  "ciclobutano",
+  "fluorometano",
+  "desoxirribosa"
+ ],
+ "compuestos": {
+  "11": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS VISCOUS LIQUID WITH CHARACTERISTIC ODOUR. TURNS DARK ON EXPOSURE TO AIR, MOISTURE AND LIGHT.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "174": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "ODOURLESS COLOURLESS VISCOUS HYGROSCOPIC LIQUID.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "176": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Acetic acid, glacial appears as a clear colorless liquid with a strong odor of vinegar. Flash point 104 °F. Density 8.8 lb / gal. Corrosive to metals and tissue. Used to make other chemicals, as a food additive, and in p",
+   "fuente": "CAMEO Chemicals"
+  },
+  "177": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Acetaldehyde appears as a clear colorless liquid with a pungent choking odor. Flash point -36 °F. Boiling point 69 °F. Density 6.5 lb / gal. Vapors are heaver than air and irritate the mucous membranes and especially the",
+   "fuente": "CAMEO Chemicals"
+  },
+  "178": {
+   "estado": "sólido",
+   "forma": "cristal",
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Acetamide appears as colorless crystals with a mousy odor (NTP, 1999). Low toxicity.",
+   "fuente": "CAMEO Chemicals"
+  },
+  "180": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Acetone appears as a clear colorless liquid with a sweetish odor. Flash point 0 °F. Less dense than water. Vapors are heavier than air. Used as a solvent in paint and nail polish removers.",
+   "fuente": "CAMEO Chemicals"
+  },
+  "190": {
+   "estado": "sólido",
+   "forma": "sólido",
+   "color": null,
+   "hex": null,
+   "descripcion": "Solid",
+   "fuente": "Human Metabolome Database (HMDB)"
+  },
+  "222": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Ammonia, anhydrous appears as a clear colorless gas with a strong odor. Shipped as a liquid under its own vapor pressure. Density (liquid) 6 lb / gal. Contact with the unconfined liquid can cause frostbite. Gas generally",
+   "fuente": "CAMEO Chemicals"
+  },
+  "240": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS-TO-YELLOW LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "241": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "243": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "WHITE CRYSTALS OR POWDER.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "244": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Benzyl alcohol appears as a clear colorless liquid with a pleasant odor. Slightly denser than water. Flash point 194 °F. Boiling point 401 °F. Contact may irritate skin, eyes, and mucous membranes. May be slightly toxic ",
+   "fuente": "CAMEO Chemicals"
+  },
+  "260": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Hydrogen bromide, anhydrous appears as a colorless gas with a pungent irritating odor. Corrosive. Heavier than air. Prolonged exposure to fire or intense heat may result in the violent rupture and rocketing of the contai",
+   "fuente": "CAMEO Chemicals"
+  },
+  "261": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS LIQUID WITH PUNGENT ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "263": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "N-butyl alcohol is a colorless liquid. Used in organic chemical synthesis, plasticizers, detergents, etc.",
+   "fuente": "CAMEO Chemicals"
+  },
+  "264": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Butyric acid appears as a colorless liquid with a penetrating and unpleasant odor. Flash point 170 °F. Corrosive to metals and tissue. Density 8.0 lb /gal.",
+   "fuente": "CAMEO Chemicals"
+  },
+  "280": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Carbon dioxide, refrigerated liquid appears as a colorless liquid. Relatively heavier than air and can asphyxiate by the displacement of air. Under prolonged exposure to heat or fire the container may rupture violently a",
+   "fuente": "CAMEO Chemicals"
+  },
+  "281": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Carbon monoxide is a colorless, odorless gas. Prolonged exposure to carbon monoxide rich atmospheres may be fatal. It is easily ignited. It is just lighter than air and a flame can flash back to the source of leak very e",
+   "fuente": "CAMEO Chemicals"
+  },
+  "284": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Formic acid appears as a colorless liquid with a pungent odor. Flash point 156 °F. Density 10.2 lb / gal. Corrosive to metals and tissue.",
+   "fuente": "CAMEO Chemicals"
+  },
+  "297": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Methane is a colorless odorless gas. It is also known as marsh gas or methyl hydride. It is easily ignited. The vapors are lighter than air. Under prolonged exposure to fire or intense heat the containers may rupture vio",
+   "fuente": "CAMEO Chemicals"
+  },
+  "305": {
+   "estado": "sólido",
+   "forma": "sólido",
+   "color": null,
+   "hex": null,
+   "descripcion": "Solid",
+   "fuente": "Human Metabolome Database (HMDB)"
+  },
+  "311": {
+   "estado": "sólido",
+   "forma": "cristal",
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Citric acid appears as colorless, odorless crystals with an acid taste. Denser than water. (USCG, 1999)",
+   "fuente": "CAMEO Chemicals"
+  },
+  "313": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Hydrogen chloride, anhydrous appears as a colorless gas with a sharp, pungent odor. Fumes strongly in moist air. Nonflammable. Corrosive to metals and tissues and irritating to the eyes and respiratory system. Heavier th",
+   "fuente": "CAMEO Chemicals"
+  },
+  "338": {
+   "estado": "sólido",
+   "forma": "sólido",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Salicylic acid is an odorless white to light tan solid. Sinks and mixes slowly with water. (USCG, 1999)",
+   "fuente": "CAMEO Chemicals"
+  },
+  "356": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "402": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Hydrogen sulfide appears as a colorless gas having a strong odor of rotten eggs. Boiling point -60.2 °C. Shipped as a liquid confined under its own vapor pressure. Density (liquid) 8.3 lb / gal. Contact with the unconfin",
+   "fuente": "CAMEO Chemicals"
+  },
+  "527": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Propionaldehyde appears as a clear colorless liquid with an overpowering fruity-like odor. Less dense than water. Flash point 15 °F. Vapors are heavier than air.",
+   "fuente": "CAMEO Chemicals"
+  },
+  "533": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Hydrogen selenide is a colorless gas with an offensive odor. It is highly flammable and toxic. It may be irritating to eyes and mucous membranes. It is heavier than air. Long term exposure to low concentrations or short ",
+   "fuente": "CAMEO Chemicals"
+  },
+  "597": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Monohydrate: Lustrous solid; [Merck Index] White powder; [Alfa Aesar MSDS]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "612": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "VISCOUS COLOURLESS-TO-YELLOW LIQUID OR COLOURLESS-TO-YELLOW CRYSTALS.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "674": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS COMPRESSED LIQUEFIED GAS WITH PUNGENT ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "681": {
+   "estado": "sólido",
+   "forma": "sólido",
+   "color": null,
+   "hex": null,
+   "descripcion": "Solid",
+   "fuente": "Human Metabolome Database (HMDB)"
+  },
+  "700": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Ethanolamine appears as a clear colorless liquid with an odor resembling that of ammonia. Flash point 185 °F. May attack copper, brass, and rubber. Corrosive to tissue. Moderately toxic. Produces toxic oxides of nitrogen",
+   "fuente": "CAMEO Chemicals"
+  },
+  "702": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Ethanol appears as a clear colorless liquid with a characteristic vinous odor and pungent taste. Flash point 55 °F. Density 6.5 lb / gal. Vapors are heavier than air.",
+   "fuente": "CAMEO Chemicals"
+  },
+  "712": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Solids containing varying amounts of formaldehyde, probably as paraformaldehyde (polymers of formula HO(CH2O)xH where x averages about 30). A hazard to the environment. Immediate steps should be taken to limit spread to ",
+   "fuente": "CAMEO Chemicals"
+  },
+  "713": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Formamide appears as a colorless liquid with a faint odor of ammonia. Denser than water. Freezing point 36 °F. (USCG, 1999)",
+   "fuente": "CAMEO Chemicals"
+  },
+  "750": {
+   "estado": "sólido",
+   "forma": "cristal",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Glycine appears as white crystals. (NTP, 1992)",
+   "fuente": "CAMEO Chemicals"
+  },
+  "753": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Glycerine appears as a colorless to brown colored liquid. Combustible but may require some effort to ignite.",
+   "fuente": "CAMEO Chemicals"
+  },
+  "767": {
+   "estado": null,
+   "forma": null,
+   "color": null,
+   "hex": null,
+   "soloDisolucion": true,
+   "descripcion": "Solo existe en disolución acuosa: no se puede aislar como sustancia pura.",
+   "fuente": "Chang, Química"
+  },
+  "768": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS GAS OR LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "774": {
+   "estado": "sólido",
+   "forma": "sólido",
+   "color": null,
+   "hex": null,
+   "descripcion": "Solid",
+   "fuente": "Human Metabolome Database (HMDB)"
+  },
+  "783": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Hydrogen is a colorless, odorless gas. It is easily ignited. Once ignited it burns with a pale blue, almost invisible flame. The vapors are lighter than air. It is flammable over a wide range of vapor/air concentrations.",
+   "fuente": "CAMEO Chemicals"
+  },
+  "784": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS LIQUID.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "795": {
+   "estado": "sólido",
+   "forma": "cristal",
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS-TO-YELLOW CRYSTALS WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "807": {
+   "estado": "sólido",
+   "forma": "cristal",
+   "color": "negro violáceo",
+   "hex": "#2b2236",
+   "descripcion": "BLUISH BLACK OR DARK PURPLE CRYSTALS WITH PUNGENT ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "887": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Methanol appears as a colorless fairly volatile liquid with a faintly sweet pungent odor like that of ethyl alcohol. Completely mixes with water. The vapors are slightly heavier than air and may travel some distance to a",
+   "fuente": "CAMEO Chemicals"
+  },
+  "931": {
+   "estado": "sólido",
+   "forma": "sólido",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "WHITE SOLID IN VARIOUS FORMS WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "936": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Nicotinamide is a white powder. (NTP, 1992)",
+   "fuente": "CAMEO Chemicals"
+  },
+  "944": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Nitric acid, other than red fuming appears as a pale yellow to reddish brown liquid with reddish brown vapors and a suffocating odor. Very toxic by inhalation. Corrosive to metals or tissue. Accelerates the burning of co",
+   "fuente": "CAMEO Chemicals (corrección: El HNO₃ puro es incoloro; el rojo/amarillo se debe al NO₂ disuelto (ácido fumante o envejecido).)"
+  },
+  "947": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Nitrogen appears as a colorless odorless gas. Noncombustible and nontoxic. Makes up the major portion of the atmosphere, but will not support life by itself. Used in food processing, in purging air conditioning and refri",
+   "fuente": "CAMEO Chemicals"
+  },
+  "948": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Nitrous oxide, refrigerated liquid appears as a colorless liquid. Density 1.22 g / cm3 at its boiling point of -89 °C. Boils to give a colorless gas that is sweet-smelling and moderately toxic. The gas has narcotic effec",
+   "fuente": "CAMEO Chemicals"
+  },
+  "962": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Clear colorless odorless liquid; [NTP]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "971": {
+   "estado": "sólido",
+   "forma": "sólido",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Oxalic acid is an odorless white solid. Sinks and mixes with water. (USCG, 1999)",
+   "fuente": "CAMEO Chemicals"
+  },
+  "977": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Oxygen is a colorless, odorless and tasteless gas. It will support life. It is noncombustible, but will actively support the burning of combustible materials. Some materials that will not burn in air will burn in oxygen.",
+   "fuente": "CAMEO Chemicals"
+  },
+  "985": {
+   "estado": "sólido",
+   "forma": "cristal",
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS OR WHITE CRYSTALS.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "995": {
+   "estado": "sólido",
+   "forma": "cristal",
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Monoclinic plates from alcohol",
+   "fuente": "Hazardous Substances Data Bank (HSDB)"
+  },
+  "996": {
+   "estado": "sólido",
+   "forma": "cristal",
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Phenol, liquid appears as a colorless liquid when pure, otherwise pink or red. Combustible. Flash point 175 °F. Must be heated before ignition may occur easily. Vapors are heavier than air. Corrosive to skin but because ",
+   "fuente": "CAMEO Chemicals (corrección: El fenol funde a 41 °C: a 25 °C es sólido (cristales incoloros a blancos).)"
+  },
+  "1004": {
+   "estado": "sólido",
+   "forma": "cristal",
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "HYGROSCOPIC COLOURLESS CRYSTALS.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "1030": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Thick odorless colorless liquid. Mixes with water. (USCG, 1999)",
+   "fuente": "CAMEO Chemicals"
+  },
+  "1031": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "CLEAR COLOURLESS LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "1032": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Propionic acid is a colorless liquid with a sharp rancid odor. Produces irritating vapor. (USCG, 1999)",
+   "fuente": "CAMEO Chemicals"
+  },
+  "1044": {
+   "estado": "sólido",
+   "forma": "sólido",
+   "color": null,
+   "hex": null,
+   "descripcion": "Solid",
+   "fuente": "Human Metabolome Database (HMDB)"
+  },
+  "1049": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Pyridine appears as a clear colorless to light yellow liquid with a penetrating nauseating odor. Vapors are heavier than air. Toxic by ingestion and inhalation. Combustion produces toxic oxides of nitrogen.",
+   "fuente": "CAMEO Chemicals"
+  },
+  "1060": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Liquid with an odor like acetic acid; mp = 11.8 deg C; [Merck Index]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "1118": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Sulfuric acid, spent appears as a black oily liquid. Corrosive to metals and tissue. Density 15 lb /gal.",
+   "fuente": "CAMEO Chemicals (corrección: El H₂SO₄ puro es un líquido aceitoso incoloro; el color oscuro corresponde al producto técnico.)"
+  },
+  "1119": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Sulfur dioxide appears as a colorless gas with a choking or suffocating odor. Boiling point -10 °C. Heavier than air. Very toxic by inhalation and may irritate the eyes and mucous membranes. Under prolonged exposure to f",
+   "fuente": "CAMEO Chemicals"
+  },
+  "1135": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Solid; [Merck Index] White crystalline powder; [Alfa Aesar MSDS]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "1140": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "1146": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS COMPRESSED LIQUEFIED GAS WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "1174": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Solid; [Merck Index] White powder; [Alfa Aesar MSDS]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "1176": {
+   "estado": "sólido",
+   "forma": "cristal",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Urea appears as solid odorless white crystals or pellets. Density 1.335 g /cc. Noncombustible.",
+   "fuente": "CAMEO Chemicals"
+  },
+  "1183": {
+   "estado": "sólido",
+   "forma": "cristal",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Vanillin appears as white or very slightly yellow needles.",
+   "fuente": "CAMEO Chemicals"
+  },
+  "1254": {
+   "estado": "sólido",
+   "forma": "cristal",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "D,l-menthol is a white crystalline solid with a peppermint odor and taste. (NTP, 1992)",
+   "fuente": "CAMEO Chemicals"
+  },
+  "1983": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "COLOURLESS CRYSTALS OR CRYSTALLINE POWDER.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "2244": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Acetylsalicylic acid appears as odorless white crystals or crystalline powder with a slightly bitter taste. (NTP, 1992)",
+   "fuente": "CAMEO Chemicals"
+  },
+  "2331": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Benzamide is a white powder. (NTP, 1992)",
+   "fuente": "CAMEO Chemicals"
+  },
+  "2337": {
+   "estado": "sólido",
+   "forma": "sólido",
+   "color": null,
+   "hex": null,
+   "descripcion": "Solid",
+   "fuente": "Human Metabolome Database (HMDB)"
+  },
+  "2519": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "ODOURLESS WHITE CRYSTALS OR CRYSTALLINE POWDER.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "2537": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Camphor appears as a colorless or white colored crystalline powder with a strong mothball-like odor. About the same density as water. Emits flammable vapors above 150 °F. Used to make moth proofings, pharmaceuticals, and",
+   "fuente": "CAMEO Chemicals"
+  },
+  "3283": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "VERY VOLATILE COLOURLESS LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "3314": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Eugenol appears as clear colorless pale yellow or amber-colored liquid. Odor of cloves. Spicy pungent taste. (NTP, 1992)",
+   "fuente": "CAMEO Chemicals"
+  },
+  "3672": {
+   "estado": "sólido",
+   "forma": "sólido",
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Solid",
+   "fuente": "Human Metabolome Database (HMDB)"
+  },
+  "3676": {
+   "estado": "sólido",
+   "forma": "sólido",
+   "color": "amarillo",
+   "hex": "#f2d31b",
+   "descripcion": "Solid",
+   "fuente": "Human Metabolome Database (HMDB)"
+  },
+  "3776": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS LIQUID.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "4133": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Methyl salicylate appears as colorless yellowish or reddish liquid with odor of wintergreen. (USCG, 1999)",
+   "fuente": "CAMEO Chemicals"
+  },
+  "4284": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "N,n-diethyl-m-toluamide appears as clear colorless or faintly yellow slightly viscous liquid. Faint pleasant odor. (NTP, 1992)",
+   "fuente": "CAMEO Chemicals"
+  },
+  "4510": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS-TO-YELLOW VISCOUS LIQUID OR PALE YELLOW CRYSTALS.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "5143": {
+   "estado": "sólido",
+   "forma": "cristal",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Saccharin (manufacturing) appears as white crystals. Odorless or faintly aromatic odor. Sweet taste. (NTP, 1992)",
+   "fuente": "CAMEO Chemicals"
+  },
+  "5202": {
+   "estado": "sólido",
+   "forma": "sólido",
+   "color": null,
+   "hex": null,
+   "descripcion": "Solid",
+   "fuente": "Human Metabolome Database (HMDB)"
+  },
+  "5234": {
+   "estado": "sólido",
+   "forma": "cristal",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Water soluble, white crystals; [CAMEO]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "5281": {
+   "estado": "sólido",
+   "forma": "sólido",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Stearic acid is a white solid with a mild odor. Floats on water. (USCG, 1999)",
+   "fuente": "CAMEO Chemicals"
+  },
+  "5429": {
+   "estado": "sólido",
+   "forma": "sólido",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Solid",
+   "fuente": "Human Metabolome Database (HMDB)"
+  },
+  "5757": {
+   "estado": "sólido",
+   "forma": "sólido",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Solid",
+   "fuente": "Human Metabolome Database (HMDB)"
+  },
+  "5793": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "WHITE POWDER. SWEET TASTE.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "5816": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Solid",
+   "fuente": "Human Metabolome Database (HMDB) (corrección: La adrenalina pura es blanca; se oscurece al oxidarse con el aire y la luz.)"
+  },
+  "5862": {
+   "estado": "sólido",
+   "forma": "cristal",
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Colorless or white solid; [HSDB] Colorless crystalline solid; [Sigma-Aldrich MSDS]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "5943": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "5950": {
+   "estado": "sólido",
+   "forma": "cristal",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Solid; [Merck Index] White odorless solid; [HSDB] White crystalline solid; [Sigma-Aldrich MSDS]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "5951": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Solid; [Merck Index] White powder; [Sigma-Aldrich MSDS]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "5960": {
+   "estado": "sólido",
+   "forma": "cristal",
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS CRYSTALS.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "5961": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Opaque solid; [Merck Index] White powder; [Sigma-Aldrich MSDS]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "5962": {
+   "estado": "sólido",
+   "forma": "sólido",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Solid; [Merck Index]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "5988": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Sucrose appears as white odorless crystalline or powdery solid. Denser than water.",
+   "fuente": "CAMEO Chemicals"
+  },
+  "5997": {
+   "estado": "sólido",
+   "forma": "sólido",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "White or faintly yellow solid; Nearly odorless; [HSDB] Beige solid; [Sigma-Aldrich MSDS]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "6013": {
+   "estado": "sólido",
+   "forma": "sólido",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Solid",
+   "fuente": "Human Metabolome Database (HMDB)"
+  },
+  "6036": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "White powder; [Sigma-Aldrich MSDS]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "6057": {
+   "estado": "sólido",
+   "forma": "cristal",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Solid; [Merck Index] White fine crystals and fragments; [Sigma-Aldrich MSDS]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "6106": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "White solid; [Merck Index] White powder; [Sigma-Aldrich MSDS]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "6115": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS OILY LIQUID WITH CHARACTERISTIC ODOUR. TURNS BROWN ON EXPOSURE TO AIR OR LIGHT.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "6134": {
+   "estado": "sólido",
+   "forma": "sólido",
+   "color": null,
+   "hex": null,
+   "descripcion": "Solid; [Sigma-Aldrich MSDS]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "6137": {
+   "estado": "sólido",
+   "forma": "cristal",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Minute hexagonal plates from dilute alcohol. (NTP, 1992)",
+   "fuente": "CAMEO Chemicals"
+  },
+  "6140": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Solid; [Merck Index] White odorless solid; [CAMEO] White powder; [Sigma-Aldrich MSDS]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "6212": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "VOLATILE COLOURLESS LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "6228": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "N,n-dimethylformamide appears as a water-white liquid with a faint fishy odor. Flash point 136 °F. Slightly less dense than water. Vapors heavier than air. Toxic by inhalation or skin absorption. May irritate eyes.",
+   "fuente": "CAMEO Chemicals (corrección: La N,N-dimetilformamida es un líquido incoloro.)"
+  },
+  "6267": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Solid; [Merck Index] White hygroscopic powder; [Alfa Aesar MSDS]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "6274": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Solid; [Merck Index] Powder; [Sigma-Aldrich MSDS]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "6276": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "N-pentanol appears as a colorless liquid with a mild to moderately strong odor. Less dense than water. Flash point 91 °F. Boiling point 280 °F. Vapors heavier than air. Moderately toxic by ingestion. Vapors may irritate ",
+   "fuente": "CAMEO Chemicals"
+  },
+  "6287": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Solid; [Merck Index] White powder; [Sigma-Aldrich MSDS]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "6288": {
+   "estado": "sólido",
+   "forma": "sólido",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Solid; [Merck Index]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "6305": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "L-tryptophan is a white powder with a flat taste. An essential amino acid; occurs in isomeric forms. (NTP, 1992)",
+   "fuente": "CAMEO Chemicals"
+  },
+  "6306": {
+   "estado": "sólido",
+   "forma": "sólido",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Waxy shiny solid; [Merck Index] White solid; [Sigma-Aldrich MSDS]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "6322": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Solid; [Merck Index] White powder; [Sigma-Aldrich MSDS]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "6323": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Methyl bromide appears as colorless highly toxic volatile liquid or a gas. Boiling point 3.56 °C (38.41 °F). Usually odorless, but has a sweetish chloroform-like odor at high concentrations. Used as an insecticide, a rod",
+   "fuente": "CAMEO Chemicals"
+  },
+  "6324": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Ethane appears as a colorless odorless gas. It is easily ignited. The vapors are heavier than air. It can asphyxiate by the displacement of air. Under prolonged exposure to fire or intense heat the containers may rupture",
+   "fuente": "CAMEO Chemicals"
+  },
+  "6325": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Ethylene appears as a colorless gas with a sweet odor and taste. It is lighter than air. It is easily ignited and a flame can easily flash back to the source of the leak. Under prolonged exposure to fire or heat the cont",
+   "fuente": "CAMEO Chemicals"
+  },
+  "6326": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Acetylene appears as a colorless gas with a faint garlic-like odor. Easily ignited and burns with a sooty flame. Gas is lighter than air. Flame may flash back to the source of a leak very easily. Under prolonged exposure",
+   "fuente": "CAMEO Chemicals"
+  },
+  "6327": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Methyl chloride appears as a colorless gas with a faint sweet odor. Shipped as a liquid under its vapor pressure. A leak may either be liquid or vapor. Contact with the liquid may cause frostbite by evaporative cooling. ",
+   "fuente": "CAMEO Chemicals"
+  },
+  "6328": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Methyl iodide appears as a colorless liquid that turns brown on exposure to light. Denser than water. Contact may irritate skin, eyes and mucous membranes. Very toxic by ingestion, inhalation and skin absorption.",
+   "fuente": "CAMEO Chemicals"
+  },
+  "6329": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Methylamine, anhydrous appears as a colorless gas or a liquid. Pungent fishy odor resembling odor of ammonia. The liquid boils at cold temperatures, hence it vaporizes rapidly when unconfined. Vapors are heavier than air",
+   "fuente": "CAMEO Chemicals"
+  },
+  "6332": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "6334": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Propane appears as a colorless gas with a faint petroleum-like odor. It is shipped as a liquefied gas under its vapor pressure. For transportation it may be stenched. Contact with the unconfined liquid can cause frostbit",
+   "fuente": "CAMEO Chemicals"
+  },
+  "6335": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS COMPRESSED GAS WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "6337": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS COMPRESSED LIQUEFIED GAS WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "6338": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Vinyl chloride appears as a colorless gas with a sweet odor. Easily ignited. Shipped as a liquefied gas under own vapor pressure. Contact with the unconfined liquid may cause frostbite by evaporative cooling. Leaks may b",
+   "fuente": "CAMEO Chemicals"
+  },
+  "6341": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Ethylamine appears as a colorless liquid or a gas (boiling point 62 °F) with an odor of ammonia. Flash point less than 0 °F. Density of liquid 5.7 lb / gal. Corrosive to the skin and eyes. Vapors are heavier than air. Pr",
+   "fuente": "CAMEO Chemicals"
+  },
+  "6342": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Acetonitrile appears as a colorless limpid liquid with an aromatic odor. Flash point 42 °F. Density 0.783 g / cm3. Toxic by skin absorption. Less dense than water. Vapors are denser than air.",
+   "fuente": "CAMEO Chemicals"
+  },
+  "6344": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Dichloromethane appears as a colorless liquid with a sweet, penetrating, ether-like odor. Noncombustible by if exposed to high temperatures may emit toxic chloride fumes. Vapors are narcotic in high concentrations. Used ",
+   "fuente": "CAMEO Chemicals"
+  },
+  "6351": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Cyclopropane is a colorless gas with a petroleum-like odor. It is shipped as a liquid at 4-6 atms. It is easily ignited. The vapors are heavier than air. Contact with the liquid may cause frostbite. It can asphyxiate by ",
+   "fuente": "CAMEO Chemicals"
+  },
+  "6354": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Ethylene oxide appears as a clear colorless gas with an ethereal odor with a flash point below 0 °F. Liquid less dense than water. Vapors heavier than air.  May polymerize exothermically if heated or contaminated. If the",
+   "fuente": "CAMEO Chemicals"
+  },
+  "6356": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS COMPRESSED GAS WITH PUNGENT ODOUR. FORMS WHITE FUMES IN MOIST AIR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "6360": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Isobutane is a colorless gas with a faint petroleum-like odor. It is shipped as a liquefied gas under its vapor pressure. Contact with the liquid can cause frostbite. It is easily ignited. The vapors are heavier than air",
+   "fuente": "CAMEO Chemicals"
+  },
+  "6361": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "2-chloropropane appears as a colorless liquid with a chloroform-like odor. Vapors heavier than air. Less dense than water. May irritate skin and eyes, and be narcotic in high concentrations. A fire and explosion risk. Us",
+   "fuente": "CAMEO Chemicals"
+  },
+  "6367": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Acetyl chloride appears as a colorless, fuming liquid with a pungent odor. Density 9.2 lb / gal. Flash point 40 °F. Vapor, which is heavier than air, irritates the eyes and mucous membranes. Corrosive to metals and tissu",
+   "fuente": "CAMEO Chemicals"
+  },
+  "6371": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Phosgene appears as a chemical warfare choking agent. Extremely toxic. A colorless gas or very low-boiling, volatile liquid with an odor of new-mown hay or green corn. Warning properties of the gas inhaled are slight, de",
+   "fuente": "CAMEO Chemicals"
+  },
+  "6375": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS VISCOUS LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "6386": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Tert-butyl alcohol is a colorless oily liquid with a sharp alcohol odor. Floats and mixes with water. Produces irritating vapor. Freezing point is 78 °F. (USCG, 1999)",
+   "fuente": "CAMEO Chemicals"
+  },
+  "6391": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Dichlorodifluoromethane appears as a colorless gas having a faint ethereal odor. Shipped as a liquid confined under its own vapor pressure. Contact with the unconfined liquid can cause frostbite. Both components are nonc",
+   "fuente": "CAMEO Chemicals"
+  },
+  "6403": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Colorless liquid with mild gasoline-like odor; [ACGIH]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "6556": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Watery colorless liquid with a gasoline-like odor. Floats on water. Flammable, irritating vapor is produced. Boiling point is 82 °F. (USCG, 1999)",
+   "fuente": "CAMEO Chemicals"
+  },
+  "6557": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "VERY VOLATILE COLOURLESS LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "6560": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Isobutanol appears as a clear colorless liquid with a sweet odor. Flash point 85 - 100 °F. Less dense than water. Vapors heavier than air.",
+   "fuente": "CAMEO Chemicals"
+  },
+  "6568": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "6569": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Methyl ethyl ketone appears as colorless fairly volatile liquid with a pleasant pungent odor. Flash point 20 °F. Vapors heavier than air. Does not react with water or many common materials. Stable in normal transportatio",
+   "fuente": "CAMEO Chemicals"
+  },
+  "6575": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "6581": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Acrylic acid is a colorless liquid with a distinctive acrid odor. Flash point 130 °F. Boiling point 286 °F. Freezing point 53 °F. Corrosive to metals and tissue. Prolonged exposure to fire or heat can cause polymerizatio",
+   "fuente": "CAMEO Chemicals"
+  },
+  "6584": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Methyl acetate appears as a clear colorless liquid with a fragrant odor. Moderately toxic. Flash point 14 °F. Vapors heavier than air.",
+   "fuente": "CAMEO Chemicals"
+  },
+  "6589": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Colorless liquid with an odor of petroleum; [CAMEO]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "7237": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "7282": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "7288": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Diethyl ketone appears as a clear colorless liquid with an acetone-like odor. Flash point 55 °F. Less dense than water. Vapors heavier than air.",
+   "fuente": "CAMEO Chemicals"
+  },
+  "7406": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "7410": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS LIQUID OR WHITE CRYSTALS WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "7412": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Benzoyl chloride appears as a colorless fuming liquid with a pungent odor. Flash point 162 °F. Lachrymator, irritating to skin and eyes. Corrosive to metals and tissue. Density 10.2 lb / gal. Used in medicine and in the ",
+   "fuente": "CAMEO Chemicals"
+  },
+  "7416": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "amarillo pálido",
+   "hex": "#f3eaa0",
+   "descripcion": "PALE YELLOW OILY LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "7500": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS LIQUID WITH AROMATIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "7501": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS-TO-YELLOW OILY LIQUID.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "7505": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "7519": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS-TO-YELLOW LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "7762": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Colorless liquid with an odor of pineapple; [Merck Index]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "7809": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "7843": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Butane is a colorless gas with a faint petroleum-like odor. For transportation it may be stenched. It is shipped as a liquefied gas under its vapor pressure. Contact with the liquid can cause frostbite. It is easily igni",
+   "fuente": "CAMEO Chemicals"
+  },
+  "7844": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "1-butene is a colorless gas. (NTP, 1992)",
+   "fuente": "CAMEO Chemicals"
+  },
+  "7845": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Butadiene is a colorless gas with an aromatic odor. It is shipped as a liquefied gas under its vapor pressure. Contact with the liquid can cause frostbite. It is easily ignited. Its vapors are heavier than air and a flam",
+   "fuente": "CAMEO Chemicals"
+  },
+  "7852": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS HYGROSCOPIC LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "7854": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Propionitrile appears as a colorless liquid with an ether-like odor. Density 0.683 g / cm3. Flash point 61 °F. Toxic by inhalation, skin absorption, and ingestion. Vapors are heavier than air. Used as a solvent, and to m",
+   "fuente": "CAMEO Chemicals"
+  },
+  "7855": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Acrylonitrile, stabilized appears as a clear colorless liquid with a strong pungent odor. Flash point 32 °F. Prolonged exposure to the vapors or skin contact harmful. Density 6.7 lb / gal. Vapors heavier than air. Combus",
+   "fuente": "CAMEO Chemicals"
+  },
+  "7865": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Methyl formate appears as a clear colorless liquid with an agreeable odor. Flash point -27 °F. Less dense than water Vapors heavier than air.",
+   "fuente": "CAMEO Chemicals"
+  },
+  "7892": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Watery liquid with a gasoline-like odor, Floats on water. Produces an irritating vapor. (USCG, 1999)",
+   "fuente": "CAMEO Chemicals"
+  },
+  "7895": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "7918": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Acetic anhydride appears as a clear colorless liquid with a strong odor of vinegar. Flash point 129 °F. Corrosive to metals and tissue. Density 9.0 lb /gal. Used to make fibers, plastics, pharmaceuticals, dyes, and explo",
+   "fuente": "CAMEO Chemicals"
+  },
+  "7929": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "7961": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "7962": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "7964": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "7966": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Cyclohexanol appears as a colorless liquid with a camphor-like odor. Soluble in most organic liquids. Flash point 154 °F. May be toxic by inhalation or skin exposure. Vapors are narcotic in high concentrations. Irritates",
+   "fuente": "CAMEO Chemicals"
+  },
+  "7967": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Cyclohexanone appears as a colorless to pale yellow liquid with a pleasant odor. Less dense than water. Flash point 111 °F. Vapors heavier than air. Used to make nylon, as a chemical reaction medium, and as a solvent.",
+   "fuente": "CAMEO Chemicals"
+  },
+  "8002": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Colorless to pale straw-colored liquid; [HSDB] Colorless liquid; [MSDSonline]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "8003": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "8025": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Ethyl formate appears as a clear colorless liquid with a pleasant odor. Flash point -4 °F. Less dense than water. Vapors heavier than air.",
+   "fuente": "CAMEO Chemicals"
+  },
+  "8027": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Colorless liquid with an agreeable odor like chloroform; Darkens on standing if oxygen not completely removed; [Merck Index] Yellowish or brown liquid; Turns brown when polymerized by light; [Hawley] Hygroscopic; [HSDB] ",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "8028": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Tetrahydrofuran appears as a clear colorless liquid with an ethereal odor. Less dense than water. Flash point 6 °F. Vapors are heavier than air.",
+   "fuente": "CAMEO Chemicals"
+  },
+  "8029": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "CLEAR COLOURLESS LIQUID WITH CHARACTERISTIC ODOUR. TURNS BROWN ON STANDING.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "8058": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "VOLATILE COLOURLESS LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "8078": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "8079": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "8082": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "8141": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "8252": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Propylene is a colorless gas with a faint petroleum like odor. It is shipped as a liquefied gas under its own vapor pressure. For transportation it may be stenched. Contact with the liquid can cause frostbite. It is easi",
+   "fuente": "CAMEO Chemicals"
+  },
+  "8254": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Dimethyl ether is a colorless gas with a faint ethereal odor. It is shipped as a liquefied gas under its vapor pressure. Contact with the liquid can cause frostbite. It is easily ignited. Its vapors are heavier than air.",
+   "fuente": "CAMEO Chemicals"
+  },
+  "8255": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Isobutylene is a colorless gas with a faint petroleum-like odor. For transportation it may be stenched. It is shipped as a liquefied gas under its own vapor pressure. Contact with the liquid can cause frostbite. It is ea",
+   "fuente": "CAMEO Chemicals"
+  },
+  "8301": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Tetrafluoroethylene, stabilized appears as a colorless odorless gas. Easily ignited. Vapors are heavier than air. May asphyxiate by the displacement of air. May violently polymerize under prolonged exposure to fire or he",
+   "fuente": "CAMEO Chemicals"
+  },
+  "8376": {
+   "estado": "sólido",
+   "forma": "cristal",
+   "color": "amarillo",
+   "hex": "#f2d31b",
+   "descripcion": "Tnt, wetted with not less than 30% water appears as a slurry of a yellow water-insoluble crystalline solid. Can burn, although difficult to ignite. When water has been driven off or evaporated the residue is easily ignit",
+   "fuente": "CAMEO Chemicals"
+  },
+  "8418": {
+   "estado": "sólido",
+   "forma": "cristal",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "WHITE CRYSTALS OR FLAKES.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "8857": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Ethyl acetate appears as a clear colorless liquid with a fruity odor. Flash point 24 °F. Less dense than water. Vapors heavier than air.",
+   "fuente": "CAMEO Chemicals"
+  },
+  "8900": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "VOLATILE COLOURLESS LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "9253": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS LIQUID WITH MILD ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "9260": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Liquid or solid with a penetrating odor; mp = 20-22 deg C; [Merck Index] Clear, slightly brownish-yellow liquid; Hygroscopic; mp = 19 deg C; [Aldrich MSDS]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "9321": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Hydrazine, anhydrous appears as a colorless, fuming oily liquid with an ammonia-like odor. Flash point 99 °F. Explodes during distillation if traces of air are present. Toxic by inhalation and by skin absorption. Corrosi",
+   "fuente": "CAMEO Chemicals"
+  },
+  "9359": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Stibine appears as a colorless gas with a disagreeable odor. A moderate fire hazard that may yield toxic fumes when heated above 392 °F. Irritating to skin, eyes, and mucous membranes. Heavier than air. If exposed to pro",
+   "fuente": "CAMEO Chemicals"
+  },
+  "10041": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS COMPRESSED GAS WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "10112": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "WHITE POWDER OR PELLETS.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "10419": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Clear colorless liquid with an odor of petroleum; [CAMEO]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "10485": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Colorless liquid; [Merck Index] Colorless to yellow-brown liquid; [MSDSonline]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "10903": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Ethyl methyl ether appears as a clear colorless gas with a medicine-like odor. Less dense than water. Vapors are heavier than air. Under prolonged exposure to fire or heat the containers may rupture violently and rocket.",
+   "fuente": "CAMEO Chemicals"
+  },
+  "10907": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "14798": {
+   "estado": "sólido",
+   "forma": "sólido",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Sodium hydroxide, solid appears as a white solid. Corrosive to metals and tissue. Used in chemical manufacturing, petroleum refining, cleaning compounds, drain cleaners.",
+   "fuente": "CAMEO Chemicals"
+  },
+  "14917": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Hydrogen fluoride, anhydrous appears as a colorless fuming liquid boiling at 67 °F. Shipped as a liquid confined under its own vapor pressure. Corrosive to metals and tissue. Very short contact with fumes or small quanti",
+   "fuente": "CAMEO Chemicals"
+  },
+  "15413": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "15600": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS LIQUID WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "17358": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Sulfur hexafluoride appears as a colorless odorless gas. Noncombustible. Shipped as a liquefied gas under own vapor pressure. Contact may cause frostbite. Under prolonged exposure to fire or heat the containers may ruptu",
+   "fuente": "CAMEO Chemicals"
+  },
+  "22311": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Colorless liquid with a citrus-like odor; [ChemIDplus]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "23953": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Silane is a colorless, flammable and poisonous gas, with a strong repulsive odor. It is easily ignited in air, reacts with oxidizing agents, is very toxic by inhalation, and is a strong irritant to skin, eyes and mucous ",
+   "fuente": "CAMEO Chemicals"
+  },
+  "23969": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Arsine appears as a chemical warfare blood agent. It is a colorless gas with a disagreeable garlic odor. Flammable. Heavier than air. Flame easily flashes back to the source of leak. Extremely toxic by inhalation. Confir",
+   "fuente": "CAMEO Chemicals"
+  },
+  "23984": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Germane is a colorless gas with a pungent odor. It is flammable. The gas is heavier than air and a flame can flash back to the source of leak very easily. It is toxic by inhalation. Prolonged exposure of the containers t",
+   "fuente": "CAMEO Chemicals"
+  },
+  "24247": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS LIQUID WITH PUNGENT ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "24293": {
+   "estado": "sólido",
+   "forma": "cristal",
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Colorless crystals. [HSDB]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "24341": {
+   "estado": null,
+   "forma": null,
+   "color": null,
+   "hex": null,
+   "soloDisolucion": true,
+   "descripcion": "Solo existe en disolución acuosa: no se puede aislar como sustancia pura.",
+   "fuente": "Chang, Química"
+  },
+  "24387": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Phosphorus trichloride appears as a colorless or slightly yellow fuming liquid with a pungent and irritating odor resembling that of hydrochloric acid. Causes severe burns to skin, eyes and mucous membranes. Very toxic b",
+   "fuente": "CAMEO Chemicals"
+  },
+  "24404": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Phosphine appears as a colorless gas with a disagreeable odor of fish or garlic. Boiling point -126 °F; freezing point -209 °F. Very toxic by inhalation at extremely low concentrations. Prolonged heating may cause contai",
+   "fuente": "CAMEO Chemicals"
+  },
+  "24408": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "rojo",
+   "hex": "#c62d2d",
+   "descripcion": "FUMING RED-TO-BROWN LIQUID WITH PUNGENT ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "24524": {
+   "estado": "gas",
+   "forma": null,
+   "color": "amarillo pálido",
+   "hex": "#f3eaa0",
+   "descripcion": "Fluorine is a pale yellow gas with a pungent odor. It is commonly shipped as a cryogenic liquid. It is toxic by inhalation and skin absorption. Contact with skin in lower than lethal concentrations causes chemical burns.",
+   "fuente": "CAMEO Chemicals"
+  },
+  "24526": {
+   "estado": "gas",
+   "forma": null,
+   "color": "amarillo verdoso",
+   "hex": "#c8d94a",
+   "descripcion": "GREENISH-YELLOW COMPRESSED LIQUEFIED GAS WITH PUNGENT ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "24529": {
+   "estado": null,
+   "forma": null,
+   "color": null,
+   "hex": null,
+   "soloDisolucion": true,
+   "descripcion": "Solo existe en disolución acuosa: no se puede aislar como sustancia pura.",
+   "fuente": "Chang, Química"
+  },
+  "24553": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS GAS WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "24555": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "COLOURLESS GAS WITH CHARACTERISTIC ODOUR.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "24588": {
+   "estado": "sólido",
+   "forma": "sólido",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Beryllium chloride is a white to green solid with a sharp odor. (USCG, 1999)",
+   "fuente": "CAMEO Chemicals"
+  },
+  "24606": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Bromine pentafluoride appears as a colorless, fuming liquid with a pungent odor. Used to make other chemicals and in rockets. Very toxic by inhalation. Corrosive to metals and tissue. Will accelerate the burning of combu",
+   "fuente": "CAMEO Chemicals"
+  },
+  "24637": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Chlorine trifluoride appears as a colorless gas or green liquid with a pungent odor. Boils at 53 °F. It reacts with water to form chlorine and hydrofluoric acid with release of heat. Contact with organic materials may re",
+   "fuente": "CAMEO Chemicals"
+  },
+  "24682": {
+   "estado": "sólido",
+   "forma": "cristal",
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Sulfur trioxide, is a colorless to white crystalline solid which will fume in air. Often shipped with inhibitor to prevent polymerization. It reacts violently with water to form sulfuric acid with the release of heat. It",
+   "fuente": "CAMEO Chemicals"
+  },
+  "24813": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Phosphorus oxychloride appears as a colorless fuming liquid with a pungent odor. Density 14.0 lb / gal. Very toxic by inhalation and corrosive to metals and tissue. Used in gasoline additives and hydraulic fluids.",
+   "fuente": "CAMEO Chemicals"
+  },
+  "24816": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Silicon tetrachloride is a colorless, fuming liquid with a pungent odor. It is decomposed by water to hydrochloric acid with evolution of heat. It is corrosive to metals and tissue in the presence of moisture. It is used",
+   "fuente": "CAMEO Chemicals"
+  },
+  "24819": {
+   "estado": "sólido",
+   "forma": "cristal",
+   "color": "amarillo verdoso",
+   "hex": "#c8d94a",
+   "descripcion": "Phosphorus pentachloride is a greenish-yellow crystalline solid with an irritating odor. It is decomposed by water to form hydrochloric and phosphoric acid and heat. This heat may be sufficient to ignite surrounding comb",
+   "fuente": "CAMEO Chemicals"
+  },
+  "24823": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Ozone appears as a colorless to bluish gas that condenses to a dark blue liquid, or blue-black crystals. Has a characteristic odor in concentrations less than 2 ppm. Used as a disinfectant for air and water; used for ble",
+   "fuente": "CAMEO Chemicals"
+  },
+  "24841": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Hydrogen iodide, anhydrous appears as a colorless to yellow/brown gas with an acrid odor. Nonflammable. Toxic by inhalation. Strongly irritates skin, eyes and mucous membranes. Long-term inhalation of low concentrations ",
+   "fuente": "CAMEO Chemicals"
+  },
+  "25135": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Boron trichloride appears as a colorless gas with a pungent odor. Fumes irritate the eyes and mucous membranes. Corrosive to metals and tissue and is toxic. Under prolonged exposure to fire or intense heat, the container",
+   "fuente": "CAMEO Chemicals"
+  },
+  "25352": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Colorless gas; [HSDB] Red-brown liquid with a sharp unpleasant odor (kept liquid by compression); bp = 21.15 deg C; [CAMEO]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "31272": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Butyl acetate appears as a clear colorless liquid with a fruity odor. Flash point 72 - 88 °F. Density 7.4 lb / gal (less than water). Hence floats on water. Vapors heavier than air.",
+   "fuente": "CAMEO Chemicals"
+  },
+  "31276": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Iso-amyl acetate is an oily liquid; colorless; banana odor. Floats and mixes with water. Flammable, irritating vapor is produced. (USCG, 1999)",
+   "fuente": "CAMEO Chemicals"
+  },
+  "33032": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "White crystals or crystalline powder",
+   "fuente": "EU Food Improvement Agents"
+  },
+  "60961": {
+   "estado": "sólido",
+   "forma": "sólido",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Solid",
+   "fuente": "Human Metabolome Database (HMDB)"
+  },
+  "62695": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "2-butene appears as a colorless liquefied petroleum gas. Asphyxiate gas. Flammability limits in air 1.8-9.7% by volume.",
+   "fuente": "CAMEO Chemicals"
+  },
+  "83674": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Colorless solid; [Merck Index] Colorless crystalline powder; [MSDSonline]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "84512": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "COLOURLESS CRYSTALS OR WHITE HYGROSCOPIC POWDER.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "89594": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Nicotine appears as a colorless to light yellow or brown liquid. Combustible. Toxic by inhalation and by skin absorption. Produces toxic oxides of nitrogen during combustion.",
+   "fuente": "CAMEO Chemicals"
+  },
+  "123324": {
+   "estado": "sólido",
+   "forma": "sólido",
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Colorless solid; [Merck Index]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "134601": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "White, odourless, crystalline powder having a sweet taste. Approximately 200 times as sweet as sucrose",
+   "fuente": "EU Food Improvement Agents"
+  },
+  "145068": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Nitric oxide appears as a colorless gas. Noncombustible but accelerates the burning of combustible material. Vapors heavier than air. Very toxic by inhalation and skin absorption. Heating the containers may cause them to",
+   "fuente": "CAMEO Chemicals"
+  },
+  "145742": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Colorless solid; [HSDB] White powder; [Sigma-Aldrich MSDS]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "439186": {
+   "estado": "sólido",
+   "forma": "cristal",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "White odorless crystals; [Mallinckrodt Baker MSDS]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "445354": {
+   "estado": "sólido",
+   "forma": "cristal",
+   "color": "amarillo",
+   "hex": "#f2d31b",
+   "descripcion": "Vitamin a appears as yellow crystals or orange solid. Practically water insoluble. (NTP, 1992)",
+   "fuente": "CAMEO Chemicals"
+  },
+  "445639": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Oleic acid is a colorless to pale yellow liquid with a mild odor. Floats on water. (USCG, 1999)",
+   "fuente": "CAMEO Chemicals"
+  },
+  "516892": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "FINE WHITE CRYSTALLINE POWDER.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "517055": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "WHITE HYGROSCOPIC CRYSTALLINE POWDER OR GRANULES",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "522683": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Iodine pentafluoride appears as a toxic colorless fuming liquid (m.p. 9 °C). Decomposed by water to iodine and hydrofluoric acid. Contact with organic materials may cause their ignition. Corrosive to metals and tissue. P",
+   "fuente": "CAMEO Chemicals"
+  },
+  "637511": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "amarillo",
+   "hex": "#f2d31b",
+   "descripcion": "Yellowish oily liquid; [HSDB]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "637566": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Geraniol is a colorless to pale yellow oily liquid with a sweet rose odor. (NTP, 1992)",
+   "fuente": "CAMEO Chemicals"
+  },
+  "643460": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Sorbic acid appears as white powder or crystals. Melting point 134.5 °C. Slightly acidic and astringent taste with a faint odor.",
+   "fuente": "CAMEO Chemicals"
+  },
+  "1548943": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Dark red solid with a volatile pungent odor; [HSDB] Formulated as dry powder, liquid, and liquid spray; [Reference #1] White crystalline solid; [Sigma-Aldrich MSDS]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases (corrección: La capsaicina pura es un sólido cristalino blanco (el rojo es del ají).)"
+  },
+  "2723872": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "WHITE CRYSTALS OR POWDER.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "3032552": {
+   "estado": "gas",
+   "forma": null,
+   "color": "pardo rojizo",
+   "hex": "#8a3a1c",
+   "descripcion": "Nitrogen dioxide appears as a reddish brown gas or yellowish-brown liquid when cooled or compressed. Shipped as a liquefied gas under own vapor pressure. Vapors are heavier than air. Toxic by inhalation (vapor) and skin ",
+   "fuente": "CAMEO Chemicals"
+  },
+  "5280450": {
+   "estado": "líquido",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "Linoleic acid is a colorless to straw colored liquid. A polyunsaturated fatty acid essential to human diet.",
+   "fuente": "CAMEO Chemicals"
+  },
+  "5287573": {
+   "estado": "gas",
+   "forma": null,
+   "color": "incoloro",
+   "hex": null,
+   "descripcion": "2-butene appears as a colorless liquefied petroleum gas. Asphyxiate gas. Flammability limits in air 1.8-9.7% by volume.",
+   "fuente": "CAMEO Chemicals"
+  },
+  "9833931": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "WHITE-TO-YELLOW CRYSTALS OR POWDER.",
+   "fuente": "ILO-WHO International Chemical Safety Cards (ICSCs)"
+  },
+  "10975657": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Solid; [Merck Index] White powder; [Sigma-Aldrich MSDS]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  },
+  "23689119": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "White, practically odourless crystals or crystalline powder",
+   "fuente": "EU Food Improvement Agents"
+  },
+  "54670067": {
+   "estado": "sólido",
+   "forma": "polvo",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "L-ascorbic acid is a white to very pale yellow crystalline powder with a pleasant sharp acidic taste. Almost odorless. (NTP, 1992)",
+   "fuente": "CAMEO Chemicals"
+  },
+  "135398634": {
+   "estado": "sólido",
+   "forma": "cristal",
+   "color": "blanco",
+   "hex": "#f4f4f2",
+   "descripcion": "Solid; [Merck Index] White crystals; [Acros Organics MSDS]",
+   "fuente": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases"
+  }
+ }
+}

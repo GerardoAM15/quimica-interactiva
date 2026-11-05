@@ -257,6 +257,18 @@ export const REDES_IONICAS: Record<TipoRedIonica, InfoRedIonica> = {
   },
 };
 
+/** Radios iónicos de Shannon (pm) para el tamaño de las esferas (pendiente de revisión). */
+export const RADIOS_IONICOS: Record<TipoRedIonica, Record<string, number>> = {
+  NaCl: { Na: 102, Cl: 181 },
+  CsCl: { Cs: 174, Cl: 181 },
+  CaF2: { Ca: 112, F: 131 },
+  ZnS: { Zn: 60, S: 184 },
+};
+/** Colores de las esferas de cada ion en las redes (convención visual, no CPK). */
+export const COLORES_IONES: Record<string, string> = { Na: '#a78bfa', Cs: '#c084fc', Ca: '#94a3b8', Zn: '#9ca3af', Cl: '#22c55e', F: '#a3e635', S: '#facc15' };
+/** Red iónica tabulada para una fórmula de Hill (ClNa → NaCl…). */
+export const RED_POR_FORMULA: Record<string, TipoRedIonica> = { ClNa: 'NaCl', ClCs: 'CsCl', CaF2: 'CaF2', SZn: 'ZnS' };
+
 /** Celda unitaria de una red iónica (posiciones en pm, centrada en el origen). */
 export function celdaIonica(tipo: TipoRedIonica): SitioRed[] {
   const { cation, anion, a } = REDES_IONICAS[tipo];

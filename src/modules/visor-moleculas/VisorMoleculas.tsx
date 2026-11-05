@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { lazy, Suspense, useEffect, useMemo, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { angulo, diedro, distancia, formulaDeMolecula, pos, vecindario, type Molecula } from '@/chem/molecula';
 import { analizarAtomo, momentoDipolarEstimado } from '@/chem/vsepr';
@@ -25,6 +25,13 @@ import { Teoria } from '@/components/Teoria';
 import { Ce, Formula } from '@/components/Formula';
 import { InsigniaRevision } from '@/components/InsigniaRevision';
 import dipolos from '@/data/dipolos.json';
+import { RED_POR_FORMULA } from '@/chem/cristales';
+import { Cargando } from '@/components/Cargando';
+import { aspectoCompuesto } from '@/components/molecula/MuestraCompuesto3D';
+
+const RedIonica3D = lazy(() => import('@/components/escena3d/RedIonica3D'));
+const MuestraCompuesto3D = lazy(() => import('@/components/molecula/MuestraCompuesto3D'));
+type Vista = 'molecula' | 'red' | 'muestra';
 
 type Modo = 'atomo' | 'distancia' | 'angulo' | 'diedro';
 const NECESARIOS: Record<Modo, number> = { atomo: 1, distancia: 2, angulo: 3, diedro: 4 };
@@ -51,6 +58,7 @@ export default function VisorMoleculas() {
   const [modo, setModo] = useState<Modo>('atomo');
   const [seleccion, setSeleccion] = useState<number[]>([]);
   const [consulta, setConsulta] = useState('');
+  const [vista, setVista] = useState<Vista>('molecula');
 
   const abrirCatalogo = async (m: EntradaCatalogo) => {
     setError(null);
@@ -58,6 +66,7 @@ export default function VisorMoleculas() {
     try {
       const cargada = await cargarDelCatalogo(m.cid);
       setMostrada({ nombre: m.nombre, formula: m.formula, iupac: m.iupac, smiles: m.smiles, cargada, catalogo: m, fuente: 'Catálogo (PubChem)' });
+      setVista('molecula');
       setSeleccion([]);
       setParams({ cid: String(m.cid) }, { replace: true });
     } catch (e) {
@@ -177,6 +186,30 @@ export default function VisorMoleculas() {
       {mostrada && mol && (
         <div className="grid gap-5 lg:grid-cols-[1fr_340px]">
           <div className="min-w-0">
+            {(() => {
+              const red = mostrada.catalogo ? RED_POR_FORMULA[mostrada.catalogo.formula] : undefined;
+              const conMuestra = mostrada.catalogo ? aspectoCompuesto(mostrada.catalogo.cid) !== null : false;
+              const opciones: [Vista, string][] = [['molecula', 'Molécula 3D'], ...(red ? [['red', 'Red cristalina'] as [Vista, string]] : []), ...(conMuestra ? [['muestra', 'Muestra a 25 °C'] as [Vista, string]] : [])];
+              return opciones.length > 1 ? (
+                <div role="group" aria-label="Vista" className="mb-3 flex flex-wrap gap-1 text-sm">
+                  {opciones.map(([k, t]) => (
+                    <button key={k} type="button" aria-pressed={vista === k} onClick={() => setVista(k)} className={`rounded-md border px-3 py-1 ${vista === k ? 'border-acento bg-superficie-2 font-semibold' : 'border-borde hover:bg-superficie-2'}`}>
+                      {t}
+                    </button>
+                  ))}
+                </div>
+              ) : null;
+            })()}
+            {vista === 'red' && mostrada.catalogo && RED_POR_FORMULA[mostrada.catalogo.formula] ? (
+              <Suspense fallback={<Cargando />}>
+                <RedIonica3D tipo={RED_POR_FORMULA[mostrada.catalogo.formula]!} />
+              </Suspense>
+            ) : vista === 'muestra' && mostrada.catalogo ? (
+              <Suspense fallback={<Cargando />}>
+                <MuestraCompuesto3D cid={mostrada.catalogo.cid} nombre={mostrada.nombre} />
+              </Suspense>
+            ) : (
+              <>
             <div className="mb-2 flex flex-wrap items-center gap-2 text-sm">
               <div role="group" aria-label="Estilo" className="flex gap-1">
                 {(
@@ -236,6 +269,8 @@ export default function VisorMoleculas() {
               {mostrada.cargada.origen === 'vsepr' && ' (PubChem no publica un conformero fiable para esta especie hipervalente o sin 3D).'}
               {mostrada.cargada.origen === 'aproximada' && ' — distancias y ángulos aproximados.'}
             </p>
+              </>
+            )}
           </div>
 
           <aside className="space-y-4 text-sm">

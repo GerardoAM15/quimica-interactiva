@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { formacionIonica } from '@/chem/enlace';
-import { celdaIonica, contarPorEspecie, densidadCubica, REDES_IONICAS, type TipoRedIonica } from '@/chem/cristales';
+import { celdaIonica, COLORES_IONES, contarPorEspecie, densidadCubica, RADIOS_IONICOS, REDES_IONICAS, type TipoRedIonica } from '@/chem/cristales';
 import { NA } from '@/chem/constants';
 import { masaMolar } from '@/chem/formula';
 import { elementoPorSimbolo, grupo } from '@/chem/elements';
@@ -139,15 +139,6 @@ function AnimacionTransferencia({ metal, noMetal }: { metal: string; noMetal: st
     </div>
   );
 }
-
-/** Radios iónicos de Shannon (pm) para el tamaño de las esferas (pendiente de revisión). */
-const RADIOS_IONICOS: Record<TipoRedIonica, Record<string, number>> = {
-  NaCl: { Na: 102, Cl: 181 },
-  CsCl: { Cs: 174, Cl: 181 },
-  CaF2: { Ca: 112, F: 131 },
-  ZnS: { Zn: 60, S: 184 },
-};
-const COLORES_IONES: Record<string, string> = { Na: '#a78bfa', Cs: '#c084fc', Ca: '#94a3b8', Zn: '#9ca3af', Cl: '#22c55e', F: '#a3e635', S: '#facc15' };
 
 function RedIonica() {
   const [tipo, setTipo] = useState<TipoRedIonica>('NaCl');

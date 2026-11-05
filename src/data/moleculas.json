@@ -3,7 +3,7 @@
   "nombre": "PubChem (NCBI/NIH): propiedades, conformeros 3D y puntos de ebullición (PUG View)",
   "url": "https://pubchem.ncbi.nlm.nih.gov/",
   "licencia": "Dominio público; cada punto de ebullición conserva su referencia original",
-  "descargado": "2026-11-03",
+  "descargado": "2026-11-05",
   "notas": "tiene3D = false: PubChem no publica conformero 3D (iones, sales o moléculas muy flexibles); la app genera una geometría aproximada."
  },
  "moleculas": [
@@ -4885,6 +4885,55 @@
    "masaMolar": 84.007,
    "iupac": "sodium hydrogen carbonate",
    "smiles": "C(=O)(O)[O-].[Na+]",
+   "categoria": "ionico",
+   "tiene3D": false,
+   "puntoEbullicion": null
+  },
+  {
+   "cid": 24293,
+   "nombre": "cloruro de cesio",
+   "nombreIngles": "Cesium Chloride",
+   "formula": "ClCs",
+   "carga": 0,
+   "masaMolar": 168.36,
+   "iupac": "cesium chloride",
+   "smiles": "[Cl-].[Cs+]",
+   "categoria": "ionico",
+   "tiene3D": false,
+   "puntoEbullicion": {
+    "valor": 1290,
+    "texto": "1290 °C (sublimes)",
+    "fuente": "Lewis, R.J., Sr (Ed.). Hawley's Condensed Chemical  Dictionary. 13th ed. New York, NY: John Wiley & Sons, Inc.  1997., p. 235",
+    "sublima": true
+   }
+  },
+  {
+   "cid": 84512,
+   "nombre": "fluoruro de calcio",
+   "nombreIngles": "Calcium Fluoride",
+   "formula": "CaF2",
+   "carga": 0,
+   "masaMolar": 78.07,
+   "iupac": "calcium difluoride",
+   "smiles": "[F-].[F-].[Ca+2]",
+   "categoria": "ionico",
+   "tiene3D": false,
+   "puntoEbullicion": {
+    "valor": 2500,
+    "texto": "2500 °C",
+    "fuente": "Budavari, S. (ed.). The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals. Whitehouse Station, NJ: Merck and Co., Inc., 1996., p. 273",
+    "sublima": false
+   }
+  },
+  {
+   "cid": 9833931,
+   "nombre": "sulfuro de zinc",
+   "nombreIngles": "Zinc Sulfide",
+   "formula": "SZn",
+   "carga": 0,
+   "masaMolar": 97.4,
+   "iupac": "zinc sulfide",
+   "smiles": "[S-2].[Zn+2]",
    "categoria": "ionico",
    "tiene3D": false,
    "puntoEbullicion": null

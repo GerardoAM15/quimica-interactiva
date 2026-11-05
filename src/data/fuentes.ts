@@ -100,6 +100,15 @@ export const FUENTES: readonly Fuente[] = [
     uso: 'Datos termodinámicos, de gases reales y de propiedades coligativas (transcritos; pendientes de revisión). Los ejercicios resueltos sirven de referencia en las pruebas de validación.',
   },
   {
+    id: 'pubchem-aspecto',
+    tipo: 'datos',
+    nombre: 'PubChem PUG View: descripción física de los compuestos',
+    descripcion: 'Secciones «Physical Description» y «Color/Form», que recopilan CAMEO Chemicals, HSDB, ICSC y otras fuentes.',
+    licencia: 'Dominio público / según la fuente citada en cada entrada',
+    url: 'https://pubchem.ncbi.nlm.nih.gov/docs/pug-view',
+    uso: 'Estado, forma y color de la «muestra a 25 °C» de los compuestos del catálogo (clasificación automática, pendiente de revisión).',
+  },
+  {
     id: 'mcmurry',
     tipo: 'datos',
     nombre: 'J. McMurry, Química orgánica (Cengage)',
