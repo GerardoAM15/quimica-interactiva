@@ -30,7 +30,7 @@ const SECCIONES = [
 ] as const;
 
 const input = 'rounded-md border border-borde bg-superficie px-2 py-1.5';
-const n4 = (x: number) => (Number.isFinite(x) ? Number(x.toPrecision(4)).toLocaleString('es-PE') : '—');
+const n4 = (x: number) => (Number.isFinite(x) ? x.toLocaleString('es-PE', { maximumSignificantDigits: 4 }) : '—');
 const COLORES = ['#38bdf8', '#f97316', '#a855f7', '#22c55e', '#f472b6'];
 
 /**

@@ -30,7 +30,7 @@ const SECCIONES = [
 ] as const;
 
 const input = 'rounded-md border border-borde bg-superficie px-2 py-1.5';
-const n4 = (x: number) => (Number.isFinite(x) ? Number(x.toPrecision(4)).toLocaleString('es-PE') : '—');
+const n4 = (x: number) => (Number.isFinite(x) ? x.toLocaleString('es-PE', { maximumSignificantDigits: 4 }) : '—');
 
 /** «2 H2O(l)» → «2 H2O(l)» en mhchem (los estados no estándar se escriben como texto). */
 const ceTermo = (t: string) => t.replace(/\((grafito|diamante|rombico)\)/g, '_{($1)}').replace(/->/g, '->');

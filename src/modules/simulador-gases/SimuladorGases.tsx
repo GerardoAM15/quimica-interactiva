@@ -38,7 +38,7 @@ const SECCIONES = [
 
 const GASES = ['He', 'Ne', 'Ar', 'Xe', 'H2', 'N2', 'O2', 'CO2', 'CH4', 'NH3', 'Cl2'] as const;
 const input = 'rounded-md border border-borde bg-superficie px-2 py-1.5';
-const n3 = (x: number) => Number(x.toPrecision(4)).toLocaleString('es-PE');
+const n3 = (x: number) => x.toLocaleString('es-PE', { maximumSignificantDigits: 4 });
 const COLORES = ['var(--acento)', '#f97316', '#a855f7', '#22c55e'];
 
 function SelectorGas({ valor, alCambiar, etiqueta = 'Gas', opciones = GASES as readonly string[] }: { valor: string; alCambiar: (g: string) => void; etiqueta?: string; opciones?: readonly string[] }) {

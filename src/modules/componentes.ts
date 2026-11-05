@@ -19,4 +19,9 @@ export const COMPONENTES_MODULO: Partial<Record<string, LazyExoticComponent<Comp
   'simulador-gases': lazy(() => import('./simulador-gases/SimuladorGases')),
   soluciones: lazy(() => import('./soluciones/Soluciones')),
   termoquimica: lazy(() => import('./termoquimica/Termoquimica')),
+  cinetica: lazy(() => import('./cinetica/Cinetica')),
+  equilibrio: lazy(() => import('./equilibrio/Equilibrio')),
+  'acidos-bases': lazy(() => import('./acidos-bases/AcidosBases')),
+  titulacion: lazy(() => import('./titulacion/Titulacion')),
+  electroquimica: lazy(() => import('./electroquimica/Electroquimica')),
 };

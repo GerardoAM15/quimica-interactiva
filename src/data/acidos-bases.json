@@ -1,0 +1,67 @@
+{
+  "fuente": {
+    "referencias": [
+      "R. Chang, Química: tablas 15.3 (Ka de ácidos débiles), 15.4 (Kb de bases débiles), 15.5 (ácidos dipróticos y polipróticos) y 16.2 (Ksp), a 25 °C",
+      "Intervalos de viraje de indicadores: Chang, tabla 16.1"
+    ],
+    "pendienteRevision": true
+  },
+  "acidos": [
+    { "nombre": "ácido fluorhídrico", "formula": "HF", "Ka": [7.1e-4] },
+    { "nombre": "ácido nitroso", "formula": "HNO2", "Ka": [4.5e-4] },
+    { "nombre": "ácido fórmico", "formula": "HCOOH", "Ka": [1.7e-4] },
+    { "nombre": "ácido benzoico", "formula": "C6H5COOH", "Ka": [6.5e-5] },
+    { "nombre": "ácido acético", "formula": "CH3COOH", "Ka": [1.8e-5] },
+    { "nombre": "ácido cianhídrico", "formula": "HCN", "Ka": [4.9e-10] },
+    { "nombre": "fenol", "formula": "C6H5OH", "Ka": [1.3e-10] },
+    { "nombre": "ácido oxálico", "formula": "H2C2O4", "Ka": [6.5e-2, 6.1e-5] },
+    { "nombre": "ácido sulfuroso", "formula": "H2SO3", "Ka": [1.3e-2, 6.3e-8] },
+    { "nombre": "ácido fosfórico", "formula": "H3PO4", "Ka": [7.5e-3, 6.2e-8, 4.8e-13] },
+    { "nombre": "ácido carbónico", "formula": "H2CO3", "Ka": [4.2e-7, 4.8e-11] },
+    { "nombre": "ácido sulfhídrico", "formula": "H2S", "Ka": [9.5e-8, 1.0e-19] }
+  ],
+  "bases": [
+    { "nombre": "etilamina", "formula": "C2H5NH2", "Kb": 5.6e-4 },
+    { "nombre": "metilamina", "formula": "CH3NH2", "Kb": 4.4e-4 },
+    { "nombre": "amoníaco", "formula": "NH3", "Kb": 1.8e-5 },
+    { "nombre": "piridina", "formula": "C5H5N", "Kb": 1.7e-9 },
+    { "nombre": "anilina", "formula": "C6H5NH2", "Kb": 3.8e-10 }
+  ],
+  "fuertes": {
+    "acidos": ["HCl", "HBr", "HI", "HNO3", "HClO4", "H2SO4 (primera ionización)"],
+    "bases": ["LiOH", "NaOH", "KOH", "RbOH", "CsOH", "Ca(OH)2", "Sr(OH)2", "Ba(OH)2"]
+  },
+  "indicadores": [
+    { "nombre": "azul de timol", "desde": 1.2, "hasta": 2.8, "acido": "#e0332f", "basico": "#f2c919" },
+    { "nombre": "anaranjado de metilo", "desde": 3.1, "hasta": 4.4, "acido": "#e0332f", "basico": "#f2b01e" },
+    { "nombre": "azul de bromofenol", "desde": 3.0, "hasta": 4.6, "acido": "#f2c919", "basico": "#3550c8" },
+    { "nombre": "rojo de metilo", "desde": 4.2, "hasta": 6.3, "acido": "#e0332f", "basico": "#f2c919" },
+    { "nombre": "azul de bromotimol", "desde": 6.0, "hasta": 7.6, "acido": "#f2c919", "basico": "#2b5fd9" },
+    { "nombre": "fenolftaleína", "desde": 8.3, "hasta": 10.0, "acido": null, "basico": "#e0389a" }
+  ],
+  "ksp": [
+    { "nombre": "cloruro de plata", "formula": "AgCl", "Ksp": 1.6e-10, "x": 1, "y": 1, "cation": "Ag+", "anion": "Cl-" },
+    { "nombre": "bromuro de plata", "formula": "AgBr", "Ksp": 7.7e-13, "x": 1, "y": 1, "cation": "Ag+", "anion": "Br-" },
+    { "nombre": "yoduro de plata", "formula": "AgI", "Ksp": 8.3e-17, "x": 1, "y": 1, "cation": "Ag+", "anion": "I-" },
+    { "nombre": "sulfato de bario", "formula": "BaSO4", "Ksp": 1.1e-10, "x": 1, "y": 1, "cation": "Ba2+", "anion": "SO42-" },
+    { "nombre": "carbonato de calcio", "formula": "CaCO3", "Ksp": 8.7e-9, "x": 1, "y": 1, "cation": "Ca2+", "anion": "CO32-" },
+    { "nombre": "fluoruro de calcio", "formula": "CaF2", "Ksp": 4.0e-11, "x": 1, "y": 2, "cation": "Ca2+", "anion": "F-" },
+    { "nombre": "cloruro de plomo(II)", "formula": "PbCl2", "Ksp": 2.4e-4, "x": 1, "y": 2, "cation": "Pb2+", "anion": "Cl-" },
+    { "nombre": "yoduro de plomo(II)", "formula": "PbI2", "Ksp": 1.4e-8, "x": 1, "y": 2, "cation": "Pb2+", "anion": "I-" },
+    { "nombre": "cromato de plata", "formula": "Ag2CrO4", "Ksp": 1.1e-12, "x": 2, "y": 1, "cation": "Ag+", "anion": "CrO42-" },
+    { "nombre": "hidróxido de magnesio", "formula": "Mg(OH)2", "Ksp": 1.2e-11, "x": 1, "y": 2, "cation": "Mg2+", "anion": "OH-" },
+    { "nombre": "hidróxido de hierro(III)", "formula": "Fe(OH)3", "Ksp": 1.1e-36, "x": 1, "y": 3, "cation": "Fe3+", "anion": "OH-" },
+    { "nombre": "fosfato de calcio", "formula": "Ca3(PO4)2", "Ksp": 1.2e-26, "x": 3, "y": 2, "cation": "Ca2+", "anion": "PO43-" }
+  ],
+  "phComunes": [
+    { "nombre": "jugo gástrico", "pH": 1.5 },
+    { "nombre": "jugo de limón", "pH": 2.4 },
+    { "nombre": "vinagre", "pH": 3.0 },
+    { "nombre": "jugo de naranja", "pH": 3.5 },
+    { "nombre": "leche", "pH": 6.5 },
+    { "nombre": "agua pura (25 °C)", "pH": 7.0 },
+    { "nombre": "sangre", "pH": 7.4 },
+    { "nombre": "leche de magnesia", "pH": 10.6 },
+    { "nombre": "amoníaco doméstico", "pH": 11.5 }
+  ]
+}

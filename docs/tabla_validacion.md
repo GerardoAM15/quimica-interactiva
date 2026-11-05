@@ -504,3 +504,49 @@ Cada ΔGf° tabulado se compara con ΔHf° − T·ΔSf°, calculando ΔSf° con 
 | Fe2O3(s): ΔHf° − TΔSf° | -741 | -741.13 | kJ/mol | 1.75e-2 | Chang, apéndice 3 (coherencia interna) |
 | Al2O3(s): ΔHf° − TΔSf° | -1576.4 | -1576.45 | kJ/mol | 3.17e-3 | Chang, apéndice 3 (coherencia interna) |
 | MgO(s): ΔHf° − TΔSf° | -569.6 | -569.53 | kJ/mol | 1.23e-2 | Chang, apéndice 3 (coherencia interna) |
+
+## Cinética
+
+| Caso | Referencia | Calculado | Unidad | Error (%) | Fuente |
+|---|---|---|---|---|---|
+| t½ de orden 1, k = 6,7·10⁻⁴ s⁻¹ | 1030 | 1034.5 | s | 4.37e-1 | Chang, cap. 13 (ln 2/k) |
+| t½ de orden 2, k = 7,0·10⁹ M⁻¹s⁻¹, [A]₀ = 0,086 M | 1.700000e-9 | 1.661100e-9 | s | 2.29e+0 | Chang, cap. 13 (1/k[A]₀; 2 cifras) |
+| k de F₂ + 2ClO₂ (v = k[F₂][ClO₂]) | 1.2 | 1.2 | M⁻¹s⁻¹ | 0.00e+0 | Chang, cap. 13 (velocidades iniciales) |
+
+## Equilibrio
+
+| Caso | Referencia | Calculado | Unidad | Error (%) | Fuente |
+|---|---|---|---|---|---|
+| H₂ + I₂ ⇌ 2HI: [HI]eq desde 0,500 M de H₂ e I₂ | 0.786 | 0.7865 | M | 6.36e-2 | Chang, cap. 14 |
+| N₂O₄ ⇌ 2NO₂: Kp a 25 °C | 0.113 | 0.1133 |  | 2.65e-1 | Chang, cap. 14 |
+
+## pH, buffers y titulación
+
+El pH se calcula por balance de carga exacto (bisección); el analítico usa la fórmula cerrada indicada.
+
+| Caso | Referencia | Calculado | Unidad | Error (%) | Fuente |
+|---|---|---|---|---|---|
+| HCl 0,10 M | 1 | 1 | pH | 0.00e+0 | analítico: −log C |
+| HCl 1,0·10⁻⁸ M (con el agua) | 6.978 | 6.9783 | pH | 4.30e-3 | analítico: [H⁺] = (C + √(C² + 4Kw))/2 |
+| NaOH 0,050 M | 12.699 | 12.699 | pH | 0.00e+0 | analítico: 14 + log C |
+| Ba(OH)₂ 0,020 M | 12.602 | 12.6021 | pH | 7.94e-4 | analítico: 14 + log 2C |
+| CH₃COOH 0,10 M (Ka = 1,8·10⁻⁵) | 2.8752771 | 2.8753 | pH | 7.98e-4 | analítico: cuadrática; Chang ≈ 2,87 |
+| NH₃ 0,40 M (Kb = 1,8·10⁻⁵) | 11.42721 | 11.4272 | pH | 8.39e-5 | analítico: cuadrática; Chang ≈ 11,43 |
+| H₃PO₄ 0,10 M | 1.6217533 | 1.6218 | pH | 2.88e-3 | analítico: cuadrática con Ka₁ |
+| Buffer CH₃COOH 0,10 M / CH₃COONa 0,10 M | 4.7447275 | 4.7449 | pH | 3.64e-3 | Henderson-Hasselbalch |
+| Buffer NH₃ 0,30 M / NH₄Cl 0,36 M | 9.1760913 | 9.1761 | pH | 9.53e-5 | Henderson-Hasselbalch; Chang ≈ 9,17 |
+| CH₃COOH con NaOH: semiequivalencia (pH = pKa) | 4.7447275 | 4.7452 | pH | 9.96e-3 | analítico |
+| CH₃COOH con NaOH: equivalencia | 8.7218487 | 8.7219 | pH | 5.88e-4 | analítico; Chang ≈ 8,72 |
+| CH₃COOH con NaOH: 35 mL | 12.221849 | 12.2218 | pH | 3.99e-4 | analítico: exceso de OH⁻ |
+| HCl con NaOH: equivalencia | 7 | 7 | pH | 0.00e+0 | analítico |
+| HCl con NaOH: 10 mL | 1.3679768 | 1.368 | pH | 1.70e-3 | analítico: exceso de H⁺ |
+| NH₃ con HCl: equivalencia | 5.2781513 | 5.2781 | pH | 9.71e-4 | analítico; Chang ≈ 5,28 |
+
+## Electroquímica
+
+| Caso | Referencia | Calculado | Unidad | Error (%) | Fuente |
+|---|---|---|---|---|---|
+| Pila de Daniell: E° | 1.1 | 1.1 | V | 0.00e+0 | Chang, cap. 19 |
+| Pila de Daniell: ΔG° | -212 | -212.3 | kJ | 1.42e-1 | Chang, cap. 19 |
+| Co | Co²⁺ (0,15 M) ‖ Fe²⁺ (0,68 M) | Fe: Nernst | -0.14 | -0.1406 | V | 4.29e-1 | Chang, cap. 19 |
+| Electrólisis de CaCl₂: 0,452 A, 1,50 h | 0.507 | 0.5069 | g | 1.97e-2 | Chang, cap. 19 |
