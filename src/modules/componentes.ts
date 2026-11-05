@@ -16,4 +16,7 @@ export const COMPONENTES_MODULO: Partial<Record<string, LazyExoticComponent<Comp
   'reacciones-quimicas': lazy(() => import('./reacciones-quimicas/ReaccionesQuimicas')),
   balanceador: lazy(() => import('./balanceador/Balanceador')),
   estequiometria: lazy(() => import('./estequiometria/Estequiometria')),
+  'simulador-gases': lazy(() => import('./simulador-gases/SimuladorGases')),
+  soluciones: lazy(() => import('./soluciones/Soluciones')),
+  termoquimica: lazy(() => import('./termoquimica/Termoquimica')),
 };

@@ -451,3 +451,56 @@ Valida los parámetros de red de src/data/cristales.json: ρ = Z·M/(N_A·V_celd
 | Urea a partir de 637,2 g NH₃ + 1142 g CO₂ | 1124 | 1123.5 | g | 4.45e-2 | Chang, Química (reactivo limitante) |
 | Ti teórico (TiCl₄ + 2 Mg) | 8.950000e+6 | 8.934036e+6 | g | 1.78e-1 | Chang, Química (rendimiento) |
 | % de rendimiento del Ti | 88.4 | 88.54 | % | 1.58e-1 | Chang, Química |
+
+## Gases
+
+| Caso | Referencia | Calculado | Unidad | Error (%) | Fuente |
+|---|---|---|---|---|---|
+| 6,9 mol de CO en 30,4 L a 62 °C: P | 6.2 | 6.2421 | atm | 6.79e-1 | Chang, Química, cap. 5 |
+| Boyle: 726 mmHg y 946 mL → 154 mL | 4460 | 4459.7 | mmHg | 6.73e-3 | Chang, Química, cap. 5 |
+| 1 mol a 0 °C y 1 atm: V | 22.41 | 22.414 | L | 1.78e-2 | Chang, Química, cap. 5 |
+| Densidad del CO₂ a 0,990 atm y 55 °C | 1.62 | 1.618 | g/L | 1.23e-1 | Chang, Química, cap. 5 |
+| Graham: efusión en 1,50 min frente a Br₂ en 4,73 min → M | 16.1 | 16.072 | g/mol | 1.74e-1 | Chang, Química, cap. 5 |
+| Van der Waals: 3,50 mol NH₃ en 5,20 L a 47 °C | 16.2 | 16.246 | atm | 2.84e-1 | Chang, Química, cap. 5 |
+| v_rms del N₂ a 25 °C | 515 | 515.24 | m/s | 4.66e-2 | Chang, Química, cap. 5 |
+| v_rms del He a 25 °C | 1360 | 1363.1 | m/s | 2.28e-1 | Chang, Química, cap. 5 |
+
+## Termoquímica: coherencia de la tabla ΔHf°, S°, ΔGf°
+
+Cada ΔGf° tabulado se compara con ΔHf° − T·ΔSf°, calculando ΔSf° con las entropías de los elementos.
+
+| Caso | Referencia | Calculado | Unidad | Error (%) | Fuente |
+|---|---|---|---|---|---|
+| C(diamante): ΔHf° − TΔSf° | 2.87 | 2.88 | kJ/mol | 3.48e-1 | Chang, apéndice 3 (coherencia interna) |
+| O3(g): ΔHf° − TΔSf° | 163.4 | 163.04 | kJ/mol | 2.20e-1 | Chang, apéndice 3 (coherencia interna) |
+| H2O(l): ΔHf° − TΔSf° | -237.2 | -237.02 | kJ/mol | 7.59e-2 | Chang, apéndice 3 (coherencia interna) |
+| H2O(g): ΔHf° − TΔSf° | -228.6 | -228.44 | kJ/mol | 7.00e-2 | Chang, apéndice 3 (coherencia interna) |
+| H2O2(l): ΔHf° − TΔSf° | -118.1 | -120.1 | kJ/mol | 1.69e+0 | Chang, apéndice 3 (coherencia interna) |
+| CO(g): ΔHf° − TΔSf° | -137.3 | -137.25 | kJ/mol | 3.64e-2 | Chang, apéndice 3 (coherencia interna) |
+| CO2(g): ΔHf° − TΔSf° | -394.4 | -394.37 | kJ/mol | 7.61e-3 | Chang, apéndice 3 (coherencia interna) |
+| CH4(g): ΔHf° − TΔSf° | -50.8 | -50.55 | kJ/mol | 4.92e-1 | Chang, apéndice 3 (coherencia interna) |
+| C2H6(g): ΔHf° − TΔSf° | -32.89 | -32.56 | kJ/mol | 1.00e+0 | Chang, apéndice 3 (coherencia interna) |
+| C3H8(g): ΔHf° − TΔSf° | -23.5 | -22.95 | kJ/mol | 2.34e+0 | Chang, apéndice 3 (coherencia interna) |
+| C2H4(g): ΔHf° − TΔSf° | 68.1 | 68.36 | kJ/mol | 3.82e-1 | Chang, apéndice 3 (coherencia interna) |
+| C2H2(g): ΔHf° − TΔSf° | 209.2 | 209.18 | kJ/mol | 9.56e-3 | Chang, apéndice 3 (coherencia interna) |
+| C6H6(l): ΔHf° − TΔSf° | 124.5 | 124.87 | kJ/mol | 2.97e-1 | Chang, apéndice 3 (coherencia interna) |
+| CH3OH(l): ΔHf° − TΔSf° | -166.3 | -166.13 | kJ/mol | 1.02e-1 | Chang, apéndice 3 (coherencia interna) |
+| C2H5OH(l): ΔHf° − TΔSf° | -174.18 | -173.86 | kJ/mol | 1.84e-1 | Chang, apéndice 3 (coherencia interna) |
+| C6H12O6(s): ΔHf° − TΔSf° | -910.56 | -909.85 | kJ/mol | 7.80e-2 | Chang, apéndice 3 (coherencia interna) |
+| NH3(g): ΔHf° − TΔSf° | -16.6 | -16.71 | kJ/mol | 6.63e-1 | Chang, apéndice 3 (coherencia interna) |
+| NO(g): ΔHf° − TΔSf° | 86.7 | 86.72 | kJ/mol | 2.31e-2 | Chang, apéndice 3 (coherencia interna) |
+| NO2(g): ΔHf° − TΔSf° | 51.8 | 51.83 | kJ/mol | 5.79e-2 | Chang, apéndice 3 (coherencia interna) |
+| N2O4(g): ΔHf° − TΔSf° | 98.29 | 98.27 | kJ/mol | 2.03e-2 | Chang, apéndice 3 (coherencia interna) |
+| N2O(g): ΔHf° − TΔSf° | 103.6 | 103.63 | kJ/mol | 2.90e-2 | Chang, apéndice 3 (coherencia interna) |
+| SO2(g): ΔHf° − TΔSf° | -300.4 | -299.56 | kJ/mol | 2.80e-1 | Chang, apéndice 3 (coherencia interna) |
+| SO3(g): ΔHf° − TΔSf° | -370.4 | -370.4 | kJ/mol | 0.00e+0 | Chang, apéndice 3 (coherencia interna) |
+| H2S(g): ΔHf° − TΔSf° | -33 | -32.9 | kJ/mol | 3.03e-1 | Chang, apéndice 3 (coherencia interna) |
+| HCl(g): ΔHf° − TΔSf° | -95.27 | -95.28 | kJ/mol | 1.05e-2 | Chang, apéndice 3 (coherencia interna) |
+| NaCl(s): ΔHf° − TΔSf° | -384 | -384.02 | kJ/mol | 5.21e-3 | Chang, apéndice 3 (coherencia interna) |
+| NaOH(s): ΔHf° − TΔSf° | -380.7 | -380.63 | kJ/mol | 1.84e-2 | Chang, apéndice 3 (coherencia interna) |
+| CaCO3(s): ΔHf° − TΔSf° | -1128.8 | -1128.82 | kJ/mol | 1.77e-3 | Chang, apéndice 3 (coherencia interna) |
+| CaO(s): ΔHf° − TΔSf° | -604.2 | -604.5 | kJ/mol | 4.97e-2 | Chang, apéndice 3 (coherencia interna) |
+| Ca(OH)2(s): ΔHf° − TΔSf° | -896.8 | -896.74 | kJ/mol | 6.69e-3 | Chang, apéndice 3 (coherencia interna) |
+| Fe2O3(s): ΔHf° − TΔSf° | -741 | -741.13 | kJ/mol | 1.75e-2 | Chang, apéndice 3 (coherencia interna) |
+| Al2O3(s): ΔHf° − TΔSf° | -1576.4 | -1576.45 | kJ/mol | 3.17e-3 | Chang, apéndice 3 (coherencia interna) |
+| MgO(s): ΔHf° − TΔSf° | -569.6 | -569.53 | kJ/mol | 1.23e-2 | Chang, apéndice 3 (coherencia interna) |
