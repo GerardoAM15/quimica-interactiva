@@ -20,7 +20,7 @@ export function Encabezado({ alAbrirMenu }: Props) {
   const enLinea = useEnLinea();
 
   return (
-    <header className="sticky top-0 z-30 border-b border-borde bg-fondo/90 backdrop-blur supports-[backdrop-filter]:bg-fondo/75">
+    <header className="no-imprimir sticky top-0 z-30 border-b border-borde bg-fondo/90 backdrop-blur supports-[backdrop-filter]:bg-fondo/75">
       <div className="mx-auto flex h-14 max-w-screen-2xl items-center gap-2 px-4">
         <button
           type="button"

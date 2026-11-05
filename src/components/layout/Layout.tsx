@@ -44,7 +44,7 @@ export function Layout() {
       <div className="mx-auto flex w-full max-w-screen-2xl flex-1">
         {/* Barra lateral fija en escritorio (se oculta en la portada para dar espacio) */}
         {!esPortada && (
-          <aside className="sticky top-14 hidden h-[calc(100dvh-3.5rem)] w-72 shrink-0 overflow-y-auto border-r border-borde p-3 lg:block">
+          <aside className="no-imprimir sticky top-14 hidden h-[calc(100dvh-3.5rem)] w-72 shrink-0 overflow-y-auto border-r border-borde p-3 lg:block">
             <NavegacionModulos />
           </aside>
         )}
@@ -63,7 +63,7 @@ export function Layout() {
         </main>
       </div>
 
-      <footer className="border-t border-borde px-4 py-4 text-center text-xs text-texto-suave">
+      <footer className="no-imprimir border-t border-borde px-4 py-4 text-center text-xs text-texto-suave">
         Proyecto personal de estudio · Datos de PubChem (dominio público) y CODATA ·{' '}
         <Link to="/creditos" className="underline hover:text-texto">
           Créditos y fuentes

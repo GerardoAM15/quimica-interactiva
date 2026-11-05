@@ -98,3 +98,45 @@
   transform-origin: center;
   transform-box: fill-box;
 }
+
+/*
+ * Impresión (hojas de trabajo): A4, sin la interfaz de la aplicación y en blanco y negro.
+ * Solo se imprime el contenido principal; los controles llevan la clase .no-imprimir.
+ */
+@media print {
+  @page {
+    size: A4;
+    margin: 0;
+  }
+  :root,
+  .dark {
+    --fondo: #ffffff;
+    --superficie: #ffffff;
+    --texto: #000000;
+    --texto-suave: #333333;
+    --borde: #999999;
+  }
+  html,
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  .no-imprimir {
+    display: none !important;
+  }
+  main {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .hoja {
+    width: auto !important;
+    box-shadow: none !important;
+    padding: 14mm !important;
+  }
+  .salto {
+    break-before: page;
+  }
+  .break-inside-avoid {
+    break-inside: avoid;
+  }
+}

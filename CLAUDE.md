@@ -69,6 +69,14 @@ docs/            documentación, referencias de tablas, tabla_validacion.md
   (estructura ↔ nombre y práctica), usados por los módulos 20–24. `lib/colores.ts` lee los tokens para Canvas.
 - RDKit solo a través de `src/lib/rdkit.ts` (carga diferida del WASM; traduce los errores de valencia).
 
+### Modo estudio
+
+- `src/study/` (sin React, con pruebas): `azar` (semilla reproducible), `generadores` (preguntas originales A–E
+  creadas desde `chem/`, con respuesta y solución), `sm2` (repetición espaciada), `tarjetas` (mazo desde los datos)
+  y `examen` (simulacros y nota vigesimal). Nunca copiar preguntas reales de exámenes de admisión.
+- Páginas en `src/pages/estudio/` (quiz, tarjetas, simulacro, hojas de trabajo); progreso en `store/progreso`.
+- Impresión: los controles llevan `.no-imprimir`; estilos `@media print` (A4) en `src/styles/index.css`.
+
 ### Agregar un módulo
 
 1. Metadatos ya están en `src/modules/registro.ts` (número, slug, bloque, temas).

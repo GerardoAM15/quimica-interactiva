@@ -23,6 +23,7 @@ export default function App() {
           <Route path="bloque/:slug" element={<PaginaBloque />} />
           <Route path="modulo/:slug" element={<PaginaModulo />} />
           <Route path="estudio" element={<PaginaEstudio />} />
+          <Route path="estudio/:seccion" element={<PaginaEstudio />} />
           <Route path="creditos" element={<PaginaCreditos />} />
           <Route path="*" element={<NoEncontrada />} />
         </Route>

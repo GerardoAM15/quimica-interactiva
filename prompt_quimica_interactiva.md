@@ -177,4 +177,4 @@ Empieza por la Fase 0.
 | Vista 3D de la tabla con casillas elevadas según la propiedad | 1 | Hecho (`Tabla3D.tsx`) |
 | Compuestos del catálogo: red cristalina (NaCl, CsCl, CaF₂, ZnS) y muestra 3D (polvo, cristal, líquido, gas) | 2 | Hecho (visor de moléculas; `src/data/apariencia-compuestos.json`) |
 | Tabla de solubilidad interactiva + precipitados y ecuación iónica neta | 3 | Hecho (módulo 9; `src/chem/solubilidad.ts`, `src/data/solubilidad.json`) |
-| Generador de hojas de trabajo imprimibles | 7 | En la Fase 7 |
+| Generador de hojas de trabajo imprimibles | 7 | Hecho (Modo estudio → Hojas de trabajo; `src/study/generadores.ts`) |

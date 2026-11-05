@@ -26,7 +26,7 @@ export function AvisoPWA() {
   return (
     <div
       role="status"
-      className="fixed right-4 bottom-4 left-4 z-50 mx-auto max-w-md rounded-lg border border-borde bg-superficie p-4 shadow-xl sm:left-auto"
+      className="no-imprimir fixed right-4 bottom-4 left-4 z-50 mx-auto max-w-md rounded-lg border border-borde bg-superficie p-4 shadow-xl sm:left-auto"
     >
       <p className="text-sm">
         {hayActualizacion
