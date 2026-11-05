@@ -24,4 +24,9 @@ export const COMPONENTES_MODULO: Partial<Record<string, LazyExoticComponent<Comp
   'acidos-bases': lazy(() => import('./acidos-bases/AcidosBases')),
   titulacion: lazy(() => import('./titulacion/Titulacion')),
   electroquimica: lazy(() => import('./electroquimica/Electroquimica')),
+  'el-carbono': lazy(() => import('./el-carbono/ElCarbono')),
+  hidrocarburos: lazy(() => import('./hidrocarburos/Hidrocarburos')),
+  'grupos-funcionales': lazy(() => import('./grupos-funcionales/GruposFuncionales')),
+  isomeria: lazy(() => import('./isomeria/Isomeria')),
+  'reacciones-organicas': lazy(() => import('./reacciones-organicas/ReaccionesOrganicas')),
 };

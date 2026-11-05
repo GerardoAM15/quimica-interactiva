@@ -1,0 +1,1017 @@
+{
+ "fuente": {
+  "nombre": "PubChem PUG REST (IUPACName, MolecularFormula, SMILES)",
+  "licencia": "Dominio público",
+  "descargado": "2026-11-05"
+ },
+ "compuestos": [
+  {
+   "smiles": "C",
+   "nombre": "metano",
+   "cid": 297,
+   "iupacPubChem": "methane",
+   "formula": "CH4",
+   "smilesPubChem": "C"
+  },
+  {
+   "smiles": "CC",
+   "nombre": "etano",
+   "cid": 6324,
+   "iupacPubChem": "ethane",
+   "formula": "C2H6",
+   "smilesPubChem": "CC"
+  },
+  {
+   "smiles": "CCC",
+   "nombre": "propano",
+   "cid": 6334,
+   "iupacPubChem": "propane",
+   "formula": "C3H8",
+   "smilesPubChem": "CCC"
+  },
+  {
+   "smiles": "CCCC",
+   "nombre": "butano",
+   "cid": 7843,
+   "iupacPubChem": "butane",
+   "formula": "C4H10",
+   "smilesPubChem": "CCCC"
+  },
+  {
+   "smiles": "CCCCC",
+   "nombre": "pentano",
+   "cid": 8003,
+   "iupacPubChem": "pentane",
+   "formula": "C5H12",
+   "smilesPubChem": "CCCCC"
+  },
+  {
+   "smiles": "CCCCCC",
+   "nombre": "hexano",
+   "cid": 8058,
+   "iupacPubChem": "hexane",
+   "formula": "C6H14",
+   "smilesPubChem": "CCCCCC"
+  },
+  {
+   "smiles": "CCCCCCC",
+   "nombre": "heptano",
+   "cid": 8900,
+   "iupacPubChem": "heptane",
+   "formula": "C7H16",
+   "smilesPubChem": "CCCCCCC"
+  },
+  {
+   "smiles": "CCCCCCCC",
+   "nombre": "octano",
+   "cid": 356,
+   "iupacPubChem": "octane",
+   "formula": "C8H18",
+   "smilesPubChem": "CCCCCCCC"
+  },
+  {
+   "smiles": "CCCCCCCCC",
+   "nombre": "nonano",
+   "cid": 8141,
+   "iupacPubChem": "nonane",
+   "formula": "C9H20",
+   "smilesPubChem": "CCCCCCCCC"
+  },
+  {
+   "smiles": "CCCCCCCCCC",
+   "nombre": "decano",
+   "cid": 15600,
+   "iupacPubChem": "decane",
+   "formula": "C10H22",
+   "smilesPubChem": "CCCCCCCCCC"
+  },
+  {
+   "smiles": "CC(C)C",
+   "nombre": "2-metilpropano",
+   "cid": 6360,
+   "iupacPubChem": "2-methylpropane",
+   "formula": "C4H10",
+   "smilesPubChem": "CC(C)C"
+  },
+  {
+   "smiles": "CC(C)CC",
+   "nombre": "2-metilbutano",
+   "cid": 6556,
+   "iupacPubChem": "2-methylbutane",
+   "formula": "C5H12",
+   "smilesPubChem": "CCC(C)C"
+  },
+  {
+   "smiles": "CC(C)(C)C",
+   "nombre": "2,2-dimetilpropano",
+   "cid": 10041,
+   "iupacPubChem": "2,2-dimethylpropane",
+   "formula": "C5H12",
+   "smilesPubChem": "CC(C)(C)C"
+  },
+  {
+   "smiles": "CCC(C)CC",
+   "nombre": "3-metilpentano",
+   "cid": 7282,
+   "iupacPubChem": "3-methylpentane",
+   "formula": "C6H14",
+   "smilesPubChem": "CCC(C)CC"
+  },
+  {
+   "smiles": "CC(C)C(C)C",
+   "nombre": "2,3-dimetilbutano",
+   "cid": 6589,
+   "iupacPubChem": "2,3-dimethylbutane",
+   "formula": "C6H14",
+   "smilesPubChem": "CC(C)C(C)C"
+  },
+  {
+   "smiles": "CCC(CC)CCC",
+   "nombre": "3-etilhexano",
+   "cid": 12096,
+   "iupacPubChem": "3-ethylhexane",
+   "formula": "C8H18",
+   "smilesPubChem": "CCCC(CC)CC"
+  },
+  {
+   "smiles": "CC(C)CC(C)(C)C",
+   "nombre": "2,2,4-trimetilpentano",
+   "cid": 10907,
+   "iupacPubChem": "2,2,4-trimethylpentane",
+   "formula": "C8H18",
+   "smilesPubChem": "CC(C)CC(C)(C)C"
+  },
+  {
+   "smiles": "CCCC(C)CC(C)C",
+   "nombre": "2,4-dimetilheptano",
+   "cid": 16656,
+   "iupacPubChem": "2,4-dimethylheptane",
+   "formula": "C9H20",
+   "smilesPubChem": "CCCC(C)CC(C)C"
+  },
+  {
+   "smiles": "CCC(C)C(CC)CCC",
+   "nombre": "4-etil-3-metilheptano",
+   "cid": 521414,
+   "iupacPubChem": "4-ethyl-3-methylheptane",
+   "formula": "C10H22",
+   "smilesPubChem": "CCCC(CC)C(C)CC"
+  },
+  {
+   "smiles": "C=C",
+   "nombre": "eteno",
+   "cid": 6325,
+   "iupacPubChem": "ethene",
+   "formula": "C2H4",
+   "smilesPubChem": "C=C"
+  },
+  {
+   "smiles": "C=CC",
+   "nombre": "prop-1-eno",
+   "cid": 8252,
+   "iupacPubChem": "prop-1-ene",
+   "formula": "C3H6",
+   "smilesPubChem": "CC=C"
+  },
+  {
+   "smiles": "C=CCC",
+   "nombre": "but-1-eno",
+   "cid": 7844,
+   "iupacPubChem": "but-1-ene",
+   "formula": "C4H8",
+   "smilesPubChem": "CCC=C"
+  },
+  {
+   "smiles": "CC=CC",
+   "nombre": "but-2-eno",
+   "cid": 12220,
+   "iupacPubChem": "but-2-ene",
+   "formula": "C4H8",
+   "smilesPubChem": "CC=CC"
+  },
+  {
+   "smiles": "C=CC=C",
+   "nombre": "buta-1,3-dieno",
+   "cid": 7845,
+   "iupacPubChem": "buta-1,3-diene",
+   "formula": "C4H6",
+   "smilesPubChem": "C=CC=C"
+  },
+  {
+   "smiles": "CC(=C)C",
+   "nombre": "2-metilprop-1-eno",
+   "cid": 8255,
+   "iupacPubChem": "2-methylprop-1-ene",
+   "formula": "C4H8",
+   "smilesPubChem": "CC(=C)C"
+  },
+  {
+   "smiles": "C=CCC=C",
+   "nombre": "penta-1,4-dieno",
+   "cid": 11587,
+   "iupacPubChem": "penta-1,4-diene",
+   "formula": "C5H8",
+   "smilesPubChem": "C=CCC=C"
+  },
+  {
+   "smiles": "CCC=CCC",
+   "nombre": "hex-3-eno",
+   "cid": 11601,
+   "iupacPubChem": "hex-3-ene",
+   "formula": "C6H12",
+   "smilesPubChem": "CCC=CCC"
+  },
+  {
+   "smiles": "C=C(C)C=C",
+   "nombre": "2-metilbuta-1,3-dieno",
+   "cid": 6557,
+   "iupacPubChem": "2-methylbuta-1,3-diene",
+   "formula": "C5H8",
+   "smilesPubChem": "CC(=C)C=C"
+  },
+  {
+   "smiles": "C#C",
+   "nombre": "etino",
+   "cid": 6326,
+   "iupacPubChem": "acetylene",
+   "formula": "C2H2",
+   "smilesPubChem": "C#C"
+  },
+  {
+   "smiles": "C#CC",
+   "nombre": "prop-1-ino",
+   "cid": 6335,
+   "iupacPubChem": "prop-1-yne",
+   "formula": "C3H4",
+   "smilesPubChem": "CC#C"
+  },
+  {
+   "smiles": "C#CCC",
+   "nombre": "but-1-ino",
+   "cid": 7846,
+   "iupacPubChem": "but-1-yne",
+   "formula": "C4H6",
+   "smilesPubChem": "CCC#C"
+  },
+  {
+   "smiles": "CC#CC",
+   "nombre": "but-2-ino",
+   "cid": 10419,
+   "iupacPubChem": "but-2-yne",
+   "formula": "C4H6",
+   "smilesPubChem": "CC#CC"
+  },
+  {
+   "smiles": "C=CC#C",
+   "nombre": "but-1-en-3-ino",
+   "cid": 12720,
+   "iupacPubChem": "but-1-en-3-yne",
+   "formula": "C4H4",
+   "smilesPubChem": "C=CC#C"
+  },
+  {
+   "smiles": "C=CCC#C",
+   "nombre": "pent-1-en-4-ino",
+   "cid": 522708,
+   "iupacPubChem": "pent-1-en-4-yne",
+   "formula": "C5H6",
+   "smilesPubChem": "C=CCC#C"
+  },
+  {
+   "smiles": "C1CC1",
+   "nombre": "ciclopropano",
+   "cid": 6351,
+   "iupacPubChem": "cyclopropane",
+   "formula": "C3H6",
+   "smilesPubChem": "C1CC1"
+  },
+  {
+   "smiles": "C1CCC1",
+   "nombre": "ciclobutano",
+   "cid": 9250,
+   "iupacPubChem": "cyclobutane",
+   "formula": "C4H8",
+   "smilesPubChem": "C1CCC1"
+  },
+  {
+   "smiles": "C1CCCC1",
+   "nombre": "ciclopentano",
+   "cid": 9253,
+   "iupacPubChem": "cyclopentane",
+   "formula": "C5H10",
+   "smilesPubChem": "C1CCCC1"
+  },
+  {
+   "smiles": "C1CCCCC1",
+   "nombre": "ciclohexano",
+   "cid": 8078,
+   "iupacPubChem": "cyclohexane",
+   "formula": "C6H12",
+   "smilesPubChem": "C1CCCCC1"
+  },
+  {
+   "smiles": "CC1CCCCC1",
+   "nombre": "metilciclohexano",
+   "cid": 7962,
+   "iupacPubChem": "methylcyclohexane",
+   "formula": "C7H14",
+   "smilesPubChem": "CC1CCCCC1"
+  },
+  {
+   "smiles": "CC1CCCCC1C",
+   "nombre": "1,2-dimetilciclohexano",
+   "cid": 11416,
+   "iupacPubChem": "1,2-dimethylcyclohexane",
+   "formula": "C8H16",
+   "smilesPubChem": "CC1CCCCC1C"
+  },
+  {
+   "smiles": "C1CCC=CC1",
+   "nombre": "ciclohexeno",
+   "cid": 8079,
+   "iupacPubChem": "cyclohexene",
+   "formula": "C6H10",
+   "smilesPubChem": "C1CCC=CC1"
+  },
+  {
+   "smiles": "CC1CCCC=C1",
+   "nombre": "3-metilciclohexeno",
+   "cid": 11573,
+   "iupacPubChem": "3-methylcyclohexene",
+   "formula": "C7H12",
+   "smilesPubChem": "CC1CCCC=C1"
+  },
+  {
+   "smiles": "c1ccccc1",
+   "nombre": "benceno",
+   "cid": 241,
+   "iupacPubChem": "benzene",
+   "formula": "C6H6",
+   "smilesPubChem": "C1=CC=CC=C1"
+  },
+  {
+   "smiles": "Cc1ccccc1",
+   "nombre": "metilbenceno",
+   "cid": 1140,
+   "iupacPubChem": "toluene",
+   "formula": "C7H8",
+   "smilesPubChem": "CC1=CC=CC=C1"
+  },
+  {
+   "smiles": "CCc1ccccc1",
+   "nombre": "etilbenceno",
+   "cid": 7500,
+   "iupacPubChem": "ethylbenzene",
+   "formula": "C8H10",
+   "smilesPubChem": "CCC1=CC=CC=C1"
+  },
+  {
+   "smiles": "CCCc1ccccc1",
+   "nombre": "propilbenceno",
+   "cid": 7668,
+   "iupacPubChem": "propylbenzene",
+   "formula": "C9H12",
+   "smilesPubChem": "CCCC1=CC=CC=C1"
+  },
+  {
+   "smiles": "Clc1ccccc1",
+   "nombre": "clorobenceno",
+   "cid": 7964,
+   "iupacPubChem": "chlorobenzene",
+   "formula": "C6H5Cl",
+   "smilesPubChem": "C1=CC=C(C=C1)Cl"
+  },
+  {
+   "smiles": "Brc1ccccc1",
+   "nombre": "bromobenceno",
+   "cid": 7961,
+   "iupacPubChem": "bromobenzene",
+   "formula": "C6H5Br",
+   "smilesPubChem": "C1=CC=C(C=C1)Br"
+  },
+  {
+   "smiles": "[O-][N+](=O)c1ccccc1",
+   "nombre": "nitrobenceno",
+   "cid": 7416,
+   "iupacPubChem": "nitrobenzene",
+   "formula": "C6H5NO2",
+   "smilesPubChem": "C1=CC=C(C=C1)[N+](=O)[O-]"
+  },
+  {
+   "smiles": "Clc1ccccc1Cl",
+   "nombre": "1,2-diclorobenceno",
+   "cid": 7239,
+   "iupacPubChem": "1,2-dichlorobenzene",
+   "formula": "C6H4Cl2",
+   "smilesPubChem": "C1=CC=C(C(=C1)Cl)Cl"
+  },
+  {
+   "smiles": "Clc1ccc(Cl)cc1",
+   "nombre": "1,4-diclorobenceno",
+   "cid": 4685,
+   "iupacPubChem": "1,4-dichlorobenzene",
+   "formula": "C6H4Cl2",
+   "smilesPubChem": "C1=CC(=CC=C1Cl)Cl"
+  },
+  {
+   "smiles": "Oc1ccccc1",
+   "nombre": "fenol",
+   "cid": 996,
+   "iupacPubChem": "phenol",
+   "formula": "C6H6O",
+   "smilesPubChem": "C1=CC=C(C=C1)O"
+  },
+  {
+   "smiles": "OC(=O)c1ccccc1",
+   "nombre": "ácido benzoico",
+   "cid": 243,
+   "iupacPubChem": "benzoic acid",
+   "formula": "C7H6O2",
+   "smilesPubChem": "C1=CC=C(C=C1)C(=O)O"
+  },
+  {
+   "smiles": "O=Cc1ccccc1",
+   "nombre": "benzaldehído",
+   "cid": 240,
+   "iupacPubChem": "benzaldehyde",
+   "formula": "C7H6O",
+   "smilesPubChem": "C1=CC=C(C=C1)C=O"
+  },
+  {
+   "smiles": "Nc1ccccc1",
+   "nombre": "anilina",
+   "cid": 6115,
+   "iupacPubChem": "aniline",
+   "formula": "C6H7N",
+   "smilesPubChem": "C1=CC=C(C=C1)N"
+  },
+  {
+   "smiles": "CCl",
+   "nombre": "clorometano",
+   "cid": 6327,
+   "iupacPubChem": "chloromethane",
+   "formula": "CH3Cl",
+   "smilesPubChem": "CCl"
+  },
+  {
+   "smiles": "ClCCl",
+   "nombre": "diclorometano",
+   "cid": 6344,
+   "iupacPubChem": "dichloromethane",
+   "formula": "CH2Cl2",
+   "smilesPubChem": "C(Cl)Cl"
+  },
+  {
+   "smiles": "ClC(Cl)Cl",
+   "nombre": "triclorometano",
+   "cid": 6212,
+   "iupacPubChem": "chloroform",
+   "formula": "CHCl3",
+   "smilesPubChem": "C(Cl)(Cl)Cl"
+  },
+  {
+   "smiles": "ClC(Cl)(Cl)Cl",
+   "nombre": "tetraclorometano",
+   "cid": 5943,
+   "iupacPubChem": "tetrachloromethane",
+   "formula": "CCl4",
+   "smilesPubChem": "C(Cl)(Cl)(Cl)Cl"
+  },
+  {
+   "smiles": "CCBr",
+   "nombre": "bromoetano",
+   "cid": 6332,
+   "iupacPubChem": "bromoethane",
+   "formula": "C2H5Br",
+   "smilesPubChem": "CCBr"
+  },
+  {
+   "smiles": "ClCCCl",
+   "nombre": "1,2-dicloroetano",
+   "cid": 11,
+   "iupacPubChem": "1,2-dichloroethane",
+   "formula": "C2H4Cl2",
+   "smilesPubChem": "C(CCl)Cl"
+  },
+  {
+   "smiles": "CC(Cl)C",
+   "nombre": "2-cloropropano",
+   "cid": 6361,
+   "iupacPubChem": "2-chloropropane",
+   "formula": "C3H7Cl",
+   "smilesPubChem": "CC(C)Cl"
+  },
+  {
+   "smiles": "CC(Br)CC",
+   "nombre": "2-bromobutano",
+   "cid": 6554,
+   "iupacPubChem": "2-bromobutane",
+   "formula": "C4H9Br",
+   "smilesPubChem": "CCC(C)Br"
+  },
+  {
+   "smiles": "C=CCl",
+   "nombre": "cloroeteno",
+   "cid": 6338,
+   "iupacPubChem": "chloroethene",
+   "formula": "C2H3Cl",
+   "smilesPubChem": "C=CCl"
+  },
+  {
+   "smiles": "FC(F)(F)C(Cl)Br",
+   "nombre": "2-bromo-2-cloro-1,1,1-trifluoroetano",
+   "cid": 3562,
+   "iupacPubChem": "2-bromo-2-chloro-1,1,1-trifluoroethane",
+   "formula": "C2HBrClF3",
+   "smilesPubChem": "C(C(F)(F)F)(Cl)Br"
+  },
+  {
+   "smiles": "CO",
+   "nombre": "metanol",
+   "cid": 887,
+   "iupacPubChem": "methanol",
+   "formula": "CH4O",
+   "smilesPubChem": "CO"
+  },
+  {
+   "smiles": "CCO",
+   "nombre": "etanol",
+   "cid": 702,
+   "iupacPubChem": "ethanol",
+   "formula": "C2H6O",
+   "smilesPubChem": "CCO"
+  },
+  {
+   "smiles": "CCCO",
+   "nombre": "propan-1-ol",
+   "cid": 1031,
+   "iupacPubChem": "propan-1-ol",
+   "formula": "C3H8O",
+   "smilesPubChem": "CCCO"
+  },
+  {
+   "smiles": "CC(O)C",
+   "nombre": "propan-2-ol",
+   "cid": 3776,
+   "iupacPubChem": "propan-2-ol",
+   "formula": "C3H8O",
+   "smilesPubChem": "CC(C)O"
+  },
+  {
+   "smiles": "CCCCO",
+   "nombre": "butan-1-ol",
+   "cid": 263,
+   "iupacPubChem": "butan-1-ol",
+   "formula": "C4H10O",
+   "smilesPubChem": "CCCCO"
+  },
+  {
+   "smiles": "CC(C)(C)O",
+   "nombre": "2-metilpropan-2-ol",
+   "cid": 6386,
+   "iupacPubChem": "2-methylpropan-2-ol",
+   "formula": "C4H10O",
+   "smilesPubChem": "CC(C)(C)O"
+  },
+  {
+   "smiles": "OCCO",
+   "nombre": "etano-1,2-diol",
+   "cid": 174,
+   "iupacPubChem": "ethane-1,2-diol",
+   "formula": "C2H6O2",
+   "smilesPubChem": "C(CO)O"
+  },
+  {
+   "smiles": "OCC(O)CO",
+   "nombre": "propano-1,2,3-triol",
+   "cid": 753,
+   "iupacPubChem": "propane-1,2,3-triol",
+   "formula": "C3H8O3",
+   "smilesPubChem": "C(C(CO)O)O"
+  },
+  {
+   "smiles": "C=CCO",
+   "nombre": "prop-2-en-1-ol",
+   "cid": 7858,
+   "iupacPubChem": "prop-2-en-1-ol",
+   "formula": "C3H6O",
+   "smilesPubChem": "C=CCO"
+  },
+  {
+   "smiles": "OC1CCCCC1",
+   "nombre": "ciclohexanol",
+   "cid": 7966,
+   "iupacPubChem": "cyclohexanol",
+   "formula": "C6H12O",
+   "smilesPubChem": "C1CCC(CC1)O"
+  },
+  {
+   "smiles": "ClCCO",
+   "nombre": "2-cloroetanol",
+   "cid": 34,
+   "iupacPubChem": "2-chloroethanol",
+   "formula": "C2H5ClO",
+   "smilesPubChem": "C(CCl)O"
+  },
+  {
+   "smiles": "CC(O)CC(C)C",
+   "nombre": "4-metilpentan-2-ol",
+   "cid": 7910,
+   "iupacPubChem": "4-methylpentan-2-ol",
+   "formula": "C6H14O",
+   "smilesPubChem": "CC(C)CC(C)O"
+  },
+  {
+   "smiles": "OCCc1ccccc1",
+   "nombre": "2-feniletanol",
+   "cid": 6054,
+   "iupacPubChem": "2-phenylethanol",
+   "formula": "C8H10O",
+   "smilesPubChem": "C1=CC=C(C=C1)CCO"
+  },
+  {
+   "smiles": "COC",
+   "nombre": "metoximetano",
+   "cid": 8254,
+   "iupacPubChem": "methoxymethane",
+   "formula": "C2H6O",
+   "smilesPubChem": "COC"
+  },
+  {
+   "smiles": "CCOCC",
+   "nombre": "etoxietano",
+   "cid": 3283,
+   "iupacPubChem": "ethoxyethane",
+   "formula": "C4H10O",
+   "smilesPubChem": "CCOCC"
+  },
+  {
+   "smiles": "COCC",
+   "nombre": "metoxietano",
+   "cid": 10903,
+   "iupacPubChem": "methoxyethane",
+   "formula": "C3H8O",
+   "smilesPubChem": "CCOC"
+  },
+  {
+   "smiles": "CCCOC",
+   "nombre": "1-metoxipropano",
+   "cid": 11182,
+   "iupacPubChem": "1-methoxypropane",
+   "formula": "C4H10O",
+   "smilesPubChem": "CCCOC"
+  },
+  {
+   "smiles": "C=O",
+   "nombre": "metanal",
+   "cid": 712,
+   "iupacPubChem": "formaldehyde",
+   "formula": "CH2O",
+   "smilesPubChem": "C=O"
+  },
+  {
+   "smiles": "CC=O",
+   "nombre": "etanal",
+   "cid": 177,
+   "iupacPubChem": "acetaldehyde",
+   "formula": "C2H4O",
+   "smilesPubChem": "CC=O"
+  },
+  {
+   "smiles": "CCC=O",
+   "nombre": "propanal",
+   "cid": 527,
+   "iupacPubChem": "propanal",
+   "formula": "C3H6O",
+   "smilesPubChem": "CCC=O"
+  },
+  {
+   "smiles": "CCCC=O",
+   "nombre": "butanal",
+   "cid": 261,
+   "iupacPubChem": "butanal",
+   "formula": "C4H8O",
+   "smilesPubChem": "CCCC=O"
+  },
+  {
+   "smiles": "O=CCCCC=O",
+   "nombre": "pentanodial",
+   "cid": 3485,
+   "iupacPubChem": "pentanedial",
+   "formula": "C5H8O2",
+   "smilesPubChem": "C(CC=O)CC=O"
+  },
+  {
+   "smiles": "C=CC=O",
+   "nombre": "prop-2-enal",
+   "cid": 7847,
+   "iupacPubChem": "prop-2-enal",
+   "formula": "C3H4O",
+   "smilesPubChem": "C=CC=O"
+  },
+  {
+   "smiles": "CC(C)C=O",
+   "nombre": "2-metilpropanal",
+   "cid": 6561,
+   "iupacPubChem": "2-methylpropanal",
+   "formula": "C4H8O",
+   "smilesPubChem": "CC(C)C=O"
+  },
+  {
+   "smiles": "CC(C)=O",
+   "nombre": "propan-2-ona",
+   "cid": 180,
+   "iupacPubChem": "propan-2-one",
+   "formula": "C3H6O",
+   "smilesPubChem": "CC(=O)C"
+  },
+  {
+   "smiles": "CCC(C)=O",
+   "nombre": "butan-2-ona",
+   "cid": 6569,
+   "iupacPubChem": "butan-2-one",
+   "formula": "C4H8O",
+   "smilesPubChem": "CCC(=O)C"
+  },
+  {
+   "smiles": "CCC(=O)CC",
+   "nombre": "pentan-3-ona",
+   "cid": 7288,
+   "iupacPubChem": "pentan-3-one",
+   "formula": "C5H10O",
+   "smilesPubChem": "CCC(=O)CC"
+  },
+  {
+   "smiles": "CC(=O)CC(C)=O",
+   "nombre": "pentano-2,4-diona",
+   "cid": 31261,
+   "iupacPubChem": "pentane-2,4-dione",
+   "formula": "C5H8O2",
+   "smilesPubChem": "CC(=O)CC(=O)C"
+  },
+  {
+   "smiles": "O=C1CCCCC1",
+   "nombre": "ciclohexanona",
+   "cid": 7967,
+   "iupacPubChem": "cyclohexanone",
+   "formula": "C6H10O",
+   "smilesPubChem": "C1CCC(=O)CC1"
+  },
+  {
+   "smiles": "C=CC(C)=O",
+   "nombre": "but-3-en-2-ona",
+   "cid": 6570,
+   "iupacPubChem": "but-3-en-2-one",
+   "formula": "C4H6O",
+   "smilesPubChem": "CC(=O)C=C"
+  },
+  {
+   "smiles": "OC=O",
+   "nombre": "ácido metanoico",
+   "cid": 284,
+   "iupacPubChem": "formic acid",
+   "formula": "CH2O2",
+   "smilesPubChem": "C(=O)O"
+  },
+  {
+   "smiles": "CC(O)=O",
+   "nombre": "ácido etanoico",
+   "cid": 176,
+   "iupacPubChem": "acetic acid",
+   "formula": "C2H4O2",
+   "smilesPubChem": "CC(=O)O"
+  },
+  {
+   "smiles": "CCC(O)=O",
+   "nombre": "ácido propanoico",
+   "cid": 1032,
+   "iupacPubChem": "propanoic acid",
+   "formula": "C3H6O2",
+   "smilesPubChem": "CCC(=O)O"
+  },
+  {
+   "smiles": "CCCC(O)=O",
+   "nombre": "ácido butanoico",
+   "cid": 264,
+   "iupacPubChem": "butanoic acid",
+   "formula": "C4H8O2",
+   "smilesPubChem": "CCCC(=O)O"
+  },
+  {
+   "smiles": "OC(=O)CCC(O)=O",
+   "nombre": "ácido butanodioico",
+   "cid": 1110,
+   "iupacPubChem": "butanedioic acid",
+   "formula": "C4H6O4",
+   "smilesPubChem": "C(CC(=O)O)C(=O)O"
+  },
+  {
+   "smiles": "C=CC(O)=O",
+   "nombre": "ácido prop-2-enoico",
+   "cid": 6581,
+   "iupacPubChem": "prop-2-enoic acid",
+   "formula": "C3H4O2",
+   "smilesPubChem": "C=CC(=O)O"
+  },
+  {
+   "smiles": "CC(Cl)C(O)=O",
+   "nombre": "ácido 2-cloropropanoico",
+   "cid": 11734,
+   "iupacPubChem": "2-chloropropanoic acid",
+   "formula": "C3H5ClO2",
+   "smilesPubChem": "CC(C(=O)O)Cl"
+  },
+  {
+   "smiles": "CC(=O)C(O)=O",
+   "nombre": "ácido 2-oxopropanoico",
+   "cid": 1060,
+   "iupacPubChem": "2-oxopropanoic acid",
+   "formula": "C3H4O3",
+   "smilesPubChem": "CC(=O)C(=O)O"
+  },
+  {
+   "smiles": "CC(O)C(O)=O",
+   "nombre": "ácido 2-hidroxipropanoico",
+   "cid": 612,
+   "iupacPubChem": "2-hydroxypropanoic acid",
+   "formula": "C3H6O3",
+   "smilesPubChem": "CC(C(=O)O)O"
+  },
+  {
+   "smiles": "COC(C)=O",
+   "nombre": "etanoato de metilo",
+   "cid": 6584,
+   "iupacPubChem": "methyl acetate",
+   "formula": "C3H6O2",
+   "smilesPubChem": "CC(=O)OC"
+  },
+  {
+   "smiles": "CCOC(C)=O",
+   "nombre": "etanoato de etilo",
+   "cid": 8857,
+   "iupacPubChem": "ethyl acetate",
+   "formula": "C4H8O2",
+   "smilesPubChem": "CCOC(=O)C"
+  },
+  {
+   "smiles": "CCOC(=O)CC",
+   "nombre": "propanoato de etilo",
+   "cid": 7749,
+   "iupacPubChem": "ethyl propanoate",
+   "formula": "C5H10O2",
+   "smilesPubChem": "CCC(=O)OCC"
+  },
+  {
+   "smiles": "COC=O",
+   "nombre": "metanoato de metilo",
+   "cid": 7865,
+   "iupacPubChem": "methyl formate",
+   "formula": "C2H4O2",
+   "smilesPubChem": "COC=O"
+  },
+  {
+   "smiles": "CCCCOC(C)=O",
+   "nombre": "etanoato de butilo",
+   "cid": 31272,
+   "iupacPubChem": "butyl acetate",
+   "formula": "C6H12O2",
+   "smilesPubChem": "CCCCOC(=O)C"
+  },
+  {
+   "smiles": "CN",
+   "nombre": "metanamina",
+   "cid": 6329,
+   "iupacPubChem": "methanamine",
+   "formula": "CH5N",
+   "smilesPubChem": "CN"
+  },
+  {
+   "smiles": "CCN",
+   "nombre": "etanamina",
+   "cid": 6341,
+   "iupacPubChem": "ethanamine",
+   "formula": "C2H7N",
+   "smilesPubChem": "CCN"
+  },
+  {
+   "smiles": "CCCN",
+   "nombre": "propan-1-amina",
+   "cid": 7852,
+   "iupacPubChem": "propan-1-amine",
+   "formula": "C3H9N",
+   "smilesPubChem": "CCCN"
+  },
+  {
+   "smiles": "CC(C)N",
+   "nombre": "propan-2-amina",
+   "cid": 6363,
+   "iupacPubChem": "propan-2-amine",
+   "formula": "C3H9N",
+   "smilesPubChem": "CC(C)N"
+  },
+  {
+   "smiles": "CNC",
+   "nombre": "N-metilmetanamina",
+   "cid": 674,
+   "iupacPubChem": "N-methylmethanamine",
+   "formula": "C2H7N",
+   "smilesPubChem": "CNC"
+  },
+  {
+   "smiles": "CCNC",
+   "nombre": "N-metiletanamina",
+   "cid": 12219,
+   "iupacPubChem": "N-methylethanamine",
+   "formula": "C3H9N",
+   "smilesPubChem": "CCNC"
+  },
+  {
+   "smiles": "CN(C)C",
+   "nombre": "N,N-dimetilmetanamina",
+   "cid": 1146,
+   "iupacPubChem": "N,N-dimethylmethanamine",
+   "formula": "C3H9N",
+   "smilesPubChem": "CN(C)C"
+  },
+  {
+   "smiles": "NCCN",
+   "nombre": "etano-1,2-diamina",
+   "cid": 3301,
+   "iupacPubChem": "ethane-1,2-diamine",
+   "formula": "C2H8N2",
+   "smilesPubChem": "C(CN)N"
+  },
+  {
+   "smiles": "NC=O",
+   "nombre": "metanamida",
+   "cid": 713,
+   "iupacPubChem": "formamide",
+   "formula": "CH3NO",
+   "smilesPubChem": "C(=O)N"
+  },
+  {
+   "smiles": "CC(N)=O",
+   "nombre": "etanamida",
+   "cid": 178,
+   "iupacPubChem": "acetamide",
+   "formula": "C2H5NO",
+   "smilesPubChem": "CC(=O)N"
+  },
+  {
+   "smiles": "CCC(N)=O",
+   "nombre": "propanamida",
+   "cid": 6578,
+   "iupacPubChem": "propanamide",
+   "formula": "C3H7NO",
+   "smilesPubChem": "CCC(=O)N"
+  },
+  {
+   "smiles": "CNC(C)=O",
+   "nombre": "N-metiletanamida",
+   "cid": 6582,
+   "iupacPubChem": "N-methylacetamide",
+   "formula": "C3H7NO",
+   "smilesPubChem": "CC(=O)NC"
+  },
+  {
+   "smiles": "CN(C)C=O",
+   "nombre": "N,N-dimetilmetanamida",
+   "cid": 6228,
+   "iupacPubChem": "N,N-dimethylformamide",
+   "formula": "C3H7NO",
+   "smilesPubChem": "CN(C)C=O"
+  },
+  {
+   "smiles": "CC#N",
+   "nombre": "etanonitrilo",
+   "cid": 6342,
+   "iupacPubChem": "acetonitrile",
+   "formula": "C2H3N",
+   "smilesPubChem": "CC#N"
+  },
+  {
+   "smiles": "CCC#N",
+   "nombre": "propanonitrilo",
+   "cid": 7854,
+   "iupacPubChem": "propanenitrile",
+   "formula": "C3H5N",
+   "smilesPubChem": "CCC#N"
+  },
+  {
+   "smiles": "CCCC#N",
+   "nombre": "butanonitrilo",
+   "cid": 8008,
+   "iupacPubChem": "butanenitrile",
+   "formula": "C4H7N",
+   "smilesPubChem": "CCCC#N"
+  },
+  {
+   "smiles": "C=CC#N",
+   "nombre": "prop-2-enonitrilo",
+   "cid": 7855,
+   "iupacPubChem": "prop-2-enenitrile",
+   "formula": "C3H3N",
+   "smilesPubChem": "C=CC#N"
+  }
+ ]
+}

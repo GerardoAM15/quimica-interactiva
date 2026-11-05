@@ -65,6 +65,8 @@ docs/            documentación, referencias de tablas, tabla_validacion.md
 - `molecula/`: `Molecula3D` (bolas y barras / espacio lleno / alambre), `Estructura2D` (dibujo de RDKit),
   `LewisSVG`, `BuscadorMoleculas` (Fuse sobre el catálogo) y `cargarMolecula` (catálogo offline, PubChem en vivo
   y elección de geometría: conformero de PubChem salvo hipervalentes → VSEPR; sin 3D → `chem/coordenadas3d`).
+- `molecula/VistaOrganica` (2D de RDKit con resaltado y numeración, 3D a pedido) y `organica/NombreEstructura`
+  (estructura ↔ nombre y práctica), usados por los módulos 20–24. `lib/colores.ts` lee los tokens para Canvas.
 - RDKit solo a través de `src/lib/rdkit.ts` (carga diferida del WASM; traduce los errores de valencia).
 
 ### Agregar un módulo

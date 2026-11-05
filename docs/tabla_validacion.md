@@ -550,3 +550,136 @@ El pH se calcula por balance de carga exacto (bisección); el analítico usa la 
 | Pila de Daniell: ΔG° | -212 | -212.3 | kJ | 1.42e-1 | Chang, cap. 19 |
 | Co | Co²⁺ (0,15 M) ‖ Fe²⁺ (0,68 M) | Fe: Nernst | -0.14 | -0.1406 | V | 4.29e-1 | Chang, cap. 19 |
 | Electrólisis de CaCl₂: 0,452 A, 1,50 h | 0.507 | 0.5069 | g | 1.97e-2 | Chang, cap. 19 |
+
+## Nomenclatura orgánica (IUPAC ↔ SMILES, PubChem)
+
+Para cada compuesto: nombre generado desde la estructura, estructura reconstruida desde el nombre (SMILES canónico de RDKit igual al de PubChem) y traducción al inglés igual al IUPACName de PubChem.
+
+| Caso | Referencia | Calculado | Unidad | Error (%) | Fuente |
+|---|---|---|---|---|---|
+| C | methane | metano → methane |  | — | PubChem CID 297 |
+| CC | ethane | etano → ethane |  | — | PubChem CID 6324 |
+| CCC | propane | propano → propane |  | — | PubChem CID 6334 |
+| CCCC | butane | butano → butane |  | — | PubChem CID 7843 |
+| CCCCC | pentane | pentano → pentane |  | — | PubChem CID 8003 |
+| CCCCCC | hexane | hexano → hexane |  | — | PubChem CID 8058 |
+| CCCCCCC | heptane | heptano → heptane |  | — | PubChem CID 8900 |
+| CCCCCCCC | octane | octano → octane |  | — | PubChem CID 356 |
+| CCCCCCCCC | nonane | nonano → nonane |  | — | PubChem CID 8141 |
+| CCCCCCCCCC | decane | decano → decane |  | — | PubChem CID 15600 |
+| CC(C)C | 2-methylpropane | 2-metilpropano → 2-methylpropane |  | — | PubChem CID 6360 |
+| CC(C)CC | 2-methylbutane | 2-metilbutano → 2-methylbutane |  | — | PubChem CID 6556 |
+| CC(C)(C)C | 2,2-dimethylpropane | 2,2-dimetilpropano → 2,2-dimethylpropane |  | — | PubChem CID 10041 |
+| CCC(C)CC | 3-methylpentane | 3-metilpentano → 3-methylpentane |  | — | PubChem CID 7282 |
+| CC(C)C(C)C | 2,3-dimethylbutane | 2,3-dimetilbutano → 2,3-dimethylbutane |  | — | PubChem CID 6589 |
+| CCC(CC)CCC | 3-ethylhexane | 3-etilhexano → 3-ethylhexane |  | — | PubChem CID 12096 |
+| CC(C)CC(C)(C)C | 2,2,4-trimethylpentane | 2,2,4-trimetilpentano → 2,2,4-trimethylpentane |  | — | PubChem CID 10907 |
+| CCCC(C)CC(C)C | 2,4-dimethylheptane | 2,4-dimetilheptano → 2,4-dimethylheptane |  | — | PubChem CID 16656 |
+| CCC(C)C(CC)CCC | 4-ethyl-3-methylheptane | 4-etil-3-metilheptano → 4-ethyl-3-methylheptane |  | — | PubChem CID 521414 |
+| C=C | ethene | eteno → ethene |  | — | PubChem CID 6325 |
+| C=CC | prop-1-ene | prop-1-eno → prop-1-ene |  | — | PubChem CID 8252 |
+| C=CCC | but-1-ene | but-1-eno → but-1-ene |  | — | PubChem CID 7844 |
+| CC=CC | but-2-ene | but-2-eno → but-2-ene |  | — | PubChem CID 12220 |
+| C=CC=C | buta-1,3-diene | buta-1,3-dieno → buta-1,3-diene |  | — | PubChem CID 7845 |
+| CC(=C)C | 2-methylprop-1-ene | 2-metilprop-1-eno → 2-methylprop-1-ene |  | — | PubChem CID 8255 |
+| C=CCC=C | penta-1,4-diene | penta-1,4-dieno → penta-1,4-diene |  | — | PubChem CID 11587 |
+| CCC=CCC | hex-3-ene | hex-3-eno → hex-3-ene |  | — | PubChem CID 11601 |
+| C=C(C)C=C | 2-methylbuta-1,3-diene | 2-metilbuta-1,3-dieno → 2-methylbuta-1,3-diene |  | — | PubChem CID 6557 |
+| C#C | acetylene | etino → acetylene |  | — | PubChem CID 6326 |
+| C#CC | prop-1-yne | prop-1-ino → prop-1-yne |  | — | PubChem CID 6335 |
+| C#CCC | but-1-yne | but-1-ino → but-1-yne |  | — | PubChem CID 7846 |
+| CC#CC | but-2-yne | but-2-ino → but-2-yne |  | — | PubChem CID 10419 |
+| C=CC#C | but-1-en-3-yne | but-1-en-3-ino → but-1-en-3-yne |  | — | PubChem CID 12720 |
+| C=CCC#C | pent-1-en-4-yne | pent-1-en-4-ino → pent-1-en-4-yne |  | — | PubChem CID 522708 |
+| C1CC1 | cyclopropane | ciclopropano → cyclopropane |  | — | PubChem CID 6351 |
+| C1CCC1 | cyclobutane | ciclobutano → cyclobutane |  | — | PubChem CID 9250 |
+| C1CCCC1 | cyclopentane | ciclopentano → cyclopentane |  | — | PubChem CID 9253 |
+| C1CCCCC1 | cyclohexane | ciclohexano → cyclohexane |  | — | PubChem CID 8078 |
+| CC1CCCCC1 | methylcyclohexane | metilciclohexano → methylcyclohexane |  | — | PubChem CID 7962 |
+| CC1CCCCC1C | 1,2-dimethylcyclohexane | 1,2-dimetilciclohexano → 1,2-dimethylcyclohexane |  | — | PubChem CID 11416 |
+| C1CCC=CC1 | cyclohexene | ciclohexeno → cyclohexene |  | — | PubChem CID 8079 |
+| CC1CCCC=C1 | 3-methylcyclohexene | 3-metilciclohexeno → 3-methylcyclohexene |  | — | PubChem CID 11573 |
+| c1ccccc1 | benzene | benceno → benzene |  | — | PubChem CID 241 |
+| Cc1ccccc1 | toluene | metilbenceno → toluene |  | — | PubChem CID 1140 |
+| CCc1ccccc1 | ethylbenzene | etilbenceno → ethylbenzene |  | — | PubChem CID 7500 |
+| CCCc1ccccc1 | propylbenzene | propilbenceno → propylbenzene |  | — | PubChem CID 7668 |
+| Clc1ccccc1 | chlorobenzene | clorobenceno → chlorobenzene |  | — | PubChem CID 7964 |
+| Brc1ccccc1 | bromobenzene | bromobenceno → bromobenzene |  | — | PubChem CID 7961 |
+| [O-][N+](=O)c1ccccc1 | nitrobenzene | nitrobenceno → nitrobenzene |  | — | PubChem CID 7416 |
+| Clc1ccccc1Cl | 1,2-dichlorobenzene | 1,2-diclorobenceno → 1,2-dichlorobenzene |  | — | PubChem CID 7239 |
+| Clc1ccc(Cl)cc1 | 1,4-dichlorobenzene | 1,4-diclorobenceno → 1,4-dichlorobenzene |  | — | PubChem CID 4685 |
+| Oc1ccccc1 | phenol | fenol → phenol |  | — | PubChem CID 996 |
+| OC(=O)c1ccccc1 | benzoic acid | ácido benzoico → benzoic acid |  | — | PubChem CID 243 |
+| O=Cc1ccccc1 | benzaldehyde | benzaldehído → benzaldehyde |  | — | PubChem CID 240 |
+| Nc1ccccc1 | aniline | anilina → aniline |  | — | PubChem CID 6115 |
+| CCl | chloromethane | clorometano → chloromethane |  | — | PubChem CID 6327 |
+| ClCCl | dichloromethane | diclorometano → dichloromethane |  | — | PubChem CID 6344 |
+| ClC(Cl)Cl | chloroform | triclorometano → chloroform |  | — | PubChem CID 6212 |
+| ClC(Cl)(Cl)Cl | tetrachloromethane | tetraclorometano → tetrachloromethane |  | — | PubChem CID 5943 |
+| CCBr | bromoethane | bromoetano → bromoethane |  | — | PubChem CID 6332 |
+| ClCCCl | 1,2-dichloroethane | 1,2-dicloroetano → 1,2-dichloroethane |  | — | PubChem CID 11 |
+| CC(Cl)C | 2-chloropropane | 2-cloropropano → 2-chloropropane |  | — | PubChem CID 6361 |
+| CC(Br)CC | 2-bromobutane | 2-bromobutano → 2-bromobutane |  | — | PubChem CID 6554 |
+| C=CCl | chloroethene | cloroeteno → chloroethene |  | — | PubChem CID 6338 |
+| FC(F)(F)C(Cl)Br | 2-bromo-2-chloro-1,1,1-trifluoroethane | 2-bromo-2-cloro-1,1,1-trifluoroetano → 2-bromo-2-chloro-1,1,1-trifluoroethane |  | — | PubChem CID 3562 |
+| CO | methanol | metanol → methanol |  | — | PubChem CID 887 |
+| CCO | ethanol | etanol → ethanol |  | — | PubChem CID 702 |
+| CCCO | propan-1-ol | propan-1-ol → propan-1-ol |  | — | PubChem CID 1031 |
+| CC(O)C | propan-2-ol | propan-2-ol → propan-2-ol |  | — | PubChem CID 3776 |
+| CCCCO | butan-1-ol | butan-1-ol → butan-1-ol |  | — | PubChem CID 263 |
+| CC(C)(C)O | 2-methylpropan-2-ol | 2-metilpropan-2-ol → 2-methylpropan-2-ol |  | — | PubChem CID 6386 |
+| OCCO | ethane-1,2-diol | etano-1,2-diol → ethane-1,2-diol |  | — | PubChem CID 174 |
+| OCC(O)CO | propane-1,2,3-triol | propano-1,2,3-triol → propane-1,2,3-triol |  | — | PubChem CID 753 |
+| C=CCO | prop-2-en-1-ol | prop-2-en-1-ol → prop-2-en-1-ol |  | — | PubChem CID 7858 |
+| OC1CCCCC1 | cyclohexanol | ciclohexanol → cyclohexanol |  | — | PubChem CID 7966 |
+| ClCCO | 2-chloroethanol | 2-cloroetanol → 2-chloroethanol |  | — | PubChem CID 34 |
+| CC(O)CC(C)C | 4-methylpentan-2-ol | 4-metilpentan-2-ol → 4-methylpentan-2-ol |  | — | PubChem CID 7910 |
+| OCCc1ccccc1 | 2-phenylethanol | 2-feniletanol → 2-phenylethanol |  | — | PubChem CID 6054 |
+| COC | methoxymethane | metoximetano → methoxymethane |  | — | PubChem CID 8254 |
+| CCOCC | ethoxyethane | etoxietano → ethoxyethane |  | — | PubChem CID 3283 |
+| COCC | methoxyethane | metoxietano → methoxyethane |  | — | PubChem CID 10903 |
+| CCCOC | 1-methoxypropane | 1-metoxipropano → 1-methoxypropane |  | — | PubChem CID 11182 |
+| C=O | formaldehyde | metanal → formaldehyde |  | — | PubChem CID 712 |
+| CC=O | acetaldehyde | etanal → acetaldehyde |  | — | PubChem CID 177 |
+| CCC=O | propanal | propanal → propanal |  | — | PubChem CID 527 |
+| CCCC=O | butanal | butanal → butanal |  | — | PubChem CID 261 |
+| O=CCCCC=O | pentanedial | pentanodial → pentanedial |  | — | PubChem CID 3485 |
+| C=CC=O | prop-2-enal | prop-2-enal → prop-2-enal |  | — | PubChem CID 7847 |
+| CC(C)C=O | 2-methylpropanal | 2-metilpropanal → 2-methylpropanal |  | — | PubChem CID 6561 |
+| CC(C)=O | propan-2-one | propan-2-ona → propan-2-one |  | — | PubChem CID 180 |
+| CCC(C)=O | butan-2-one | butan-2-ona → butan-2-one |  | — | PubChem CID 6569 |
+| CCC(=O)CC | pentan-3-one | pentan-3-ona → pentan-3-one |  | — | PubChem CID 7288 |
+| CC(=O)CC(C)=O | pentane-2,4-dione | pentano-2,4-diona → pentane-2,4-dione |  | — | PubChem CID 31261 |
+| O=C1CCCCC1 | cyclohexanone | ciclohexanona → cyclohexanone |  | — | PubChem CID 7967 |
+| C=CC(C)=O | but-3-en-2-one | but-3-en-2-ona → but-3-en-2-one |  | — | PubChem CID 6570 |
+| OC=O | formic acid | ácido metanoico → formic acid |  | — | PubChem CID 284 |
+| CC(O)=O | acetic acid | ácido etanoico → acetic acid |  | — | PubChem CID 176 |
+| CCC(O)=O | propanoic acid | ácido propanoico → propanoic acid |  | — | PubChem CID 1032 |
+| CCCC(O)=O | butanoic acid | ácido butanoico → butanoic acid |  | — | PubChem CID 264 |
+| OC(=O)CCC(O)=O | butanedioic acid | ácido butanodioico → butanedioic acid |  | — | PubChem CID 1110 |
+| C=CC(O)=O | prop-2-enoic acid | ácido prop-2-enoico → prop-2-enoic acid |  | — | PubChem CID 6581 |
+| CC(Cl)C(O)=O | 2-chloropropanoic acid | ácido 2-cloropropanoico → 2-chloropropanoic acid |  | — | PubChem CID 11734 |
+| CC(=O)C(O)=O | 2-oxopropanoic acid | ácido 2-oxopropanoico → 2-oxopropanoic acid |  | — | PubChem CID 1060 |
+| CC(O)C(O)=O | 2-hydroxypropanoic acid | ácido 2-hidroxipropanoico → 2-hydroxypropanoic acid |  | — | PubChem CID 612 |
+| COC(C)=O | methyl acetate | etanoato de metilo → methyl acetate |  | — | PubChem CID 6584 |
+| CCOC(C)=O | ethyl acetate | etanoato de etilo → ethyl acetate |  | — | PubChem CID 8857 |
+| CCOC(=O)CC | ethyl propanoate | propanoato de etilo → ethyl propanoate |  | — | PubChem CID 7749 |
+| COC=O | methyl formate | metanoato de metilo → methyl formate |  | — | PubChem CID 7865 |
+| CCCCOC(C)=O | butyl acetate | etanoato de butilo → butyl acetate |  | — | PubChem CID 31272 |
+| CN | methanamine | metanamina → methanamine |  | — | PubChem CID 6329 |
+| CCN | ethanamine | etanamina → ethanamine |  | — | PubChem CID 6341 |
+| CCCN | propan-1-amine | propan-1-amina → propan-1-amine |  | — | PubChem CID 7852 |
+| CC(C)N | propan-2-amine | propan-2-amina → propan-2-amine |  | — | PubChem CID 6363 |
+| CNC | N-methylmethanamine | N-metilmetanamina → N-methylmethanamine |  | — | PubChem CID 674 |
+| CCNC | N-methylethanamine | N-metiletanamina → N-methylethanamine |  | — | PubChem CID 12219 |
+| CN(C)C | N,N-dimethylmethanamine | N,N-dimetilmetanamina → N,N-dimethylmethanamine |  | — | PubChem CID 1146 |
+| NCCN | ethane-1,2-diamine | etano-1,2-diamina → ethane-1,2-diamine |  | — | PubChem CID 3301 |
+| NC=O | formamide | metanamida → formamide |  | — | PubChem CID 713 |
+| CC(N)=O | acetamide | etanamida → acetamide |  | — | PubChem CID 178 |
+| CCC(N)=O | propanamide | propanamida → propanamide |  | — | PubChem CID 6578 |
+| CNC(C)=O | N-methylacetamide | N-metiletanamida → N-methylacetamide |  | — | PubChem CID 6582 |
+| CN(C)C=O | N,N-dimethylformamide | N,N-dimetilmetanamida → N,N-dimethylformamide |  | — | PubChem CID 6228 |
+| CC#N | acetonitrile | etanonitrilo → acetonitrile |  | — | PubChem CID 6342 |
+| CCC#N | propanenitrile | propanonitrilo → propanenitrile |  | — | PubChem CID 7854 |
+| CCCC#N | butanenitrile | butanonitrilo → butanenitrile |  | — | PubChem CID 8008 |
+| C=CC#N | prop-2-enenitrile | prop-2-enonitrilo → prop-2-enenitrile |  | — | PubChem CID 7855 |
