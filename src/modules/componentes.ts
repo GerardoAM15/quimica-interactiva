@@ -12,4 +12,8 @@ export const COMPONENTES_MODULO: Partial<Record<string, LazyExoticComponent<Comp
   'visor-moleculas': lazy(() => import('./visor-moleculas/VisorMoleculas')),
   'constructor-moleculas': lazy(() => import('./constructor-moleculas/ConstructorMoleculas')),
   'fuerzas-intermoleculares': lazy(() => import('./fuerzas-intermoleculares/FuerzasIntermoleculares')),
+  'nomenclatura-inorganica': lazy(() => import('./nomenclatura-inorganica/NomenclaturaInorganica')),
+  'reacciones-quimicas': lazy(() => import('./reacciones-quimicas/ReaccionesQuimicas')),
+  balanceador: lazy(() => import('./balanceador/Balanceador')),
+  estequiometria: lazy(() => import('./estequiometria/Estequiometria')),
 };

@@ -274,3 +274,180 @@ Valida los parámetros de red de src/data/cristales.json: ρ = Z·M/(N_A·V_celd
 | propanona (acetona) | 56.1 | 56.08 | °C | 3.57e-2 | Valor de libro vs PubChem |
 | amoníaco | -33.3 | -33.35 | °C | 1.50e-1 | Valor de libro vs PubChem |
 | metano | -161.5 | -161.5 | °C | 0.00e+0 | Valor de libro vs PubChem |
+
+## Balanceo de ecuaciones
+
+48 ecuaciones (síntesis, descomposición, desplazamiento, doble desplazamiento, neutralización, combustión, redox moleculares e iónicas). Coeficientes enteros mínimos por espacio nulo con fracciones exactas.
+
+| Caso | Referencia | Calculado | Unidad | Error (%) | Fuente |
+|---|---|---|---|---|---|
+| H2 + O2 → H2O | 2 : 1 : 2 | 2 : 1 : 2 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| N2 + H2 → NH3 | 1 : 3 : 2 | 1 : 3 : 2 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| Fe + O2 → Fe2O3 | 4 : 3 : 2 | 4 : 3 : 2 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| Al + O2 → Al2O3 | 4 : 3 : 2 | 4 : 3 : 2 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| Na + Cl2 → NaCl | 2 : 1 : 2 | 2 : 1 : 2 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| P4 + O2 → P4O10 | 1 : 5 : 1 | 1 : 5 : 1 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| KClO3 → KCl + O2 | 2 : 2 : 3 | 2 : 2 : 3 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| CaCO3 → CaO + CO2 | 1 : 1 : 1 | 1 : 1 : 1 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| H2O2 → H2O + O2 | 2 : 2 : 1 | 2 : 2 : 1 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| NaHCO3 → Na2CO3 + H2O + CO2 | 2 : 1 : 1 : 1 | 2 : 1 : 1 : 1 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| Zn + HCl → ZnCl2 + H2 | 1 : 2 : 1 : 1 | 1 : 2 : 1 : 1 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| Al + HCl → AlCl3 + H2 | 2 : 6 : 2 : 3 | 2 : 6 : 2 : 3 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| Fe + CuSO4 → FeSO4 + Cu | 1 : 1 : 1 : 1 | 1 : 1 : 1 : 1 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| Cl2 + NaBr → NaCl + Br2 | 1 : 2 : 2 : 1 | 1 : 2 : 2 : 1 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| AgNO3 + NaCl → AgCl + NaNO3 | 1 : 1 : 1 : 1 | 1 : 1 : 1 : 1 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| BaCl2 + Na2SO4 → BaSO4 + NaCl | 1 : 1 : 1 : 2 | 1 : 1 : 1 : 2 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| Pb(NO3)2 + KI → PbI2 + KNO3 | 1 : 2 : 1 : 2 | 1 : 2 : 1 : 2 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| HCl + NaOH → NaCl + H2O | 1 : 1 : 1 : 1 | 1 : 1 : 1 : 1 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| H2SO4 + NaOH → Na2SO4 + H2O | 1 : 2 : 1 : 2 | 1 : 2 : 1 : 2 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| H3PO4 + Ca(OH)2 → Ca3(PO4)2 + H2O | 2 : 3 : 1 : 6 | 2 : 3 : 1 : 6 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| Al(OH)3 + H2SO4 → Al2(SO4)3 + H2O | 2 : 3 : 1 : 6 | 2 : 3 : 1 : 6 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| CH4 + O2 → CO2 + H2O | 1 : 2 : 1 : 2 | 1 : 2 : 1 : 2 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| C3H8 + O2 → CO2 + H2O | 1 : 5 : 3 : 4 | 1 : 5 : 3 : 4 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| C2H6 + O2 → CO2 + H2O | 2 : 7 : 4 : 6 | 2 : 7 : 4 : 6 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| C8H18 + O2 → CO2 + H2O | 2 : 25 : 16 : 18 | 2 : 25 : 16 : 18 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| C6H12O6 + O2 → CO2 + H2O | 1 : 6 : 6 : 6 | 1 : 6 : 6 : 6 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| C2H5OH + O2 → CO2 + H2O | 1 : 3 : 2 : 3 | 1 : 3 : 2 : 3 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| C12H22O11 + O2 → CO2 + H2O | 1 : 12 : 12 : 11 | 1 : 12 : 12 : 11 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| Fe2O3 + CO → Fe + CO2 | 1 : 3 : 2 : 3 | 1 : 3 : 2 : 3 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| NH3 + O2 → NO + H2O | 4 : 5 : 4 : 6 | 4 : 5 : 4 : 6 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| Cu + HNO3 → Cu(NO3)2 + NO + H2O | 3 : 8 : 3 : 2 : 4 | 3 : 8 : 3 : 2 : 4 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| Cu + HNO3 → Cu(NO3)2 + NO2 + H2O | 1 : 4 : 1 : 2 : 2 | 1 : 4 : 1 : 2 : 2 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| KMnO4 + HCl → KCl + MnCl2 + Cl2 + H2O | 2 : 16 : 2 : 2 : 5 : 8 | 2 : 16 : 2 : 2 : 5 : 8 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| K2Cr2O7 + HCl → KCl + CrCl3 + Cl2 + H2O | 1 : 14 : 2 : 2 : 3 : 7 | 1 : 14 : 2 : 2 : 3 : 7 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| MnO2 + HCl → MnCl2 + Cl2 + H2O | 1 : 4 : 1 : 1 : 2 | 1 : 4 : 1 : 1 : 2 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| H2S + HNO3 → S + NO + H2O | 3 : 2 : 3 : 2 : 4 | 3 : 2 : 3 : 2 : 4 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| Zn + HNO3 → Zn(NO3)2 + NH4NO3 + H2O | 4 : 10 : 4 : 1 : 3 | 4 : 10 : 4 : 1 : 3 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| Cl2 + NaOH → NaCl + NaClO3 + H2O | 3 : 6 : 5 : 1 : 3 | 3 : 6 : 5 : 1 : 3 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| FeS2 + O2 → Fe2O3 + SO2 | 4 : 11 : 2 : 8 | 4 : 11 : 2 : 8 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| Ca3(PO4)2 + SiO2 + C → CaSiO3 + P4 + CO | 2 : 6 : 10 : 6 : 1 : 10 | 2 : 6 : 10 : 6 : 1 : 10 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| K4[Fe(CN)6] + KMnO4 + H2SO4 → KHSO4 + Fe2(SO4)3 + MnSO4 + HNO3 + CO2 + H2O | 10 : 122 : 299 : 162 : 5 : 122 : 60 : 60 : 188 | 10 : 122 : 299 : 162 : 5 : 122 : 60 : 60 : 188 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| MnO4^- + Fe^2+ + H^+ → Mn^2+ + Fe^3+ + H2O | 1 : 5 : 8 : 1 : 5 : 4 | 1 : 5 : 8 : 1 : 5 : 4 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| Cr2O7^2- + Fe^2+ + H^+ → Cr^3+ + Fe^3+ + H2O | 1 : 6 : 14 : 2 : 6 : 7 | 1 : 6 : 14 : 2 : 6 : 7 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| Cu + Ag^+ → Cu^2+ + Ag | 1 : 2 : 1 : 2 | 1 : 2 : 1 : 2 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| Ag^+ + Cl^- → AgCl | 1 : 1 : 1 | 1 : 1 : 1 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| Fe^3+ + e- → Fe^2+ | 1 : 1 : 1 | 1 : 1 : 1 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| SO2 + O2 → SO3 | 2 : 1 : 2 | 2 : 1 : 2 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+| Cu^2+ + NH3 → [Cu(NH3)4]^2+ | 1 : 4 : 1 | 1 : 4 : 1 |  | 0 (idéntico) | Chang / Brown / textos preuniversitarios |
+
+## Nomenclatura inorgánica
+
+107 compuestos e iones, 308 pares nombre ↔ fórmula verificados en ambos sentidos.
+
+| Caso | Referencia | Calculado | Unidad | Error (%) | Fuente |
+|---|---|---|---|---|---|
+| Na2O | óxido de sodio · óxido de sodio · monóxido de disodio | óxido de sodio · óxido de sodio · monóxido de disodio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| CaO | óxido de calcio · óxido de calcio · monóxido de calcio | óxido de calcio · óxido de calcio · monóxido de calcio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| Al2O3 | óxido de aluminio · óxido de aluminio · trióxido de dialuminio | óxido de aluminio · óxido de aluminio · trióxido de dialuminio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| FeO | óxido ferroso · óxido de hierro(II) · monóxido de hierro | óxido ferroso · óxido de hierro(II) · monóxido de hierro |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| Fe2O3 | óxido férrico · óxido de hierro(III) · trióxido de dihierro | óxido férrico · óxido de hierro(III) · trióxido de dihierro |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| Cu2O | óxido cuproso · óxido de cobre(I) · monóxido de dicobre | óxido cuproso · óxido de cobre(I) · monóxido de dicobre |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| CuO | óxido cúprico · óxido de cobre(II) · monóxido de cobre | óxido cúprico · óxido de cobre(II) · monóxido de cobre |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| PbO2 | óxido plúmbico · óxido de plomo(IV) · dióxido de plomo | óxido plúmbico · óxido de plomo(IV) · dióxido de plomo |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| SnO | óxido estannoso · óxido de estaño(II) · monóxido de estaño | óxido estannoso · óxido de estaño(II) · monóxido de estaño |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| Au2O3 | óxido áurico · óxido de oro(III) · trióxido de dioro | óxido áurico · óxido de oro(III) · trióxido de dioro |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| Hg2O | óxido mercurioso · óxido de mercurio(I) · monóxido de dimercurio | óxido mercurioso · óxido de mercurio(I) · monóxido de dimercurio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| HgO | óxido mercúrico · óxido de mercurio(II) · monóxido de mercurio | óxido mercúrico · óxido de mercurio(II) · monóxido de mercurio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| NiO | óxido niqueloso · óxido de níquel(II) · monóxido de níquel | óxido niqueloso · óxido de níquel(II) · monóxido de níquel |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| CO2 | anhídrido carbónico · óxido de carbono(IV) · dióxido de carbono | anhídrido carbónico · óxido de carbono(IV) · dióxido de carbono |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| CO | anhídrido carbonoso · óxido de carbono(II) · monóxido de carbono | anhídrido carbonoso · óxido de carbono(II) · monóxido de carbono |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| SO2 | anhídrido sulfuroso · óxido de azufre(IV) · dióxido de azufre | anhídrido sulfuroso · óxido de azufre(IV) · dióxido de azufre |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| SO3 | anhídrido sulfúrico · óxido de azufre(VI) · trióxido de azufre | anhídrido sulfúrico · óxido de azufre(VI) · trióxido de azufre |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| N2O3 | anhídrido nitroso · óxido de nitrógeno(III) · trióxido de dinitrógeno | anhídrido nitroso · óxido de nitrógeno(III) · trióxido de dinitrógeno |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| N2O5 | anhídrido nítrico · óxido de nitrógeno(V) · pentóxido de dinitrógeno | anhídrido nítrico · óxido de nitrógeno(V) · pentóxido de dinitrógeno |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| Cl2O | anhídrido hipocloroso · óxido de cloro(I) · monóxido de dicloro | anhídrido hipocloroso · óxido de cloro(I) · monóxido de dicloro |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| Cl2O7 | anhídrido perclórico · óxido de cloro(VII) · heptóxido de dicloro | anhídrido perclórico · óxido de cloro(VII) · heptóxido de dicloro |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| P2O5 | anhídrido fosfórico · óxido de fósforo(V) · pentóxido de difósforo | anhídrido fosfórico · óxido de fósforo(V) · pentóxido de difósforo |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| SiO2 | anhídrido silícico · óxido de silicio · dióxido de silicio | anhídrido silícico · óxido de silicio · dióxido de silicio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| Mn2O7 | anhídrido permangánico · óxido de manganeso(VII) · heptóxido de dimanganeso | anhídrido permangánico · óxido de manganeso(VII) · heptóxido de dimanganeso |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| CrO3 | anhídrido crómico · óxido de cromo(VI) · trióxido de cromo | anhídrido crómico · óxido de cromo(VI) · trióxido de cromo |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| B2O3 | anhídrido bórico · óxido de boro · trióxido de diboro | anhídrido bórico · óxido de boro · trióxido de diboro |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| N2O | óxido nitroso · óxido de nitrógeno(I) · monóxido de dinitrógeno | óxido nitroso · óxido de nitrógeno(I) · monóxido de dinitrógeno |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| NO | óxido nítrico · óxido de nitrógeno(II) · monóxido de nitrógeno | óxido nítrico · óxido de nitrógeno(II) · monóxido de nitrógeno |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| NO2 | dióxido de nitrógeno · óxido de nitrógeno(IV) · dióxido de nitrógeno | dióxido de nitrógeno · óxido de nitrógeno(IV) · dióxido de nitrógeno |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| Na2O2 | peróxido de sodio · peróxido de sodio · dióxido de disodio | peróxido de sodio · peróxido de sodio · dióxido de disodio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| BaO2 | peróxido de bario · peróxido de bario · dióxido de bario | peróxido de bario · peróxido de bario · dióxido de bario |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| H2O2 | peróxido de hidrógeno · dióxido de dihidrógeno | peróxido de hidrógeno · dióxido de dihidrógeno |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| NaH | hidruro de sodio · hidruro de sodio · hidruro de sodio | hidruro de sodio · hidruro de sodio · hidruro de sodio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| CaH2 | hidruro de calcio · hidruro de calcio · dihidruro de calcio | hidruro de calcio · hidruro de calcio · dihidruro de calcio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| FeH3 | hidruro férrico · hidruro de hierro(III) · trihidruro de hierro | hidruro férrico · hidruro de hierro(III) · trihidruro de hierro |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| NH3 | amoníaco · trihidruro de nitrógeno | amoníaco · trihidruro de nitrógeno |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| PH3 | fosfina · trihidruro de fósforo | fosfina · trihidruro de fósforo |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| CH4 | metano · tetrahidruro de carbono | metano · tetrahidruro de carbono |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| HCl | ácido clorhídrico · cloruro de hidrógeno | ácido clorhídrico · cloruro de hidrógeno |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| HF | ácido fluorhídrico · fluoruro de hidrógeno | ácido fluorhídrico · fluoruro de hidrógeno |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| HI | ácido yodhídrico · yoduro de hidrógeno | ácido yodhídrico · yoduro de hidrógeno |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| H2S | ácido sulfhídrico · sulfuro de hidrógeno | ácido sulfhídrico · sulfuro de hidrógeno |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| NaOH | hidróxido de sodio · hidróxido de sodio · hidróxido de sodio | hidróxido de sodio · hidróxido de sodio · hidróxido de sodio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| Ca(OH)2 | hidróxido de calcio · hidróxido de calcio · dihidróxido de calcio | hidróxido de calcio · hidróxido de calcio · dihidróxido de calcio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| Fe(OH)2 | hidróxido ferroso · hidróxido de hierro(II) · dihidróxido de hierro | hidróxido ferroso · hidróxido de hierro(II) · dihidróxido de hierro |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| Fe(OH)3 | hidróxido férrico · hidróxido de hierro(III) · trihidróxido de hierro | hidróxido férrico · hidróxido de hierro(III) · trihidróxido de hierro |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| Cu(OH)2 | hidróxido cúprico · hidróxido de cobre(II) · dihidróxido de cobre | hidróxido cúprico · hidróxido de cobre(II) · dihidróxido de cobre |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| Al(OH)3 | hidróxido de aluminio · hidróxido de aluminio · trihidróxido de aluminio | hidróxido de aluminio · hidróxido de aluminio · trihidróxido de aluminio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| Pb(OH)4 | hidróxido plúmbico · hidróxido de plomo(IV) · tetrahidróxido de plomo | hidróxido plúmbico · hidróxido de plomo(IV) · tetrahidróxido de plomo |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| H2SO4 | ácido sulfúrico · ácido tetraoxosulfúrico(VI) · tetraoxosulfato(VI) de hidrógeno | ácido sulfúrico · ácido tetraoxosulfúrico(VI) · tetraoxosulfato(VI) de hidrógeno |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| H2SO3 | ácido sulfuroso · ácido trioxosulfúrico(IV) · trioxosulfato(IV) de hidrógeno | ácido sulfuroso · ácido trioxosulfúrico(IV) · trioxosulfato(IV) de hidrógeno |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| HNO3 | ácido nítrico · ácido trioxonítrico(V) · trioxonitrato(V) de hidrógeno | ácido nítrico · ácido trioxonítrico(V) · trioxonitrato(V) de hidrógeno |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| HNO2 | ácido nitroso · ácido dioxonítrico(III) · dioxonitrato(III) de hidrógeno | ácido nitroso · ácido dioxonítrico(III) · dioxonitrato(III) de hidrógeno |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| H2CO3 | ácido carbónico · ácido trioxocarbónico(IV) · trioxocarbonato(IV) de hidrógeno | ácido carbónico · ácido trioxocarbónico(IV) · trioxocarbonato(IV) de hidrógeno |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| HClO | ácido hipocloroso · ácido monoxoclórico(I) · monoxoclorato(I) de hidrógeno | ácido hipocloroso · ácido monoxoclórico(I) · monoxoclorato(I) de hidrógeno |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| HClO2 | ácido cloroso · ácido dioxoclórico(III) · dioxoclorato(III) de hidrógeno | ácido cloroso · ácido dioxoclórico(III) · dioxoclorato(III) de hidrógeno |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| HClO3 | ácido clórico · ácido trioxoclórico(V) · trioxoclorato(V) de hidrógeno | ácido clórico · ácido trioxoclórico(V) · trioxoclorato(V) de hidrógeno |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| HClO4 | ácido perclórico · ácido tetraoxoclórico(VII) · tetraoxoclorato(VII) de hidrógeno | ácido perclórico · ácido tetraoxoclórico(VII) · tetraoxoclorato(VII) de hidrógeno |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| H3PO4 | ácido fosfórico · ácido tetraoxofosfórico(V) · tetraoxofosfato(V) de hidrógeno | ácido fosfórico · ácido tetraoxofosfórico(V) · tetraoxofosfato(V) de hidrógeno |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| HPO3 | ácido metafosfórico · ácido trioxofosfórico(V) · trioxofosfato(V) de hidrógeno | ácido metafosfórico · ácido trioxofosfórico(V) · trioxofosfato(V) de hidrógeno |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| H4P2O7 | ácido pirofosfórico · ácido heptaoxodifosfórico(V) · heptaoxodifosfato(V) de hidrógeno | ácido pirofosfórico · ácido heptaoxodifosfórico(V) · heptaoxodifosfato(V) de hidrógeno |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| H3BO3 | ácido bórico · ácido trioxobórico(III) · trioxoborato(III) de hidrógeno | ácido bórico · ácido trioxobórico(III) · trioxoborato(III) de hidrógeno |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| HMnO4 | ácido permangánico · ácido tetraoxomangánico(VII) · tetraoxomanganato(VII) de hidrógeno | ácido permangánico · ácido tetraoxomangánico(VII) · tetraoxomanganato(VII) de hidrógeno |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| H2MnO4 | ácido mangánico · ácido tetraoxomangánico(VI) · tetraoxomanganato(VI) de hidrógeno | ácido mangánico · ácido tetraoxomangánico(VI) · tetraoxomanganato(VI) de hidrógeno |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| H2CrO4 | ácido crómico · ácido tetraoxocrómico(VI) · tetraoxocromato(VI) de hidrógeno | ácido crómico · ácido tetraoxocrómico(VI) · tetraoxocromato(VI) de hidrógeno |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| H2Cr2O7 | ácido dicrómico · ácido heptaoxodicrómico(VI) · heptaoxodicromato(VI) de hidrógeno | ácido dicrómico · ácido heptaoxodicrómico(VI) · heptaoxodicromato(VI) de hidrógeno |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| HIO4 | ácido peryódico · ácido tetraoxoyódico(VII) · tetraoxoyodato(VII) de hidrógeno | ácido peryódico · ácido tetraoxoyódico(VII) · tetraoxoyodato(VII) de hidrógeno |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| HBrO3 | ácido brómico · ácido trioxobrómico(V) · trioxobromato(V) de hidrógeno | ácido brómico · ácido trioxobrómico(V) · trioxobromato(V) de hidrógeno |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| H4SiO4 | ácido ortosilícico · ácido tetraoxosilícico(IV) · tetraoxosilicato(IV) de hidrógeno | ácido ortosilícico · ácido tetraoxosilícico(IV) · tetraoxosilicato(IV) de hidrógeno |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| NaCl | cloruro de sodio · cloruro de sodio · cloruro de sodio | cloruro de sodio · cloruro de sodio · cloruro de sodio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| FeCl3 | cloruro férrico · cloruro de hierro(III) · tricloruro de hierro | cloruro férrico · cloruro de hierro(III) · tricloruro de hierro |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| FeCl2 | cloruro ferroso · cloruro de hierro(II) · dicloruro de hierro | cloruro ferroso · cloruro de hierro(II) · dicloruro de hierro |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| CuCl | cloruro cuproso · cloruro de cobre(I) · cloruro de cobre | cloruro cuproso · cloruro de cobre(I) · cloruro de cobre |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| Al2S3 | sulfuro de aluminio · sulfuro de aluminio · trisulfuro de dialuminio | sulfuro de aluminio · sulfuro de aluminio · trisulfuro de dialuminio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| KI | yoduro de potasio · yoduro de potasio · yoduro de potasio | yoduro de potasio · yoduro de potasio · yoduro de potasio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| Hg2Cl2 | cloruro mercurioso · cloruro de mercurio(I) · dicloruro de dimercurio | cloruro mercurioso · cloruro de mercurio(I) · dicloruro de dimercurio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| PbS2 | sulfuro plúmbico · sulfuro de plomo(IV) · disulfuro de plomo | sulfuro plúmbico · sulfuro de plomo(IV) · disulfuro de plomo |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| CaCO3 | carbonato de calcio · carbonato de calcio · trioxocarbonato(IV) de calcio | carbonato de calcio · carbonato de calcio · trioxocarbonato(IV) de calcio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| Na2SO4 | sulfato de sodio · sulfato de sodio · tetraoxosulfato(VI) de sodio | sulfato de sodio · sulfato de sodio · tetraoxosulfato(VI) de sodio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| CuSO4 | sulfato cúprico · sulfato de cobre(II) · tetraoxosulfato(VI) de cobre(II) | sulfato cúprico · sulfato de cobre(II) · tetraoxosulfato(VI) de cobre(II) |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| FeSO4 | sulfato ferroso · sulfato de hierro(II) · tetraoxosulfato(VI) de hierro(II) | sulfato ferroso · sulfato de hierro(II) · tetraoxosulfato(VI) de hierro(II) |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| Fe2(SO4)3 | sulfato férrico · sulfato de hierro(III) · tetraoxosulfato(VI) de hierro(III) | sulfato férrico · sulfato de hierro(III) · tetraoxosulfato(VI) de hierro(III) |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| KMnO4 | permanganato de potasio · permanganato de potasio · tetraoxomanganato(VII) de potasio | permanganato de potasio · permanganato de potasio · tetraoxomanganato(VII) de potasio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| K2Cr2O7 | dicromato de potasio · dicromato de potasio · heptaoxodicromato(VI) de potasio | dicromato de potasio · dicromato de potasio · heptaoxodicromato(VI) de potasio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| NaClO | hipoclorito de sodio · hipoclorito de sodio · monoxoclorato(I) de sodio | hipoclorito de sodio · hipoclorito de sodio · monoxoclorato(I) de sodio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| KClO3 | clorato de potasio · clorato de potasio · trioxoclorato(V) de potasio | clorato de potasio · clorato de potasio · trioxoclorato(V) de potasio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| NaNO3 | nitrato de sodio · nitrato de sodio · trioxonitrato(V) de sodio | nitrato de sodio · nitrato de sodio · trioxonitrato(V) de sodio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| KNO2 | nitrito de potasio · nitrito de potasio · dioxonitrato(III) de potasio | nitrito de potasio · nitrito de potasio · dioxonitrato(III) de potasio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| Ca3(PO4)2 | fosfato de calcio · fosfato de calcio · tetraoxofosfato(V) de calcio | fosfato de calcio · fosfato de calcio · tetraoxofosfato(V) de calcio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| AgNO3 | nitrato de plata · nitrato de plata · trioxonitrato(V) de plata | nitrato de plata · nitrato de plata · trioxonitrato(V) de plata |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| Pb(NO3)2 | nitrato plumboso · nitrato de plomo(II) · trioxonitrato(V) de plomo(II) | nitrato plumboso · nitrato de plomo(II) · trioxonitrato(V) de plomo(II) |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| (NH4)2SO4 | sulfato de amonio · sulfato de amonio · tetraoxosulfato(VI) de amonio | sulfato de amonio · sulfato de amonio · tetraoxosulfato(VI) de amonio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| NH4Cl | cloruro de amonio · cloruro de amonio · cloruro de amonio | cloruro de amonio · cloruro de amonio · cloruro de amonio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| NaHCO3 | bicarbonato de sodio · hidrogenocarbonato de sodio · hidrogenotrioxocarbonato(IV) de sodio | bicarbonato de sodio · hidrogenocarbonato de sodio · hidrogenotrioxocarbonato(IV) de sodio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| KHSO4 | bisulfato de potasio · hidrogenosulfato de potasio · hidrogenotetraoxosulfato(VI) de potasio | bisulfato de potasio · hidrogenosulfato de potasio · hidrogenotetraoxosulfato(VI) de potasio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| NaH2PO4 | fosfato diácido de sodio · dihidrogenofosfato de sodio · dihidrogenotetraoxofosfato(V) de sodio | fosfato diácido de sodio · dihidrogenofosfato de sodio · dihidrogenotetraoxofosfato(V) de sodio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| Na2HPO4 | fosfato monoácido de sodio · hidrogenofosfato de sodio · hidrogenotetraoxofosfato(V) de sodio | fosfato monoácido de sodio · hidrogenofosfato de sodio · hidrogenotetraoxofosfato(V) de sodio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| NaHS | bisulfuro de sodio · hidrogenosulfuro de sodio | bisulfuro de sodio · hidrogenosulfuro de sodio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| Mg(OH)Cl | cloruro básico de magnesio · hidroxicloruro de magnesio · cloruro hidróxido de magnesio | cloruro básico de magnesio · hidroxicloruro de magnesio · cloruro hidróxido de magnesio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| Al(OH)2Cl | cloruro dibásico de aluminio · dihidroxicloruro de aluminio · cloruro dihidróxido de aluminio | cloruro dibásico de aluminio · dihidroxicloruro de aluminio · cloruro dihidróxido de aluminio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| KAl(SO4)2 | sulfato doble de aluminio y potasio · sulfato de aluminio y potasio | sulfato doble de aluminio y potasio · sulfato de aluminio y potasio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| SO4^2- | ion sulfato · ion sulfato · ion tetraoxosulfato(VI) | ion sulfato · ion sulfato · ion tetraoxosulfato(VI) |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| NO3^- | ion nitrato · ion nitrato · ion trioxonitrato(V) | ion nitrato · ion nitrato · ion trioxonitrato(V) |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| ClO^- | ion hipoclorito · ion hipoclorito · ion monoxoclorato(I) | ion hipoclorito · ion hipoclorito · ion monoxoclorato(I) |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| HCO3^- | ion bicarbonato · ion hidrogenocarbonato | ion bicarbonato · ion hidrogenocarbonato |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| Fe^3+ | ion férrico · ion hierro(III) | ion férrico · ion hierro(III) |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+| NH4^+ | ion amonio · ion amonio | ion amonio · ion amonio |  | 0 (idéntico) | Textos preuniversitarios (convención documentada) |
+
+## Estequiometría (ejercicios de Chang)
+
+| Caso | Referencia | Calculado | Unidad | Error (%) | Fuente |
+|---|---|---|---|---|---|
+| Urea a partir de 637,2 g NH₃ + 1142 g CO₂ | 1124 | 1123.5 | g | 4.45e-2 | Chang, Química (reactivo limitante) |
+| Ti teórico (TiCl₄ + 2 Mg) | 8.950000e+6 | 8.934036e+6 | g | 1.78e-1 | Chang, Química (rendimiento) |
+| % de rendimiento del Ti | 88.4 | 88.54 | % | 1.58e-1 | Chang, Química |
