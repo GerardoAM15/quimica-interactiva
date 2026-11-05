@@ -79,7 +79,7 @@ export function GeometriaVSEPR() {
         </label>
         <div className="flex flex-wrap gap-1" role="group" aria-label="Ejemplos">
           {EJEMPLOS.map((f) => (
-            <button key={f} type="button" onClick={() => setFormula(f)} className="rounded border border-borde px-2 py-0.5 text-xs hover:bg-superficie-2">
+            <button key={f} type="button" aria-label={`Ejemplo: ${f}`} onClick={() => setFormula(f)} className="rounded border border-borde px-2 py-0.5 text-xs hover:bg-superficie-2">
               <Ce>{aMhchem(f)}</Ce>
             </button>
           ))}

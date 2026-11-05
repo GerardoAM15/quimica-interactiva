@@ -67,6 +67,10 @@ export function Layout() {
         Proyecto personal de estudio · Datos de PubChem (dominio público) y CODATA ·{' '}
         <Link to="/creditos" className="underline hover:text-texto">
           Créditos y fuentes
+        </Link>{' '}
+        ·{' '}
+        <Link to="/sin-conexion" className="underline hover:text-texto">
+          Usar sin conexión
         </Link>
       </footer>
 

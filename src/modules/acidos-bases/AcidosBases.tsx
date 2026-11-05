@@ -44,6 +44,14 @@ const tex = (x: number) => {
 
 /** Color aproximado del indicador universal (ilustrativo). */
 const COLOR_UNIVERSAL = ['#d7263d', '#e8432d', '#f0642b', '#f6892b', '#f7b32b', '#f2d32b', '#c9d84a', '#5cb85c', '#2fa58a', '#2a8fbf', '#2f6fd1', '#3d4fc4', '#5a3fb8', '#6a2fa8', '#75209a'];
+/** Negro o blanco según la luminancia relativa del fondo (contraste WCAG). */
+const textoSobre = (hex: string) => {
+  const [r, g, b] = [1, 3, 5].map((i) => {
+    const v = parseInt(hex.slice(i, i + 2), 16) / 255;
+    return v <= 0.03928 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4;
+  });
+  return 0.2126 * r! + 0.7152 * g! + 0.0722 * b! > 0.18 ? '#000000' : '#ffffff';
+};
 const colorPH = (pH: number) => COLOR_UNIVERSAL[Math.max(0, Math.min(14, Math.round(pH)))]!;
 
 function Escala() {
@@ -54,7 +62,7 @@ function Escala() {
       <div className="relative">
         <div className="flex h-10 overflow-hidden rounded-lg" aria-hidden>
           {COLOR_UNIVERSAL.map((c, i) => (
-            <div key={i} className="flex flex-1 items-center justify-center text-xs font-semibold text-black/80" style={{ background: c }}>
+            <div key={i} className="flex flex-1 items-center justify-center text-xs font-semibold" style={{ background: c, color: textoSobre(c) }}>
               {i}
             </div>
           ))}

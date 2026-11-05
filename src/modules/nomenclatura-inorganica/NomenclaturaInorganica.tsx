@@ -88,7 +88,7 @@ function Nombrar() {
         </label>
         <div className="flex flex-wrap gap-1">
           {ejemplos.map((f) => (
-            <button key={f} type="button" onClick={() => setFormula(f)} className="rounded border border-borde px-2 py-0.5 text-xs hover:bg-superficie-2">
+            <button key={f} type="button" aria-label={`Ejemplo: ${f}`} onClick={() => setFormula(f)} className="rounded border border-borde px-2 py-0.5 text-xs hover:bg-superficie-2">
               <Ce>{ce(f)}</Ce>
             </button>
           ))}
@@ -315,7 +315,12 @@ function Practicar() {
           const estado = elegida === null ? '' : i === correcta ? 'border-exito bg-exito/10' : i === elegida ? 'border-error bg-error/10' : 'opacity-60';
           return (
             <li key={i}>
-              <button type="button" onClick={() => responder(i)} className={`flex w-full items-center gap-3 rounded-md border border-borde px-3 py-2 text-left hover:bg-superficie-2 ${estado}`}>
+              <button
+                type="button"
+                aria-label={`${'ABCDE'[i]}) ${p.tipo === 'nombre' ? o.nombres[p.nomenclatura] : o.formula}`}
+                onClick={() => responder(i)}
+                className={`flex w-full items-center gap-3 rounded-md border border-borde px-3 py-2 text-left hover:bg-superficie-2 ${estado}`}
+              >
                 <span className="font-bold">{'ABCDE'[i]})</span>
                 {p.tipo === 'nombre' ? o.nombres[p.nomenclatura] : <Ce>{ce(o.formula)}</Ce>}
               </button>

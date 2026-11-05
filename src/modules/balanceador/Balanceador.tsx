@@ -135,7 +135,7 @@ function IonElectron() {
       </div>
       <div className="flex flex-wrap gap-1">
         {EJEMPLOS_ION.map(([e, m]) => (
-          <button key={e} type="button" onClick={() => { setTexto(e); setMedio(m); }} className="rounded border border-borde px-2 py-0.5 text-xs hover:bg-superficie-2">
+          <button key={e} type="button" aria-label={`Ejemplo: ${e} (medio ${m === 'acido' ? 'ácido' : 'básico'})`} onClick={() => { setTexto(e); setMedio(m); }} className="rounded border border-borde px-2 py-0.5 text-xs hover:bg-superficie-2">
             <Ce>{e.replace(/->/, '->')}</Ce> ({m === 'acido' ? 'ácido' : 'básico'})
           </button>
         ))}
@@ -198,7 +198,7 @@ export default function Balanceador() {
         </label>
         <div className="mt-2 flex flex-wrap gap-1">
           {EJEMPLOS.map((e) => (
-            <button key={e} type="button" onClick={() => setTexto(e)} className="rounded border border-borde px-2 py-0.5 text-xs hover:bg-superficie-2">
+            <button key={e} type="button" aria-label={`Ejemplo: ${e}`} onClick={() => setTexto(e)} className="rounded border border-borde px-2 py-0.5 text-xs hover:bg-superficie-2">
               <Ce>{e}</Ce>
             </button>
           ))}
