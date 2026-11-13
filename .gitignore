@@ -11,6 +11,3 @@ Thumbs.db
 .idea
 # Caché temporal de los scripts de descarga de datos
 scripts/.cache
-
-# Regla del proyecto: no incluir AGENTS.md en el repositorio
-AGENTS.md

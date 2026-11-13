@@ -132,7 +132,13 @@ Mínimos exigidos en `src/chem/__tests__/`:
 - Una fase a la vez; esperar confirmación del autor antes de pasar a la siguiente.
 - Al terminar cada fase: `npm run build` y `npm test` sin errores, resumen corto de qué se hizo y cómo probarlo.
 - Commit descriptivo al final de cada fase. **No hacer push a `main` hasta que el autor lo confirme.**
-- No incluir AGENTS.md.
+- `AGENTS.md` es una copia **idéntica** de este archivo (para continuar con otra IA): todo cambio en uno se
+  replica en el otro (`cp CLAUDE.md AGENTS.md`).
+- `docs/ESTADO.md` resume la fase actual, lo terminado, lo pendiente, las decisiones y los problemas conocidos;
+  **se actualiza al final de cada fase**.
+- No incluir archivos temporales ni fotos de personas reales. No cambiar valores de datos existentes sin
+  confirmación del autor.
+- Capturas de cada fase (escritorio 1366×768 y móvil 412 px) en el scratchpad, nunca en el repositorio.
 
 ### Fases
 
@@ -152,5 +158,14 @@ Mínimos exigidos en `src/chem/__tests__/`:
 
 La especificación completa y el estado de cada mejora están en `prompt_quimica_interactiva.md`.
 
-Extra (solo cuando el autor lo indique): 9 estereoquímica · 10 mecanismos animados · 11 espectroscopía ·
-12 síntesis y biomoléculas.
+### Mejoras (después de la Fase 8)
+
+Especificación en `prompt_quimica_mejoras.md`; avance en `docs/ESTADO.md`. Una fase a la vez, con confirmación
+del autor antes de subir a `main` y antes de pasar a la siguiente.
+
+- M0. Preparación: `AGENTS.md`, `docs/ESTADO.md`, prompt de mejoras en el repositorio.
+- M1. Pulido pendiente: aviso «sin conexión» (5 s, una sola vez), lienzo del constructor según el tema,
+  `docs/revision_datos.md`.
+- M2. Muestras 3D realistas (presentación por elemento), pestaña «En la vida diaria» y «Vitrina 3D» (módulo 1).
+- M3. «Del mineral al producto»: mineral → proceso industrial (ecuación balanceada) → productos; nota «En el Perú».
+- 9 estereoquímica · 10 mecanismos animados · 11 espectroscopía · 12 síntesis y biomoléculas.

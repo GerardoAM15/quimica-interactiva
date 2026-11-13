@@ -163,7 +163,7 @@ src/
 - Precisión química ante todo: si no estás seguro de un dato, nombre o mecanismo, márcalo para revisión en vez de inventarlo.
 - No uses librerías que resuelvan la química por ti salvo RDKit para estructura molecular: balanceo, pH, nomenclatura, gases, etc. se implementan en chem/.
 - Código tipado y con comentarios en español explicando la química (con la fórmula).
-- Commits descriptivos al final de cada fase. No incluyas AGENTS.md.
+- Commits descriptivos al final de cada fase. No incluyas AGENTS.md. (Regla reemplazada en la fase M0 de `prompt_quimica_mejoras.md`: AGENTS.md es ahora una copia idéntica de CLAUDE.md.)
 
 Empieza por la Fase 0.
 
