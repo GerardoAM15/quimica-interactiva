@@ -1,0 +1,314 @@
+{
+ "fuente": {
+  "nombre": "IAEA LiveChart of Nuclides (estados fundamentales; ENSDF/NUBASE)",
+  "url": "https://nds.iaea.org/relnsd/vcharthtml/VChartHTML.html",
+  "licencia": "Datos públicos del OIEA",
+  "descargado": "2026-11-06"
+ },
+ "elementos": {
+  "43": {
+   "isotopo": "Tc-97",
+   "a": 97,
+   "vidaMedia": 4210000,
+   "unidad": "Y",
+   "operador": null,
+   "segundos": 132854658353032.31
+  },
+  "61": {
+   "isotopo": "Pm-145",
+   "a": 145,
+   "vidaMedia": 17.7,
+   "unidad": "Y",
+   "operador": null,
+   "segundos": 558557589.7502784
+  },
+  "83": {
+   "isotopo": "Bi-209",
+   "a": 209,
+   "vidaMedia": 20100000000000000000,
+   "unidad": "Y",
+   "operador": null,
+   "segundos": 6.342942120892992e+26
+  },
+  "84": {
+   "isotopo": "Po-209",
+   "a": 209,
+   "vidaMedia": 124,
+   "unidad": "Y",
+   "operador": null,
+   "segundos": 3913058820.849408
+  },
+  "85": {
+   "isotopo": "At-210",
+   "a": 210,
+   "vidaMedia": 8.1,
+   "unidad": "h",
+   "operador": null,
+   "segundos": 29160
+  },
+  "86": {
+   "isotopo": "Rn-222",
+   "a": 222,
+   "vidaMedia": 3.8235,
+   "unidad": "d",
+   "operador": null,
+   "segundos": 330350.4
+  },
+  "87": {
+   "isotopo": "Fr-223",
+   "a": 223,
+   "vidaMedia": 22,
+   "unidad": "m",
+   "operador": null,
+   "segundos": 1320
+  },
+  "88": {
+   "isotopo": "Ra-226",
+   "a": 226,
+   "vidaMedia": 1600,
+   "unidad": "Y",
+   "operador": null,
+   "segundos": 50491081559.3472
+  },
+  "89": {
+   "isotopo": "Ac-227",
+   "a": 227,
+   "vidaMedia": 21.772,
+   "unidad": "Y",
+   "operador": null,
+   "segundos": 687057392.318817
+  },
+  "90": {
+   "isotopo": "Th-232",
+   "a": 232,
+   "vidaMedia": 14000000000,
+   "unidad": "Y",
+   "operador": null,
+   "segundos": 441796963644288000
+  },
+  "91": {
+   "isotopo": "Pa-231",
+   "a": 231,
+   "vidaMedia": 32570,
+   "unidad": "Y",
+   "operador": null,
+   "segundos": 1027809078992.4614
+  },
+  "92": {
+   "isotopo": "U-238",
+   "a": 238,
+   "vidaMedia": 4468000000,
+   "unidad": "Y",
+   "operador": null,
+   "segundos": 140996345254477060
+  },
+  "93": {
+   "isotopo": "Np-237",
+   "a": 237,
+   "vidaMedia": 2144000,
+   "unidad": "Y",
+   "operador": null,
+   "segundos": 67658049289525.25
+  },
+  "94": {
+   "isotopo": "Pu-244",
+   "a": 244,
+   "vidaMedia": 81300000,
+   "unidad": "Y",
+   "operador": null,
+   "segundos": 2565578081734329.5
+  },
+  "95": {
+   "isotopo": "Am-243",
+   "a": 243,
+   "vidaMedia": 7364,
+   "unidad": "Y",
+   "operador": null,
+   "segundos": 232385202876.89548
+  },
+  "96": {
+   "isotopo": "Cm-247",
+   "a": 247,
+   "vidaMedia": 15600000,
+   "unidad": "Y",
+   "operador": null,
+   "segundos": 492288045203635.2
+  },
+  "97": {
+   "isotopo": "Bk-247",
+   "a": 247,
+   "vidaMedia": 1380,
+   "unidad": "Y",
+   "operador": null,
+   "segundos": 43548557844.93696
+  },
+  "98": {
+   "isotopo": "Cf-251",
+   "a": 251,
+   "vidaMedia": 898,
+   "unidad": "Y",
+   "operador": null,
+   "segundos": 28338119525.183617
+  },
+  "99": {
+   "isotopo": "Es-252",
+   "a": 252,
+   "vidaMedia": 471.7,
+   "unidad": "d",
+   "operador": null,
+   "segundos": 40754880
+  },
+  "100": {
+   "isotopo": "Fm-257",
+   "a": 257,
+   "vidaMedia": 100.5,
+   "unidad": "d",
+   "operador": null,
+   "segundos": 8683200
+  },
+  "101": {
+   "isotopo": "Md-258",
+   "a": 258,
+   "vidaMedia": 51.5,
+   "unidad": "d",
+   "operador": null,
+   "segundos": 4449600
+  },
+  "102": {
+   "isotopo": "No-259",
+   "a": 259,
+   "vidaMedia": 58,
+   "unidad": "m",
+   "operador": null,
+   "segundos": 3480
+  },
+  "103": {
+   "isotopo": "Lr-266",
+   "a": 266,
+   "vidaMedia": 11,
+   "unidad": "h",
+   "operador": null,
+   "segundos": 39600
+  },
+  "104": {
+   "isotopo": "Rf-267",
+   "a": 267,
+   "vidaMedia": 1.3,
+   "unidad": "h",
+   "operador": null,
+   "segundos": 4680
+  },
+  "105": {
+   "isotopo": "Db-268",
+   "a": 268,
+   "vidaMedia": 28,
+   "unidad": "h",
+   "operador": null,
+   "segundos": 100800
+  },
+  "106": {
+   "isotopo": "Sg-269",
+   "a": 269,
+   "vidaMedia": 130,
+   "unidad": "s",
+   "operador": null,
+   "segundos": 130
+  },
+  "107": {
+   "isotopo": "Bh-278",
+   "a": 278,
+   "vidaMedia": 19,
+   "unidad": "m",
+   "operador": null,
+   "segundos": 1140
+  },
+  "108": {
+   "isotopo": "Hs-278",
+   "a": 278,
+   "vidaMedia": 19,
+   "unidad": "m",
+   "operador": null,
+   "segundos": 1140
+  },
+  "109": {
+   "isotopo": "Mt-282",
+   "a": 282,
+   "vidaMedia": 1.1,
+   "unidad": "m",
+   "operador": null,
+   "segundos": 66
+  },
+  "110": {
+   "isotopo": "Ds-282",
+   "a": 282,
+   "vidaMedia": 1.1,
+   "unidad": "m",
+   "operador": null,
+   "segundos": 66
+  },
+  "111": {
+   "isotopo": "Rg-286",
+   "a": 286,
+   "vidaMedia": 11,
+   "unidad": "m",
+   "operador": null,
+   "segundos": 660
+  },
+  "112": {
+   "isotopo": "Cn-286",
+   "a": 286,
+   "vidaMedia": 11,
+   "unidad": "m",
+   "operador": null,
+   "segundos": 660
+  },
+  "113": {
+   "isotopo": "Nh-286",
+   "a": 286,
+   "vidaMedia": 9.5,
+   "unidad": "s",
+   "operador": null,
+   "segundos": 9.5
+  },
+  "114": {
+   "isotopo": "Fl-290",
+   "a": 290,
+   "vidaMedia": 19,
+   "unidad": "s",
+   "operador": null,
+   "segundos": 19
+  },
+  "115": {
+   "isotopo": "Mc-290",
+   "a": 290,
+   "vidaMedia": 0.65,
+   "unidad": "s",
+   "operador": null,
+   "segundos": 0.65
+  },
+  "116": {
+   "isotopo": "Lv-293",
+   "a": 293,
+   "vidaMedia": 95,
+   "unidad": "ms",
+   "operador": null,
+   "segundos": 0.095
+  },
+  "117": {
+   "isotopo": "Ts-294",
+   "a": 294,
+   "vidaMedia": 51,
+   "unidad": "ms",
+   "operador": null,
+   "segundos": 0.051
+  },
+  "118": {
+   "isotopo": "Og-294",
+   "a": 294,
+   "vidaMedia": 0.58,
+   "unidad": "ms",
+   "operador": null,
+   "segundos": 0.00058
+  }
+ }
+}

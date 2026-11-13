@@ -10,8 +10,8 @@ Documento de relevo: permite retomar el trabajo (con cualquier asistente) sin le
 
 ## Fase actual
 
-**M1 — Pulir lo pendiente: terminada, en espera de la aprobación del autor** (commit local, sin subir).
-Siguiente: **M2 — Muestras 3D realistas y Vitrina 3D** (no empezar sin confirmación).
+**M2 — Muestras 3D realistas y Vitrina 3D: terminada, en espera de la aprobación del autor** (commit local,
+sin subir). Siguiente: **M3 — «Del mineral al producto»** (no empezar sin confirmación).
 
 ## Terminado
 
@@ -25,39 +25,36 @@ Siguiente: **M2 — Muestras 3D realistas y Vitrina 3D** (no empezar sin confirm
 | 7 | Modo estudio, simulacros y hojas de trabajo imprimibles | `5023300` |
 | 8 | Uso sin conexión completo, accesibilidad, documentación, README | `e608c57` |
 | M0 | `AGENTS.md`, `docs/ESTADO.md`, `prompt_quimica_mejoras.md` | `ae0af9c` |
-| M1 | Aviso «sin conexión» (5 s, una vez), lienzo del constructor según el tema, `docs/revision_datos.md` | (commit local, sin subir) |
+| M1 | Aviso «sin conexión» (5 s, una vez), lienzo del constructor según el tema, `docs/revision_datos.md` | `31070b4` |
+| M2 | Muestras 3D por presentación, «En la vida diaria», Vitrina 3D | (commit local, sin subir) |
 
-Todo hasta M0 está en `origin/main`. Validación: 26 archivos de prueba, 1283 pruebas en verde.
+Todo hasta M1 está en `origin/main`. Validación: 27 archivos de prueba, 1289 pruebas en verde.
 
-## En curso (sin commit)
+## M2 — qué quedó hecho y qué difiere de la especificación
 
-**M2 — Muestras 3D realistas y Vitrina 3D**: se adelantó antes de recibir el plan de mejoras y está en el
-árbol de trabajo **sin commit**, a la espera de la aprobación del autor.
+Hecho: presentación por elemento (bloque `presentaciones` de `apariencia.json`), geometría procedural por
+presentación sobre pedestal oscuro, encuadre automático, ACES, efectos (iridiscencia Bi, pátina opcional Cu,
+opaco Pb, diamante, vidrio con transmisión), tubos de descarga (núcleo sin mapeo de tonos + halo + vidrio +
+electrodos), placa amarilla «sin muestra» con vida media, pestaña «En la vida diaria» (25 objetos), Vitrina 3D
+(fondo claro, placa negra con símbolo y Z, misma presentación en miniatura, placas de aviso, acercamiento con
+clic, botón «Volver a la vitrina», LOD + instancias, botón FPS, encuadre para móvil).
 
-Archivos: `src/components/escena3d/{Presentaciones,ObjetosCotidianos,Escena3D}.tsx`,
-`src/modules/tabla-periodica/{Muestra3D,VidaDiaria3D,Vitrina3D,FichaElemento,TablaPeriodica}.tsx`,
-`src/modules/tabla-periodica/presentacion.ts`, `src/data/{presentaciones,vidas-medias,apariencia}.json`,
-`scripts/descargar-{hdri,vidas-medias}.mjs`, `public/hdri/estudio_1k.hdr`, `vite.config.ts`.
+Diferencias conscientes con `prompt_quimica_mejoras.md` (pendientes de la decisión del autor):
 
-Hecho: presentación por elemento, geometría procedural por presentación, encuadre automático, efectos
-(iridiscencia Bi, pátina opcional Cu, opaco Pb, diamante), «sin muestra» con vida media, pestaña «En la vida
-diaria» (25 objetos), Vitrina 3D con LOD e instancias.
-
-Diferencias con la especificación M2 de `prompt_quimica_mejoras.md`, por resolver al retomar la fase:
-
-- `presentacion` está en `src/data/presentaciones.json`, no dentro de `apariencia.json`.
-- Iluminación con HDRI local de Poly Haven (CC0, en el precache), no `RoomEnvironment` + `PMREMGenerator`.
-- «Sin muestra»: símbolo ☢ y texto; falta la placa amarilla con trébol en la muestra grande.
-- Vitrina: etiquetas de color por familia (se piden negras), fondo de casillero oscuro (se pide claro),
-  falta el botón «Volver a la vitrina».
-- Pendiente antes del commit: fuentes nuevas en `src/data/fuentes.ts` (Poly Haven, OIEA LiveChart, T. Gray),
-  scripts nuevos en `npm run datos`, `npm run pendientes`, capturas a 1366×768 y 412 px.
+- **Iluminación**: HDRI de estudio local (Poly Haven, CC0, 1,6 MB en el precache) en lugar de
+  `RoomEnvironment` + `PMREMGenerator`. Lo pidió el autor en la primera versión de esta mejora y las capturas
+  aprobadas (mercurio espejo, oro) se hicieron con él. Cambiarlo es una línea en `Escena3D`.
+- **Flúor**: se muestra como gas amarillo pálido en matraz, no en tubo de descarga: no hay un color de
+  emisión citado para el flúor y no se inventa.
+- **`presentacion`** está en un bloque propio (`presentaciones`) dentro de `apariencia.json`, no dentro de
+  cada entrada de `elementos`: ese bloque solo tiene los 34 elementos con color curado.
+- Pa, Np, Pu y Am también figuran «sin muestra» (radiactivos que no se exhiben).
+- Los tubos de descarga no llevan pedestal (se muestran suspendidos).
 
 ## Falta
 
 - **Revisión de datos (autor)**: comparar `docs/revision_datos.md` (664 filas, 24 tablas) con el libro y anotar
   las diferencias; después se corrigen los valores y se retira la marca «pendiente de revisión».
-- **M2**: cerrar las diferencias anteriores, capturas obligatorias, aprobación y commit.
 - **M3**: «Del mineral al producto» (`src/data/obtencion.json`, ~40 elementos, pruebas de balanceo y fórmulas).
 - **Fases 9–12**: estereoquímica, mecanismos animados, espectroscopía, síntesis y biomoléculas.
 
@@ -100,7 +97,6 @@ npm run revision   # regenera docs/revision_datos.md
 - **FPS sin medir en equipo real**: las pruebas visuales usan Chrome sin interfaz (renderizado por software);
   falta comprobar los 60 FPS de la Vitrina 3D en una laptop con gráficos integrados.
 - Datos marcados «pendiente de revisión»: lista en `docs/pendientes_revision.md`, valores en
-  `docs/revision_datos.md`. La sección C de ese archivo refleja el `apariencia.json` del árbol de trabajo
-  (incluye los colores de Cu y Au ajustados en M2, aún sin commit).
+  `docs/revision_datos.md`.
 - En las pruebas automáticas (Chrome sin interfaz) el guardado sin conexión a veces tarda más de un minuto
   cuando el equipo está ocupado; con el equipo libre termina en unos 15 s.

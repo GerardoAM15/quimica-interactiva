@@ -1,6 +1,7 @@
 import { Suspense, useRef, type ReactNode } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { Environment, Lightformer, OrbitControls } from '@react-three/drei';
+import * as THREE from 'three';
 import { usePreferencias } from '@/store/preferencias';
 
 interface Props {
@@ -13,8 +14,19 @@ interface Props {
   /** 'demand' redibuja solo al interactuar (ahorra batería); 'always' para animaciones. */
   modoFotogramas?: 'always' | 'demand';
   autoRotar?: boolean;
-  /** Entorno de iluminación para materiales metálicos/vidrio (PBR). */
-  entorno?: boolean;
+  /**
+   * Entorno de iluminación para materiales metálicos/vidrio (PBR): `true` usa paneles de luz generados;
+   * `'estudio'` usa el HDRI de estudio local (public/hdri, CC0) para reflejos reales.
+   */
+  entorno?: boolean | 'estudio';
+  /** Exposición del mapeo de tonos ACES (por defecto 1). */
+  exposicion?: number;
+  /** Intensidad de los reflejos del HDRI de estudio (por defecto 0,9). */
+  intensidadEntorno?: number;
+  /** Opciones extra de OrbitControls (límites de distancia y ángulo, paneo…). */
+  controles?: Record<string, unknown>;
+  /** Mostrar u ocultar el texto de ayuda inferior. */
+  ayuda?: string;
   className?: string;
   /** Contenido HTML superpuesto (leyendas). */
   superposicion?: ReactNode;
@@ -51,6 +63,10 @@ export default function Escena3D({
   entorno = false,
   className = 'h-[420px]',
   superposicion,
+  exposicion = 1,
+  intensidadEntorno = 0.9,
+  controles,
+  ayuda = 'Arrastra para rotar · rueda o pellizco para acercar',
 }: Props) {
   const mostrarFPS = usePreferencias((s) => s.mostrarFPS);
   const setMostrarFPS = usePreferencias((s) => s.setMostrarFPS);
@@ -63,14 +79,19 @@ export default function Escena3D({
         camera={{ position: camara, fov: campoVision, near: 0.05, far: 2000 }}
         dpr={[1, 1.75]}
         frameloop={fotogramas}
-        gl={{ antialias: true, powerPreference: 'high-performance' }}
+        // Mapeo de tonos ACES Filmic (el de R3F por defecto), explícito para ajustar la exposición
+        gl={{ antialias: true, powerPreference: 'high-performance', toneMapping: THREE.ACESFilmicToneMapping, toneMappingExposure: exposicion }}
         aria-label={descripcion}
         role="img"
       >
         <ambientLight intensity={0.45} />
         <directionalLight position={[5, 8, 6]} intensity={1.6} />
         <directionalLight position={[-6, -3, -4]} intensity={0.35} />
-        {entorno && (
+        {entorno === 'estudio' && (
+          // HDRI de estudio también como fondo difuminado: los metales reflejan un estudio real y no el vacío
+          <Environment files={`${import.meta.env.BASE_URL}hdri/estudio_1k.hdr`} environmentIntensity={intensidadEntorno} background backgroundBlurriness={0.6} backgroundIntensity={0.32} />
+        )}
+        {entorno === true && (
           <Environment resolution={128} frames={1}>
             <Lightformer form="rect" intensity={2.2} position={[0, 5, -6]} scale={[12, 5, 1]} />
             <Lightformer form="rect" intensity={1.2} position={[-6, 1, 2]} rotation-y={Math.PI / 2} scale={[8, 3, 1]} />
@@ -79,7 +100,7 @@ export default function Escena3D({
           </Environment>
         )}
         <Suspense fallback={null}>{children}</Suspense>
-        <OrbitControls makeDefault enableDamping dampingFactor={0.12} autoRotate={autoRotar} autoRotateSpeed={1.2} />
+        <OrbitControls makeDefault enableDamping dampingFactor={0.12} autoRotate={autoRotar} autoRotateSpeed={1.2} {...controles} />
         {mostrarFPS && <MedidorFPS destino={textoFPS} />}
       </Canvas>
       {superposicion}
@@ -99,7 +120,7 @@ export default function Escena3D({
         </button>
       </div>
       <p className="pointer-events-none absolute bottom-2 left-2 text-[11px] text-white/60">
-        Arrastra para rotar · rueda o pellizco para acercar
+        {ayuda}
       </p>
     </div>
   );

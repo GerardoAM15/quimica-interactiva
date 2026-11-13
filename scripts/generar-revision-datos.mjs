@@ -160,6 +160,14 @@ seccion('Aspecto de los compuestos del catálogo (clasificación automática)', 
   tabla(['Compuesto', 'Estado', 'Forma', 'Color', 'Frase original (PubChem)', 'Fuente de la frase'],
     ac.map(([n, v]) => [n, v.estado, v.forma ?? '—', v.color ?? '—', v.descripcion, v.fuente]), false), ac.length);
 
+const pres = Object.entries(ap.presentaciones.elementos);
+seccion('Presentación de la muestra y uso cotidiano de cada elemento', 'src/data/apariencia.json → presentaciones', ap.presentaciones.fuente.referencias.join('; '), '—',
+  tabla(['Elemento', 'Presentación', 'Efecto', 'Objeto 3D', 'Uso cotidiano'],
+    pres.map(([k, v]) => [k, v.presentacion, v.efecto ?? (v.efectoOpcional ? `${v.efectoOpcional} (opcional)` : '—'), v.vidaDiaria.objeto ?? '—', v.vidaDiaria.uso]), false), pres.length);
+const vm = Object.entries(json('vidas-medias').elementos);
+seccion('Vida media del isótopo más estable (elementos sin isótopos estables)', 'src/data/vidas-medias.json', 'OIEA, LiveChart of Nuclides (ENSDF/NUBASE); descarga automática', 'la indicada (Y = años, d = días, h = horas, m = minutos, s = segundos, ms = milisegundos)',
+  tabla(['Z', 'Isótopo', 'Vida media', 'Unidad'], vm.map(([z, v]) => [z, v.isotopo, num(v.vidaMedia), v.unidad]), false), vm.length);
+
 const md = `# Revisión de datos
 
 Generado con \`npm run revision\` (${new Date().toISOString().slice(0, 10)}) a partir de los datos marcados «pendiente de

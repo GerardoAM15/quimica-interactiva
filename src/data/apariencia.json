@@ -1,51 +1,1085 @@
 {
-  "fuente": {
-    "nombre": "Descripciones de apariencia de los elementos",
-    "referencias": [
-      "CRC Handbook of Chemistry and Physics, sección 4: «The Elements» (descripción física de cada elemento)",
-      "N. N. Greenwood y A. Earnshaw, Chemistry of the Elements, 2.ª ed."
-    ],
-    "pendienteRevision": true,
-    "notas": "Los colores son una aproximación visual (sRGB) de la descripción de cada fuente, no una medición colorimétrica. Los colores de emisión de los tubos de descarga son aproximados. Los elementos sin entrada usan el aspecto por defecto de su estado y familia (metal plateado, etc.)."
+ "fuente": {
+  "nombre": "Descripciones de apariencia de los elementos",
+  "referencias": [
+   "CRC Handbook of Chemistry and Physics, sección 4: «The Elements» (descripción física de cada elemento)",
+   "N. N. Greenwood y A. Earnshaw, Chemistry of the Elements, 2.ª ed."
+  ],
+  "pendienteRevision": true,
+  "notas": "Los colores son una aproximación visual (sRGB) de la descripción de cada fuente, no una medición colorimétrica. Los colores de emisión de los tubos de descarga son aproximados. Los elementos sin entrada usan el aspecto por defecto de su estado y familia (metal plateado, etc.)."
+ },
+ "noObservables": {
+  "descripcion": "Nunca se ha obtenido una cantidad visible del elemento puro (vida media muy corta o producción de pocos átomos).",
+  "z": [
+   85,
+   87,
+   100,
+   101,
+   102,
+   103,
+   104,
+   105,
+   106,
+   107,
+   108,
+   109,
+   110,
+   111,
+   112,
+   113,
+   114,
+   115,
+   116,
+   117,
+   118
+  ]
+ },
+ "elementos": {
+  "H": {
+   "tipo": "gas",
+   "color": "#e48ad6",
+   "descripcion": "Gas incoloro. En un tubo de descarga emite luz rosada-violácea (línea roja Hα de la serie de Balmer)."
   },
-  "noObservables": {
-    "descripcion": "Nunca se ha obtenido una cantidad visible del elemento puro (vida media muy corta o producción de pocos átomos).",
-    "z": [85, 87, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118]
+  "He": {
+   "tipo": "gas",
+   "color": "#ffb08e",
+   "descripcion": "Gas incoloro. En un tubo de descarga brilla con un tono rosado-anaranjado."
+  },
+  "N": {
+   "tipo": "gas",
+   "color": "#c89cff",
+   "descripcion": "Gas incoloro. En un tubo de descarga emite una luz violeta-rosada."
+  },
+  "O": {
+   "tipo": "gas",
+   "color": "#c8b8ff",
+   "descripcion": "Gas incoloro (O₂). En un tubo de descarga emite una luz violeta pálida."
+  },
+  "F": {
+   "tipo": "gas-coloreado",
+   "color": "#efe9a2",
+   "descripcion": "Gas amarillo pálido (F₂), extremadamente reactivo y tóxico."
+  },
+  "Ne": {
+   "tipo": "gas",
+   "color": "#ff5a1f",
+   "descripcion": "Gas incoloro. En un tubo de descarga brilla con el característico rojo-anaranjado de los letreros de neón."
+  },
+  "Cl": {
+   "tipo": "gas-coloreado",
+   "color": "#c6dd56",
+   "descripcion": "Gas amarillo verdoso (Cl₂), tóxico, de olor irritante."
+  },
+  "Ar": {
+   "tipo": "gas",
+   "color": "#b48cff",
+   "descripcion": "Gas incoloro. En un tubo de descarga emite luz lila-violeta."
+  },
+  "Kr": {
+   "tipo": "gas",
+   "color": "#ece6ff",
+   "descripcion": "Gas incoloro. En un tubo de descarga emite luz blanca ligeramente lila."
+  },
+  "Xe": {
+   "tipo": "gas",
+   "color": "#8eb0ff",
+   "descripcion": "Gas incoloro. En un tubo de descarga brilla con un tono azul-lavanda."
+  },
+  "Rn": {
+   "tipo": "gas",
+   "color": null,
+   "descripcion": "Gas incoloro y radiactivo. No se usa en tubos de descarga; color de emisión no representado."
+  },
+  "Br": {
+   "tipo": "liquido",
+   "color": "#7a1a08",
+   "transparente": true,
+   "descripcion": "Líquido rojo pardo oscuro que desprende vapores anaranjados (Br₂)."
+  },
+  "Hg": {
+   "tipo": "liquido",
+   "color": "#d4d7de",
+   "metalico": true,
+   "descripcion": "Metal líquido plateado y brillante a temperatura ambiente."
+  },
+  "C": {
+   "tipo": "no-metal",
+   "color": "#2c2c2e",
+   "rugosidad": 0.55,
+   "metalicidad": 0.35,
+   "descripcion": "Forma estable a 25 °C: grafito, gris negruzco con brillo metálico. Otro alótropo: diamante, transparente."
+  },
+  "P": {
+   "tipo": "no-metal",
+   "color": "#f1ecd8",
+   "rugosidad": 0.6,
+   "descripcion": "Fósforo blanco: sólido céreo blanco-amarillento. Otros alótropos: fósforo rojo y fósforo negro."
+  },
+  "S": {
+   "tipo": "no-metal",
+   "color": "#f2d02c",
+   "rugosidad": 0.75,
+   "descripcion": "Sólido amarillo (azufre rómbico, moléculas S₈)."
+  },
+  "Se": {
+   "tipo": "no-metal",
+   "color": "#5d5e63",
+   "rugosidad": 0.35,
+   "metalicidad": 0.6,
+   "descripcion": "Selenio gris: sólido con brillo metálico (también existe una forma roja)."
+  },
+  "I": {
+   "tipo": "no-metal",
+   "color": "#3a2747",
+   "rugosidad": 0.25,
+   "metalicidad": 0.55,
+   "descripcion": "Cristales negro violáceos con brillo metálico; sublima en vapor violeta."
+  },
+  "B": {
+   "tipo": "no-metal",
+   "color": "#3b3632",
+   "rugosidad": 0.45,
+   "metalicidad": 0.4,
+   "descripcion": "Metaloide: sólido negro pardusco, muy duro."
+  },
+  "Si": {
+   "tipo": "metal",
+   "color": "#6e7684",
+   "rugosidad": 0.25,
+   "metalicidad": 0.7,
+   "descripcion": "Metaloide: sólido gris azulado con brillo metálico, quebradizo."
+  },
+  "Ge": {
+   "tipo": "metal",
+   "color": "#9aa0a9",
+   "rugosidad": 0.25,
+   "descripcion": "Metaloide: sólido blanco grisáceo con brillo metálico, quebradizo."
+  },
+  "As": {
+   "tipo": "metal",
+   "color": "#7b7d82",
+   "rugosidad": 0.4,
+   "descripcion": "Metaloide: arsénico gris, sólido con brillo metálico y quebradizo."
+  },
+  "Sb": {
+   "tipo": "metal",
+   "color": "#b6babf",
+   "rugosidad": 0.3,
+   "descripcion": "Metaloide: sólido blanco plateado, brillante y quebradizo."
+  },
+  "Te": {
+   "tipo": "metal",
+   "color": "#b8bbbf",
+   "rugosidad": 0.3,
+   "descripcion": "Metaloide: sólido blanco plateado, brillante y quebradizo."
+  },
+  "Cu": {
+   "tipo": "metal",
+   "color": "#d67a52",
+   "rugosidad": 0.18,
+   "descripcion": "Metal de color rojizo (cobrizo) y brillante."
+  },
+  "Au": {
+   "tipo": "metal",
+   "color": "#eeb23c",
+   "rugosidad": 0.2,
+   "descripcion": "Metal amarillo brillante, muy maleable."
+  },
+  "Cs": {
+   "tipo": "metal",
+   "color": "#e5d29c",
+   "rugosidad": 0.3,
+   "descripcion": "Metal alcalino blando de color dorado pálido; funde a 28,5 °C."
+  },
+  "Os": {
+   "tipo": "metal",
+   "color": "#b2bfd2",
+   "rugosidad": 0.25,
+   "descripcion": "Metal muy denso, gris azulado brillante."
+  },
+  "Bi": {
+   "tipo": "metal",
+   "color": "#c8b9c2",
+   "rugosidad": 0.3,
+   "descripcion": "Metal quebradizo blanco plateado con tinte rosado."
+  },
+  "Pb": {
+   "tipo": "metal",
+   "color": "#8e939b",
+   "rugosidad": 0.55,
+   "descripcion": "Metal gris azulado, blando y opaco al oxidarse en la superficie."
+  },
+  "Zn": {
+   "tipo": "metal",
+   "color": "#b8c1cb",
+   "rugosidad": 0.4,
+   "descripcion": "Metal blanco azulado."
+  },
+  "Ga": {
+   "tipo": "metal",
+   "color": "#c9ccd1",
+   "rugosidad": 0.2,
+   "descripcion": "Metal plateado blando; funde a 29,8 °C (se derrite en la mano)."
+  },
+  "Na": {
+   "tipo": "metal",
+   "color": "#cfd2d6",
+   "rugosidad": 0.35,
+   "descripcion": "Metal alcalino blando y plateado; se oxida rápidamente al aire (se guarda en aceite)."
+  },
+  "K": {
+   "tipo": "metal",
+   "color": "#cdd0d5",
+   "rugosidad": 0.35,
+   "descripcion": "Metal alcalino blando y plateado; reacciona violentamente con el agua."
+  }
+ },
+ "presentaciones": {
+  "fuente": {
+   "nombre": "Presentación típica de las muestras de colección y usos cotidianos",
+   "referencias": [
+    "T. Gray, The Elements: A Visual Exploration (2009)",
+    "CRC Handbook of Chemistry and Physics, sección 4 (usos y presentación comercial)",
+    "R. Chang, Química, cap. 8 y 21"
+   ],
+   "pendienteRevision": true,
+   "notas": "Forma habitual en que se exhibe o comercializa cada elemento (lingote, alambre, ampolla…) y un ejemplo de uso cotidiano. Es una elección representativa, no la única forma posible."
   },
   "elementos": {
-    "H": { "tipo": "gas", "color": "#e48ad6", "descripcion": "Gas incoloro. En un tubo de descarga emite luz rosada-violácea (línea roja Hα de la serie de Balmer)." },
-    "He": { "tipo": "gas", "color": "#ffb08e", "descripcion": "Gas incoloro. En un tubo de descarga brilla con un tono rosado-anaranjado." },
-    "N": { "tipo": "gas", "color": "#c89cff", "descripcion": "Gas incoloro. En un tubo de descarga emite una luz violeta-rosada." },
-    "O": { "tipo": "gas", "color": "#c8b8ff", "descripcion": "Gas incoloro (O₂). En un tubo de descarga emite una luz violeta pálida." },
-    "F": { "tipo": "gas-coloreado", "color": "#efe9a2", "descripcion": "Gas amarillo pálido (F₂), extremadamente reactivo y tóxico." },
-    "Ne": { "tipo": "gas", "color": "#ff5a1f", "descripcion": "Gas incoloro. En un tubo de descarga brilla con el característico rojo-anaranjado de los letreros de neón." },
-    "Cl": { "tipo": "gas-coloreado", "color": "#c6dd56", "descripcion": "Gas amarillo verdoso (Cl₂), tóxico, de olor irritante." },
-    "Ar": { "tipo": "gas", "color": "#b48cff", "descripcion": "Gas incoloro. En un tubo de descarga emite luz lila-violeta." },
-    "Kr": { "tipo": "gas", "color": "#ece6ff", "descripcion": "Gas incoloro. En un tubo de descarga emite luz blanca ligeramente lila." },
-    "Xe": { "tipo": "gas", "color": "#8eb0ff", "descripcion": "Gas incoloro. En un tubo de descarga brilla con un tono azul-lavanda." },
-    "Rn": { "tipo": "gas", "color": null, "descripcion": "Gas incoloro y radiactivo. No se usa en tubos de descarga; color de emisión no representado." },
-    "Br": { "tipo": "liquido", "color": "#7a1a08", "transparente": true, "descripcion": "Líquido rojo pardo oscuro que desprende vapores anaranjados (Br₂)." },
-    "Hg": { "tipo": "liquido", "color": "#d4d7de", "metalico": true, "descripcion": "Metal líquido plateado y brillante a temperatura ambiente." },
-    "C": { "tipo": "no-metal", "color": "#2c2c2e", "rugosidad": 0.55, "metalicidad": 0.35, "descripcion": "Forma estable a 25 °C: grafito, gris negruzco con brillo metálico. Otro alótropo: diamante, transparente." },
-    "P": { "tipo": "no-metal", "color": "#f1ecd8", "rugosidad": 0.6, "descripcion": "Fósforo blanco: sólido céreo blanco-amarillento. Otros alótropos: fósforo rojo y fósforo negro." },
-    "S": { "tipo": "no-metal", "color": "#f2d02c", "rugosidad": 0.75, "descripcion": "Sólido amarillo (azufre rómbico, moléculas S₈)." },
-    "Se": { "tipo": "no-metal", "color": "#5d5e63", "rugosidad": 0.35, "metalicidad": 0.6, "descripcion": "Selenio gris: sólido con brillo metálico (también existe una forma roja)." },
-    "I": { "tipo": "no-metal", "color": "#3a2747", "rugosidad": 0.25, "metalicidad": 0.55, "descripcion": "Cristales negro violáceos con brillo metálico; sublima en vapor violeta." },
-    "B": { "tipo": "no-metal", "color": "#3b3632", "rugosidad": 0.45, "metalicidad": 0.4, "descripcion": "Metaloide: sólido negro pardusco, muy duro." },
-    "Si": { "tipo": "metal", "color": "#6e7684", "rugosidad": 0.25, "metalicidad": 0.7, "descripcion": "Metaloide: sólido gris azulado con brillo metálico, quebradizo." },
-    "Ge": { "tipo": "metal", "color": "#9aa0a9", "rugosidad": 0.25, "descripcion": "Metaloide: sólido blanco grisáceo con brillo metálico, quebradizo." },
-    "As": { "tipo": "metal", "color": "#7b7d82", "rugosidad": 0.4, "descripcion": "Metaloide: arsénico gris, sólido con brillo metálico y quebradizo." },
-    "Sb": { "tipo": "metal", "color": "#b6babf", "rugosidad": 0.3, "descripcion": "Metaloide: sólido blanco plateado, brillante y quebradizo." },
-    "Te": { "tipo": "metal", "color": "#b8bbbf", "rugosidad": 0.3, "descripcion": "Metaloide: sólido blanco plateado, brillante y quebradizo." },
-    "Cu": { "tipo": "metal", "color": "#c47a4b", "rugosidad": 0.28, "descripcion": "Metal de color rojizo (cobrizo) y brillante." },
-    "Au": { "tipo": "metal", "color": "#f1c457", "rugosidad": 0.2, "descripcion": "Metal amarillo brillante, muy maleable." },
-    "Cs": { "tipo": "metal", "color": "#e5d29c", "rugosidad": 0.3, "descripcion": "Metal alcalino blando de color dorado pálido; funde a 28,5 °C." },
-    "Os": { "tipo": "metal", "color": "#b2bfd2", "rugosidad": 0.25, "descripcion": "Metal muy denso, gris azulado brillante." },
-    "Bi": { "tipo": "metal", "color": "#c8b9c2", "rugosidad": 0.3, "descripcion": "Metal quebradizo blanco plateado con tinte rosado." },
-    "Pb": { "tipo": "metal", "color": "#8e939b", "rugosidad": 0.55, "descripcion": "Metal gris azulado, blando y opaco al oxidarse en la superficie." },
-    "Zn": { "tipo": "metal", "color": "#b8c1cb", "rugosidad": 0.4, "descripcion": "Metal blanco azulado." },
-    "Ga": { "tipo": "metal", "color": "#c9ccd1", "rugosidad": 0.2, "descripcion": "Metal plateado blando; funde a 29,8 °C (se derrite en la mano)." },
-    "Na": { "tipo": "metal", "color": "#cfd2d6", "rugosidad": 0.35, "descripcion": "Metal alcalino blando y plateado; se oxida rápidamente al aire (se guarda en aceite)." },
-    "K": { "tipo": "metal", "color": "#cdd0d5", "rugosidad": 0.35, "descripcion": "Metal alcalino blando y plateado; reacciona violentamente con el agua." }
+   "H": {
+    "presentacion": "tubo",
+    "vidaDiaria": {
+     "objeto": "botella",
+     "uso": "Forma parte del agua; el H₂ se usa como combustible en celdas de hidrógeno."
+    }
+   },
+   "He": {
+    "presentacion": "tubo",
+    "vidaDiaria": {
+     "objeto": "globo",
+     "uso": "Llena globos y dirigibles: es más ligero que el aire y no arde."
+    }
+   },
+   "Li": {
+    "presentacion": "aceite",
+    "vidaDiaria": {
+     "objeto": "bateria",
+     "uso": "Baterías de ion litio de celulares y laptops."
+    }
+   },
+   "Be": {
+    "presentacion": "lamina",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Ventanas de tubos de rayos X y aleaciones cobre-berilio para resortes."
+    }
+   },
+   "B": {
+    "presentacion": "cristales",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Vidrio borosilicatado (de laboratorio y refractario) y ácido bórico."
+    }
+   },
+   "C": {
+    "presentacion": "cristal-octaedrico",
+    "efecto": "diamante",
+    "vidaDiaria": {
+     "objeto": "lapiz",
+     "uso": "La mina del lápiz es grafito mezclado con arcilla; el diamante se usa en joyería y herramientas de corte."
+    },
+    "nota": "Se muestra un cristal de diamante; la forma estable a 25 °C es el grafito (gris negruzco)."
+   },
+   "N": {
+    "presentacion": "tubo",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "El N₂ (78 % del aire) se usa en fertilizantes y para conservar alimentos envasados."
+    }
+   },
+   "O": {
+    "presentacion": "tubo",
+    "vidaDiaria": {
+     "objeto": "tanque",
+     "uso": "Tanques de oxígeno medicinal; es el 21 % del aire que respiramos."
+    }
+   },
+   "F": {
+    "presentacion": "frasco-gas",
+    "vidaDiaria": {
+     "objeto": "tubo-pasta",
+     "uso": "Los fluoruros de la pasta dental protegen el esmalte de los dientes."
+    }
+   },
+   "Ne": {
+    "presentacion": "tubo",
+    "vidaDiaria": {
+     "objeto": "letrero",
+     "uso": "Letreros luminosos de color rojo anaranjado."
+    }
+   },
+   "Na": {
+    "presentacion": "aceite",
+    "vidaDiaria": {
+     "objeto": "salero",
+     "uso": "Forma parte de la sal de mesa (NaCl) y de las lámparas de vapor de sodio del alumbrado público."
+    }
+   },
+   "Mg": {
+    "presentacion": "cinta",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Aleaciones ligeras (llantas, carcasas) y bengalas de luz blanca intensa."
+    }
+   },
+   "Al": {
+    "presentacion": "lamina",
+    "vidaDiaria": {
+     "objeto": "lata",
+     "uso": "Latas de bebidas, papel de aluminio y marcos de ventanas."
+    }
+   },
+   "Si": {
+    "presentacion": "oblea",
+    "vidaDiaria": {
+     "objeto": "chip",
+     "uso": "Los chips y los paneles solares se fabrican sobre obleas de silicio."
+    }
+   },
+   "P": {
+    "presentacion": "cristales",
+    "vidaDiaria": {
+     "objeto": "cerilla",
+     "uso": "La superficie de raspado de las cajas de fósforos contiene fósforo rojo; fertilizantes."
+    }
+   },
+   "S": {
+    "presentacion": "cristales",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Ácido sulfúrico, vulcanización del caucho y fósforos."
+    }
+   },
+   "Cl": {
+    "presentacion": "tubo",
+    "vidaDiaria": {
+     "objeto": "botella",
+     "uso": "La lejía (hipoclorito) y la potabilización del agua usan cloro."
+    }
+   },
+   "Ar": {
+    "presentacion": "tubo",
+    "vidaDiaria": {
+     "objeto": "bombilla",
+     "uso": "Gas de relleno de bombillas incandescentes y de la soldadura."
+    }
+   },
+   "K": {
+    "presentacion": "aceite",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Fertilizantes (potasa); es esencial en la dieta (plátano, papa)."
+    }
+   },
+   "Ca": {
+    "presentacion": "granulos",
+    "vidaDiaria": {
+     "objeto": "tableta",
+     "uso": "Huesos y dientes; suplementos de calcio, cal, yeso y cemento."
+    }
+   },
+   "Sc": {
+    "presentacion": "pepita",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Aleaciones de aluminio para cuadros de bicicleta y bates."
+    }
+   },
+   "Ti": {
+    "presentacion": "barra",
+    "efecto": "iridiscente",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Implantes y prótesis; el TiO₂ es el pigmento blanco de pinturas y protectores solares."
+    }
+   },
+   "V": {
+    "presentacion": "barra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Aceros resistentes para herramientas (llaves y brocas)."
+    }
+   },
+   "Cr": {
+    "presentacion": "trozo",
+    "vidaDiaria": {
+     "objeto": "cuchara",
+     "uso": "El acero inoxidable de los cubiertos contiene cromo; cromado de grifos."
+    }
+   },
+   "Mn": {
+    "presentacion": "trozo",
+    "vidaDiaria": {
+     "objeto": "pila",
+     "uso": "Las pilas alcalinas contienen dióxido de manganeso; aceros."
+    }
+   },
+   "Fe": {
+    "presentacion": "lingote",
+    "vidaDiaria": {
+     "objeto": "clavo",
+     "uso": "Acero de clavos, vigas y autos; la hemoglobina de la sangre contiene hierro."
+    }
+   },
+   "Co": {
+    "presentacion": "granulos",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Pigmento azul cobalto y cátodos de baterías de ion litio."
+    }
+   },
+   "Ni": {
+    "presentacion": "granulos",
+    "vidaDiaria": {
+     "objeto": "moneda",
+     "uso": "Monedas y acero inoxidable."
+    }
+   },
+   "Cu": {
+    "presentacion": "alambre",
+    "vidaDiaria": {
+     "objeto": "cable",
+     "uso": "Cables eléctricos y tuberías; con el tiempo se cubre de pátina verde."
+    },
+    "efectoOpcional": "patina"
+   },
+   "Zn": {
+    "presentacion": "granulos",
+    "vidaDiaria": {
+     "objeto": "pila",
+     "uso": "Galvanizado del acero y pilas alcalinas."
+    }
+   },
+   "Ga": {
+    "presentacion": "lingote",
+    "vidaDiaria": {
+     "objeto": "led",
+     "uso": "LEDs y chips de alta frecuencia (nitruro y arseniuro de galio)."
+    }
+   },
+   "Ge": {
+    "presentacion": "cristales",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Fibra óptica y lentes para cámaras infrarrojas."
+    }
+   },
+   "As": {
+    "presentacion": "cristales",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Semiconductores (arseniuro de galio); históricamente, venenos."
+    }
+   },
+   "Se": {
+    "presentacion": "granulos",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Celdas fotoeléctricas y fotocopiadoras; nutriente esencial en trazas."
+    }
+   },
+   "Br": {
+    "presentacion": "ampolla",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Retardantes de llama; antes, películas fotográficas (bromuro de plata)."
+    }
+   },
+   "Kr": {
+    "presentacion": "tubo",
+    "vidaDiaria": {
+     "objeto": "bombilla",
+     "uso": "Lámparas fluorescentes y de flash."
+    }
+   },
+   "Rb": {
+    "presentacion": "ampolla",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Relojes atómicos y fotocélulas."
+    }
+   },
+   "Sr": {
+    "presentacion": "aceite",
+    "vidaDiaria": {
+     "objeto": "cohete",
+     "uso": "Da el color rojo a los fuegos artificiales y a las bengalas."
+    }
+   },
+   "Y": {
+    "presentacion": "lingote",
+    "vidaDiaria": {
+     "objeto": "led",
+     "uso": "Fósforos de LED blancos y pantallas; láseres YAG."
+    }
+   },
+   "Zr": {
+    "presentacion": "barra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Revestimiento del combustible nuclear; la circonia se usa en coronas dentales."
+    }
+   },
+   "Nb": {
+    "presentacion": "barra",
+    "efecto": "iridiscente",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Imanes superconductores de resonancia magnética y aceros de gasoductos."
+    }
+   },
+   "Mo": {
+    "presentacion": "alambre",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Aceros de alta resistencia y lubricantes (MoS₂)."
+    }
+   },
+   "Tc": {
+    "presentacion": "sin-muestra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Su isótopo tecnecio-99m se usa en medicina nuclear (gammagrafías)."
+    }
+   },
+   "Ru": {
+    "presentacion": "pepita",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Contactos eléctricos resistentes al desgaste y catalizadores."
+    }
+   },
+   "Rh": {
+    "presentacion": "polvo",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Convertidores catalíticos de los autos."
+    }
+   },
+   "Pd": {
+    "presentacion": "lamina",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Convertidores catalíticos y joyería (oro blanco)."
+    }
+   },
+   "Ag": {
+    "presentacion": "moneda",
+    "vidaDiaria": {
+     "objeto": "espejo",
+     "uso": "Los espejos tradicionales tienen una capa de plata; joyería y monedas."
+    }
+   },
+   "Cd": {
+    "presentacion": "barra",
+    "vidaDiaria": {
+     "objeto": "pila",
+     "uso": "Baterías recargables de níquel-cadmio y pigmentos amarillos."
+    }
+   },
+   "In": {
+    "presentacion": "lingote",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Pantallas táctiles: el óxido de indio y estaño (ITO) es conductor y transparente."
+    }
+   },
+   "Sn": {
+    "presentacion": "lingote",
+    "vidaDiaria": {
+     "objeto": "lata",
+     "uso": "Las latas de conserva son de acero recubierto de estaño; soldadura."
+    }
+   },
+   "Sb": {
+    "presentacion": "cristales",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Retardantes de llama y aleaciones de las baterías de plomo."
+    }
+   },
+   "Te": {
+    "presentacion": "cristales",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Paneles solares de telururo de cadmio."
+    }
+   },
+   "I": {
+    "presentacion": "cristales",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Tintura de yodo (antiséptico) y sal yodada."
+    }
+   },
+   "Xe": {
+    "presentacion": "tubo",
+    "vidaDiaria": {
+     "objeto": "bombilla",
+     "uso": "Faros de xenón de los autos y lámparas de flash."
+    }
+   },
+   "Cs": {
+    "presentacion": "ampolla",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Relojes atómicos de cesio, que definen el segundo."
+    }
+   },
+   "Ba": {
+    "presentacion": "aceite",
+    "vidaDiaria": {
+     "objeto": "cohete",
+     "uso": "Color verde de los fuegos artificiales; el sulfato de bario se usa como contraste en radiografías."
+    }
+   },
+   "La": {
+    "presentacion": "trozo",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Lentes de cámaras y baterías de níquel-hidruro metálico."
+    }
+   },
+   "Ce": {
+    "presentacion": "lingote",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Piedras de encendedor (ferrocerio) y pulido de vidrio."
+    }
+   },
+   "Pr": {
+    "presentacion": "barra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Imanes potentes y vidrio de gafas de soldador."
+    }
+   },
+   "Nd": {
+    "presentacion": "trozo",
+    "vidaDiaria": {
+     "objeto": "iman",
+     "uso": "Imanes de neodimio de audífonos, motores y discos duros."
+    }
+   },
+   "Pm": {
+    "presentacion": "sin-muestra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Se ha usado en pinturas luminosas y baterías nucleares; es muy escaso."
+    }
+   },
+   "Sm": {
+    "presentacion": "lamina",
+    "vidaDiaria": {
+     "objeto": "iman",
+     "uso": "Imanes de samario-cobalto, resistentes al calor."
+    }
+   },
+   "Eu": {
+    "presentacion": "ampolla",
+    "vidaDiaria": {
+     "objeto": "led",
+     "uso": "Fósforo rojo de pantallas y tinta fluorescente de los billetes de euro."
+    }
+   },
+   "Gd": {
+    "presentacion": "barra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Agente de contraste en resonancia magnética."
+    }
+   },
+   "Tb": {
+    "presentacion": "trozo",
+    "vidaDiaria": {
+     "objeto": "led",
+     "uso": "Fósforo verde de pantallas y lámparas."
+    }
+   },
+   "Dy": {
+    "presentacion": "granulos",
+    "vidaDiaria": {
+     "objeto": "iman",
+     "uso": "Aditivo de los imanes de neodimio de autos eléctricos."
+    }
+   },
+   "Ho": {
+    "presentacion": "lamina",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Láseres médicos."
+    }
+   },
+   "Er": {
+    "presentacion": "lingote",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Amplificadores de fibra óptica y láseres dermatológicos."
+    }
+   },
+   "Tm": {
+    "presentacion": "trozo",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Equipos portátiles de rayos X."
+    }
+   },
+   "Yb": {
+    "presentacion": "granulos",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Relojes atómicos experimentales y láseres."
+    }
+   },
+   "Lu": {
+    "presentacion": "barra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Catalizadores y detectores de tomografía PET."
+    }
+   },
+   "Hf": {
+    "presentacion": "barra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Barras de control de reactores nucleares y transistores de chips."
+    }
+   },
+   "Ta": {
+    "presentacion": "lamina",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Condensadores de celulares y computadoras."
+    }
+   },
+   "W": {
+    "presentacion": "barra",
+    "vidaDiaria": {
+     "objeto": "bombilla",
+     "uso": "Filamento de las bombillas incandescentes; brocas de carburo de tungsteno."
+    }
+   },
+   "Re": {
+    "presentacion": "barra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Aleaciones para turbinas de avión."
+    }
+   },
+   "Os": {
+    "presentacion": "pepita",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Aleaciones muy duras para puntas de plumas fuente y contactos."
+    }
+   },
+   "Ir": {
+    "presentacion": "pepita",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Bujías de larga duración y contactos eléctricos."
+    }
+   },
+   "Pt": {
+    "presentacion": "pepita",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Joyería y convertidores catalíticos."
+    }
+   },
+   "Au": {
+    "presentacion": "lingote",
+    "vidaDiaria": {
+     "objeto": "anillo",
+     "uso": "Joyería, contactos de circuitos electrónicos y reserva de valor."
+    }
+   },
+   "Hg": {
+    "presentacion": "gota",
+    "vidaDiaria": {
+     "objeto": "termometro",
+     "uso": "Termómetros y barómetros antiguos; hoy se reemplaza por ser tóxico."
+    }
+   },
+   "Tl": {
+    "presentacion": "barra",
+    "efecto": "opaco",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Muy tóxico; se usó en raticidas, hoy prohibidos."
+    }
+   },
+   "Pb": {
+    "presentacion": "lingote",
+    "efecto": "opaco",
+    "vidaDiaria": {
+     "objeto": "bateria",
+     "uso": "Baterías de los autos (plomo-ácido) y blindaje contra rayos X."
+    }
+   },
+   "Bi": {
+    "presentacion": "cristal-escalonado",
+    "efecto": "iridiscente",
+    "vidaDiaria": {
+     "objeto": "tableta",
+     "uso": "Medicamentos para el estómago (subsalicilato de bismuto)."
+    }
+   },
+   "Po": {
+    "presentacion": "sin-muestra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Eliminadores de electricidad estática en la industria; muy radiactivo."
+    }
+   },
+   "At": {
+    "presentacion": "sin-muestra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Solo investigación (se estudia para radioterapia)."
+    }
+   },
+   "Rn": {
+    "presentacion": "sin-muestra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Gas radiactivo natural que puede acumularse en sótanos; se mide por su riesgo para la salud."
+    }
+   },
+   "Fr": {
+    "presentacion": "sin-muestra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Solo investigación científica."
+    }
+   },
+   "Ra": {
+    "presentacion": "sin-muestra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Antes se usó en pinturas luminosas de relojes; hoy se evita por su radiactividad."
+    }
+   },
+   "Ac": {
+    "presentacion": "sin-muestra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Investigación y fuentes de neutrones."
+    }
+   },
+   "Th": {
+    "presentacion": "lamina",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Camisas de lámparas de gas antiguas y aleaciones de magnesio."
+    }
+   },
+   "Pa": {
+    "presentacion": "sin-muestra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Solo investigación científica."
+    }
+   },
+   "U": {
+    "presentacion": "barra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Combustible de las centrales nucleares."
+    }
+   },
+   "Np": {
+    "presentacion": "sin-muestra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Investigación; precursor del plutonio-238."
+    }
+   },
+   "Pu": {
+    "presentacion": "sin-muestra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Generadores eléctricos de sondas espaciales (plutonio-238)."
+    }
+   },
+   "Am": {
+    "presentacion": "sin-muestra",
+    "vidaDiaria": {
+     "objeto": "detector",
+     "uso": "Los detectores de humo iónicos contienen una cantidad diminuta de americio-241."
+    }
+   },
+   "Cm": {
+    "presentacion": "sin-muestra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Fuente de partículas alfa en espectrómetros de los robots exploradores de Marte."
+    }
+   },
+   "Bk": {
+    "presentacion": "sin-muestra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Solo se ha producido en laboratorio, para investigación científica."
+    }
+   },
+   "Cf": {
+    "presentacion": "sin-muestra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "El californio-252 es fuente de neutrones para arrancar reactores y analizar materiales."
+    }
+   },
+   "Es": {
+    "presentacion": "sin-muestra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Solo se ha producido en laboratorio, para investigación científica."
+    }
+   },
+   "Fm": {
+    "presentacion": "sin-muestra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Solo se ha producido en laboratorio, para investigación científica."
+    }
+   },
+   "Md": {
+    "presentacion": "sin-muestra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Solo se ha producido en laboratorio, para investigación científica."
+    }
+   },
+   "No": {
+    "presentacion": "sin-muestra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Solo se ha producido en laboratorio, para investigación científica."
+    }
+   },
+   "Lr": {
+    "presentacion": "sin-muestra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Solo se ha producido en laboratorio, para investigación científica."
+    }
+   },
+   "Rf": {
+    "presentacion": "sin-muestra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Solo se ha producido en laboratorio, para investigación científica."
+    }
+   },
+   "Db": {
+    "presentacion": "sin-muestra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Solo se ha producido en laboratorio, para investigación científica."
+    }
+   },
+   "Sg": {
+    "presentacion": "sin-muestra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Solo se ha producido en laboratorio, para investigación científica."
+    }
+   },
+   "Bh": {
+    "presentacion": "sin-muestra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Solo se ha producido en laboratorio, para investigación científica."
+    }
+   },
+   "Hs": {
+    "presentacion": "sin-muestra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Solo se ha producido en laboratorio, para investigación científica."
+    }
+   },
+   "Mt": {
+    "presentacion": "sin-muestra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Solo se ha producido en laboratorio, para investigación científica."
+    }
+   },
+   "Ds": {
+    "presentacion": "sin-muestra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Solo se ha producido en laboratorio, para investigación científica."
+    }
+   },
+   "Rg": {
+    "presentacion": "sin-muestra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Solo se ha producido en laboratorio, para investigación científica."
+    }
+   },
+   "Cn": {
+    "presentacion": "sin-muestra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Solo se ha producido en laboratorio, para investigación científica."
+    }
+   },
+   "Nh": {
+    "presentacion": "sin-muestra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Solo se ha producido en laboratorio, para investigación científica."
+    }
+   },
+   "Fl": {
+    "presentacion": "sin-muestra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Solo se ha producido en laboratorio, para investigación científica."
+    }
+   },
+   "Mc": {
+    "presentacion": "sin-muestra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Solo se ha producido en laboratorio, para investigación científica."
+    }
+   },
+   "Lv": {
+    "presentacion": "sin-muestra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Solo se ha producido en laboratorio, para investigación científica."
+    }
+   },
+   "Ts": {
+    "presentacion": "sin-muestra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Solo se ha producido en laboratorio, para investigación científica."
+    }
+   },
+   "Og": {
+    "presentacion": "sin-muestra",
+    "vidaDiaria": {
+     "objeto": null,
+     "uso": "Solo se ha producido en laboratorio, para investigación científica."
+    }
+   }
   }
+ }
 }

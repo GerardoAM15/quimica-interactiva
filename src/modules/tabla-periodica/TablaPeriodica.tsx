@@ -22,12 +22,14 @@ import {
 
 const GraficaTendencias = lazy(() => import('./GraficaTendencias'));
 const Tabla3D = lazy(() => import('./Tabla3D'));
+const Vitrina3D = lazy(() => import('./Vitrina3D'));
 
-type Vista = 'tabla' | 'tendencias' | 'tabla3d';
+type Vista = 'tabla' | 'tendencias' | 'tabla3d' | 'vitrina';
 const PESTANAS = [
   { id: 'tabla', titulo: 'Tabla periódica' },
   { id: 'tendencias', titulo: 'Tendencias vs Z' },
   { id: 'tabla3d', titulo: 'Tabla en 3D' },
+  { id: 'vitrina', titulo: 'Vitrina 3D' },
 ] as const;
 
 const esPropiedad = (m: ModoColor): m is ClavePropiedad => PROPIEDADES.some((p) => p.clave === m);
@@ -53,7 +55,7 @@ export default function TablaPeriodica() {
   };
 
   useEffect(() => {
-    if (!desplazar.current || !seleccion || vista !== 'tabla') return;
+    if (!desplazar.current || !seleccion || (vista !== 'tabla' && vista !== 'vitrina')) return;
     desplazar.current = false;
     const reducido = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
     ficha.current?.scrollIntoView({ behavior: reducido ? 'auto' : 'smooth', block: 'start' });
@@ -116,6 +118,14 @@ export default function TablaPeriodica() {
         {vista === 'tendencias' && (
           <Suspense fallback={<Cargando texto="Cargando gráfica…" />}>
             <GraficaTendencias alElegir={(z) => { seleccionar(z); setVista('tabla'); }} />
+          </Suspense>
+        )}
+        {vista === 'vitrina' && (
+          <Suspense fallback={<Cargando texto="Cargando la vitrina 3D…" />}>
+            <Vitrina3D alElegir={seleccionar} />
+            <div ref={ficha} className="scroll-mt-20">
+              {seleccion && <FichaElemento z={seleccion} alElegir={seleccionar} />}
+            </div>
           </Suspense>
         )}
         {vista === 'tabla3d' && (

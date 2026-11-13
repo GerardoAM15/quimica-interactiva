@@ -179,12 +179,12 @@ export function TuboDescarga({ ap }: { ap: AparienciaMuestra }) {
       {/* Columna luminosa (plasma) con halos aditivos */}
       <mesh>
         <cylinderGeometry args={[0.12, 0.12, 3.4, 24]} />
-        <meshBasicMaterial ref={brillo} color={color} transparent opacity={0.8} />
+        <meshBasicMaterial ref={brillo} color={color} transparent opacity={0.8} toneMapped={false} />
       </mesh>
       {[0.2, 0.3, 0.45].map((r, i) => (
         <mesh key={r}>
           <cylinderGeometry args={[r, r, 3.4, 24, 1, true]} />
-          <meshBasicMaterial color={color} transparent opacity={0.22 - i * 0.06} blending={THREE.AdditiveBlending} depthWrite={false} side={THREE.DoubleSide} />
+          <meshBasicMaterial color={color} transparent opacity={0.22 - i * 0.06} blending={THREE.AdditiveBlending} depthWrite={false} side={THREE.DoubleSide} toneMapped={false} />
         </mesh>
       ))}
       {/* Electrodos */}

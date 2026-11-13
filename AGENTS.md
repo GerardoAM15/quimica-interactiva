@@ -62,6 +62,13 @@ docs/            documentación, referencias de tablas, tabla_validacion.md
   `SelectorElemento`, `InsigniaRevision` (marca «pendiente de revisión»).
 - `escena3d/Escena3D` (Canvas R3F con controles, luces, entorno local sin HDR externo y botón FPS) y
   `escena3d/Cristal3D` (redes cristalinas a partir de `chem/cristales`).
+- `escena3d/Presentaciones` (geometría procedural por presentación: lingote, alambre, ampolla, tubo de
+  descarga…; `geometriaMiniatura` para LOD) y `escena3d/ObjetosCotidianos` (pestaña «En la vida diaria»).
+  `Escena3D entorno="estudio"` usa el HDRI local `public/hdri/estudio_1k.hdr` (Poly Haven, CC0; en el precache).
+- Módulo 1: `Muestra3D` (exporta `Encuadre`, que centra la cámara según la caja envolvente), `VidaDiaria3D` y
+  `Vitrina3D` (118 casilleros, InstancedMesh por presentación + LOD). Los datos están en el bloque
+  `presentaciones` de `src/data/apariencia.json` y en `src/data/vidas-medias.json` (OIEA); los elementos
+  «sin muestra» llevan placa de aviso y vida media: **nunca se inventa su aspecto**.
 - `atomo/DiagramaOrbitales` y `atomo/ModeloBohr`.
 - Cálculos pesados (p. ej. isosuperficies de orbitales) en un Web Worker (`modules/orbitales-3d/orbitales.worker.ts`).
 - `molecula/`: `Molecula3D` (bolas y barras / espacio lleno / alambre), `Estructura2D` (dibujo de RDKit),

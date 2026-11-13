@@ -42,7 +42,7 @@ export default defineConfig({
       },
       workbox: {
         // Se precachea todo lo compilado (incluido el WASM de RDKit cuando exista).
-        globPatterns: ['**/*.{js,css,html,svg,png,webp,woff2,wasm,json,sdf}'],
+        globPatterns: ['**/*.{js,css,html,svg,png,webp,woff2,wasm,json,sdf,hdr}'],
         maximumFileSizeToCacheInBytes: 15 * 1024 * 1024,
         navigateFallback: 'index.html',
         cleanupOutdatedCaches: true,

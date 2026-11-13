@@ -7,7 +7,7 @@ fuente citada. El script solo lee: **no cambia ningún valor**.
 Cómo usarlo: compara cada fila con tu libro y anota en la columna «En mi libro» el valor si difiere (o ✓ si
 coincide). Con esa lista se corrigen los valores y se retira la marca «pendiente de revisión».
 
-Total: 664 filas en 24 tablas. Los números se muestran tal como están guardados, con coma decimal.
+Total: 820 filas en 26 tablas. Los números se muestran tal como están guardados, con coma decimal.
 
 ## A. Datos citados de Chang (y Brown)
 
@@ -896,3 +896,177 @@ Colores y clasificaciones aproximados que alimentan las muestras 3D; se incluyen
 | yodo (I2) | sólido | cristal | negro violáceo | BLUISH BLACK OR DARK PURPLE CRYSTALS WITH PUNGENT ODOUR. | ILO-WHO International Chemical Safety Cards (ICSCs) |
 | yodometano | líquido | — | incoloro | Methyl iodide appears as a colorless liquid that turns brown on exposure to light. Denser than water. Contact may irritate skin, eyes and mucous membranes. Very toxic by ingestion, inhalation and skin absorption. | CAMEO Chemicals |
 | yoduro de hidrógeno | gas | — | incoloro | Hydrogen iodide, anhydrous appears as a colorless to yellow/brown gas with an acrid odor. Nonflammable. Toxic by inhalation. Strongly irritates skin, eyes and mucous membranes. Long-term inhalation of low concentrations  | CAMEO Chemicals |
+
+### Presentación de la muestra y uso cotidiano de cada elemento
+
+- Origen: `src/data/apariencia.json → presentaciones`
+- Fuente citada: T. Gray, The Elements: A Visual Exploration (2009); CRC Handbook of Chemistry and Physics, sección 4 (usos y presentación comercial); R. Chang, Química, cap. 8 y 21
+- Unidad: —
+
+| Elemento | Presentación | Efecto | Objeto 3D | Uso cotidiano |
+|---|---|---|---|---|
+| H | tubo | — | botella | Forma parte del agua; el H₂ se usa como combustible en celdas de hidrógeno. |
+| He | tubo | — | globo | Llena globos y dirigibles: es más ligero que el aire y no arde. |
+| Li | aceite | — | bateria | Baterías de ion litio de celulares y laptops. |
+| Be | lamina | — | — | Ventanas de tubos de rayos X y aleaciones cobre-berilio para resortes. |
+| B | cristales | — | — | Vidrio borosilicatado (de laboratorio y refractario) y ácido bórico. |
+| C | cristal-octaedrico | diamante | lapiz | La mina del lápiz es grafito mezclado con arcilla; el diamante se usa en joyería y herramientas de corte. |
+| N | tubo | — | — | El N₂ (78 % del aire) se usa en fertilizantes y para conservar alimentos envasados. |
+| O | tubo | — | tanque | Tanques de oxígeno medicinal; es el 21 % del aire que respiramos. |
+| F | frasco-gas | — | tubo-pasta | Los fluoruros de la pasta dental protegen el esmalte de los dientes. |
+| Ne | tubo | — | letrero | Letreros luminosos de color rojo anaranjado. |
+| Na | aceite | — | salero | Forma parte de la sal de mesa (NaCl) y de las lámparas de vapor de sodio del alumbrado público. |
+| Mg | cinta | — | — | Aleaciones ligeras (llantas, carcasas) y bengalas de luz blanca intensa. |
+| Al | lamina | — | lata | Latas de bebidas, papel de aluminio y marcos de ventanas. |
+| Si | oblea | — | chip | Los chips y los paneles solares se fabrican sobre obleas de silicio. |
+| P | cristales | — | cerilla | La superficie de raspado de las cajas de fósforos contiene fósforo rojo; fertilizantes. |
+| S | cristales | — | — | Ácido sulfúrico, vulcanización del caucho y fósforos. |
+| Cl | tubo | — | botella | La lejía (hipoclorito) y la potabilización del agua usan cloro. |
+| Ar | tubo | — | bombilla | Gas de relleno de bombillas incandescentes y de la soldadura. |
+| K | aceite | — | — | Fertilizantes (potasa); es esencial en la dieta (plátano, papa). |
+| Ca | granulos | — | tableta | Huesos y dientes; suplementos de calcio, cal, yeso y cemento. |
+| Sc | pepita | — | — | Aleaciones de aluminio para cuadros de bicicleta y bates. |
+| Ti | barra | iridiscente | — | Implantes y prótesis; el TiO₂ es el pigmento blanco de pinturas y protectores solares. |
+| V | barra | — | — | Aceros resistentes para herramientas (llaves y brocas). |
+| Cr | trozo | — | cuchara | El acero inoxidable de los cubiertos contiene cromo; cromado de grifos. |
+| Mn | trozo | — | pila | Las pilas alcalinas contienen dióxido de manganeso; aceros. |
+| Fe | lingote | — | clavo | Acero de clavos, vigas y autos; la hemoglobina de la sangre contiene hierro. |
+| Co | granulos | — | — | Pigmento azul cobalto y cátodos de baterías de ion litio. |
+| Ni | granulos | — | moneda | Monedas y acero inoxidable. |
+| Cu | alambre | patina (opcional) | cable | Cables eléctricos y tuberías; con el tiempo se cubre de pátina verde. |
+| Zn | granulos | — | pila | Galvanizado del acero y pilas alcalinas. |
+| Ga | lingote | — | led | LEDs y chips de alta frecuencia (nitruro y arseniuro de galio). |
+| Ge | cristales | — | — | Fibra óptica y lentes para cámaras infrarrojas. |
+| As | cristales | — | — | Semiconductores (arseniuro de galio); históricamente, venenos. |
+| Se | granulos | — | — | Celdas fotoeléctricas y fotocopiadoras; nutriente esencial en trazas. |
+| Br | ampolla | — | — | Retardantes de llama; antes, películas fotográficas (bromuro de plata). |
+| Kr | tubo | — | bombilla | Lámparas fluorescentes y de flash. |
+| Rb | ampolla | — | — | Relojes atómicos y fotocélulas. |
+| Sr | aceite | — | cohete | Da el color rojo a los fuegos artificiales y a las bengalas. |
+| Y | lingote | — | led | Fósforos de LED blancos y pantallas; láseres YAG. |
+| Zr | barra | — | — | Revestimiento del combustible nuclear; la circonia se usa en coronas dentales. |
+| Nb | barra | iridiscente | — | Imanes superconductores de resonancia magnética y aceros de gasoductos. |
+| Mo | alambre | — | — | Aceros de alta resistencia y lubricantes (MoS₂). |
+| Tc | sin-muestra | — | — | Su isótopo tecnecio-99m se usa en medicina nuclear (gammagrafías). |
+| Ru | pepita | — | — | Contactos eléctricos resistentes al desgaste y catalizadores. |
+| Rh | polvo | — | — | Convertidores catalíticos de los autos. |
+| Pd | lamina | — | — | Convertidores catalíticos y joyería (oro blanco). |
+| Ag | moneda | — | espejo | Los espejos tradicionales tienen una capa de plata; joyería y monedas. |
+| Cd | barra | — | pila | Baterías recargables de níquel-cadmio y pigmentos amarillos. |
+| In | lingote | — | — | Pantallas táctiles: el óxido de indio y estaño (ITO) es conductor y transparente. |
+| Sn | lingote | — | lata | Las latas de conserva son de acero recubierto de estaño; soldadura. |
+| Sb | cristales | — | — | Retardantes de llama y aleaciones de las baterías de plomo. |
+| Te | cristales | — | — | Paneles solares de telururo de cadmio. |
+| I | cristales | — | — | Tintura de yodo (antiséptico) y sal yodada. |
+| Xe | tubo | — | bombilla | Faros de xenón de los autos y lámparas de flash. |
+| Cs | ampolla | — | — | Relojes atómicos de cesio, que definen el segundo. |
+| Ba | aceite | — | cohete | Color verde de los fuegos artificiales; el sulfato de bario se usa como contraste en radiografías. |
+| La | trozo | — | — | Lentes de cámaras y baterías de níquel-hidruro metálico. |
+| Ce | lingote | — | — | Piedras de encendedor (ferrocerio) y pulido de vidrio. |
+| Pr | barra | — | — | Imanes potentes y vidrio de gafas de soldador. |
+| Nd | trozo | — | iman | Imanes de neodimio de audífonos, motores y discos duros. |
+| Pm | sin-muestra | — | — | Se ha usado en pinturas luminosas y baterías nucleares; es muy escaso. |
+| Sm | lamina | — | iman | Imanes de samario-cobalto, resistentes al calor. |
+| Eu | ampolla | — | led | Fósforo rojo de pantallas y tinta fluorescente de los billetes de euro. |
+| Gd | barra | — | — | Agente de contraste en resonancia magnética. |
+| Tb | trozo | — | led | Fósforo verde de pantallas y lámparas. |
+| Dy | granulos | — | iman | Aditivo de los imanes de neodimio de autos eléctricos. |
+| Ho | lamina | — | — | Láseres médicos. |
+| Er | lingote | — | — | Amplificadores de fibra óptica y láseres dermatológicos. |
+| Tm | trozo | — | — | Equipos portátiles de rayos X. |
+| Yb | granulos | — | — | Relojes atómicos experimentales y láseres. |
+| Lu | barra | — | — | Catalizadores y detectores de tomografía PET. |
+| Hf | barra | — | — | Barras de control de reactores nucleares y transistores de chips. |
+| Ta | lamina | — | — | Condensadores de celulares y computadoras. |
+| W | barra | — | bombilla | Filamento de las bombillas incandescentes; brocas de carburo de tungsteno. |
+| Re | barra | — | — | Aleaciones para turbinas de avión. |
+| Os | pepita | — | — | Aleaciones muy duras para puntas de plumas fuente y contactos. |
+| Ir | pepita | — | — | Bujías de larga duración y contactos eléctricos. |
+| Pt | pepita | — | — | Joyería y convertidores catalíticos. |
+| Au | lingote | — | anillo | Joyería, contactos de circuitos electrónicos y reserva de valor. |
+| Hg | gota | — | termometro | Termómetros y barómetros antiguos; hoy se reemplaza por ser tóxico. |
+| Tl | barra | opaco | — | Muy tóxico; se usó en raticidas, hoy prohibidos. |
+| Pb | lingote | opaco | bateria | Baterías de los autos (plomo-ácido) y blindaje contra rayos X. |
+| Bi | cristal-escalonado | iridiscente | tableta | Medicamentos para el estómago (subsalicilato de bismuto). |
+| Po | sin-muestra | — | — | Eliminadores de electricidad estática en la industria; muy radiactivo. |
+| At | sin-muestra | — | — | Solo investigación (se estudia para radioterapia). |
+| Rn | sin-muestra | — | — | Gas radiactivo natural que puede acumularse en sótanos; se mide por su riesgo para la salud. |
+| Fr | sin-muestra | — | — | Solo investigación científica. |
+| Ra | sin-muestra | — | — | Antes se usó en pinturas luminosas de relojes; hoy se evita por su radiactividad. |
+| Ac | sin-muestra | — | — | Investigación y fuentes de neutrones. |
+| Th | lamina | — | — | Camisas de lámparas de gas antiguas y aleaciones de magnesio. |
+| Pa | sin-muestra | — | — | Solo investigación científica. |
+| U | barra | — | — | Combustible de las centrales nucleares. |
+| Np | sin-muestra | — | — | Investigación; precursor del plutonio-238. |
+| Pu | sin-muestra | — | — | Generadores eléctricos de sondas espaciales (plutonio-238). |
+| Am | sin-muestra | — | detector | Los detectores de humo iónicos contienen una cantidad diminuta de americio-241. |
+| Cm | sin-muestra | — | — | Fuente de partículas alfa en espectrómetros de los robots exploradores de Marte. |
+| Bk | sin-muestra | — | — | Solo se ha producido en laboratorio, para investigación científica. |
+| Cf | sin-muestra | — | — | El californio-252 es fuente de neutrones para arrancar reactores y analizar materiales. |
+| Es | sin-muestra | — | — | Solo se ha producido en laboratorio, para investigación científica. |
+| Fm | sin-muestra | — | — | Solo se ha producido en laboratorio, para investigación científica. |
+| Md | sin-muestra | — | — | Solo se ha producido en laboratorio, para investigación científica. |
+| No | sin-muestra | — | — | Solo se ha producido en laboratorio, para investigación científica. |
+| Lr | sin-muestra | — | — | Solo se ha producido en laboratorio, para investigación científica. |
+| Rf | sin-muestra | — | — | Solo se ha producido en laboratorio, para investigación científica. |
+| Db | sin-muestra | — | — | Solo se ha producido en laboratorio, para investigación científica. |
+| Sg | sin-muestra | — | — | Solo se ha producido en laboratorio, para investigación científica. |
+| Bh | sin-muestra | — | — | Solo se ha producido en laboratorio, para investigación científica. |
+| Hs | sin-muestra | — | — | Solo se ha producido en laboratorio, para investigación científica. |
+| Mt | sin-muestra | — | — | Solo se ha producido en laboratorio, para investigación científica. |
+| Ds | sin-muestra | — | — | Solo se ha producido en laboratorio, para investigación científica. |
+| Rg | sin-muestra | — | — | Solo se ha producido en laboratorio, para investigación científica. |
+| Cn | sin-muestra | — | — | Solo se ha producido en laboratorio, para investigación científica. |
+| Nh | sin-muestra | — | — | Solo se ha producido en laboratorio, para investigación científica. |
+| Fl | sin-muestra | — | — | Solo se ha producido en laboratorio, para investigación científica. |
+| Mc | sin-muestra | — | — | Solo se ha producido en laboratorio, para investigación científica. |
+| Lv | sin-muestra | — | — | Solo se ha producido en laboratorio, para investigación científica. |
+| Ts | sin-muestra | — | — | Solo se ha producido en laboratorio, para investigación científica. |
+| Og | sin-muestra | — | — | Solo se ha producido en laboratorio, para investigación científica. |
+
+### Vida media del isótopo más estable (elementos sin isótopos estables)
+
+- Origen: `src/data/vidas-medias.json`
+- Fuente citada: OIEA, LiveChart of Nuclides (ENSDF/NUBASE); descarga automática
+- Unidad: la indicada (Y = años, d = días, h = horas, m = minutos, s = segundos, ms = milisegundos)
+
+| Z | Isótopo | Vida media | Unidad |
+|---|---|---|---|
+| 43 | Tc-97 | 4,21 × 10⁶ | Y |
+| 61 | Pm-145 | 17,7 | Y |
+| 83 | Bi-209 | 2,01 × 10¹⁹ | Y |
+| 84 | Po-209 | 124 | Y |
+| 85 | At-210 | 8,1 | h |
+| 86 | Rn-222 | 3,8235 | d |
+| 87 | Fr-223 | 22 | m |
+| 88 | Ra-226 | 1600 | Y |
+| 89 | Ac-227 | 21,772 | Y |
+| 90 | Th-232 | 1,4 × 10¹⁰ | Y |
+| 91 | Pa-231 | 32570 | Y |
+| 92 | U-238 | 4,468 × 10⁹ | Y |
+| 93 | Np-237 | 2,144 × 10⁶ | Y |
+| 94 | Pu-244 | 8,13 × 10⁷ | Y |
+| 95 | Am-243 | 7364 | Y |
+| 96 | Cm-247 | 1,56 × 10⁷ | Y |
+| 97 | Bk-247 | 1380 | Y |
+| 98 | Cf-251 | 898 | Y |
+| 99 | Es-252 | 471,7 | d |
+| 100 | Fm-257 | 100,5 | d |
+| 101 | Md-258 | 51,5 | d |
+| 102 | No-259 | 58 | m |
+| 103 | Lr-266 | 11 | h |
+| 104 | Rf-267 | 1,3 | h |
+| 105 | Db-268 | 28 | h |
+| 106 | Sg-269 | 130 | s |
+| 107 | Bh-278 | 19 | m |
+| 108 | Hs-278 | 19 | m |
+| 109 | Mt-282 | 1,1 | m |
+| 110 | Ds-282 | 1,1 | m |
+| 111 | Rg-286 | 11 | m |
+| 112 | Cn-286 | 11 | m |
+| 113 | Nh-286 | 9,5 | s |
+| 114 | Fl-290 | 19 | s |
+| 115 | Mc-290 | 0,65 | s |
+| 116 | Lv-293 | 95 | ms |
+| 117 | Ts-294 | 51 | ms |
+| 118 | Og-294 | 0,58 | ms |

@@ -1,6 +1,6 @@
 # Datos pendientes de revisión
 
-Generado con `npm run pendientes` (2026-11-05). Son valores transcritos de libros o
+Generado con `npm run pendientes` (2026-11-13). Son valores transcritos de libros o
 clasificados automáticamente que la aplicación muestra con la insignia «Pendiente de revisión». Al verificarlos contra
 la fuente, cambia `pendienteRevision` a `false` (o quita la insignia) y vuelve a ejecutar las pruebas.
 
@@ -39,6 +39,7 @@ la fuente, cambia `pendienteRevision` a `false` (o quita la insignia) y vuelve a
 - `src/modules/soluciones/Soluciones.tsx`: 2
 - `src/modules/tabla-periodica/EstructuraCristalina.tsx`: 1
 - `src/modules/tabla-periodica/Muestra3D.tsx`: 1
+- `src/modules/tabla-periodica/VidaDiaria3D.tsx`: 1
 - `src/modules/termoquimica/Termoquimica.tsx`: 3
 - `src/modules/titulacion/Titulacion.tsx`: 1
 - `src/modules/visor-moleculas/VisorMoleculas.tsx`: 1
