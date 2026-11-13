@@ -10,8 +10,8 @@ Documento de relevo: permite retomar el trabajo (con cualquier asistente) sin le
 
 ## Fase actual
 
-**M0 — Preparación: terminada, en espera de la aprobación del autor.**
-Siguiente: **M1 — Pulir lo pendiente** (no empezar sin confirmación).
+**M1 — Pulir lo pendiente: terminada, en espera de la aprobación del autor** (commit local, sin subir).
+Siguiente: **M2 — Muestras 3D realistas y Vitrina 3D** (no empezar sin confirmación).
 
 ## Terminado
 
@@ -24,9 +24,10 @@ Siguiente: **M1 — Pulir lo pendiente** (no empezar sin confirmación).
 | — | Compuestos: red cristalina y muestra 3D a 25 °C | `0f1cd9a` |
 | 7 | Modo estudio, simulacros y hojas de trabajo imprimibles | `5023300` |
 | 8 | Uso sin conexión completo, accesibilidad, documentación, README | `e608c57` |
-| M0 | `AGENTS.md`, `docs/ESTADO.md`, `prompt_quimica_mejoras.md` | (commit local, sin subir) |
+| M0 | `AGENTS.md`, `docs/ESTADO.md`, `prompt_quimica_mejoras.md` | `ae0af9c` |
+| M1 | Aviso «sin conexión» (5 s, una vez), lienzo del constructor según el tema, `docs/revision_datos.md` | (commit local, sin subir) |
 
-Todo lo anterior a M0 está en `origin/main`. Validación: 26 archivos de prueba, 1283 pruebas en verde.
+Todo hasta M0 está en `origin/main`. Validación: 26 archivos de prueba, 1283 pruebas en verde.
 
 ## En curso (sin commit)
 
@@ -54,8 +55,8 @@ Diferencias con la especificación M2 de `prompt_quimica_mejoras.md`, por resolv
 
 ## Falta
 
-- **M1**: aviso «sin conexión» (cierre a los 5 s, una sola vez); lienzo del constructor de moléculas según el
-  tema; `docs/revision_datos.md`.
+- **Revisión de datos (autor)**: comparar `docs/revision_datos.md` (664 filas, 24 tablas) con el libro y anotar
+  las diferencias; después se corrigen los valores y se retira la marca «pendiente de revisión».
 - **M2**: cerrar las diferencias anteriores, capturas obligatorias, aprobación y commit.
 - **M3**: «Del mineral al producto» (`src/data/obtencion.json`, ~40 elementos, pruebas de balanceo y fórmulas).
 - **Fases 9–12**: estereoquímica, mecanismos animados, espectroscopía, síntesis y biomoléculas.
@@ -69,6 +70,12 @@ Diferencias con la especificación M2 de `prompt_quimica_mejoras.md`, por resolv
 - `AGENTS.md` pasó de estar prohibido a ser copia idéntica de `CLAUDE.md` (fase M0).
 - Una fase a la vez; el autor confirma antes de subir a `main` y antes de pasar a la siguiente.
 - Capturas de verificación fuera del repositorio (scratchpad).
+- M1: el aviso «ya funciona sin conexión» se recuerda con la clave `qi-aviso-sin-conexion`; el aviso de
+  «versión nueva» no se cierra solo (requiere una decisión del usuario).
+- M1: el lienzo del constructor usa los tokens del tema; los símbolos conservan el color CPK ajustado hasta
+  un contraste de 4,5 (`colorLegible` en `src/lib/colores.ts`). El dibujo 2D de RDKit (`Estructura2D`) sigue
+  con fondo blanco: no estaba en el alcance.
+- M1: `docs/revision_datos.md` se genera con `npm run revision` (solo lee los datos).
 
 ## Comandos para probar
 
@@ -78,6 +85,7 @@ npm test           # Vitest; regenera docs/tabla_validacion.md
 npm run build      # tsc -b + vite build
 npm run preview    # sirve dist/ (PWA y modo sin conexión)
 npm run pendientes # regenera docs/pendientes_revision.md
+npm run revision   # regenera docs/revision_datos.md
 ```
 
 - En PowerShell, si `npm` falla por la política de ejecución de scripts: usar `npm.cmd run dev`.
@@ -91,4 +99,8 @@ npm run pendientes # regenera docs/pendientes_revision.md
   Revisar la pestaña Actions del repositorio (puede requerir habilitar los workflows a mano).
 - **FPS sin medir en equipo real**: las pruebas visuales usan Chrome sin interfaz (renderizado por software);
   falta comprobar los 60 FPS de la Vitrina 3D en una laptop con gráficos integrados.
-- Datos marcados «pendiente de revisión»: lista en `docs/pendientes_revision.md`.
+- Datos marcados «pendiente de revisión»: lista en `docs/pendientes_revision.md`, valores en
+  `docs/revision_datos.md`. La sección C de ese archivo refleja el `apariencia.json` del árbol de trabajo
+  (incluye los colores de Cu y Au ajustados en M2, aún sin commit).
+- En las pruebas automáticas (Chrome sin interfaz) el guardado sin conexión a veces tarda más de un minuto
+  cuando el equipo está ocupado; con el equipo libre termina en unos 15 s.

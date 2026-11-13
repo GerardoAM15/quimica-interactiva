@@ -1,6 +1,8 @@
 import { useRef, useState, type PointerEvent } from 'react';
 import { colorAtomo } from '@/components/molecula/Molecula3D';
 import type { OrdenEnlace } from '@/chem/molecula';
+import { colorLegible } from '@/lib/colores';
+import { usePreferencias } from '@/store/preferencias';
 
 export interface AtomoEditor {
   id: number;
@@ -114,6 +116,11 @@ export function EditorMolecula({ dibujo, alCambiar, herramienta, elemento, conEr
     }
   };
 
+  // El lienzo sigue el tema activo: fondo = token «superficie» de cada tema (src/styles/index.css).
+  // Los símbolos conservan el color CPK del elemento, aclarado u oscurecido hasta un contraste de 4,5.
+  const oscuro = usePreferencias((s) => s.tema) === 'oscuro';
+  const fondo = oscuro ? '#121a2e' : '#ffffff';
+  const fondoError = oscuro ? '#4a1d24' : '#fecaca';
   const porId = new Map(dibujo.atomos.map((a) => [a.id, a]));
   const origenArrastre = arrastre ? porId.get(arrastre.desde) : undefined;
 
@@ -121,7 +128,7 @@ export function EditorMolecula({ dibujo, alCambiar, herramienta, elemento, conEr
     <svg
       ref={svg}
       viewBox="0 0 640 400"
-      className="h-auto w-full touch-none rounded-lg border border-borde bg-white text-slate-900 select-none"
+      className="h-auto w-full touch-none rounded-lg border border-borde bg-superficie text-texto select-none"
       onPointerDown={alPresionarFondo}
       onPointerMove={alMover}
       onPointerUp={alSoltar}
@@ -138,29 +145,29 @@ export function EditorMolecula({ dibujo, alCambiar, herramienta, elemento, conEr
           <g key={k} onClick={(e) => alClicEnlace(e, k)} className="cursor-pointer">
             <line x1={A.x} y1={A.y} x2={B.x} y2={B.y} stroke="transparent" strokeWidth={14} />
             {offs.map((o) => (
-              <line key={o} x1={A.x + px * o} y1={A.y + py * o} x2={B.x + px * o} y2={B.y + py * o} stroke="#334155" strokeWidth={2.2} />
+              <line key={o} x1={A.x + px * o} y1={A.y + py * o} x2={B.x + px * o} y2={B.y + py * o} stroke="var(--texto)" strokeWidth={2.2} />
             ))}
           </g>
         );
       })}
       {origenArrastre && arrastre?.movio && herramienta !== 'mover' && (
-        <line x1={origenArrastre.x} y1={origenArrastre.y} x2={arrastre.x} y2={arrastre.y} stroke="#0ea5e9" strokeDasharray="4 3" strokeWidth={2} />
+        <line x1={origenArrastre.x} y1={origenArrastre.y} x2={arrastre.x} y2={arrastre.y} stroke="var(--acento)" strokeDasharray="4 3" strokeWidth={2} />
       )}
       {dibujo.atomos.map((a) => {
         const error = conError.includes(a.id);
         const mostrarSimbolo = a.simbolo !== 'C' || dibujo.enlaces.every((b) => b.a !== a.id && b.b !== a.id) || a.carga !== 0;
         return (
           <g key={a.id} onPointerDown={(e) => alPresionarAtomo(e, a)} className="cursor-pointer">
-            <circle cx={a.x} cy={a.y} r={13} fill={error ? '#fecaca' : mostrarSimbolo ? '#ffffff' : 'transparent'} stroke={error ? '#dc2626' : 'transparent'} strokeWidth={2} />
+            <circle cx={a.x} cy={a.y} r={13} fill={error ? fondoError : mostrarSimbolo ? fondo : 'transparent'} stroke={error ? 'var(--error)' : 'transparent'} strokeWidth={2} />
             {mostrarSimbolo ? (
-              <text x={a.x} y={a.y} textAnchor="middle" dominantBaseline="central" fontSize={16} fontWeight={700} fill={a.simbolo === 'C' ? '#111827' : colorAtomo(a.simbolo) === '#f2f2f2' ? '#475569' : colorAtomo(a.simbolo)}>
+              <text x={a.x} y={a.y} textAnchor="middle" dominantBaseline="central" fontSize={16} fontWeight={700} fill={a.simbolo === 'C' ? 'var(--texto)' : colorLegible(colorAtomo(a.simbolo), error ? fondoError : fondo)}>
                 {a.simbolo}
               </text>
             ) : (
-              <circle cx={a.x} cy={a.y} r={3} fill="#334155" />
+              <circle cx={a.x} cy={a.y} r={3} fill="var(--texto)" />
             )}
             {a.carga !== 0 && (
-              <text x={a.x + 12} y={a.y - 11} fontSize={12} fontWeight={700} fill={a.carga > 0 ? '#2563eb' : '#dc2626'}>
+              <text x={a.x + 12} y={a.y - 11} fontSize={12} fontWeight={700} fill={colorLegible(a.carga > 0 ? '#2563eb' : '#dc2626', fondo)}>
                 {a.carga > 0 ? '+' : '−'}
               </text>
             )}
@@ -168,7 +175,7 @@ export function EditorMolecula({ dibujo, alCambiar, herramienta, elemento, conEr
         );
       })}
       {dibujo.atomos.length === 0 && (
-        <text x={320} y={200} textAnchor="middle" fontSize={14} fill="#64748b">
+        <text x={320} y={200} textAnchor="middle" fontSize={14} fill="var(--texto-suave)">
           Elige un elemento y haz clic aquí para empezar; arrastra desde un átomo para enlazar.
         </text>
       )}

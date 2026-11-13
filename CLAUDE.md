@@ -16,6 +16,7 @@ npm run preview    # sirve dist/ (para probar la PWA)
 npm run datos      # descarga/regenera los datos (PubChem, NIST, CODATA); ver docs/datos.md
 npm run iconos     # regenera los íconos PNG de la PWA
 npm run pendientes # regenera docs/pendientes_revision.md (datos por verificar)
+npm run revision   # regenera docs/revision_datos.md (valor actual, unidad y fuente de cada dato por verificar)
 ```
 
 `npm test` también regenera `docs/tabla_validacion.md`: cada prueba de validación llama a

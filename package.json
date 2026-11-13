@@ -13,6 +13,7 @@
     "typecheck": "tsc -b --noEmit",
     "datos": "node scripts/descargar-isotopos.mjs && node scripts/descargar-elementos.mjs && node scripts/descargar-constantes.mjs && node scripts/descargar-masas-referencia.mjs && node scripts/descargar-moleculas.mjs && node scripts/descargar-apariencia-compuestos.mjs && node scripts/descargar-organica.mjs",
     "pendientes": "node scripts/listar-pendientes.mjs",
+    "revision": "node scripts/generar-revision-datos.mjs",
     "iconos": "node scripts/generar-iconos.mjs"
   },
   "dependencies": {
