@@ -22,6 +22,7 @@ const vite = await createServer({
 const gases = await vite.ssrLoadModule('/src/chem/gases.ts');
 const soluciones = await vite.ssrLoadModule('/src/chem/solutions.ts');
 const cristalesTs = await vite.ssrLoadModule('/src/chem/cristales.ts');
+const estereo = await vite.ssrLoadModule('/src/data/estereo.ts');
 await vite.close();
 
 // ── Formato ─────────────────────────────────────────────────────────────────
@@ -155,6 +156,9 @@ seccion('Del mineral al producto: mena y proceso industrial', 'src/data/obtencio
 const op = oe.filter(([, v]) => v.peru);
 seccion('Notas «En el Perú»', 'src/data/obtencion.json → peru', 'MINEM, Anuario Minero 2024; USGS, Mineral Commodity Summaries', '—',
   tabla(['Elemento', 'Nota'], op.map(([k, v]) => [k, v.peru])), op.length);
+
+seccion('Rotaciones específicas [α]D (20 °C)', 'src/data/estereo.ts → ROTACIONES', estereo.ROTACIONES.fuente, 'grados (l en dm, c en g/mL)',
+  tabla(['Sustancia', '[α]D'], estereo.ROTACIONES.valores.map((v) => [v.nombre, num(v.alfa)])), estereo.ROTACIONES.valores.length);
 
 // ── C. Aspecto (no comparable con Chang) ────────────────────────────────────
 const inicioC = secciones.length;

@@ -2,13 +2,13 @@ import { describe, expect, it } from 'vitest';
 import { BLOQUES, MODULOS, bloquePorId, modulosDeBloque, moduloPorSlug } from '../registro';
 
 describe('registro de módulos', () => {
-  it('tiene los 7 bloques (A–G) y los 24 módulos', () => {
-    expect(BLOQUES.map((b) => b.id)).toEqual(['A', 'B', 'C', 'D', 'E', 'F', 'G']);
-    expect(MODULOS).toHaveLength(24);
+  it('tiene los 8 bloques (A–H) y los 25 módulos', () => {
+    expect(BLOQUES.map((b) => b.id)).toEqual(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']);
+    expect(MODULOS).toHaveLength(25);
   });
 
-  it('numera los módulos de 1 a 24 sin huecos ni repeticiones', () => {
-    expect(MODULOS.map((m) => m.numero)).toEqual(Array.from({ length: 24 }, (_, i) => i + 1));
+  it('numera los módulos de 1 a 25 sin huecos ni repeticiones', () => {
+    expect(MODULOS.map((m) => m.numero)).toEqual(Array.from({ length: 25 }, (_, i) => i + 1));
   });
 
   it('usa slugs únicos y válidos para URL', () => {
@@ -26,6 +26,7 @@ describe('registro de módulos', () => {
       E: [14, 15, 16],
       F: [17, 18, 19],
       G: [20, 21, 22, 23, 24],
+      H: [25],
     };
     for (const b of BLOQUES) {
       expect(modulosDeBloque(b.id).map((m) => m.numero)).toEqual(esperado[b.id]);

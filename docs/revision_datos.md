@@ -7,7 +7,7 @@ fuente citada. El script solo lee: **no cambia ningún valor**.
 Cómo usarlo: compara cada fila con tu libro y anota en la columna «En mi libro» el valor si difiere (o ✓ si
 coincide). Con esa lista se corrigen los valores y se retira la marca «pendiente de revisión».
 
-Total: 870 filas en 28 tablas. Los números se muestran tal como están guardados, con coma decimal.
+Total: 876 filas en 29 tablas. Los números se muestran tal como están guardados, con coma decimal.
 
 ## A. Datos citados de Chang (y Brown)
 
@@ -631,6 +631,21 @@ Total: 870 filas en 28 tablas. Los números se muestran tal como están guardado
 | Sn | El Perú es el cuarto productor mundial de estaño; toda la producción viene de la mina San Rafael (Puno). |  |
 | Au | El Perú es el segundo productor de oro de Sudamérica. Principales regiones: La Libertad, Cajamarca (Yanacocha) y Arequipa. |  |
 | Pb | El Perú es el cuarto productor mundial de plomo. Se extrae sobre todo en Pasco, Lima y Junín. |  |
+
+### Rotaciones específicas [α]D (20 °C)
+
+- Origen: `src/data/estereo.ts → ROTACIONES`
+- Fuente citada: J. McMurry, Química orgánica, cap. 5 (tabla de rotaciones específicas de algunas moléculas orgánicas)
+- Unidad: grados (l en dm, c en g/mL)
+
+| Sustancia | [α]D | En mi libro |
+|---|---|---|
+| Penicilina V | 233 |  |
+| Sacarosa | 66,47 |  |
+| Alcanfor | 44,26 |  |
+| Glutamato monosódico | 25,5 |  |
+| Colesterol | -31,5 |  |
+| Morfina | -132 |  |
 
 ## C. Aspecto visual (no comparable con Chang)
 

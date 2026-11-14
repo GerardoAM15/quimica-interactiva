@@ -4,7 +4,7 @@
  * los componentes de cada módulo se cargan bajo demanda desde `componentes.ts`.
  */
 
-export type IdBloque = 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G';
+export type IdBloque = 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H';
 
 export interface Bloque {
   id: IdBloque;
@@ -73,6 +73,13 @@ export const BLOQUES: readonly Bloque[] = [
     titulo: 'Química orgánica básica',
     descripcion: 'El carbono, hidrocarburos, grupos funcionales, isomería y reacciones básicas.',
     color: '#4ade80',
+  },
+  {
+    id: 'H',
+    slug: 'organica-avanzada',
+    titulo: 'Química orgánica avanzada',
+    descripcion: 'Estereoquímica: quiralidad, configuración R/S y E/Z, proyecciones y actividad óptica.',
+    color: '#2dd4bf',
   },
 ];
 
@@ -275,6 +282,15 @@ export const MODULOS: readonly Modulo[] = [
     titulo: 'Reacciones orgánicas básicas',
     resumen: 'Combustión, halogenación, hidrogenación, esterificación y saponificación.',
     temas: ['combustión', 'halogenación', 'hidrogenación', 'esterificación', 'saponificación'],
+  },
+  // ── Bloque H ──
+  {
+    numero: 25,
+    slug: 'estereoquimica',
+    bloque: 'H',
+    titulo: 'Estereoquímica',
+    resumen: 'Quiralidad, configuración R/S y E/Z paso a paso, enantiómeros, diastereómeros y meso en 3D, Fischer, Newman y actividad óptica.',
+    temas: ['quiralidad', 'R/S', 'E/Z', 'enantiómeros', 'diastereómeros', 'meso', 'Fischer', 'Newman', 'actividad óptica'],
   },
 ];
 

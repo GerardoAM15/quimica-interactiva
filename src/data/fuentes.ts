@@ -190,6 +190,15 @@ export const FUENTES: readonly Fuente[] = [
     uso: 'Posición del Perú como productor y principales regiones mineras (nota «En el Perú»).',
   },
   {
+    id: 'rotaciones-especificas',
+    tipo: 'datos',
+    nombre: 'Rotaciones específicas de moléculas orgánicas',
+    descripcion: 'J. McMurry, Química orgánica, capítulo 5 (estereoquímica en los centros tetraédricos).',
+    licencia: 'Obra citada como referencia; valores pendientes de revisión',
+    url: 'https://openstax.org/details/books/organic-chemistry',
+    uso: 'Tabla de [α] del polarímetro del módulo de estereoquímica.',
+  },
+  {
     id: 'wikimedia',
     tipo: 'datos',
     nombre: 'Wikimedia Commons',

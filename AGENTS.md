@@ -83,6 +83,11 @@ docs/            documentación, referencias de tablas, tabla_validacion.md
 - `molecula/VistaOrganica` (2D de RDKit con resaltado y numeración, 3D a pedido) y `organica/NombreEstructura`
   (estructura ↔ nombre y práctica), usados por los módulos 20–24. `lib/colores.ts` lee los tokens para Canvas.
 - RDKit solo a través de `src/lib/rdkit.ts` (carga diferida del WASM; traduce los errores de valencia).
+- Estereoquímica (módulo 25, bloque H): `src/chem/estereo.ts` calcula con código propio las prioridades CIP
+  (regla 1), R/S, E/Z, Fischer, Newman, la geometría 3D que respeta la configuración y la actividad óptica.
+  Entrada: `Molecula` con H explícitos y cuñas (`EnlaceMol.estereo`, leído del molfile de RDKit). RDKit solo
+  dibuja y da la estructura canónica (comparar con la imagen especular). Validado contra RDKit
+  (`get_stereo_tags`) en `chem/__tests__/estereo.test.ts`. Ejemplos en `src/data/estereo.ts`.
 
 ### Modo estudio
 
@@ -123,6 +128,7 @@ Mínimos exigidos en `src/chem/__tests__/`:
 - Balanceo: ≥ 40 ecuaciones (incluidas redox en medio ácido y básico), coeficientes enteros mínimos.
 - Nomenclatura inorgánica: ≥ 100 pares nombre ↔ fórmula en las 3 nomenclaturas.
 - Nomenclatura orgánica: ≥ 80 pares IUPAC ↔ SMILES verificados contra PubChem.
+- Estereoquímica: ≥ 30 moléculas con R/S y ≥ 10 alquenos con E/Z, propio vs RDKit y vs descriptores de libro.
 - VSEPR: ≥ 25 moléculas de libro (geometría y ángulos).
 - pH: fuertes/débiles, buffers, puntos de titulación vs analítico (error < 0.01 unidades).
 - Gases, termo, cinética, equilibrio, Nernst vs ejercicios resueltos (Chang, Brown).
@@ -182,4 +188,5 @@ del autor antes de subir a `main` y antes de pasar a la siguiente.
   `docs/revision_datos.md`.
 - M2. Muestras 3D realistas (presentación por elemento), pestaña «En la vida diaria» y «Vitrina 3D» (módulo 1).
 - M3. «Del mineral al producto»: mineral → proceso industrial (ecuación balanceada) → productos; nota «En el Perú».
-- 9 estereoquímica · 10 mecanismos animados · 11 espectroscopía · 12 síntesis y biomoléculas.
+- 9. Estereoquímica (módulo 25, bloque H «Química orgánica avanzada»).
+- 10 mecanismos animados · 11 espectroscopía · 12 síntesis y biomoléculas.

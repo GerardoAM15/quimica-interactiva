@@ -23,6 +23,7 @@ la fuente, cambia `pendienteRevision` a `false` (o quita la insignia) y vuelve a
 | `src/chem/gases.ts:72` | Constantes de Van der Waals: a en L²·atm/mol², b en L/mol (Chang, tabla 5.4; pendiente de revisión). | (ver comentario) |
 | `src/chem/solutions.ts:35` | Constantes ebulloscópicas y crioscópicas (°C·kg/mol). Fuente: Chang, tabla 12.2 (pendiente de revisión). | (ver comentario) |
 | `src/chem/solutions.ts:57` | Fuente: CRC Handbook, «Aqueous solubility of inorganic compounds at various temperatures» (pendiente de revisión). | (ver comentario) |
+| `src/data/estereo.ts:79` | Rotaciones específicas de sustancias conocidas (McMurry, cap. 5; pendiente de revisión). | (ver comentario) |
 | `src/modules/equilibrio/Equilibrio.tsx:31` | Constantes de equilibrio de ejemplo (Chang, cap. 14; pendientes de revisión). | (ver comentario) |
 | `src/modules/hidrocarburos/Hidrocarburos.tsx:104` | Valores de McMurry, Química orgánica, cap. 3 (pendientes de revisión); los coeficientes se ajustan a esos cuatro puntos. | (ver comentario) |
 
@@ -33,6 +34,7 @@ la fuente, cambia `pendienteRevision` a `false` (o quita la insignia) y vuelve a
 - `src/modules/electroquimica/Electroquimica.tsx`: 1
 - `src/modules/enlace-quimico/EnlaceIonico.tsx`: 1
 - `src/modules/equilibrio/Equilibrio.tsx`: 2
+- `src/modules/estereoquimica/ActividadOptica.tsx`: 1
 - `src/modules/fuerzas-intermoleculares/GraficasEbullicion.tsx`: 1
 - `src/modules/hidrocarburos/Hidrocarburos.tsx`: 1
 - `src/modules/reacciones-quimicas/Solubilidad.tsx`: 1

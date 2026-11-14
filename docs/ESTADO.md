@@ -10,8 +10,8 @@ Documento de relevo: permite retomar el trabajo (con cualquier asistente) sin le
 
 ## Fase actual
 
-**M3 — «Del mineral al producto»: terminada, en espera de la aprobación del autor** (commit local, sin subir).
-Siguiente: **Fase 9 — Estereoquímica** (no empezar sin confirmación).
+**Fase 9 — Estereoquímica: terminada, en espera de la aprobación del autor** (commit local, sin subir).
+Siguiente: **Fase 10 — Mecanismos de reacción animados** (no empezar sin confirmación).
 
 ## Terminado
 
@@ -27,9 +27,10 @@ Siguiente: **Fase 9 — Estereoquímica** (no empezar sin confirmación).
 | M0 | `AGENTS.md`, `docs/ESTADO.md`, `prompt_quimica_mejoras.md` | `ae0af9c` |
 | M1 | Aviso «sin conexión» (5 s, una vez), lienzo del constructor según el tema, `docs/revision_datos.md` | `31070b4` |
 | M2 | Muestras 3D por presentación, «En la vida diaria», Vitrina 3D | `6b86c0d` |
-| M3 | «Del mineral al producto» (41 elementos), selector de la vitrina, enlace al balanceador | (commit local, sin subir) |
+| M3 | «Del mineral al producto» (41 elementos), selector de la vitrina, enlace al balanceador | `af6f651` |
+| 9 | Estereoquímica (módulo 25): R/S, E/Z, estereoisómeros, Fischer, Newman, actividad óptica | (commit local, sin subir) |
 
-Todo hasta M2 está en `origin/main`. Validación: 28 archivos de prueba, 1296 pruebas en verde.
+Todo hasta M3 está en `origin/main`. Validación: 29 archivos de prueba, 1402 pruebas en verde.
 
 ## M2 — qué quedó hecho y qué difiere de la especificación
 
@@ -72,11 +73,31 @@ Notas:
 - Con un solo producto conocido (Ne, K, Ca, Ga, Kr, Mo, Cd, In, Xe, Nd, W, Pt, Pb) la escena 3 muestra uno,
   no 2–3: no se añadieron productos de relleno.
 
+## Fase 9 — qué quedó hecho y límites
+
+Hecho: bloque H «Química orgánica avanzada» con el módulo 25 «Estereoquímica» (cinco pestañas: quiralidad y
+R/S, E/Z, estereoisómeros, Fischer y Newman, actividad óptica). `src/chem/estereo.ts` con 106 pruebas: 34
+moléculas con R/S y 12 alquenos con E/Z coinciden con RDKit y con los descriptores de libro.
+
+Límites conocidos:
+
+- Solo se aplica la regla 1 de CIP (número atómico). No hay reglas de isótopos ni de estereodescriptores
+  (centros pseudoasimétricos); si dos sustituyentes empatan, el átomo no se marca como centro.
+- La geometría 3D es aproximada; la configuración se corrige intercambiando dos sustituyentes. Si no se
+  logra (centros en anillos fusionados), la interfaz lo avisa.
+- «Superponer» alinea un solo centro (el primero): en las formas meso no muestra la coincidencia completa,
+  que exige girar el enlace central; el veredicto (quiral, meso, aquiral) sale de comparar la estructura
+  canónica con la de su imagen especular.
+- La enumeración de estereoisómeros invierte solo centros tetraédricos (no combina con E/Z).
+- La proyección de Newman es idealizada (120° entre sustituyentes); conserva el orden de giro real.
+- Rotaciones específicas: seis valores de McMurry, pendientes de revisión.
+- El modo estudio (quiz, tarjetas) todavía no incluye preguntas de estereoquímica.
+
 ## Falta
 
 - **Revisión de datos (autor)**: comparar `docs/revision_datos.md` (664 filas, 24 tablas) con el libro y anotar
   las diferencias; después se corrigen los valores y se retira la marca «pendiente de revisión».
-- **Fases 9–12**: estereoquímica, mecanismos animados, espectroscopía, síntesis y biomoléculas.
+- **Fases 10–12**: mecanismos animados, espectroscopía, síntesis y biomoléculas.
 
 ## Decisiones tomadas
 

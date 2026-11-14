@@ -726,3 +726,56 @@ Para cada compuesto: nombre generado desde la estructura, estructura reconstruid
 | Al2S3 | reacciona | reacciona |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
 | FeCl3 | soluble | soluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
 | ZnCl2 | soluble | soluble |  | 0 (idéntico) | Reglas de solubilidad (Chang 4.2, Brown 4.1) |
+
+## Estereoquímica: configuración R/S y E/Z (propio vs RDKit)
+
+Descriptores por índice de átomo (átomo:descriptor). Referencia: RDKit (get_stereo_tags).
+
+| Caso | Referencia | Calculado | Unidad | Error (%) | Fuente |
+|---|---|---|---|---|---|
+| L-alanina | 1:S | 1:S |  | 0 (idéntico) | RDKit |
+| D-alanina | 1:R | 1:R |  | 0 (idéntico) | RDKit |
+| L-serina | 1:S | 1:S |  | 0 (idéntico) | RDKit |
+| L-cisteína | 1:R | 1:R |  | 0 (idéntico) | RDKit |
+| L-valina | 3:S | 3:S |  | 0 (idéntico) | RDKit |
+| L-leucina | 4:S | 4:S |  | 0 (idéntico) | RDKit |
+| L-fenilalanina | 7:S | 7:S |  | 0 (idéntico) | RDKit |
+| L-ácido aspártico | 1:S | 1:S |  | 0 (idéntico) | RDKit |
+| L-metionina | 4:S | 4:S |  | 0 (idéntico) | RDKit |
+| L-prolina | 2:S | 2:S |  | 0 (idéntico) | RDKit |
+| L-treonina | 1:R 2:S | 1:R 2:S |  | 0 (idéntico) | RDKit |
+| L-isoleucina | 2:S 4:S | 2:S 4:S |  | 0 (idéntico) | RDKit |
+| ácido (S)-láctico | 1:S | 1:S |  | 0 (idéntico) | RDKit |
+| ácido (R)-láctico | 1:R | 1:R |  | 0 (idéntico) | RDKit |
+| D-gliceraldehído | 1:R | 1:R |  | 0 (idéntico) | RDKit |
+| L-gliceraldehído | 1:S | 1:S |  | 0 (idéntico) | RDKit |
+| ácido L-(+)-tartárico | 0:R 1:R | 0:R 1:R |  | 0 (idéntico) | RDKit |
+| ácido D-(−)-tartárico | 0:S 1:S | 0:S 1:S |  | 0 (idéntico) | RDKit |
+| ácido meso-tartárico | 0:R 1:S | 0:R 1:S |  | 0 (idéntico) | RDKit |
+| D-glucosa (cadena abierta) | 1:R 2:R 3:S 4:R | 1:R 2:R 3:S 4:R |  | 0 (idéntico) | RDKit |
+| (R)-2-butanol | 2:R | 2:R |  | 0 (idéntico) | RDKit |
+| (S)-2-butanol | 2:S | 2:S |  | 0 (idéntico) | RDKit |
+| (S)-ibuprofeno | 1:S | 1:S |  | 0 (idéntico) | RDKit |
+| (S)-naproxeno | 1:S | 1:S |  | 0 (idéntico) | RDKit |
+| (R)-carvona | 4:R | 4:R |  | 0 (idéntico) | RDKit |
+| (S)-carvona | 4:S | 4:S |  | 0 (idéntico) | RDKit |
+| (R)-limoneno | 4:R | 4:R |  | 0 (idéntico) | RDKit |
+| (R)-adrenalina | 3:R | 3:R |  | 0 (idéntico) | RDKit |
+| (−)-mentol | 3:S 6:R 9:R | 3:S 6:R 9:R |  | 0 (idéntico) | RDKit |
+| (2R,3R)-2,3-dibromobutano | 1:R 3:R | 1:R 3:R |  | 0 (idéntico) | RDKit |
+| meso-2,3-dibromobutano | 1:R 3:S | 1:R 3:S |  | 0 (idéntico) | RDKit |
+| trans-1,2-dimetilciclohexano | 1:R 6:R | 1:R 6:R |  | 0 (idéntico) | RDKit |
+| (S)-3-metilhexano | 3:S | 3:S |  | 0 (idéntico) | RDKit |
+| bromoclorofluorometano | 1:R | 1:R |  | 0 (idéntico) | RDKit |
+| (E)-2-buteno | 1-2:E | 1-2:E |  | 0 (idéntico) | RDKit |
+| (Z)-2-buteno | 1-2:Z | 1-2:Z |  | 0 (idéntico) | RDKit |
+| (E)-1,2-dicloroeteno | 1-2:E | 1-2:E |  | 0 (idéntico) | RDKit |
+| (Z)-1,2-dicloroeteno | 1-2:Z | 1-2:Z |  | 0 (idéntico) | RDKit |
+| ácido fumárico | 0-1:E | 0-1:E |  | 0 (idéntico) | RDKit |
+| ácido maleico | 0-1:Z | 0-1:Z |  | 0 (idéntico) | RDKit |
+| (E)-cinamaldehído | 6-7:E | 6-7:E |  | 0 (idéntico) | RDKit |
+| (E)-3-metil-2-penteno | 2-3:E | 2-3:E |  | 0 (idéntico) | RDKit |
+| (Z)-3-metil-2-penteno | 2-3:Z | 2-3:Z |  | 0 (idéntico) | RDKit |
+| geraniol | 5-6:E | 5-6:E |  | 0 (idéntico) | RDKit |
+| nerol | 5-6:Z | 5-6:Z |  | 0 (idéntico) | RDKit |
+| (Z)-1-bromo-2-cloro-1-fluoroeteno | 1-3:Z | 1-3:Z |  | 0 (idéntico) | RDKit |

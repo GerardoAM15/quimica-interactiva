@@ -19,6 +19,11 @@ export interface EnlaceMol {
   a: number;
   b: number;
   orden: OrdenEnlace;
+  /**
+   * Estereoquímica del molfile (campo sss), referida al átomo `a`: 1 = cuña hacia el observador,
+   * 6 = cuña hacia atrás; en un doble enlace, 3 = geometría cis/trans sin especificar.
+   */
+  estereo?: number;
 }
 
 export interface Molecula {
@@ -58,7 +63,8 @@ export function parsearMolfile(texto: string): Molecula {
     const l = lineas[4 + nAtomos + i] ?? '';
     const tipo = Number(l.slice(6, 9));
     // Tipo 4 (aromático) se trata como 1,5 → se guarda como 1 (PubChem usa la forma de Kekulé)
-    enlaces.push({ a: Number(l.slice(0, 3)) - 1, b: Number(l.slice(3, 6)) - 1, orden: (tipo >= 1 && tipo <= 3 ? tipo : 1) as OrdenEnlace });
+    const sss = Number(l.slice(9, 12)) || 0;
+    enlaces.push({ a: Number(l.slice(0, 3)) - 1, b: Number(l.slice(3, 6)) - 1, orden: (tipo >= 1 && tipo <= 3 ? tipo : 1) as OrdenEnlace, ...(sss ? { estereo: sss } : {}) });
   }
   // Si hay líneas «M  CHG», reemplazan por completo al campo ccc de todos los átomos (especificación V2000)
   const propiedades = lineas.slice(4 + nAtomos + nEnlaces);

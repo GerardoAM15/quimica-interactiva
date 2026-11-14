@@ -28,5 +28,6 @@ export const COMPONENTES_MODULO: Partial<Record<string, LazyExoticComponent<Comp
   hidrocarburos: lazy(() => import('./hidrocarburos/Hidrocarburos')),
   'grupos-funcionales': lazy(() => import('./grupos-funcionales/GruposFuncionales')),
   isomeria: lazy(() => import('./isomeria/Isomeria')),
+  estereoquimica: lazy(() => import('./estereoquimica/Estereoquimica')),
   'reacciones-organicas': lazy(() => import('./reacciones-organicas/ReaccionesOrganicas')),
 };
