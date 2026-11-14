@@ -1,13 +1,13 @@
 # Revisión de datos
 
-Generado con `npm run revision` (2026-11-13) a partir de los datos marcados «pendiente de
+Generado con `npm run revision` (2026-11-14) a partir de los datos marcados «pendiente de
 revisión» (lista en `docs/pendientes_revision.md`). Muestra **el valor que usa hoy la aplicación**, su unidad y la
 fuente citada. El script solo lee: **no cambia ningún valor**.
 
 Cómo usarlo: compara cada fila con tu libro y anota en la columna «En mi libro» el valor si difiere (o ✓ si
 coincide). Con esa lista se corrigen los valores y se retira la marca «pendiente de revisión».
 
-Total: 820 filas en 26 tablas. Los números se muestran tal como están guardados, con coma decimal.
+Total: 870 filas en 28 tablas. Los números se muestran tal como están guardados, con coma decimal.
 
 ## A. Datos citados de Chang (y Brown)
 
@@ -563,6 +563,74 @@ Total: 820 filas en 26 tablas. Los números se muestran tal como están guardado
 | butano (C2–C3) | gauche (60°) | 3,8 |  |
 | butano (C2–C3) | eclipsada (120°) | 16 |  |
 | butano (C2–C3) | anti (180°) | 0 |  |
+
+### Del mineral al producto: mena y proceso industrial
+
+- Origen: `src/data/obtencion.json`
+- Fuente citada: R. Chang, Química, capítulo «Metalurgia y la química de los metales» y capítulos de elementos no metálicos; N. N. Greenwood y A. Earnshaw, Chemistry of the Elements, 2.ª ed. (obtención industrial de cada elemento); USGS, Mineral Commodity Summaries (fuentes minerales y usos)
+- Unidad: —
+
+| Elemento | Fuente natural | Fórmula | Proceso | Ecuaciones (verificadas con el balanceador) |
+|---|---|---|---|---|
+| H | gas natural (metano) | CH4 | Reformado de metano con vapor | CH4 + H2O -> CO + 3H2 |
+| He | gas natural (helio atrapado) | He | Separación criogénica del gas natural | separación física |
+| Li | espodumena (y salmueras de salares) | LiAlSi2O6 | Electrólisis de cloruro de litio fundido | 2LiCl -> 2Li + Cl2 |
+| C | grafito (carbono nativo) | C | Extracción minera y purificación | separación física |
+| N | el aire (78 % en volumen) | N2 | Destilación fraccionada del aire líquido | separación física |
+| O | el aire (21 % en volumen) | O2 | Destilación fraccionada del aire líquido | separación física |
+| F | fluorita | CaF2 | Ácido fluorhídrico y electrólisis (método de Moissan) | CaF2 + H2SO4 -> CaSO4 + 2HF ; 2HF -> H2 + F2 |
+| Ne | el aire (trazas) | Ne | Destilación fraccionada del aire líquido | separación física |
+| Na | halita (sal gema) | NaCl | Celda de Downs (electrólisis de NaCl fundido) | 2NaCl -> 2Na + Cl2 |
+| Mg | dolomita (y agua de mar) | CaMg(CO3)2 | Electrólisis de cloruro de magnesio fundido (proceso Dow) | MgCl2 -> Mg + Cl2 |
+| Al | bauxita | Al₂O₃·xH₂O | Proceso Bayer y electrólisis Hall-Héroult | 2Al2O3 + 3C -> 4Al + 3CO2 |
+| Si | cuarzo | SiO2 | Reducción con carbono en horno de arco eléctrico | SiO2 + 2C -> Si + 2CO |
+| P | fluorapatita (roca fosfórica) | Ca5(PO4)3F | Horno eléctrico con sílice y coque | 2Ca3(PO4)2 + 6SiO2 + 10C -> 6CaSiO3 + 10CO + P4 |
+| S | azufre nativo (y H₂S del gas y el petróleo) | S | Proceso Claus | 2H2S + SO2 -> 3S + 2H2O |
+| Cl | halita (salmuera de NaCl) | NaCl | Proceso cloro-álcali (electrólisis de salmuera) | 2NaCl + 2H2O -> 2NaOH + Cl2 + H2 |
+| Ar | el aire (0,93 % en volumen) | Ar | Destilación fraccionada del aire líquido | separación física |
+| K | silvita | KCl | Reducción de KCl fundido con sodio | KCl + Na -> NaCl + K |
+| Ca | calcita (piedra caliza) | CaCO3 | Calcinación de la caliza | CaCO3 -> CaO + CO2 |
+| Ti | rutilo | TiO2 | Proceso Kroll | TiO2 + 2Cl2 + 2C -> TiCl4 + 2CO ; TiCl4 + 2Mg -> Ti + 2MgCl2 |
+| Cr | cromita | FeCr2O4 | Aluminotermia | Cr2O3 + 2Al -> 2Cr + Al2O3 |
+| Mn | pirolusita | MnO2 | Aluminotermia | 3MnO2 + 4Al -> 3Mn + 2Al2O3 |
+| Fe | hematita | Fe2O3 | Alto horno | Fe2O3 + 3CO -> 2Fe + 3CO2 |
+| Co | cobaltita | CoAsS | Subproducto del refinado de cobre y níquel | separación física |
+| Ni | pentlandita | (Fe,Ni)₉S₈ | Proceso Mond (purificación con monóxido de carbono) | Ni + 4CO -> Ni(CO)4 ; Ni(CO)4 -> Ni + 4CO |
+| Cu | calcopirita | CuFeS2 | Tostación y fundición, luego refinación electrolítica | Cu2S + O2 -> 2Cu + SO2 |
+| Zn | esfalerita (blenda) | ZnS | Tostación y reducción con carbono (o electrólisis) | 2ZnS + 3O2 -> 2ZnO + 2SO2 ; ZnO + C -> Zn + CO |
+| Ga | bauxita (trazas de galio) | — | Subproducto del proceso Bayer del aluminio | separación física |
+| Kr | el aire (trazas) | Kr | Destilación fraccionada del aire líquido | separación física |
+| Mo | molibdenita | MoS2 | Tostación y reducción con hidrógeno | 2MoS2 + 7O2 -> 2MoO3 + 4SO2 ; MoO3 + 3H2 -> Mo + 3H2O |
+| Ag | argentita | Ag2S | Cianuración y precipitación con zinc | Ag2S + 4NaCN -> 2NaAg(CN)2 + Na2S ; 2NaAg(CN)2 + Zn -> Na2Zn(CN)4 + 2Ag |
+| Cd | greenockita (acompaña a las menas de zinc) | CdS | Subproducto del refinado del zinc | separación física |
+| In | esfalerita (trazas de indio) | — | Subproducto del refinado del zinc | separación física |
+| Sn | casiterita | SnO2 | Reducción con carbono | SnO2 + 2C -> Sn + 2CO |
+| I | lautarita, en el caliche (y salmueras) | Ca(IO3)2 | Reducción del yodato con bisulfito | 2NaIO3 + 5NaHSO3 -> I2 + 3NaHSO4 + 2Na2SO4 + H2O |
+| Xe | el aire (trazas) | Xe | Destilación fraccionada del aire líquido | separación física |
+| Nd | monacita | (Ce,La,Nd)PO₄ | Extracción con disolventes y reducción con calcio | 2NdF3 + 3Ca -> 2Nd + 3CaF2 |
+| W | scheelita | CaWO4 | Reducción del óxido con hidrógeno | WO3 + 3H2 -> W + 3H2O |
+| Pt | platino nativo (aleado con otros metales de su grupo) | Pt | Concentración y refinación química | separación física |
+| Au | oro nativo en cuarzo | Au | Cianuración y precipitación con zinc | 4Au + 8NaCN + O2 + 2H2O -> 4NaAu(CN)2 + 4NaOH ; 2NaAu(CN)2 + Zn -> Na2Zn(CN)4 + 2Au |
+| Hg | cinabrio | HgS | Tostación | HgS + O2 -> Hg + SO2 |
+| Pb | galena | PbS | Tostación y reducción con carbono | 2PbS + 3O2 -> 2PbO + 2SO2 ; PbO + C -> Pb + CO |
+
+### Notas «En el Perú»
+
+- Origen: `src/data/obtencion.json → peru`
+- Fuente citada: MINEM, Anuario Minero 2024; USGS, Mineral Commodity Summaries
+- Unidad: —
+
+| Elemento | Nota | En mi libro |
+|---|---|---|
+| P | El yacimiento de fosfatos de Bayóvar (Sechura, Piura) produce roca fosfórica para fertilizantes. |  |
+| Fe | La principal mina de hierro del país es Marcona (Ica). |  |
+| Cu | El Perú es el tercer productor mundial de cobre. Principales operaciones: Cerro Verde (Arequipa), Antamina (Áncash), Las Bambas (Apurímac) y Quellaveco (Moquegua). |  |
+| Zn | El Perú es el segundo productor mundial de zinc. Se extrae sobre todo en Áncash (Antamina), Junín y Pasco. |  |
+| Mo | El Perú es el segundo productor mundial de molibdeno, que se obtiene como subproducto en las minas de cobre (Cerro Verde, Toquepala, Cuajone, Antamina, Las Bambas). |  |
+| Ag | El Perú es el tercer productor mundial de plata. Se extrae sobre todo en Áncash, Pasco, Junín y Lima. |  |
+| Sn | El Perú es el cuarto productor mundial de estaño; toda la producción viene de la mina San Rafael (Puno). |  |
+| Au | El Perú es el segundo productor de oro de Sudamérica. Principales regiones: La Libertad, Cajamarca (Yanacocha) y Arequipa. |  |
+| Pb | El Perú es el cuarto productor mundial de plomo. Se extrae sobre todo en Pasco, Lima y Junín. |  |
 
 ## C. Aspecto visual (no comparable con Chang)
 

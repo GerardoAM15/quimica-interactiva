@@ -558,6 +558,122 @@ function Detector() {
   );
 }
 
+/** Calamina: lámina ondulada de acero galvanizado (perfil sinusoidal). */
+function Calamina() {
+  const geo = useMemo(() => {
+    const g = new THREE.PlaneGeometry(2.4, 1.5, 96, 1);
+    const pos = g.attributes.position as THREE.BufferAttribute;
+    for (let i = 0; i < pos.count; i++) pos.setZ(i, Math.sin(pos.getX(i) * 13) * 0.07);
+    g.computeVertexNormals();
+    return g;
+  }, []);
+  return (
+    <mesh geometry={geo} rotation={[-1.05, 0, 0.25]}>
+      <meshPhysicalMaterial color="#b9c0c8" metalness={1} roughness={0.38} side={THREE.DoubleSide} />
+    </mesh>
+  );
+}
+
+/** Saco de fertilizante o cemento. */
+function Saco() {
+  return (
+    <group rotation={[0, 0.35, 0]}>
+      <mesh scale={[0.85, 1.1, 0.42]}>
+        <sphereGeometry args={[1, 32, 24]} />
+        <meshStandardMaterial color="#d9cbaa" roughness={0.9} />
+      </mesh>
+      <mesh scale={[0.86, 0.32, 0.43]}>
+        <sphereGeometry args={[1, 32, 12]} />
+        <meshStandardMaterial color="#3f7d4e" roughness={0.85} />
+      </mesh>
+      <mesh position={[0, 1.05, 0]}>
+        <boxGeometry args={[0.9, 0.08, 0.1]} />
+        <meshStandardMaterial color="#c9bb98" roughness={0.9} />
+      </mesh>
+    </group>
+  );
+}
+
+/** Viga de acero de perfil en I. */
+function Viga() {
+  const mat = <meshPhysicalMaterial color="#8d949d" metalness={1} roughness={0.5} />;
+  return (
+    <group rotation={[0.15, 0.7, 0]}>
+      {[0.42, -0.42].map((y) => (
+        <mesh key={y} position={[0, y, 0]}>
+          <boxGeometry args={[0.8, 0.09, 2.6]} />
+          {mat}
+        </mesh>
+      ))}
+      <mesh>
+        <boxGeometry args={[0.09, 0.78, 2.6]} />
+        {mat}
+      </mesh>
+    </group>
+  );
+}
+
+/** Olla de cocina con dos asas. */
+function Olla() {
+  return (
+    <group>
+      <Lathe puntos={[[0, -0.55], [0.82, -0.55], [0.86, -0.5], [0.86, 0.5], [0.9, 0.52], [0.8, 0.52], [0.8, -0.47], [0, -0.47]]}>
+        <meshPhysicalMaterial color="#d3d7dc" metalness={1} roughness={0.3} side={THREE.DoubleSide} />
+      </Lathe>
+      {[-1, 1].map((d) => (
+        <mesh key={d} position={[d * 0.95, 0.3, 0]} rotation={[Math.PI / 2, 0, 0]}>
+          <torusGeometry args={[0.16, 0.04, 10, 24]} />
+          <meshStandardMaterial color="#22252b" roughness={0.6} />
+        </mesh>
+      ))}
+    </group>
+  );
+}
+
+/** Panel solar: celdas de silicio azul oscuro en un marco de aluminio. */
+function PanelSolar() {
+  return (
+    <group rotation={[-0.9, 0.35, 0]}>
+      <mesh>
+        <boxGeometry args={[2.3, 1.5, 0.06]} />
+        <meshPhysicalMaterial color="#c9ced6" metalness={1} roughness={0.35} />
+      </mesh>
+      <mesh position={[0, 0, 0.035]}>
+        <planeGeometry args={[2.16, 1.36]} />
+        <meshPhysicalMaterial color="#14285a" metalness={0.4} roughness={0.18} clearcoat={1} />
+      </mesh>
+      {[-0.72, 0, 0.72].map((x) => (
+        <mesh key={`v${x}`} position={[x, 0, 0.04]}>
+          <planeGeometry args={[0.02, 1.36]} />
+          <meshBasicMaterial color="#aeb6c4" />
+        </mesh>
+      ))}
+      {[-0.34, 0.34].map((y) => (
+        <mesh key={`h${y}`} position={[0, y, 0.04]}>
+          <planeGeometry args={[2.16, 0.02]} />
+          <meshBasicMaterial color="#aeb6c4" />
+        </mesh>
+      ))}
+    </group>
+  );
+}
+
+/** Tubería de PVC con una unión. */
+function Tuberia() {
+  return (
+    <group rotation={[0, 0.5, Math.PI / 2.4]}>
+      <mesh>
+        <cylinderGeometry args={[0.3, 0.3, 2.4, 40, 1, true]} />
+        <meshStandardMaterial color="#e3e0d6" roughness={0.55} side={THREE.DoubleSide} />
+      </mesh>
+      <mesh position={[0, 0.5, 0]}>
+        <cylinderGeometry args={[0.36, 0.36, 0.6, 40, 1, true]} />
+        <meshStandardMaterial color="#d7d3c7" roughness={0.55} side={THREE.DoubleSide} />
+      </mesh>
+    </group>
+  );
+}
+
 /** Objeto cotidiano; algunos cambian según el elemento (color del LED o del fuego artificial). */
 export function ObjetoCotidiano3D({ objeto, simbolo }: { objeto: ObjetoCotidiano; simbolo: string }) {
   switch (objeto) {
@@ -611,5 +727,17 @@ export function ObjetoCotidiano3D({ objeto, simbolo }: { objeto: ObjetoCotidiano
       return <Botella />;
     case 'detector':
       return <Detector />;
+    case 'calamina':
+      return <Calamina />;
+    case 'saco':
+      return <Saco />;
+    case 'viga':
+      return <Viga />;
+    case 'olla':
+      return <Olla />;
+    case 'panel-solar':
+      return <PanelSolar />;
+    case 'tuberia':
+      return <Tuberia />;
   }
 }

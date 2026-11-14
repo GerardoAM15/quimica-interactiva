@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import {
   analizarRedox,
   balancear,
@@ -160,7 +161,9 @@ function IonElectron() {
 
 export default function Balanceador() {
   const [metodo, setMetodo] = useState<Metodo>('algebraico');
-  const [texto, setTexto] = useState(EJEMPLOS[3]!);
+  // ?ecuacion=… permite abrir el balanceador con una ecuación ya escrita (p. ej. desde la ficha de un elemento)
+  const [params] = useSearchParams();
+  const [texto, setTexto] = useState(() => params.get('ecuacion') ?? EJEMPLOS[3]!);
   let r: ResultadoBalanceo | null = null;
   let error: { mensaje: string; tipo: string } | null = null;
   try {

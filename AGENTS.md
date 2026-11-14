@@ -69,6 +69,12 @@ docs/            documentación, referencias de tablas, tabla_validacion.md
   `Vitrina3D` (118 casilleros, InstancedMesh por presentación + LOD). Los datos están en el bloque
   `presentaciones` de `src/data/apariencia.json` y en `src/data/vidas-medias.json` (OIEA); los elementos
   «sin muestra» llevan placa de aviso y vida media: **nunca se inventa su aspecto**.
+- «Del mineral al producto» (módulo 1): `MineralProducto` (tres escenas: fuente natural → elemento puro →
+  productos, con el proceso industrial y sus ecuaciones) y `escena3d/Minerales` (`FuenteNatural3D`). Datos en
+  `src/data/obtencion.json` (41 elementos, nota «En el Perú»); `src/modules/__tests__/obtencion.test.ts`
+  comprueba cada ecuación con `chem/balance` y cada fórmula con `chem/formula`. `escena3d/Ajustado` escala un
+  objeto a un cubo dado. La vitrina tiene selector «Mineral / Puro / Producto». El balanceador acepta
+  `?ecuacion=…`.
 - `atomo/DiagramaOrbitales` y `atomo/ModeloBohr`.
 - Cálculos pesados (p. ej. isosuperficies de orbitales) en un Web Worker (`modules/orbitales-3d/orbitales.worker.ts`).
 - `molecula/`: `Molecula3D` (bolas y barras / espacio lleno / alambre), `Estructura2D` (dibujo de RDKit),

@@ -147,6 +147,15 @@ seccion('Energías torsionales (análisis conformacional)', 'src/modules/hidroca
     ['butano (C2–C3)', 'anti (180°)', num(but[3])],
   ]), 5);
 
+const obt = json('obtencion');
+const oe = Object.entries(obt.elementos);
+seccion('Del mineral al producto: mena y proceso industrial', 'src/data/obtencion.json', obt.fuente.referencias.slice(0, 3).join('; '), '—',
+  tabla(['Elemento', 'Fuente natural', 'Fórmula', 'Proceso', 'Ecuaciones (verificadas con el balanceador)'],
+    oe.map(([k, v]) => [k, v.fuente.nombre, v.fuente.formulaTexto ?? v.fuente.formula ?? '—', v.proceso.nombre, v.proceso.ecuaciones.join(' ; ') || 'separación física']), false), oe.length);
+const op = oe.filter(([, v]) => v.peru);
+seccion('Notas «En el Perú»', 'src/data/obtencion.json → peru', 'MINEM, Anuario Minero 2024; USGS, Mineral Commodity Summaries', '—',
+  tabla(['Elemento', 'Nota'], op.map(([k, v]) => [k, v.peru])), op.length);
+
 // ── C. Aspecto (no comparable con Chang) ────────────────────────────────────
 const inicioC = secciones.length;
 const ap = json('apariencia');

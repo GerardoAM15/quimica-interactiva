@@ -5,8 +5,12 @@ import type { OrbitControls as OrbitControlsImpl } from 'three-stdlib';
 import Escena3D from '@/components/escena3d/Escena3D';
 import { geometriaMiniatura, MuestraPresentacion, type Presentacion } from '@/components/escena3d/Presentaciones';
 import { ELEMENTOS, elementoPorZ, posicionTabla } from '@/chem/elements';
+import { Ajustado } from '@/components/escena3d/Ajustado';
+import { FuenteNatural3D, presentacionFuente } from '@/components/escena3d/Minerales';
+import { ObjetoCotidiano3D } from '@/components/escena3d/ObjetosCotidianos';
 import { aparienciaDe } from './apariencia';
-import { presentacionDe } from './presentacion';
+import { obtencionDe } from './obtencion';
+import { presentacionDe, type ObjetoCotidiano } from './presentacion';
 
 /**
  * Vitrina 3D: pared de madera con 118 casilleros iluminados (fondo claro y placa negra con símbolo y Z),
@@ -31,7 +35,10 @@ function centro(z: number): THREE.Vector3 {
   return new THREE.Vector3((columna - 9.5) * PASO, -(f - 5.5) * PASO, 0);
 }
 
-type Grupo = 'metal' | 'solido' | 'recipiente' | 'tubo' | 'radiactivo';
+/** Qué muestra cada casillero: el elemento puro, su mineral o fuente natural, o un producto hecho con él. */
+export type ModoVitrina = 'mineral' | 'puro' | 'producto';
+
+type Grupo = 'metal' | 'solido' | 'recipiente' | 'tubo' | 'radiactivo' | 'producto' | 'vacio';
 const grupoDe = (p: Presentacion, metalico: boolean): Grupo =>
   p === 'tubo' ? 'tubo' : p === 'sin-muestra' ? 'radiactivo' : ['aceite', 'ampolla', 'gota', 'frasco-gas'].includes(p) ? 'recipiente' : metalico ? 'metal' : 'solido';
 
@@ -42,12 +49,27 @@ interface Celda {
   metalico: boolean;
   presentacion: Presentacion;
   color: string;
+  /** Modo «producto»: objeto cotidiano que se exhibe. */
+  objeto?: ObjetoCotidiano;
 }
 
-function celdas(): Celda[] {
+function celdas(modo: ModoVitrina): Celda[] {
   return ELEMENTOS.map((e) => {
     const ap = aparienciaDe(e.z);
     const info = presentacionDe(e.z);
+    const vacia: Celda = { z: e.z, pos: centro(e.z), grupo: 'vacio', metalico: false, presentacion: 'trozo', color: '#9ca3af' };
+    if (modo === 'mineral') {
+      // Mineral o fuente natural (aire, gas natural) de los elementos con ficha de obtención
+      const f = obtencionDe(e.z)?.fuente;
+      if (!f) return vacia;
+      const p = presentacionFuente(f);
+      return { ...vacia, grupo: grupoDe(p, f.metalico ?? false), metalico: f.metalico ?? false, presentacion: p, color: f.color };
+    }
+    if (modo === 'producto') {
+      // Primer producto de la ficha de obtención o, si no la hay, el objeto de «En la vida diaria»
+      const objeto = obtencionDe(e.z)?.productos[0]?.objeto ?? info.vidaDiaria.objeto;
+      return objeto ? { ...vacia, grupo: 'producto', objeto } : vacia;
+    }
     return { z: e.z, pos: centro(e.z), grupo: grupoDe(info.presentacion, ap.metalico), metalico: ap.metalico, presentacion: info.presentacion, color: ap.color ?? '#9ca3af' };
   });
 }
@@ -216,8 +238,8 @@ function Instancias({
 }
 
 /** Contenido de la escena: pared, casilleros, miniaturas (LOD) y animación de cámara. */
-function Pared({ alElegir, volver, alVolver }: { alElegir: (z: number) => void; volver: number; alVolver: () => void }) {
-  const lista = useMemo(celdas, []);
+function Pared({ modo, alElegir, volver, alVolver }: { modo: ModoVitrina; alElegir: (z: number) => void; volver: number; alVolver: () => void }) {
+  const lista = useMemo(() => celdas(modo), [modo]);
   const { camera, controls, invalidate, size } = useThree() as unknown as { camera: THREE.PerspectiveCamera; controls: OrbitControlsImpl | null; invalidate: () => void; size: { width: number; height: number } };
   const ancho = 18 * PASO + 1.2, alto = 9.5 * PASO + 1.2;
   const madera = useMemo(texturaMadera, []);
@@ -316,7 +338,7 @@ function Pared({ alElegir, volver, alVolver }: { alElegir: (z: number) => void; 
   const miniaturas = useMemo(() => {
     const grupos = new Map<string, { presentacion: Presentacion; material: 'metal' | 'mate' | 'vidrio'; lista: Celda[] }>();
     for (const c of lista) {
-      if (c.grupo === 'tubo' || c.grupo === 'radiactivo') continue;
+      if (c.grupo === 'tubo' || c.grupo === 'radiactivo' || c.grupo === 'producto' || c.grupo === 'vacio') continue;
       const material = ['aceite', 'ampolla', 'frasco-gas'].includes(c.presentacion) ? 'vidrio' : c.metalico ? 'metal' : 'mate';
       const k = `${c.presentacion}|${material}`;
       if (!grupos.has(k)) grupos.set(k, { presentacion: c.presentacion, material, lista: [] });
@@ -356,7 +378,7 @@ function Pared({ alElegir, volver, alVolver }: { alElegir: (z: number) => void; 
       </mesh>
       {/* Miniaturas lejanas (LOD bajo): una malla instanciada por presentación */}
       {miniaturas.map((g) => (
-        <Instancias key={g.clave} lista={g.lista} geometria={g.geometria} desplazamiento={[0, -0.05, 0]} escala={ESCALA_MINIATURA} ocultos={ocultos}>
+        <Instancias key={`${modo}-${g.clave}`} lista={g.lista} geometria={g.geometria} desplazamiento={[0, -0.05, 0]} escala={ESCALA_MINIATURA} ocultos={ocultos}>
           {g.material === 'metal' ? (
             <meshPhysicalMaterial metalness={0.92} roughness={0.42} envMapIntensity={1} />
           ) : g.material === 'vidrio' ? (
@@ -366,19 +388,26 @@ function Pared({ alElegir, volver, alVolver }: { alElegir: (z: number) => void; 
           )}
         </Instancias>
       ))}
-      <Instancias lista={tubos} geometria={geo.tubo} desplazamiento={[0, 0.02, 0]} ocultos={ocultos}>
+      <Instancias key={`nucleo-${modo}`} lista={tubos} geometria={geo.tubo} desplazamiento={[0, 0.02, 0]} ocultos={ocultos}>
         <meshBasicMaterial toneMapped={false} />
       </Instancias>
-      <Instancias lista={tubos} geometria={geo.tubo} desplazamiento={[0, 0.02, 0]} escala={[1, 3.2, 3.2]} ocultos={ocultos}>
+      <Instancias key={`halo-${modo}`} lista={tubos} geometria={geo.tubo} desplazamiento={[0, 0.02, 0]} escala={[1, 3.2, 3.2]} ocultos={ocultos}>
         <meshBasicMaterial transparent opacity={0.18} blending={THREE.AdditiveBlending} depthWrite={false} toneMapped={false} />
       </Instancias>
-      <Instancias lista={radiactivos} geometria={geo.placa} desplazamiento={[0, 0.06, -0.3]} conColor={false}>
+      <Instancias key={`placas-${modo}`} lista={radiactivos} geometria={geo.placa} desplazamiento={[0, 0.06, -0.3]} conColor={false}>
         <meshBasicMaterial map={trebol} toneMapped={false} />
       </Instancias>
       {/* Miniaturas detalladas (LOD alto) de los casilleros más cercanos */}
       {detalle.map((z) => {
         const c = lista.find((x) => x.z === z)!;
-        if (c.grupo === 'radiactivo') return null;
+        if (c.grupo === 'radiactivo' || c.grupo === 'producto' || c.grupo === 'vacio') return null;
+        if (modo === 'mineral') {
+          return (
+            <group key={`m${z}`} position={[c.pos.x, c.pos.y - 0.05, 0]} scale={ESCALA_MINIATURA}>
+              <FuenteNatural3D fuente={obtencionDe(z)!.fuente} semilla={z * 3571} detalle="bajo" />
+            </group>
+          );
+        }
         const info = presentacionDe(z);
         // En el casillero los metales muy pulidos reflejan de lleno el foco del estudio y se «lavan»
         // (el oro se ve crema): un acabado algo más satinado conserva el color propio del metal
@@ -390,16 +419,45 @@ function Pared({ alElegir, volver, alVolver }: { alElegir: (z: number) => void; 
           </group>
         );
       })}
+      {/* Modo «producto»: un objeto cotidiano por casillero, ajustado al tamaño del casillero */}
+      {lista.map((c) =>
+        c.grupo === 'producto' && c.objeto ? (
+          <Ajustado key={`p${c.z}`} lado={0.62} posicion={[c.pos.x, c.pos.y + 0.03, 0]} clave={c.objeto}>
+            <ObjetoCotidiano3D objeto={c.objeto} simbolo={elementoPorZ(c.z).simbolo} />
+          </Ajustado>
+        ) : null,
+      )}
     </group>
   );
 }
+
+const MODOS: { id: ModoVitrina; titulo: string }[] = [
+  { id: 'mineral', titulo: 'Mineral' },
+  { id: 'puro', titulo: 'Puro' },
+  { id: 'producto', titulo: 'Producto' },
+];
 
 export default function Vitrina3D({ alElegir }: { alElegir: (z: number) => void }) {
   // `acercado`: la cámara está frente a un casillero; `volver` cuenta las pulsaciones del botón
   const [acercado, setAcercado] = useState(false);
   const [volver, setVolver] = useState(0);
+  const [modo, setModo] = useState<ModoVitrina>('puro');
   return (
     <div className="space-y-2">
+      <div className="flex flex-wrap items-center gap-2 text-sm" role="group" aria-label="Qué mostrar en la vitrina">
+        <span className="text-texto-suave">Mostrar:</span>
+        {MODOS.map((m) => (
+          <button
+            key={m.id}
+            type="button"
+            aria-pressed={modo === m.id}
+            onClick={() => setModo(m.id)}
+            className={`rounded-md border px-3 py-1 ${modo === m.id ? 'border-acento bg-superficie-2 font-semibold' : 'border-borde hover:bg-superficie-2'}`}
+          >
+            {m.titulo}
+          </button>
+        ))}
+      </div>
       <div className="relative">
         <Escena3D
           descripcion="Vitrina 3D: pared de madera con 118 casilleros iluminados, cada uno con una muestra en miniatura de su elemento"
@@ -413,6 +471,7 @@ export default function Vitrina3D({ alElegir }: { alElegir: (z: number) => void 
           controles={{ minDistance: 1.8, maxDistance: 19, minAzimuthAngle: -0.7, maxAzimuthAngle: 0.7, minPolarAngle: Math.PI / 2 - 0.55, maxPolarAngle: Math.PI / 2 + 0.45, screenSpacePanning: true }}
         >
           <Pared
+            modo={modo}
             alElegir={(z) => {
               setAcercado(true);
               alElegir(z);
@@ -432,8 +491,10 @@ export default function Vitrina3D({ alElegir }: { alElegir: (z: number) => void 
         )}
       </div>
       <p className="text-xs text-texto-suave">
-        Cada casillero muestra en miniatura la misma presentación que la muestra grande; de lejos se dibuja simplificada y al acercarte, detallada. Los elementos
-        radiactivos sin muestra llevan una placa de aviso. Los gases brillan en su tubo de descarga.
+        {modo === 'puro' &&
+          'Cada casillero muestra en miniatura la misma presentación que la muestra grande; de lejos se dibuja simplificada y al acercarte, detallada. Los elementos radiactivos sin muestra llevan una placa de aviso. Los gases brillan en su tubo de descarga.'}
+        {modo === 'mineral' && 'Mineral o fuente natural de los elementos con ficha de obtención (los gases del aire, en un matraz). Los casilleros vacíos aún no tienen ficha.'}
+        {modo === 'producto' && 'Un objeto de uso diario hecho con cada elemento. Los casilleros vacíos no tienen un producto cotidiano que mostrar.'}
       </p>
     </div>
   );

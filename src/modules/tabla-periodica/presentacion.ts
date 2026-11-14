@@ -33,6 +33,12 @@ export const OBJETOS_COTIDIANOS = [
   'tableta',
   'botella',
   'detector',
+  'calamina',
+  'saco',
+  'viga',
+  'olla',
+  'panel-solar',
+  'tuberia',
 ] as const;
 export type ObjetoCotidiano = (typeof OBJETOS_COTIDIANOS)[number];
 

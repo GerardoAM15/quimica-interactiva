@@ -10,8 +10,8 @@ Documento de relevo: permite retomar el trabajo (con cualquier asistente) sin le
 
 ## Fase actual
 
-**M2 — Muestras 3D realistas y Vitrina 3D: terminada, en espera de la aprobación del autor** (commit local,
-sin subir). Siguiente: **M3 — «Del mineral al producto»** (no empezar sin confirmación).
+**M3 — «Del mineral al producto»: terminada, en espera de la aprobación del autor** (commit local, sin subir).
+Siguiente: **Fase 9 — Estereoquímica** (no empezar sin confirmación).
 
 ## Terminado
 
@@ -26,9 +26,10 @@ sin subir). Siguiente: **M3 — «Del mineral al producto»** (no empezar sin co
 | 8 | Uso sin conexión completo, accesibilidad, documentación, README | `e608c57` |
 | M0 | `AGENTS.md`, `docs/ESTADO.md`, `prompt_quimica_mejoras.md` | `ae0af9c` |
 | M1 | Aviso «sin conexión» (5 s, una vez), lienzo del constructor según el tema, `docs/revision_datos.md` | `31070b4` |
-| M2 | Muestras 3D por presentación, «En la vida diaria», Vitrina 3D | (commit local, sin subir) |
+| M2 | Muestras 3D por presentación, «En la vida diaria», Vitrina 3D | `6b86c0d` |
+| M3 | «Del mineral al producto» (41 elementos), selector de la vitrina, enlace al balanceador | (commit local, sin subir) |
 
-Todo hasta M1 está en `origin/main`. Validación: 27 archivos de prueba, 1289 pruebas en verde.
+Todo hasta M2 está en `origin/main`. Validación: 28 archivos de prueba, 1296 pruebas en verde.
 
 ## M2 — qué quedó hecho y qué difiere de la especificación
 
@@ -51,11 +52,30 @@ Diferencias conscientes con `prompt_quimica_mejoras.md` (pendientes de la decisi
 - Pa, Np, Pu y Am también figuran «sin muestra» (radiactivos que no se exhiben).
 - Los tubos de descarga no llevan pedestal (se muestran suspendidos).
 
+## M3 — qué quedó hecho y notas
+
+Hecho: `src/data/obtencion.json` con 41 elementos (fuente natural, proceso, 36 ecuaciones, productos y nota «En
+el Perú» para Cu, Au, Zn, Ag, Pb, Sn, Mo, Fe y P); pestaña «Del mineral al producto» con tres escenas 3D y
+flechas; botón «Abrir en el balanceador»; seis objetos nuevos (calamina, saco, viga, olla, panel solar,
+tubería); selector «Mineral / Puro / Producto» en la vitrina; pruebas de balanceo y de fórmulas.
+
+Notas:
+
+- Las posiciones del Perú provienen del Anuario Minero 2024 del MINEM (2.º en zinc y molibdeno, 3.º en cobre
+  y plata, 4.º en estaño y plomo, 2.º de Sudamérica en oro), consultadas por medios secundarios; no se pudo
+  leer el PDF del USGS. Todo queda «pendiente de revisión».
+- Fórmulas no estequiométricas o con trazas (bauxita, pentlandita, monacita, Ga e In): se muestra
+  `formulaTexto` y la prueba valida solo las que tienen `formula`.
+- Los elementos sin ficha muestran un texto breve (artificiales, tierras raras) o «aún no hay una ficha».
+- En modo «Producto» la vitrina dibuja un objeto por casillero sin instancias (cada objeto tiene varias
+  mallas y algunos llevan luz propia): es el modo más costoso; falta medir sus FPS en equipo real.
+- Con un solo producto conocido (Ne, K, Ca, Ga, Kr, Mo, Cd, In, Xe, Nd, W, Pt, Pb) la escena 3 muestra uno,
+  no 2–3: no se añadieron productos de relleno.
+
 ## Falta
 
 - **Revisión de datos (autor)**: comparar `docs/revision_datos.md` (664 filas, 24 tablas) con el libro y anotar
   las diferencias; después se corrigen los valores y se retira la marca «pendiente de revisión».
-- **M3**: «Del mineral al producto» (`src/data/obtencion.json`, ~40 elementos, pruebas de balanceo y fórmulas).
 - **Fases 9–12**: estereoquímica, mecanismos animados, espectroscopía, síntesis y biomoléculas.
 
 ## Decisiones tomadas

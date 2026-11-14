@@ -1,6 +1,6 @@
 # Datos pendientes de revisión
 
-Generado con `npm run pendientes` (2026-11-13). Son valores transcritos de libros o
+Generado con `npm run pendientes` (2026-11-14). Son valores transcritos de libros o
 clasificados automáticamente que la aplicación muestra con la insignia «Pendiente de revisión». Al verificarlos contra
 la fuente, cambia `pendienteRevision` a `false` (o quita la insignia) y vuelve a ejecutar las pruebas.
 
@@ -14,6 +14,7 @@ la fuente, cambia `pendienteRevision` a `false` (o quita la insignia) y vuelve a
 | `src/data/cristales.json` | Parámetros de red a y c en pm, redondeados a 0,1 pm. Solo se incluyen las estructuras que la aplicación puede dibujar; el resto se describe en texto. | CRC Handbook of Chemistry and Physics, sección 12: «Crystal Structures and Lattice Parameters of Allotropes of the Elements»; W. D. Callister, Ciencia e Ingeniería de Materiales, tabla 3.1 (metales comunes) |
 | `src/data/dipolos.json` | Valores transcritos y redondeados a 2 cifras decimales. Las claves son los nombres del catálogo (src/data/moleculas.json). | CRC Handbook of Chemistry and Physics, sección 9: «Dipole Moments» |
 | `src/data/ebullicion-complementaria.json` | Puntos de ebullición que no figuran en PubChem | CRC Handbook of Chemistry and Physics, sección 4: «Physical Constants of Inorganic Compounds» |
+| `src/data/obtencion.json` | Se indica la mena o fuente principal y el proceso más representativo, simplificado a una o dos ecuaciones; en la industria hay más etapas y otras rutas. Los colores de los minerales son aproximaciones visuales. Las posiciones del Perú cambian de un año a otro. | R. Chang, Química, capítulo «Metalurgia y la química de los metales» y capítulos de elementos no metálicos; N. N. Greenwood y A. Earnshaw, Chemistry of the Elements, 2.ª ed. (obtención industrial de cada elemento); USGS, Mineral Commodity Summaries (fuentes minerales y usos); MINEM (Perú), Anuario Minero 2024 (posición del Perú como productor y principales regiones) |
 | `src/data/potenciales.json` | Semirreacciones escritas como reducción. «metal» indica que el propio metal puede ser el electrodo; si no, se usa un electrodo inerte (Pt). | R. Chang, Química, tabla 19.1 (potenciales estándar de reducción a 25 °C) |
 | `src/data/solubilidad.json` | «poco soluble»: se disuelve en pequeña cantidad (p. ej. CaSO₄, Ca(OH)₂, PbCl₂). «reacciona»: el compuesto no existe en agua (se hidroliza o se descompone). Los textos discrepan en los sulfuros e hidróxidos de los alcalinotérreos: se sigue a Brown. | R. Chang, Química, tabla 4.2 (reglas de solubilidad de compuestos iónicos en agua a 25 °C); T. Brown et al., Química, la ciencia central, tabla 4.1 (reglas de solubilidad); Colores de precipitados: análisis cualitativo (Chang, cap. 16) |
 | `src/data/termodinamica.json` | Valores transcritos. La prueba de coherencia comprueba ΔGf° ≈ ΔHf° − T·ΔSf° (ΔSf° calculado con las entropías de los elementos) para cada compuesto. | R. Chang, Química, apéndice 3 (datos termodinámicos a 1 atm y 25 °C) |
@@ -38,6 +39,7 @@ la fuente, cambia `pendienteRevision` a `false` (o quita la insignia) y vuelve a
 - `src/modules/simulador-gases/SimuladorGases.tsx`: 1
 - `src/modules/soluciones/Soluciones.tsx`: 2
 - `src/modules/tabla-periodica/EstructuraCristalina.tsx`: 1
+- `src/modules/tabla-periodica/MineralProducto.tsx`: 2
 - `src/modules/tabla-periodica/Muestra3D.tsx`: 1
 - `src/modules/tabla-periodica/VidaDiaria3D.tsx`: 1
 - `src/modules/termoquimica/Termoquimica.tsx`: 3

@@ -1,0 +1,325 @@
+{
+  "fuente": {
+    "nombre": "Del mineral al producto: fuente natural, proceso industrial y usos de los elementos",
+    "referencias": [
+      "R. Chang, Química, capítulo «Metalurgia y la química de los metales» y capítulos de elementos no metálicos",
+      "N. N. Greenwood y A. Earnshaw, Chemistry of the Elements, 2.ª ed. (obtención industrial de cada elemento)",
+      "USGS, Mineral Commodity Summaries (fuentes minerales y usos)",
+      "MINEM (Perú), Anuario Minero 2024 (posición del Perú como productor y principales regiones)"
+    ],
+    "pendienteRevision": true,
+    "notas": "Se indica la mena o fuente principal y el proceso más representativo, simplificado a una o dos ecuaciones; en la industria hay más etapas y otras rutas. Los colores de los minerales son aproximaciones visuales. Las posiciones del Perú cambian de un año a otro."
+  },
+  "aire": {
+    "descripcion": "Aire seco: mezcla de gases que se separan por destilación fraccionada del aire líquido.",
+    "composicion": "N₂ 78 %, O₂ 21 %, Ar 0,93 % y trazas de Ne, He, Kr y Xe (porcentaje en volumen)."
+  },
+  "elementos": {
+    "H": {
+      "fuente": { "tipo": "gas", "nombre": "gas natural (metano)", "formula": "CH4", "color": "#cfe3f5" },
+      "proceso": { "nombre": "Reformado de metano con vapor", "descripcion": "El metano reacciona con vapor de agua a alta temperatura sobre un catalizador de níquel.", "ecuaciones": ["CH4 + H2O -> CO + 3H2"] },
+      "productos": [
+        { "objeto": "saco", "texto": "Fertilizantes: el H₂ se convierte en amoníaco." },
+        { "objeto": "cohete", "texto": "Combustible de cohetes (hidrógeno líquido)." }
+      ]
+    },
+    "He": {
+      "fuente": { "tipo": "gas", "nombre": "gas natural (helio atrapado)", "formula": "He", "color": "#f1e6d2" },
+      "proceso": { "nombre": "Separación criogénica del gas natural", "descripcion": "Al enfriar el gas natural, los demás componentes se licúan y queda el helio gaseoso. Es una separación física: no hay reacción química.", "ecuaciones": [] },
+      "productos": [
+        { "objeto": "globo", "texto": "Globos y dirigibles." },
+        { "objeto": "tanque", "texto": "Helio líquido para enfriar imanes de resonancia magnética." }
+      ]
+    },
+    "Li": {
+      "fuente": { "tipo": "mineral", "nombre": "espodumena (y salmueras de salares)", "formula": "LiAlSi2O6", "forma": "cristales", "color": "#cdbcc8" },
+      "proceso": { "nombre": "Electrólisis de cloruro de litio fundido", "descripcion": "El mineral o la salmuera se convierten en LiCl, que se funde y se electroliza.", "ecuaciones": ["2LiCl -> 2Li + Cl2"] },
+      "productos": [
+        { "objeto": "bateria", "texto": "Baterías de ion litio." },
+        { "objeto": "tableta", "texto": "Celulares, tabletas y laptops." }
+      ]
+    },
+    "C": {
+      "fuente": { "tipo": "nativo", "nombre": "grafito (carbono nativo)", "formula": "C", "forma": "roca", "color": "#3a3d42", "metalico": true },
+      "proceso": { "nombre": "Extracción minera y purificación", "descripcion": "El grafito y el diamante se extraen como carbono nativo. El coque se obtiene calentando carbón mineral sin aire.", "ecuaciones": [] },
+      "productos": [
+        { "objeto": "lapiz", "texto": "Mina de los lápices (grafito)." },
+        { "objeto": "pila", "texto": "Electrodo de las pilas." },
+        { "objeto": "viga", "texto": "Acero: hierro con un poco de carbono." }
+      ]
+    },
+    "N": {
+      "fuente": { "tipo": "aire", "nombre": "el aire (78 % en volumen)", "formula": "N2", "color": "#cfe0f2" },
+      "proceso": { "nombre": "Destilación fraccionada del aire líquido", "descripcion": "El aire se enfría hasta licuarlo y se destila: el nitrógeno hierve a −196 °C, antes que el oxígeno. Es una separación física.", "ecuaciones": [] },
+      "productos": [
+        { "objeto": "saco", "texto": "Fertilizantes nitrogenados (vía amoníaco)." },
+        { "objeto": "tanque", "texto": "Nitrógeno líquido para congelar y conservar." }
+      ]
+    },
+    "O": {
+      "fuente": { "tipo": "aire", "nombre": "el aire (21 % en volumen)", "formula": "O2", "color": "#cfe0f2" },
+      "proceso": { "nombre": "Destilación fraccionada del aire líquido", "descripcion": "El aire se enfría hasta licuarlo y se destila: el oxígeno hierve a −183 °C, después que el nitrógeno. Es una separación física.", "ecuaciones": [] },
+      "productos": [
+        { "objeto": "tanque", "texto": "Oxígeno medicinal." },
+        { "objeto": "viga", "texto": "Fabricación de acero (se sopla oxígeno para quitar impurezas)." },
+        { "objeto": "cohete", "texto": "Oxígeno líquido como comburente de cohetes." }
+      ]
+    },
+    "F": {
+      "fuente": { "tipo": "mineral", "nombre": "fluorita", "formula": "CaF2", "forma": "cubos", "color": "#9b7fd1", "transparente": true },
+      "proceso": { "nombre": "Ácido fluorhídrico y electrólisis (método de Moissan)", "descripcion": "La fluorita se trata con ácido sulfúrico para obtener HF, que se electroliza disuelto en KF fundido.", "ecuaciones": ["CaF2 + H2SO4 -> CaSO4 + 2HF", "2HF -> H2 + F2"] },
+      "productos": [
+        { "objeto": "tubo-pasta", "texto": "Fluoruros de la pasta dental." },
+        { "objeto": "olla", "texto": "Teflón de las ollas y sartenes antiadherentes." }
+      ]
+    },
+    "Ne": {
+      "fuente": { "tipo": "aire", "nombre": "el aire (trazas)", "formula": "Ne", "color": "#cfe0f2" },
+      "proceso": { "nombre": "Destilación fraccionada del aire líquido", "descripcion": "Se recupera de la fracción más volátil del aire líquido. Es una separación física.", "ecuaciones": [] },
+      "productos": [{ "objeto": "letrero", "texto": "Letreros luminosos." }]
+    },
+    "Na": {
+      "fuente": { "tipo": "mineral", "nombre": "halita (sal gema)", "formula": "NaCl", "forma": "cubos", "color": "#eceae4", "transparente": true },
+      "proceso": { "nombre": "Celda de Downs (electrólisis de NaCl fundido)", "descripcion": "El NaCl fundido se electroliza: sodio líquido en el cátodo y cloro en el ánodo.", "ecuaciones": ["2NaCl -> 2Na + Cl2"] },
+      "productos": [
+        { "objeto": "salero", "texto": "Sal de mesa (NaCl)." },
+        { "objeto": "bombilla", "texto": "Lámparas de vapor de sodio del alumbrado público." }
+      ]
+    },
+    "Mg": {
+      "fuente": { "tipo": "mineral", "nombre": "dolomita (y agua de mar)", "formula": "CaMg(CO3)2", "forma": "cristales", "color": "#e6d9cf" },
+      "proceso": { "nombre": "Electrólisis de cloruro de magnesio fundido (proceso Dow)", "descripcion": "El Mg²⁺ del agua de mar o del mineral se convierte en MgCl₂, que se funde y se electroliza.", "ecuaciones": ["MgCl2 -> Mg + Cl2"] },
+      "productos": [
+        { "objeto": "tableta", "texto": "Carcasas ligeras de aleación de magnesio." },
+        { "objeto": "cohete", "texto": "Aleaciones ligeras para aviones y cohetes." }
+      ]
+    },
+    "Al": {
+      "fuente": { "tipo": "mineral", "nombre": "bauxita", "formula": "Al2O3", "formulaTexto": "Al₂O₃·xH₂O", "forma": "roca", "color": "#a8603c" },
+      "proceso": { "nombre": "Proceso Bayer y electrólisis Hall-Héroult", "descripcion": "La bauxita se purifica a alúmina (Al₂O₃), que se disuelve en criolita fundida y se electroliza con ánodos de carbono.", "ecuaciones": ["2Al2O3 + 3C -> 4Al + 3CO2"] },
+      "productos": [
+        { "objeto": "lata", "texto": "Latas de bebidas." },
+        { "objeto": "olla", "texto": "Ollas y utensilios de cocina." },
+        { "objeto": "cable", "texto": "Cables de las líneas de alta tensión." }
+      ]
+    },
+    "Si": {
+      "fuente": { "tipo": "mineral", "nombre": "cuarzo", "formula": "SiO2", "forma": "cristales", "color": "#f1f1ee", "transparente": true },
+      "proceso": { "nombre": "Reducción con carbono en horno de arco eléctrico", "descripcion": "El cuarzo se reduce con coque a unos 2000 °C; para la electrónica el silicio se purifica después (fusión por zonas).", "ecuaciones": ["SiO2 + 2C -> Si + 2CO"] },
+      "productos": [
+        { "objeto": "chip", "texto": "Chips y circuitos integrados." },
+        { "objeto": "panel-solar", "texto": "Celdas de los paneles solares." }
+      ]
+    },
+    "P": {
+      "fuente": { "tipo": "mineral", "nombre": "fluorapatita (roca fosfórica)", "formula": "Ca5(PO4)3F", "forma": "roca", "color": "#8fa37a" },
+      "proceso": { "nombre": "Horno eléctrico con sílice y coque", "descripcion": "El fosfato de calcio de la roca se reduce con coque en presencia de arena; el fósforo sale como vapor de P₄.", "ecuaciones": ["2Ca3(PO4)2 + 6SiO2 + 10C -> 6CaSiO3 + 10CO + P4"] },
+      "productos": [
+        { "objeto": "cerilla", "texto": "Fósforos (cerillas)." },
+        { "objeto": "saco", "texto": "Fertilizantes fosfatados." }
+      ],
+      "peru": "El yacimiento de fosfatos de Bayóvar (Sechura, Piura) produce roca fosfórica para fertilizantes."
+    },
+    "S": {
+      "fuente": { "tipo": "nativo", "nombre": "azufre nativo (y H₂S del gas y el petróleo)", "formula": "S", "forma": "cristales", "color": "#e8d21d" },
+      "proceso": { "nombre": "Proceso Claus", "descripcion": "Hoy casi todo el azufre se recupera del H₂S que acompaña al gas natural y al petróleo.", "ecuaciones": ["2H2S + SO2 -> 3S + 2H2O"] },
+      "productos": [
+        { "objeto": "bateria", "texto": "Ácido sulfúrico de las baterías de auto." },
+        { "objeto": "cerilla", "texto": "Cabeza de los fósforos." },
+        { "objeto": "saco", "texto": "Fertilizantes (sulfatos)." }
+      ]
+    },
+    "Cl": {
+      "fuente": { "tipo": "mineral", "nombre": "halita (salmuera de NaCl)", "formula": "NaCl", "forma": "cubos", "color": "#eceae4", "transparente": true },
+      "proceso": { "nombre": "Proceso cloro-álcali (electrólisis de salmuera)", "descripcion": "Se electroliza una disolución concentrada de NaCl: cloro en el ánodo, hidrógeno y NaOH en el cátodo.", "ecuaciones": ["2NaCl + 2H2O -> 2NaOH + Cl2 + H2"] },
+      "productos": [
+        { "objeto": "botella", "texto": "Lejía y desinfección del agua potable." },
+        { "objeto": "tuberia", "texto": "Tuberías de PVC." }
+      ]
+    },
+    "Ar": {
+      "fuente": { "tipo": "aire", "nombre": "el aire (0,93 % en volumen)", "formula": "Ar", "color": "#cfe0f2" },
+      "proceso": { "nombre": "Destilación fraccionada del aire líquido", "descripcion": "Hierve a −186 °C, entre el nitrógeno y el oxígeno. Es una separación física.", "ecuaciones": [] },
+      "productos": [
+        { "objeto": "bombilla", "texto": "Gas de relleno de las bombillas." },
+        { "objeto": "tanque", "texto": "Gas protector en la soldadura." }
+      ]
+    },
+    "K": {
+      "fuente": { "tipo": "mineral", "nombre": "silvita", "formula": "KCl", "forma": "cubos", "color": "#e9c9bd", "transparente": true },
+      "proceso": { "nombre": "Reducción de KCl fundido con sodio", "descripcion": "A unos 850 °C el potasio se separa como vapor, lo que desplaza la reacción.", "ecuaciones": ["KCl + Na -> NaCl + K"] },
+      "productos": [{ "objeto": "saco", "texto": "Fertilizantes potásicos (se usa sobre todo como KCl)." }]
+    },
+    "Ca": {
+      "fuente": { "tipo": "mineral", "nombre": "calcita (piedra caliza)", "formula": "CaCO3", "forma": "cristales", "color": "#ecebe6" },
+      "proceso": { "nombre": "Calcinación de la caliza", "descripcion": "Al calentar la caliza se obtiene cal viva (CaO), la forma más usada del calcio. El metal se obtiene en poca cantidad reduciendo CaO con aluminio.", "ecuaciones": ["CaCO3 -> CaO + CO2"] },
+      "productos": [{ "objeto": "saco", "texto": "Cemento y cal para la construcción." }]
+    },
+    "Ti": {
+      "fuente": { "tipo": "mineral", "nombre": "rutilo", "formula": "TiO2", "forma": "cristales", "color": "#6e2f25", "metalico": true },
+      "proceso": { "nombre": "Proceso Kroll", "descripcion": "El óxido se convierte en TiCl₄, que se reduce con magnesio fundido en atmósfera de argón.", "ecuaciones": ["TiO2 + 2Cl2 + 2C -> TiCl4 + 2CO", "TiCl4 + 2Mg -> Ti + 2MgCl2"] },
+      "productos": [
+        { "objeto": "cohete", "texto": "Aviones y naves espaciales." },
+        { "objeto": "anillo", "texto": "Joyería e implantes médicos." }
+      ]
+    },
+    "Cr": {
+      "fuente": { "tipo": "mineral", "nombre": "cromita", "formula": "FeCr2O4", "forma": "roca", "color": "#26262a", "metalico": true },
+      "proceso": { "nombre": "Aluminotermia", "descripcion": "El óxido de cromo(III) obtenido de la cromita se reduce con aluminio.", "ecuaciones": ["Cr2O3 + 2Al -> 2Cr + Al2O3"] },
+      "productos": [
+        { "objeto": "cuchara", "texto": "Acero inoxidable de los cubiertos." },
+        { "objeto": "olla", "texto": "Ollas de acero inoxidable." }
+      ]
+    },
+    "Mn": {
+      "fuente": { "tipo": "mineral", "nombre": "pirolusita", "formula": "MnO2", "forma": "roca", "color": "#2b2b2e" },
+      "proceso": { "nombre": "Aluminotermia", "descripcion": "El dióxido de manganeso se reduce con aluminio; para el acero se prepara directamente ferromanganeso en alto horno.", "ecuaciones": ["3MnO2 + 4Al -> 3Mn + 2Al2O3"] },
+      "productos": [
+        { "objeto": "pila", "texto": "MnO₂ de las pilas alcalinas." },
+        { "objeto": "viga", "texto": "Aceros al manganeso, duros y resistentes." }
+      ]
+    },
+    "Fe": {
+      "fuente": { "tipo": "mineral", "nombre": "hematita", "formula": "Fe2O3", "forma": "roca", "color": "#7a3a33", "metalico": true },
+      "proceso": { "nombre": "Alto horno", "descripcion": "El mineral se reduce con el monóxido de carbono que forma el coque; la caliza elimina las impurezas como escoria.", "ecuaciones": ["Fe2O3 + 3CO -> 2Fe + 3CO2"] },
+      "productos": [
+        { "objeto": "clavo", "texto": "Clavos y herramientas de acero." },
+        { "objeto": "viga", "texto": "Vigas y fierro de construcción." },
+        { "objeto": "calamina", "texto": "Calaminas de acero para techos." }
+      ],
+      "peru": "La principal mina de hierro del país es Marcona (Ica)."
+    },
+    "Co": {
+      "fuente": { "tipo": "mineral", "nombre": "cobaltita", "formula": "CoAsS", "forma": "cristales", "color": "#b9b4b6", "metalico": true },
+      "proceso": { "nombre": "Subproducto del refinado de cobre y níquel", "descripcion": "Casi todo el cobalto se recupera de las menas de cobre y níquel, por lixiviación y electrólisis.", "ecuaciones": [] },
+      "productos": [
+        { "objeto": "bateria", "texto": "Cátodo de las baterías de ion litio." },
+        { "objeto": "iman", "texto": "Imanes permanentes." }
+      ]
+    },
+    "Ni": {
+      "fuente": { "tipo": "mineral", "nombre": "pentlandita", "formula": null, "formulaTexto": "(Fe,Ni)₉S₈", "forma": "roca", "color": "#a8894f", "metalico": true },
+      "proceso": { "nombre": "Proceso Mond (purificación con monóxido de carbono)", "descripcion": "El níquel impuro forma un compuesto volátil con el CO, que al calentarse se descompone y deja níquel puro.", "ecuaciones": ["Ni + 4CO -> Ni(CO)4", "Ni(CO)4 -> Ni + 4CO"] },
+      "productos": [
+        { "objeto": "moneda", "texto": "Monedas." },
+        { "objeto": "cuchara", "texto": "Acero inoxidable." },
+        { "objeto": "pila", "texto": "Pilas recargables." }
+      ]
+    },
+    "Cu": {
+      "fuente": { "tipo": "mineral", "nombre": "calcopirita", "formula": "CuFeS2", "forma": "roca", "color": "#b59a3a", "metalico": true },
+      "proceso": { "nombre": "Tostación y fundición, luego refinación electrolítica", "descripcion": "El concentrado se funde hasta sulfuro de cobre(I), que se oxida a cobre «blíster»; la electrólisis lo lleva a 99,99 % de pureza.", "ecuaciones": ["Cu2S + O2 -> 2Cu + SO2"] },
+      "productos": [
+        { "objeto": "cable", "texto": "Cables eléctricos." },
+        { "objeto": "moneda", "texto": "Monedas y aleaciones (bronce, latón)." }
+      ],
+      "peru": "El Perú es el tercer productor mundial de cobre. Principales operaciones: Cerro Verde (Arequipa), Antamina (Áncash), Las Bambas (Apurímac) y Quellaveco (Moquegua)."
+    },
+    "Zn": {
+      "fuente": { "tipo": "mineral", "nombre": "esfalerita (blenda)", "formula": "ZnS", "forma": "cristales", "color": "#5b3e27" },
+      "proceso": { "nombre": "Tostación y reducción con carbono (o electrólisis)", "descripcion": "El sulfuro se tuesta a óxido, que se reduce con coque; hoy la mayor parte se obtiene por electrólisis de ZnSO₄.", "ecuaciones": ["2ZnS + 3O2 -> 2ZnO + 2SO2", "ZnO + C -> Zn + CO"] },
+      "productos": [
+        { "objeto": "calamina", "texto": "Calaminas galvanizadas (acero recubierto de zinc)." },
+        { "objeto": "pila", "texto": "Envase de las pilas de zinc-carbón." }
+      ],
+      "peru": "El Perú es el segundo productor mundial de zinc. Se extrae sobre todo en Áncash (Antamina), Junín y Pasco."
+    },
+    "Ga": {
+      "fuente": { "tipo": "mineral", "nombre": "bauxita (trazas de galio)", "formula": null, "forma": "roca", "color": "#a8603c" },
+      "proceso": { "nombre": "Subproducto del proceso Bayer del aluminio", "descripcion": "El galio se acumula en las disoluciones del proceso Bayer y se recupera por electrólisis.", "ecuaciones": [] },
+      "productos": [{ "objeto": "led", "texto": "LED y láseres (GaN, GaAs)." }]
+    },
+    "Kr": {
+      "fuente": { "tipo": "aire", "nombre": "el aire (trazas)", "formula": "Kr", "color": "#cfe0f2" },
+      "proceso": { "nombre": "Destilación fraccionada del aire líquido", "descripcion": "Se concentra en la fracción menos volátil, junto con el xenón. Es una separación física.", "ecuaciones": [] },
+      "productos": [{ "objeto": "bombilla", "texto": "Lámparas de alta eficiencia." }]
+    },
+    "Mo": {
+      "fuente": { "tipo": "mineral", "nombre": "molibdenita", "formula": "MoS2", "forma": "roca", "color": "#7d8794", "metalico": true },
+      "proceso": { "nombre": "Tostación y reducción con hidrógeno", "descripcion": "El sulfuro se tuesta a MoO₃, que se reduce con hidrógeno.", "ecuaciones": ["2MoS2 + 7O2 -> 2MoO3 + 4SO2", "MoO3 + 3H2 -> Mo + 3H2O"] },
+      "productos": [{ "objeto": "viga", "texto": "Aceros de alta resistencia." }],
+      "peru": "El Perú es el segundo productor mundial de molibdeno, que se obtiene como subproducto en las minas de cobre (Cerro Verde, Toquepala, Cuajone, Antamina, Las Bambas)."
+    },
+    "Ag": {
+      "fuente": { "tipo": "mineral", "nombre": "argentita", "formula": "Ag2S", "forma": "roca", "color": "#5d6068", "metalico": true },
+      "proceso": { "nombre": "Cianuración y precipitación con zinc", "descripcion": "La plata se disuelve como complejo con cianuro y se precipita con zinc. Gran parte se obtiene además como subproducto del plomo, el cobre y el zinc.", "ecuaciones": ["Ag2S + 4NaCN -> 2NaAg(CN)2 + Na2S", "2NaAg(CN)2 + Zn -> Na2Zn(CN)4 + 2Ag"] },
+      "productos": [
+        { "objeto": "moneda", "texto": "Monedas y medallas." },
+        { "objeto": "anillo", "texto": "Joyería." },
+        { "objeto": "espejo", "texto": "Capa reflectante de los espejos." }
+      ],
+      "peru": "El Perú es el tercer productor mundial de plata. Se extrae sobre todo en Áncash, Pasco, Junín y Lima."
+    },
+    "Cd": {
+      "fuente": { "tipo": "mineral", "nombre": "greenockita (acompaña a las menas de zinc)", "formula": "CdS", "forma": "cristales", "color": "#e0a526" },
+      "proceso": { "nombre": "Subproducto del refinado del zinc", "descripcion": "El cadmio se separa del zinc por destilación o por precipitación durante la electrólisis.", "ecuaciones": [] },
+      "productos": [{ "objeto": "pila", "texto": "Pilas recargables de níquel-cadmio." }]
+    },
+    "In": {
+      "fuente": { "tipo": "mineral", "nombre": "esfalerita (trazas de indio)", "formula": null, "forma": "cristales", "color": "#5b3e27" },
+      "proceso": { "nombre": "Subproducto del refinado del zinc", "descripcion": "El indio se recupera de los residuos de la metalurgia del zinc.", "ecuaciones": [] },
+      "productos": [{ "objeto": "tableta", "texto": "Pantallas táctiles (óxido de indio y estaño)." }]
+    },
+    "Sn": {
+      "fuente": { "tipo": "mineral", "nombre": "casiterita", "formula": "SnO2", "forma": "cristales", "color": "#3b2a22" },
+      "proceso": { "nombre": "Reducción con carbono", "descripcion": "El óxido se reduce con coque en un horno.", "ecuaciones": ["SnO2 + 2C -> Sn + 2CO"] },
+      "productos": [
+        { "objeto": "lata", "texto": "Hojalata de las latas de conserva (acero recubierto de estaño)." },
+        { "objeto": "chip", "texto": "Soldadura de los circuitos electrónicos." }
+      ],
+      "peru": "El Perú es el cuarto productor mundial de estaño; toda la producción viene de la mina San Rafael (Puno)."
+    },
+    "I": {
+      "fuente": { "tipo": "mineral", "nombre": "lautarita, en el caliche (y salmueras)", "formula": "Ca(IO3)2", "forma": "roca", "color": "#d9cfc0" },
+      "proceso": { "nombre": "Reducción del yodato con bisulfito", "descripcion": "El yodato disuelto del caliche se reduce a yodo, que precipita.", "ecuaciones": ["2NaIO3 + 5NaHSO3 -> I2 + 3NaHSO4 + 2Na2SO4 + H2O"] },
+      "productos": [
+        { "objeto": "botella", "texto": "Antisépticos (tintura de yodo)." },
+        { "objeto": "salero", "texto": "Sal yodada." }
+      ]
+    },
+    "Xe": {
+      "fuente": { "tipo": "aire", "nombre": "el aire (trazas)", "formula": "Xe", "color": "#cfe0f2" },
+      "proceso": { "nombre": "Destilación fraccionada del aire líquido", "descripcion": "Es el gas noble menos abundante del aire; se concentra en la fracción menos volátil. Es una separación física.", "ecuaciones": [] },
+      "productos": [{ "objeto": "bombilla", "texto": "Faros de xenón y lámparas de flash." }]
+    },
+    "Nd": {
+      "fuente": { "tipo": "mineral", "nombre": "monacita", "formula": "NdPO4", "formulaTexto": "(Ce,La,Nd)PO₄", "forma": "roca", "color": "#9a5a3a" },
+      "proceso": { "nombre": "Extracción con disolventes y reducción con calcio", "descripcion": "Las tierras raras se separan entre sí por extracción con disolventes; el fluoruro de neodimio se reduce con calcio.", "ecuaciones": ["2NdF3 + 3Ca -> 2Nd + 3CaF2"] },
+      "productos": [{ "objeto": "iman", "texto": "Imanes potentes de motores, parlantes y discos duros." }]
+    },
+    "W": {
+      "fuente": { "tipo": "mineral", "nombre": "scheelita", "formula": "CaWO4", "forma": "cristales", "color": "#e6dcb8" },
+      "proceso": { "nombre": "Reducción del óxido con hidrógeno", "descripcion": "El mineral se convierte en WO₃, que se reduce con hidrógeno; el metal se obtiene en polvo por su altísimo punto de fusión.", "ecuaciones": ["WO3 + 3H2 -> W + 3H2O"] },
+      "productos": [{ "objeto": "bombilla", "texto": "Filamento de las bombillas incandescentes." }]
+    },
+    "Pt": {
+      "fuente": { "tipo": "nativo", "nombre": "platino nativo (aleado con otros metales de su grupo)", "formula": "Pt", "forma": "pepitas", "color": "#c9c9c4", "metalico": true },
+      "proceso": { "nombre": "Concentración y refinación química", "descripcion": "Se recupera de menas de níquel y cobre y de depósitos aluviales; los metales del grupo del platino se separan por vía química.", "ecuaciones": [] },
+      "productos": [{ "objeto": "anillo", "texto": "Joyería y catalizadores." }]
+    },
+    "Au": {
+      "fuente": { "tipo": "nativo", "nombre": "oro nativo en cuarzo", "formula": "Au", "forma": "cuarzo-oro", "color": "#eeb23c", "metalico": true },
+      "proceso": { "nombre": "Cianuración y precipitación con zinc", "descripcion": "El oro finamente repartido en la roca se disuelve como complejo con cianuro en presencia de aire y se precipita con zinc.", "ecuaciones": ["4Au + 8NaCN + O2 + 2H2O -> 4NaAu(CN)2 + 4NaOH", "2NaAu(CN)2 + Zn -> Na2Zn(CN)4 + 2Au"] },
+      "productos": [
+        { "objeto": "anillo", "texto": "Joyería." },
+        { "objeto": "moneda", "texto": "Monedas y lingotes de reserva." },
+        { "objeto": "chip", "texto": "Contactos de los circuitos electrónicos." }
+      ],
+      "peru": "El Perú es el segundo productor de oro de Sudamérica. Principales regiones: La Libertad, Cajamarca (Yanacocha) y Arequipa."
+    },
+    "Hg": {
+      "fuente": { "tipo": "mineral", "nombre": "cinabrio", "formula": "HgS", "forma": "roca", "color": "#b3261e" },
+      "proceso": { "nombre": "Tostación", "descripcion": "Al calentar el cinabrio con aire, el mercurio sale como vapor y se condensa.", "ecuaciones": ["HgS + O2 -> Hg + SO2"] },
+      "productos": [
+        { "objeto": "termometro", "texto": "Termómetros (hoy en retirada por su toxicidad)." },
+        { "objeto": "bombilla", "texto": "Lámparas fluorescentes." }
+      ]
+    },
+    "Pb": {
+      "fuente": { "tipo": "mineral", "nombre": "galena", "formula": "PbS", "forma": "cubos", "color": "#6f747c", "metalico": true },
+      "proceso": { "nombre": "Tostación y reducción con carbono", "descripcion": "El sulfuro se tuesta a óxido, que se reduce con coque.", "ecuaciones": ["2PbS + 3O2 -> 2PbO + 2SO2", "PbO + C -> Pb + CO"] },
+      "productos": [{ "objeto": "bateria", "texto": "Baterías de plomo-ácido de los autos." }],
+      "peru": "El Perú es el cuarto productor mundial de plomo. Se extrae sobre todo en Pasco, Lima y Junín."
+    }
+  }
+}

@@ -32,15 +32,17 @@ import { FotoWikimedia } from './FotoWikimedia';
 
 const Muestra3D = lazy(() => import('./Muestra3D'));
 const VidaDiaria3D = lazy(() => import('./VidaDiaria3D'));
+const MineralProducto = lazy(() => import('./MineralProducto'));
 const EstructuraCristalina = lazy(() => import('./EstructuraCristalina'));
 
-type Seccion = 'datos' | 'electrones' | 'isotopos' | 'muestra' | 'vida' | 'cristal' | 'foto';
+type Seccion = 'datos' | 'electrones' | 'isotopos' | 'muestra' | 'vida' | 'obtencion' | 'cristal' | 'foto';
 const SECCIONES = [
   { id: 'datos', titulo: 'Datos' },
   { id: 'electrones', titulo: 'Electrones' },
   { id: 'isotopos', titulo: 'Isótopos' },
   { id: 'muestra', titulo: 'Muestra 3D' },
   { id: 'vida', titulo: 'En la vida diaria' },
+  { id: 'obtencion', titulo: 'Del mineral al producto' },
   { id: 'cristal', titulo: 'Estructura cristalina' },
   { id: 'foto', titulo: 'Foto' },
 ] as const;
@@ -113,6 +115,11 @@ export function FichaElemento({ z, alElegir }: Props) {
           {seccion === 'vida' && (
             <Suspense fallback={<Cargando texto="Cargando escena 3D…" />}>
               <VidaDiaria3D z={z} />
+            </Suspense>
+          )}
+          {seccion === 'obtencion' && (
+            <Suspense fallback={<Cargando texto="Cargando escenas 3D…" />}>
+              <MineralProducto z={z} />
             </Suspense>
           )}
           {seccion === 'cristal' && (
